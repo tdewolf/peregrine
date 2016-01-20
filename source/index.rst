@@ -9,6 +9,11 @@ Peregrine User Guide
 .. toctree::
    :maxdepth: 2
 
+   introduction/introduction.rst
+   dashboard/dashboard.rst
+   racks/racks.rst
+   ops_reports/ops_reports.rst
+   accounts/accounts.rst
 
 
 Indices and tables

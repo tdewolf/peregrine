@@ -1,0 +1,47 @@
+\makeatletter
+
+\begin{titlepage}
+  \newgeometry{left=7.5cm} %defines the geometry for the titlepage
+  \pagecolor{titlepagecolor}
+  \noindent
+  \includegraphics[width=3cm]{../../source/_static/hgst_logo_white.png}\\[-1em]
+  \color{white}
+  \makebox[0pt][l]{\rule{1.3\textwidth}{1pt}}
+  \par
+  \noindent
+  \textbf{\huge \textsf{Peregrine}}
+  \vfill
+  \noindent
+  {\textsf{Active Archive Telemetry, Analytics, Supportability}}
+  \vskip\baselineskip
+  \noindent
+\end{titlepage}
+
+\restoregeometry % restores the geometry
+\nopagecolor% Use this to restore the color pages to white
+
+\newpage\null\thispagestyle{empty}\newpage
+
+\begin{titlepage}
+\newgeometry{left=7.5cm} %defines the geometry for the titlepage
+\noindent
+\includegraphics[width=3cm]{../../source/_static/hgst_logo_black.png}\\[-1em]
+\makebox[0pt][l]{\rule{1.3\textwidth}{1pt}}
+\par
+\noindent
+\textbf{\huge \textsf{Peregrine}}
+\vfill
+\vfill
+\noindent
+\textsf{\copyright{} Copyright HGST \the\year\\}
+\textsf{All Rights Reserved\\ \\}
+\textsf{\ifcase \month \or January\or February\or March\or April\or May%
+\or June\or July\or August\or September\or October\or November\or December\fi, \the\year}
+\end{titlepage}
+
+
+\newpage\null\thispagestyle{empty}\newpage
+
+\restoregeometry
+
+\makeatother
