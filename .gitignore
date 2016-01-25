@@ -6,3 +6,4 @@ build*/
 *~
 *swp
 *xlsx
+.DS_Store

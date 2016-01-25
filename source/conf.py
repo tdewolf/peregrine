@@ -191,7 +191,7 @@ htmlhelp_basename = 'Peregrinedoc'
 # -- Options for LaTeX output ---------------------------------------------
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-if on_rt:
+if on_rtd:
     latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'a4paper',
