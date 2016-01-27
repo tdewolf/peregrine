@@ -1,9 +1,6 @@
 .. |dashboard_panel| image:: ../_static/dashboard_panel.png
    :scale: 75%
 
-.. |dashboard_grid| image:: ../_static/dasboard_grid.png
-   :scale: 75%
-
 .. |panel_health| image:: ../_static/panel_health.png
 
 .. _panel_view:
