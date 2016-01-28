@@ -1,14 +1,24 @@
+.. |user_delete| image:: ../_static/user_delete.png
+
 .. _deleting_user:
 
 Deleting a User
 ===============
 
-Donec eget magna porttitor, gravida neque in, interdum felis. Aliquam et ligula vitae leo semper mollis
-eu et urna. Vestibulum tempus suscipit nunc, ut suscipit nulla aliquam sed. Curabitur hendrerit libero
-leo, vel scelerisque nisi sollicitudin quis. Mauris posuere, justo vel posuere molestie, ligula eros
-venenatis nisi, sed consequat sapien eros id sem. Phasellus condimentum elit at risus sollicitudin, sit
-amet placerat metus eleifend. Cras quis orci metus. Sed suscipit a massa eget laoreet. Aenean scelerisque
-nec est eu molestie. Vivamus sed posuere tellus. Curabitur a pretium libero. Donec velit magna, mollis
-quis facilisis eu, porta sed dui. In mattis placerat ipsum sed finibus. Ut urna purus, maximus at mattis
-vitae, maximus vel enim.
+When you no longer need a user, you can opt to :ref:`disable a user <disabling_user>` or to permanently
+delete the user.
 
+.. warning::
+
+   Deleting a user is an irreversible action.
+
+To delete a user:
+
+#. In the left menu, select :guilabel:`Manage Accounts`.
+
+   The :guilabel:`Manage Accounts` window appears, leaving you on the :guilabel:`Manage Accounts` tab. If
+   not, switch to the proper tab.
+#. Look up the user by scrolling in the table or by searching for the user in the search box.
+#. In the :guilabel:`Actions` column, click |user_delete|.
+#. You receive a warning that this action is an irreversible action. Click :guilabel:`Confirm` to delete
+   the user.
