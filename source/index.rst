@@ -14,6 +14,7 @@ Peregrine User Guide
    racks/racks.rst
    ops_reports/ops_reports.rst
    accounts/accounts.rst
+   profile/profile.rst
 
 
 Indices and tables
