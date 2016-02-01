@@ -1,7 +1,7 @@
 .. |dashboard_panel| image:: ../_static/dashboard_panel.png
    :scale: 75%
 
-.. |panel_health| image:: ../_static/panel_health.png
+.. |panel_health| image:: ../_static/panel_health_resize.png
 
 .. _panel_view:
 
