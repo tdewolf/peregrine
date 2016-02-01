@@ -1,12 +1,22 @@
+.. |download_icon| image:: ../_static/download_icon.png 
+
+.. |file_size_report| image:: ../_static/file_size_report.png
+   :scale: 75%
+ 
 .. _file_size:
 
 File Size
 =========
 
-Duis sapien quam, suscipit ut convallis ut, mollis a felis. Etiam in rhoncus felis, at gravida augue.
-Pellentesque sodales augue et enim scelerisque, eget blandit erat rutrum. Ut tincidunt consectetur lacus,
-non molestie metus consequat a. Nam ac velit aliquam, bibendum dui vitae, gravida justo. Maecenas et est
-eget ex tempor ullamcorper. Duis nec mauris vel sem volutpat scelerisque eu quis quam. Vivamus eget
-congue enim, sit amet condimentum sem. Aliquam accumsan, orci vel tempor rutrum, massa quam imperdiet
-nibh, ac maximus tellus nibh a massa. Nam auctor orci et justo varius tincidunt.
+In the "File Size" report, you get a schematic overview of the percentage of files per files size.
+
+|file_size_report|
+
+You can download the graphic via the download icon in the panel (|download_icon|). The following formats
+are provided:
+
+* png
+* jpeg
+* svg
+* pdf
 

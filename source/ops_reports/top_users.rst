@@ -3,13 +3,18 @@
 Top Users
 =========
 
-Duis tempus, erat sed aliquet bibendum, velit dolor vehicula urna, in mollis elit libero id lorem. Duis
-imperdiet pellentesque metus, aliquam efficitur metus elementum at. Morbi sollicitudin urna et purus
-tempor, ut pretium tortor bibendum. Duis tempus nibh a urna porttitor, mollis mollis sem fringilla.
-Aliquam gravida odio vitae diam consectetur, non tristique nibh condimentum. Aliquam luctus posuere leo,
-ut iaculis lacus vehicula sit amet. Donec vehicula volutpat arcu, nec ultricies arcu consequat at.
-Curabitur mollis auctor turpis, sit amet interdum arcu aliquam quis. Donec consectetur leo at aliquet
-eleifend. Vivamus sit amet dolor turpis. Vivamus tellus magna, aliquet sit amet est vitae, scelerisque
-molestie odio. Nulla sollicitudin vestibulum leo vel tempus. Proin tempor consequat nisi, id imperdiet
-tortor tincidunt a.
+The "Top Users" report gives an overview of the users who have been the most active on your system. 
+
+In this report, you find the following information:
+
+* **User**: user name 
+* **Capacity**: assigned storage capacity to the user.
+* **Gets (Count)**: the number of GET operations during the selected period by the user.
+* **Puts (Count)**: the number of PUT operations during the selected period by the user.
+
+Only the first five records are displayed, but you can scroll in the table to get the complete overview.
+
+You can also sort the table by clicking on the column's header row. For example when you click on
+:guilabel:`User`, you sort the users ascending or descending. You can easily switch between ascending and
+descending order by clicking again on the column's header.
 

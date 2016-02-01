@@ -1,14 +1,21 @@
-.. _top_files:
+.. top_files:
 
 Top Files
 =========
 
-Donec mollis odio ac mattis laoreet. Phasellus auctor elit pharetra odio sagittis imperdiet. Vivamus quis
-auctor mauris. Donec condimentum molestie nulla, id pulvinar massa convallis quis. Nulla commodo nibh nec
-aliquam pulvinar. Duis id molestie felis. Phasellus nec interdum orci. Pellentesque vitae mattis velit,
-vel faucibus nibh. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Nulla id ornare est. Suspendisse potenti. Nulla varius, purus id luctus vehicula, libero est volutpat
-nibh, a placerat ligula justo ac arcu. Nunc feugiat ante quis justo tincidunt, id pellentesque mauris
-tristique. Nunc sagittis ante id tristique mollis. Maecenas tristique dui semper, porta libero sit amet,
-tincidunt felis.
+The "Top Files" report gives an overview of the files which have been used most frequently in S3
+requests.
+
+In this report, you find the following information:
+
+* **File Name**: file name 
+* **Type**: the type of the file, image, video, text, ...
+* **Size**: file size.
+* **OPS**: the number of operations on the file (@todo --> is this correct?)
+
+Only the first five records are displayed, but you can scroll in the table to get the complete overview.
+
+You can also sort the table by clicking on the column's header row. For example when you click on
+:guilabel:`File Name`, you sort on file names in ascending or descending order. You can easily switch 
+between ascending and descending order by clicking again on the column's header.
 

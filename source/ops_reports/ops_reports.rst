@@ -3,17 +3,19 @@
 Operational Reports
 ===================
 
-Quisque vel ligula arcu. Morbi cursus elementum lectus. Mauris malesuada ex nisi, ac interdum velit
-euismod eget. Pellentesque ut nibh in augue rhoncus condimentum sit amet ut ligula. In vitae porttitor
-mauris. Etiam lorem turpis, dictum ut luctus ut, tincidunt et velit. Sed leo nunc, elementum sit amet
-ante et, imperdiet venenatis diam. Nulla porta dolor at lectus finibus, eget suscipit eros fringilla.
-Pellentesque ut dapibus magna. Suspendisse aliquam, metus sit amet sodales ultricies, erat odio tristique
-dui, sed porttitor lorem augue ut nisi. Vestibulum placerat sollicitudin nibh. Mauris et lectus turpis.
+Operational reports provide you clear overviews about the usage of system. The following reports are
+available:
+
+* :ref:`Top Users <top_users>`
+* :ref:`Erasure Coding Overhead <erasure_coding_overhead>`
+* :ref:`Top Files <top_files>`
+* :ref:`File Size <file_size>`
 
 .. toctree::
 
    top_users.rst
-   erasure_encoding_overhead.rst
+   erasure_coding_overhead.rst
    top_files.rst
    file_size.rst
+   filtering_data.rst
 
