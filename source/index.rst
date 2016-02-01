@@ -15,6 +15,7 @@ Peregrine User Guide
    ops_reports/ops_reports.rst
    accounts/accounts.rst
    profile/profile.rst
+   glossary.rst
 
 
 Indices and tables

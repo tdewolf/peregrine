@@ -1,6 +1,6 @@
-.. |select_panel_view| image:: ../_static/select_panel_view.png
+.. |select_panel_view| image:: ../_static/panel_view.png
 
-.. |select_grid_view| image:: ../_static/select_grid_view.png
+.. |select_grid_view| image:: ../_static/grid_view.png
 
 .. _dashboard:
 

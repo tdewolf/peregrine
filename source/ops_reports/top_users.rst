@@ -1,4 +1,4 @@
-.. top_users:
+.. _top_users:
 
 Top Users
 =========

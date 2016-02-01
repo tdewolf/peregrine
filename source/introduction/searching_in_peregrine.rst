@@ -1,4 +1,4 @@
-.. _search:
+.. _searching_in_peregrine:
 
 Searching in Peregrine
 ======================
