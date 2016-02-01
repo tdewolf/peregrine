@@ -22,7 +22,7 @@ To add a user:
       * **OEM**: administrative user of a provider offering the HGST solution.
 
    * **Account**: the name of the account to which the user belongs. 
-   * **Role**: the :ref:`role <user)role>` of the user.
+   * **Role**: the :ref:`role <user_roles>` of the user.
    * **Email**: e-mail address of the user for all communication.
 
 @todo --> will user receive mail with temp password?

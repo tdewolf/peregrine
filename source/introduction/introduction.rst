@@ -7,4 +7,4 @@ Introducing Peregrine
 
    what_is_peregrine.rst
    ui_components.rst
-   search.rst
+   searching_in_peregrine.rst

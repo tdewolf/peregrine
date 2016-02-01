@@ -5,7 +5,7 @@
 Deleting a User
 ===============
 
-When you no longer need a user, you can opt to :ref:`disable a user <disabling_user>` or to permanently
+When you no longer need a user, you can opt to :ref:`disable a user <enabling_disabling_user>` or to permanently
 delete the user.
 
 .. warning::

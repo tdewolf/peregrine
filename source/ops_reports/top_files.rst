@@ -1,4 +1,4 @@
-.. top_files:
+.. _top_files:
 
 Top Files
 =========
