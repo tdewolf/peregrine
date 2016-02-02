@@ -213,7 +213,7 @@ if on_rtd:
     #'pointsize': '10pt',
     
     # Additional stuff for the LaTeX preamble.
-    'preamble': r'\input{../../_templates/preamble.texp',
+    'preamble': r'\input{../../_templates/preamble.texp}',
     
     # Bookcover and titlepage
     'maketitle': r'\input{../../_templates/frontmatter.texp}',
@@ -231,7 +231,7 @@ else:
     #'pointsize': '10pt',
     
     # Additional stuff for the LaTeX preamble.
-    'preamble': r'\input{../../source/_templates/preamble.texp',
+    'preamble': r'\input{../../source/_templates/preamble.texp}',
     
     # Bookcover and titlepage
     'maketitle': r'\input{../../source/_templates/frontmatter.texp}',

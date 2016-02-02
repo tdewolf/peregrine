@@ -3,6 +3,8 @@
 User Roles
 ==========
 
+@todo: difference between persona and user role
+
 Every user belongs to an account. The role of the user defines the privilege level.
 
 There are two roles:
