@@ -235,6 +235,7 @@ else:
     
     # Bookcover and titlepage
     'maketitle': r'\input{../../source/_templates/frontmatter.texp}',
+    #'maketitle': r'\input{../../source/_templates/frontpage.tex}',
 
     # Omit blank pages between chapters
     'classoptions': ',oneside',
