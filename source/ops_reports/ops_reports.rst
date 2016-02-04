@@ -3,13 +3,10 @@
 Operational Reports
 ===================
 
-Operational reports provide you clear overviews about the usage of system. The following reports are
-available:
+Operational reports provide you clear overviews about the usage of system. This includes the requests per
+user, requests per file, file sizes and erasure coding overhead.
 
-* :ref:`Top Users <top_users>`
-* :ref:`Erasure Coding Overhead <erasure_coding_overhead>`
-* :ref:`Top Files <top_files>`
-* :ref:`File Size <file_size>`
+For each of the reports, you can specify a :ref:`period <filtering_data>` for which you want the data.
 
 .. toctree::
 
@@ -17,5 +14,4 @@ available:
    erasure_coding_overhead.rst
    top_files.rst
    file_size.rst
-   filtering_data.rst
 

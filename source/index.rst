@@ -11,7 +11,9 @@ Peregrine User Guide
 
    introduction/introduction.rst
    dashboard/dashboard.rst
-   racks/racks.rst
+   system_health/system_health.rst
+   storage_utilization/storage_utilization.rst
+   log_analytics/log_analytics.rst
    ops_reports/ops_reports.rst
    accounts/accounts.rst
    profile/profile.rst
