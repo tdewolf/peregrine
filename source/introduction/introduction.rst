@@ -1,7 +1,7 @@
 .. _introduction:
 
-Introducing Peregrine
-=====================
+Introducing |prod|
+==================
 
 .. toctree::
 

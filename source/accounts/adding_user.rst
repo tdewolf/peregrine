@@ -14,12 +14,12 @@ To add a user:
    A new row appears in the table.
 #. Fill out the row with the proper values:
 
-   * **Username**: user name to access Peregrine
+   * **Username**: user name to access |prod|
    * **Persona**: this value defines what the user will see in the UI.
    
-      * **Admin**: administrative user, this will be an HGST administrator.
+      * **Admin**: administrative user, this will be an |comp| administrator.
       * **Customer**: restricted view on the setup.
-      * **OEM**: administrative user of a provider offering the HGST solution.
+      * **OEM**: administrative user of a provider offering the |comp| solution.
 
    * **Account**: the name of the account to which the user belongs. 
    * **Role**: the :ref:`role <user_roles>` of the user.

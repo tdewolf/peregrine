@@ -7,7 +7,7 @@
 Dashboard
 =========
 
-The Peregrine :term:`Dashboard` shows all setups in all data centers all over the world. It is also the
+The |prod| :term:`Dashboard` shows all setups in all data centers all over the world. It is also the
 default view when you log in.
 
 There are two views on the dashboard, :ref:`panel view <panel_view>` and :ref:`grid view <grid_view>`, where the latter is the default view.

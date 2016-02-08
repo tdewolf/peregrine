@@ -1,7 +1,7 @@
 .. _searching_in_peregrine:
 
-Searching in Peregrine
-======================
+Searching in |prod|
+===================
 
 Vivamus in est iaculis, suscipit enim sed, mattis mi. Etiam maximus, augue eu semper ultricies, erat
 risus pulvinar orci, vel ultrices elit mi in purus. Proin semper ultricies quam vel consequat. Donec
