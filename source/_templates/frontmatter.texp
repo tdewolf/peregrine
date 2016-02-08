@@ -4,12 +4,12 @@
   \newgeometry{left=5.5cm} %defines the geometry for the titlepage
   \par
   \noindent
-  \hspace{-2cm}\includegraphics[width=2cm]{../../source/_static/hgst_logo_black.png}
-  \includegraphics[width=1.5cm]{../../source/_static/hgst_logo_black.png}\\
+  \hspace{-2cm}\includegraphics[width=2cm]{../../source/_static/HGST_Pictogram_4C_Discovery.png}
+  \hspace{-0.05cm}\includegraphics[width=1.5cm]{../../source/_static/HGST_Pictogram_4C_Energy.png}\\
   \fboxsep=5pt{
-    \colorbox{hgstbrown}{
+    \colorbox{hgstblue}{
       \parbox{15cm}{
-        \vspace{-0.2cm}{\hspace{-1.5cm}\includegraphics[width=1.2cm]{../../source/_static/hgst_logo_black.png}}
+        \vspace{-0.2cm}{\hspace{-1.3cm}\includegraphics[width=1.0cm]{../../source/_static/HGST_Pictogram_4C_Innovation.png}}
         \textsf{\textbf{\textcolor{white}{\Huge {Administration Guide\\}}}}\\
         \textsf{\textbf{\textcolor{white}{\huge {Peregrine\\}}}}\\
         \textsf{\textbf{\textcolor{white}{\large {Active Archive Telemetry, Analytics, Supportability\\}}}}\\
@@ -24,7 +24,7 @@
   \vfill
   \noindent
   \vskip\baselineskip
-  \hfill\includegraphics[width=3cm]{../../source/_static/hgst_logo_black.png}\\[-1em]
+  \hfill\includegraphics[width=3cm]{../../source/_static/hgst_logo_blue.png}\\[-1em]
   \noindent
 \end{titlepage}
 
