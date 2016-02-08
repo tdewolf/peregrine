@@ -7,6 +7,10 @@ On the log analytics page, you find a timeline with several dots. These dots rep
 each log file available. To narrow down to a certain time range by zooming in on the timeline. You can
 zoom in by selecting a part of the time line. 
 
+.. tip::
+
+   You can also :ref:`filter the data by date <filtering_data>`.
+
 When selecting a dot on the timeline, you select a specific date and time and in the :guilabel:`Log
 Details` section the content is updated to reflect the selected time. Click on a node in the rack to
 consult the log files of the node.
