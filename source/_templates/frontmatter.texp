@@ -13,7 +13,7 @@
         \textsf{\textbf{\textcolor{white}{\Huge {Administration Guide\\}}}}\\
         \textsf{\textbf{\textcolor{white}{\huge {Peregrine\\}}}}\\
         \textsf{\textbf{\textcolor{white}{\large {Active Archive Telemetry, Analytics, Supportability\\}}}}\\
-        \textsf{\textbf{\textcolor{white}{\large Publication ABCD\hspace{0.2cm}|\hspace{0.2cm}\py@release\releaseinfo\hspace{0.2cm}|\hspace{0.2cm}\ifcase \month \or January\or February\or March\or April\or May%
+        \textsf{\textbf{\textcolor{white}{\py@release\releaseinfo\hspace{0.2cm}|\hspace{0.2cm}\ifcase \month \or January\or February\or March\or April\or May%
 \o  r June\or July\or August\or September\or October\or November\or December\fi, \the\year}}\\
         }\\ \\ \\
         \textsf{\textbf{\textcolor{white}{Long Live Data\textsuperscript{TM}\hspace{0.2cm}|\hspace{0.2cm}www.hgst.com}}
