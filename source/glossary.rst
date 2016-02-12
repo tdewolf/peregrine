@@ -13,15 +13,16 @@ Glossary
 
    Erasure Coding
       Erasure coding is a way to split an object into chunks and each chunk is stored on a separate disk.
-      The erasure code is able to rebuilt every chunk from other chunks. For example, a 5+1 scheme means
-      that your object is divided into 5 segments and 1 parity segment and stored on 6 different disks.
-      If 1 disk becomes corrupt, the erasure code is still able to reproduce your object.
+      The erasure code is able to rebuilt every chunk from other chunks if a chunk is missing. 
+
+      For example, an 18+7 scheme means that your object is divided into 18 segments and and stored on 18
+      separate disks. The erasure code can rebuild the object with a maximum of 7 unavailable disks.
 
    IPMI
-      Intelligent Platform Management Interface. It is a remote hardware health monitoring and management
-      system that defines interfaces for use in monitoring the physical health of servers, such as 
-      temperature, voltage, fans, power supplies and chassis.
+      Intelligent Platform Management Interface. It is an interface to monitor the health of remote
+      hardware such as temperature, fans, power supplies... The interface also allows you to manage the
+      remote hardware, even if the node is turned off.
 
    JSON
-      JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans
-      to read and write and it is easy for machines to parse and generate.
+      JSON (JavaScript Object Notation) is a lightweight data-interchange format which is human readable
+      and easy to generate.

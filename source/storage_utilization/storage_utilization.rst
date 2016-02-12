@@ -11,5 +11,5 @@ statistics and you get a forecast of the storage utilization in the coming month
 .. toctree::
 
    usage_analysis/usage_analysis.rst
-   capacity_planner.rst
+   capacity_planner/capacity_planner.rst
 
