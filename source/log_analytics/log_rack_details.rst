@@ -1,4 +1,4 @@
-.. _log_analytics:
+.. _log_details:
 
 Log Details
 ===========

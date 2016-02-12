@@ -5,11 +5,11 @@ Glossary
 
 .. glossary::
 
+   Controller Node
+      See Scaler Node.
+
    Dashboard
       The Dashboard shows all data racks in all data centers and is the default view when you log in.
-
-   Enclosure
-      @todo fill out definition
 
    Erasure Coding
       Erasure coding is a way to split an object into chunks and each chunk is stored on a separate disk.
@@ -26,3 +26,18 @@ Glossary
    JSON
       JSON (JavaScript Object Notation) is a lightweight data-interchange format which is human readable
       and easy to generate.
+
+   Scaler Node
+      A Scaler Node is the node in a system which processes all storage client requests. It has also
+      the logic of authentication and authorization. The Scaler Node has all information of the bucket
+      and objects in the system.
+
+      It is sometimes referred to as Controller Node.
+
+   Storage Enclosure
+      The storage enclosure is the hardware component which holds the disks to store the data. The
+      enclosure does not have any logic on board, it stores the data sent by a storage node.
+
+   Storage Node
+      A storage node is the node which receives objects from the :term:`Scaler Node`. It is responsible
+      for the erasure coding

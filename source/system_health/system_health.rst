@@ -3,18 +3,15 @@
 System Health
 =============
 
-Nulla blandit sed arcu vel sollicitudin. Proin vestibulum at purus eget laoreet. Vivamus at dui molestie,
-iaculis tortor at, malesuada metus. Donec et turpis vel magna luctus accumsan ac ac lorem. Sed varius
-odio non porta iaculis. Nulla tortor tortor, rhoncus vitae erat in, imperdiet scelerisque nisi. Proin
-tincidunt dictum mi. Fusce dapibus posuere nulla quis tempor. Praesent volutpat turpis a tellus fermentum
-laoreet.
+The :guilabel:`System Health` page provides detailed information about a selected system. The information
+includes amongst others the system information, alerts, events and so on.
 
 .. toctree::
 
-   rack_system_health.rst
-   rack_resources.rst
-   rack_performance.rst
-   rack_events.rst
-   alerts.rst
-   hw_changes.rst
+   syshealth_dashboard/syshealth_dashboard.rst
+   syshealth_resources/syshealth_resources.rst
+   syshealth_performance/syshealth_performance.rst
+   syshealth_events/syshealth_events.rst
+   syshealth_alerts/syshealth_alerts.rst
+   syshealth_hw_changes/syshealth_hw_changes.rst
 
