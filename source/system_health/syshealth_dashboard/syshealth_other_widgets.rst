@@ -6,15 +6,15 @@
 
 .. _syshealth_other_widgets:
 
-Other System Health Widgets
-===========================
+Other System Health Panels
+==========================
 
 Health
 ------
 
 @todo: what's the meaning of the values?
 
-The :guilabel:`Health` widget provides the number of critical errors and warnings in a system. These are
+The :guilabel:`Health` panel provides the number of critical errors and warnings in a system. These are
 divided per type:
 
 * |compute_icon|: compute
@@ -28,7 +28,7 @@ Storage Utilization
 @todo: is this the raw disk space or the actual amount of data that a system can store?
 
 
-The :guilabel:`Storage Utilization` widget on the System Health dashboard gives you the global
+The :guilabel:`Storage Utilization` panel on the System Health dashboard gives you the global
 overview of the storage in the setup:
 
 * percentage of used storage
@@ -40,18 +40,25 @@ overview of the storage in the setup:
 Bandwidth
 ---------
 
-@todo: what does this show?
+@todo: what's the meaning of the sum on top of the graphic?
 
-The :guilabel:`Bandwidth` widget
+The :guilabel:`Bandwidth` panel displays the bandwidth usage over time. With this panel you can easily
+identify possible patterns in bandwidth usage.
 
 
 Latency
 -------
 
-@todo: what does this show?
+@todo: what does the figure means on top of the graphic?
+
+The :guilabel:`Latency` panel displays the history of the latency of a setup. The graphic can help you
+in identifying possible network issues.
+
 
 OPS
 ---
 
 @todo: what does this show?
+
+The :guilabel:`OPS` panel displays the setup's overall operations per second. 
 
