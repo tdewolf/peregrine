@@ -3,10 +3,14 @@
 Rack Resources
 ==============
 
-Praesent dolor nisl, dapibus eu facilisis ut, pulvinar in velit. Fusce luctus vitae felis vitae aliquet.
-Suspendisse elementum quam mollis tellus ullamcorper, non placerat tortor vehicula. Nunc tristique vitae
-elit in molestie. Vivamus tempor arcu a hendrerit volutpat. Quisque a iaculis felis. Etiam mollis pretium
-sapien vitae mollis. Maecenas imperdiet massa sed enim interdum convallis. Aliquam nec urna convallis,
-placerat felis vitae, rutrum neque. Vivamus molestie urna eros, at venenatis justo semper in. Proin lorem
-eros, aliquam quis aliquet eu, tincidunt sed leo. Vestibulum accumsan erat urna, et tempor magna
-hendrerit bibendum.
+On the :guilabel:`Resources` tab of a system's :guilabel:`System Health` page, you get an overview of the
+setup's resources. A resource is any physical component of the system.
+
+The :guilabel:`Resources` tab displays the location of the setup's rack(s), the rack resource's used
+capacity and a detailed inventory of components in a resource.
+
+.. toctree::
+
+   resources_overview.rst
+   resources_inventory/resources_inventory.rst
+
