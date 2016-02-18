@@ -3,8 +3,11 @@
 Introducing |prod|
 ==================
 
+|prod| is an application that monitors |comp| systems, analyzes the system data, builds data models and
+reports and allows you to predict future interventions.
+
+
 .. toctree::
 
-   what_is_peregrine.rst
    ui_components.rst
    searching_in_peregrine.rst
