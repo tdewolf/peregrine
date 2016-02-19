@@ -14,8 +14,8 @@ overhead capacity (blue).
 You can download the graphic via the download icon in the panel (|download_icon|). The following formats
 are provided:
 
-* png
-* jpeg
-* svg
-* pdf
+* PNG
+* JPEG
+* SVG
+* PDF
 

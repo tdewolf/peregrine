@@ -11,3 +11,5 @@ reports and allows you to predict future interventions.
 
    ui_components.rst
    searching_in_peregrine.rst
+   filtering_data.rst
+

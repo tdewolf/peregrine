@@ -1,5 +1,4 @@
 .. |network_performance| image:: ../../_static/network_performance.png
-   :scale: 50%
 
 .. _network_performance:
 

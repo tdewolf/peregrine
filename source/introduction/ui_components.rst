@@ -27,7 +27,12 @@ In the top bar you find the following components:
 
 * |collapse_expand|: icon to collapse or expand the left menu panel
 * |search|: icon to open the search window
-* |alert|: @todo what's the function of this icon?
+* |alert|: @todo: what's the function of this icon?
+
+.. todo::
+
+   what's the function of this icon?
+
 * |system_selection|: drop-down menu to select a system
 * |full_screen|: icon to open |prod| in full screen mode
 

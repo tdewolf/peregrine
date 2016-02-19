@@ -60,4 +60,5 @@ Storage Enclosure
 Switch
 ------
 
+@will this become available in the future?
 Not available.

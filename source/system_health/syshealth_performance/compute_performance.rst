@@ -1,5 +1,4 @@
 .. |compute_performance| image:: ../../_static/compute_performance.png
-   :scale: 50%
 
 .. _compute_performance:
 
@@ -16,5 +15,5 @@ On Compute level, Peregrine captures the following data:
 
 The following graphic gives you an example of the CPU usage statistics:
 
-|compute_usage|
+|compute_performance|
 

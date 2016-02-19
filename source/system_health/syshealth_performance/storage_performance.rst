@@ -1,5 +1,4 @@
 .. |storage_performance| image:: ../../_static/storage_performance.png
-   :scale: 50%
 
 .. _storage_performance:
 

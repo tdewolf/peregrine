@@ -4,9 +4,9 @@ Rack Resources
 ==============
 
 On the :guilabel:`Resources` tab of a system's :guilabel:`System Health` page, you get an overview of the
-setup's resources. A resource is any physical component of the system.
+system's resources. A resource is any physical component of the system.
 
-The :guilabel:`Resources` tab displays the location of the setup's rack(s), the rack resource's used
+The :guilabel:`Resources` tab displays the location of the system's rack(s), the rack resource's used
 capacity and a detailed inventory of components in a resource.
 
 .. toctree::
