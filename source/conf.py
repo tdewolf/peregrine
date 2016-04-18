@@ -21,13 +21,14 @@ import os
 #sys.path.insert(0, os.path.abspath('.'))
 branding = os.environ.get('BRANDING', 'hgst')
 brandings = {
-    'hgst': ('Peregrine', 'HGST', '1.0'),
+    'hgst': ('ActiveScale CM', 'HGST', '1.0','ActiveScale SM'),
 }
 
 rst_epilog = """
 .. |prod| replace:: %s
 .. |comp| replace:: %s
 .. |version| replace:: %s
+.. |as| replace:: %s
 """% brandings[branding]
 
 # -- General configuration ------------------------------------------------

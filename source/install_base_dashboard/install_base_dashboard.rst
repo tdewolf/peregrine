@@ -2,10 +2,10 @@
 
 .. |select_grid_view| image:: ../_static/grid_view.png
 
-.. _dashboard:
+.. _install_base_dashboard:
 
-Dashboard
-=========
+Install Base Dashboard
+======================
 
 The |prod| :term:`Dashboard` shows all setups in all data centers all over the world. It is also the
 default view when you log in.

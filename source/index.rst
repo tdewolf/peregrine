@@ -10,10 +10,9 @@
    :maxdepth: 2
 
    introduction/introduction.rst
-   dashboard/dashboard.rst
+   install_base_dashboard/install_base_dashboard.rst
+   customer_dashboard/customer_dashboard.rst
    system_health/system_health.rst
-   storage_utilization/storage_utilization.rst
-   log_analytics/log_analytics.rst
    ops_reports/ops_reports.rst
    accounts/accounts.rst
    profile/profile.rst
