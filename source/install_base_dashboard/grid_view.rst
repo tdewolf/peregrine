@@ -16,7 +16,7 @@ In the table below the map, you find the following information:
 
 * Name of the setup
 * Name of the customer
-* Setup type, single rack, 3-GEO single rack, ...
+* Setup type: single rack, 3-GEO single rack, ...
 * Software version of the setup
 * System health
 

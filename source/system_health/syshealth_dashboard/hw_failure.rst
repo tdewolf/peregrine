@@ -5,8 +5,8 @@ Hardware Failure
 
 @todo: is this only for disks or also for fans, cpu, memory, ...?
 
-The :guilabel:`Hardware Failure` widget displays possible hardware failures in the selected setup. This
-widget allows you to quickly identify failures and react accordingly.
+The :guilabel:`Hardware Failure` panel displays hardware failures of the selected system. It allows you 
+to quickly react to failures.
 
 The hardware failures are stored in a table, which can be sorted by column in ascending or descending
 order.

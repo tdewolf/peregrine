@@ -16,7 +16,7 @@ The summary of a switch (SWx) contains the following data:
 * **Machine Model**: model ID of the switch
 * **Part Number**: part number of the switch
 * **Software Version**: installed version on the switch
-* **System Name**: name of the switch as known in the |pn| software
+* **System Name**: name of the switch as known in the |prod| software
 * **MAC Address**: MAC address of the switch (@todo which mac address, the one connected to the
   Internet?)
 * **Operating System**: installed OS on the switch

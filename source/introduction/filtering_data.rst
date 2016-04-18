@@ -1,4 +1,4 @@
-.. |calendar| image:: _static/calendar.png
+.. |calendar| image:: ../_static/calendar.png
 
 .. _filtering_data:
 
