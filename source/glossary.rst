@@ -27,6 +27,14 @@ Glossary
       JSON (JavaScript Object Notation) is a lightweight data-interchange format which is human readable
       and easy to generate.
 
+   Persona
+      The persona identifies the type of the user and defines the information that is available to this
+      user. There arethree types of persona: admin, customer, and OEM. 
+
+   Role
+      The role of a user defines the user rights. As "User", you can only consult information, as "Super
+      User" you can create other users.
+
    Scaler Node
       A Scaler Node is the node in a system which processes all storage client requests. It has also
       the logic of authentication and authorization. The Scaler Node has all information of the bucket

@@ -1,23 +1,16 @@
 .. _introducing_peregrine:
 
-Introducing |prod|
-==================
+Introducing |prodlong|
+======================
 
-* monitor system health
-* asset management
-* analyse usage
-* predict possible failures
-* reports
-* role-based identity mgmt
+|prod| is a software suite to monitor and analyze all |comp| |as| systems. By monitoring and analyzing
+the systems, |prod| can inform you for possible issues and gives you the opportunity to proactively
+intervene and avoid downtime of the systems. For example, |prod|
 
-|prod| is a software suite with a variety of tools to proactively monitor the health of |comp| |as|
-installations.
+|prod| provides also a variety of reports which help you better understand the behavior of the various 
+|as| systems. Almost every panel in |prod| is a report, but you can also make reports by making custom 
+queries.
 
-|prod| monitors the system health and reports possible upcoming issues to prevent downtime of |as|
-installations.
+The content that you see in |prod|, depends on your :term:`persona`, the actions that you can perform
+depend on the :term:`role`.
 
-The software provides also a variety of reports to help you analyse the usage of the installation in
-terms of used capacity and how the capacity is used. These analysis provides also an estimate to when a
-system reaches its full capacity.
-
-The content in |prod| depends on the user and its role. 

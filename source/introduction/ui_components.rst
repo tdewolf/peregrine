@@ -4,6 +4,10 @@
 
 .. |peregrine_avatar| image:: ../_static/peregrine_avatar.png
 
+.. |csh_help| image:: ../_static/csh_help.png
+
+.. |download_graph| image:: ../_static/download_graph.png
+
 .. _ui_components:
 
 UI Components
@@ -11,8 +15,8 @@ UI Components
 
 The |prod| interface is divided in two main sections:
 
-* a top bar with the search function, operational reports link and profile menu.
-* the main panel with various panels, which vary per page.
+* a top bar with the search function, operational reports link and the profile menu.
+* the main page with various panels, which vary per page.
 
 
 Top Bar
@@ -26,12 +30,17 @@ In the top bar you find the following components:
 * |peregrine_avatar|: icon to open user and account specific actions 
 
 
-Main Panel
-----------
+Main Page
+---------
 
-The main panel displays the desired system information. The information is mainly displayed in a
-graphical way. 
+The main page displays the selected information. The page consists of multiple panels which contain the
+information in table or graphical format. For more information about the panel, hover over the panel's
+help icon (|csh_help|).
 
-All graphics can be downloaded in various formats (PNG, JPEG, PDF, SVG) or directly sent to a printer.
+Some information can be dowloaded via the panel:
 
+* **graphical data**: Click the download icon in the panel (|download_graph|) to download the graphic.
+  You can download the information in various formats (PNG, JPEG, PDF, SVG) or directly sent to a
+  printer.
+* **tables**: Click the :guilabel:`Export to CSV` link in the panel to download the data in CSV format.
 
