@@ -21,13 +21,14 @@ import os
 #sys.path.insert(0, os.path.abspath('.'))
 branding = os.environ.get('BRANDING', 'hgst')
 brandings = {
-    'hgst': ('ActiveScale CM', 'HGST', '1.0','ActiveScale SM'),
+    'hgst': ('ActiveScale CM', 'HGST', '1.0','ActiveScale Compute Management','ActiveScale SM'),
 }
 
 rst_epilog = """
 .. |prod| replace:: %s
 .. |comp| replace:: %s
 .. |version| replace:: %s
+.. |prodlong| replace:: %s
 .. |as| replace:: %s
 """% brandings[branding]
 

@@ -20,3 +20,4 @@ The software provides also a variety of reports to help you analyse the usage of
 terms of used capacity and how the capacity is used. These analysis provides also an estimate to when a
 system reaches its full capacity.
 
+The content in |prod| depends on the user and its role. 
