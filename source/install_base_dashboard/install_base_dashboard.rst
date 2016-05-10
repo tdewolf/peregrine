@@ -7,19 +7,17 @@
 Install Base Dashboard
 ======================
 
-The |prod| :term:`Dashboard` shows all |comp| systems installed all over the world. It is also the
+The |prod| :term:`Install Base Dashboard` shows all the installed |comp| systems from all over the world. It is also the
 default view when you log in.
-
-There are two views on the dashboard, :ref:`grid view <grid_view>` and :ref:`panel view <panel_view>`, 
-where the latter is the default view.
-
-You can switch between these views in the upper right corner of the dashboard:
-
-* |select_panel_view|: select the panel view
-* |select_grid_view|: switch to grid view
 
 .. toctree::
 
-   panel_view.rst
-   grid_view.rst
+   install_base.rst
+   top_customers.rst
+   object_sizes.rst
+   time_to_full_capacity.rst
+   activity.rst
+   systems_deployed.rst
+   availability.rst
+   sw_versions.rst
 
