@@ -3,8 +3,6 @@
 Accounts
 ========
 
-@todo: get more info about the user details/properties
-
 .. toctree::
 
    user_roles.rst

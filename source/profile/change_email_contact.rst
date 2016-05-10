@@ -1,5 +1,3 @@
-.. |avatar| image:: ../_static/peregrine_avatar.png
-
 .. _change_email_contact:
 
 Changing the Profile E-mail Address
@@ -9,14 +7,12 @@ The e-mail address of your profile is used to send you information about the sys
 
 To update your e-mail address:
 
-#. Click on |avatar| in the top right corner and select :guilabel:`Profile`.
+#. Click on your user name in the top-right corner and select :guilabel:`Profile`.
 
-   .. tip::
-
-      You can also open your profile via the :guilabel:`Manage Accounts` window and select the
-      :guilabel:`Profile` tab.
-
-#. Update the e-mail address.
+   The :guilabel:`Profile` window appears.
+#. Update your email address in the :guilabel:`Email address` field.
 #. Click :guilabel:`Update Profile`.
 #. Type your password and click :guilabel:`Update`.
+
+All notifications from |prod| are sent to the new email address.
 

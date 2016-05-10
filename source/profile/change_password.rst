@@ -1,5 +1,3 @@
-.. |avatar| image:: ../_static/peregrine_avatar.png
-
 .. _change_password:
 
 Changing Your Password
@@ -9,16 +7,13 @@ For security reasons it is recommended to regularly update your password, howeve
 
 To update your password:
 
-#. Click on |avatar| in the top right corner and select :guilabel:`Profile`.
+#. Click on your user name in the top-right corner and select :guilabel:`Profile`.
 
-   .. tip::
-
-      You can also open your profile via the :guilabel:`Manage Accounts` window and select the
-      :guilabel:`Profile` tab.
+   The :guilabel:`Profile` window appears.
 #. Click :guilabel:`Change Password`.
-#. Enter your current password and twice your new password click :guilabel:`Update`.
+#. Enter your current password and twice your new password. 
+#. Click :guilabel:`Update`.
 
-   You return to your profile page.
-
-Your password is updated, the next time you log to the system you can use your new password.
+   Your password is updated and you return to your profile page. The next time you log to the system,  
+   you have to use your new password.
 
