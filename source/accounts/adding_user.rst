@@ -1,3 +1,5 @@
+.. |save_user| image:: ../_static/save_user.png
+
 .. _adding_user:
 
 Adding a User
@@ -5,24 +7,22 @@ Adding a User
 
 To add a user:
 
-#. In the left menu, select :guilabel:`Manage Accounts`.
+#. Click on your user name in the top-right corner and select :guilabel:`Manage Accounts`.
 
-   The :guilabel:`Manage Accounts` window appears, leaving you on the :guilabel:`Manage Accounts` tab. If
-   not, switch to the proper tab.
+   The :guilabel:`Manage Accounts` window appears.
 #. On top of the table, click :guilabel:`Add User`.
 
    A new row appears in the table.
 #. Fill out the row with the proper values:
 
    * **Username**: user name to access |prod|
-   * **Persona**: this value defines what the user will see in the UI.
-   
-      * **Admin**: administrative user, this will be an |comp| administrator.
-      * **Customer**: restricted view on the setup.
-      * **OEM**: administrative user of a provider offering the |comp| solution.
-
+   * **Persona**: this value defines the information that the user will see in the UI (Admin, Customer, 
+     OEM). See :ref:`User Roles <user_roles>` for more information.
    * **Account**: the name of the account to which the user belongs. 
-   * **Role**: the :ref:`role <user_roles>` of the user.
+   * **Role**: the :ref:`role <user_roles>` of the user (User, Super User). See :ref:`User Roles
+     <user_roles>` for more information.
    * **Email**: e-mail address of the user for all communication.
+#. Click the Save button (|save_user|) in the :guilabel:`Actions` column.
 
-@todo --> will user receive mail with temp password?
+The user receives an email with the login and a temporary password.
+
