@@ -7,8 +7,8 @@
 Install Base Dashboard
 ======================
 
-The |prod| :term:`Install Base Dashboard` shows all the installed |comp| systems from all over the world. It is also the
-default view when you log in.
+The |prod| :guilabel:`Install Base Dashboard` shows all deployed |comp| systems from all over the world. 
+It is also the default view when you log in to |prod|.
 
 .. toctree::
 
