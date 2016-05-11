@@ -8,4 +8,3 @@ deployment.
 
 When you hover your mouse over a graphic, you see the actual uptime percentage of the system.
 
-

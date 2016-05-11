@@ -5,6 +5,13 @@
 Adding a User
 =============
 
+.. note::
+
+   You can only add users if you have the role of "Super User". 
+   The options in the user properties vary according the "Persona", for example an OEM persona is not
+   able to add a user with an Admin persona.
+
+
 To add a user:
 
 #. Click on your user name in the top-right corner and select :guilabel:`Manage Accounts`.

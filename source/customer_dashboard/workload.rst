@@ -2,6 +2,8 @@
 
 .. |workload_timeline| image:: ../_static/workload_timeline.png
 
+.. |workload_deselected| image:: ../_static/workload_deselected.png
+
 .. _workload:
 
 Workload
@@ -29,6 +31,8 @@ small and large objects.
 |workload_timeline|
 
 By default, the PUT and GET operations are displayed. You can disable one of the graphics by clicking the
-:guilabel:`GETs`/:guilabel:`PUTs` below the graphic. If an operation is not shown in the graphic, it
-appears greyed out.
+:guilabel:`GETs`/:guilabel:`PUTs` lables below the graphic. If an operation is not shown in the graphic, 
+it appears greyed out.
+
+|workload_deselected|
 

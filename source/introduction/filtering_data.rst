@@ -27,9 +27,12 @@ The data are updated for the selected period.
 Filtering by Text
 -----------------
 
-In some panels, you find a large list of items which makes it often hard to find the wanted data. Such
-panels have a filter box in which you can search for the necessary data. This filter box is
-case-insensitive and returns any match, regardless the column in which the data is retrieved.
+In some panels, you find a large list of items, which makes it often hard to find the data that you're
+looking for. To help you looking for the desired information, such panels have a filter box in which you 
+can search for the necessary data. 
+
+This filter box is case-insensitive and returns any match, regardless the column in which the query data 
+is retrieved.
 
 
 Ordering by Column
