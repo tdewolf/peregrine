@@ -33,10 +33,10 @@ Controller and Storage Node
 
 The summary of a Controller Node (CNx) or Storage Node (SNx)  displays the following information:
 
-* **IP Address**: list of IP addresseses of the node
-* **Cpu**: model of CPU in the Controller
-* **Motherboard**: name and type of the motherboard
 * **Bios**: name of the BIOS software
+* **IP Address**: list of IP addresseses of the node
+* **Motherboard**: name and type of the motherboard
+* **Cpu**: model of CPU in the Controller
 * **Memory**: type of RAM 
 * **Network**: name and type of network interfaces
 

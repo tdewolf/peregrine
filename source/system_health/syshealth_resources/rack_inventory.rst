@@ -50,17 +50,17 @@ The inventory table of a Controller or Storage Node are identical. The table con
 Storage Enclosure Inventory
 ---------------------------
 
-The storage enclosure inventory displays the number of disks. Click :guilabel:`Show All Drives` to show
-the disks table.
+The storage enclosure inventory displays the number of disks, fans, I/O modules and power modules.
 
-* **Physical ...**: slot of the disk in the enclosure (@todo what's the header of this column?)
-* **% Used**: @todo what's this?
-* **Type**: @todo what's this?
-* **Logical ...**: name of the logical device (@todo what's the header title?)
-* **Size**: physical disk size
+Hover over a fan, I/O module or power module to obtain their details.
+
+Click :guilabel:`Show All Drives` to display the disks table.
+
+* **Component**: the type of component in the storage enclosure
 * **Vendor**: name of the disk vendor
-* **Product**: @todo ??? this is a disk no?
+* **Model**: model identification of the disk
 * **Serial**: serial number of the disk, this can be used for verfication in case of a disk replacement
-* **Firmware**: firmware version on the disk
 * **Description**: description of the disk
+* **Firmware**: firmware version on the disk
+* **Slot**: the ID of the slot in the storage enclosure where the disk is located
 

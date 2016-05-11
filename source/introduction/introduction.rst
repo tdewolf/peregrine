@@ -9,4 +9,5 @@ Introducing |prod|
    ui_components.rst
    searching_in_peregrine.rst
    filtering_data.rst
+   navigation.rst
 
