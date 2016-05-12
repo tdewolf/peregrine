@@ -5,8 +5,8 @@ System Performance
 
 .. toctree::
 
-   general_performance.rst
-   storage_performance.rst
-   compute_performance.rst
-   network_performance.rst
+   general_usage_pattern.rst
+   usage_pattern_storage.rst
+   usage_pattern_compute.rst
+   usage_pattern_network.rst
 

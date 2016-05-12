@@ -1,4 +1,4 @@
-.. _hw_changes:
+.. _syshealth_hw_changes:
 
 Hardware Changes
 ================

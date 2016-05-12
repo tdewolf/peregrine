@@ -2,18 +2,18 @@
 
 .. |download_icon| image:: ../../_static/download_icon.png
 
-.. _general_performance:
+.. _general_usage_pattern:
 
-About the System Performance
-============================
+About the Usage Patterns
+========================
 
-The :guilabel:`Performance` tab on the :guilabel:`System Health` page of a system contains the graphics 
+The :guilabel:`Usage Patterns` tab on the :guilabel:`System Health` page of a system contains the graphics 
 of all storage related actions. These actions are divided into three levels: storage, compute and 
 network.
 
 On top of the page you can filter the data by date and you can select the statistics that you want to
-see. By default the :ref:`Storage Total Writes <storage_performance>`, :ref:`CPU Usage
-<compute_performance>` and :ref:`Network Received Data <network_performance>` are displayed.
+see. By default the :ref:`Storage Total Writes <usage_pattern_storage>`, :ref:`CPU Usage
+<usage_pattern_compute>` and :ref:`Network Received Data <usage_pattern_network>` are displayed.
 
 
 Available Statistics
@@ -63,7 +63,7 @@ graphic depends on the date range you have selected on top of the :guilabel:`Sys
 of the time series graphic, you can zoom in to a specific period. Click :guilabel:`Reset zoom` to return 
 to the default zoom level.
 
-Keep in mind that the selection updates the Y-axis too. 
+Keep in mind that zooming in on the time series may update the scale units on the Y-axis.
 
 For example when the Y-axis has a range of 0 to 50k and you create a selection with the lower boundary at
 10k, the origin of the Y-axis then starts at 10k and not the original 0.

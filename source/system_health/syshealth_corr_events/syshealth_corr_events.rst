@@ -1,8 +1,10 @@
-.. _rack_events:
+.. _syshealth_corr_events:
 
-Rack Events
-===========
+Correlated Events
+=================
 
-see GIGALITZ USCLS01615AD0002 system
+The Correlated Events tab features a chart with bars for various correlations. Click any bar to get
+detailed time series correlation data along with issues and suggestions.
 
-@todo: what can we learn from these graphs?
+@todo: add example + explanation what you can learn from the example
+
