@@ -14,3 +14,6 @@ queries.
 The content that you see in |prod|, depends on your :term:`persona`, the actions that you can perform
 depend on the :term:`role`.
 
+All data, except for the accounts and user information, is taken from the |as| databases and cannot be 
+changed in |prod|.
+
