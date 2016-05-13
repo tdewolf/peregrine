@@ -1,6 +1,6 @@
 .. |close_issue_details| image:: ../../_static/close_issue_details.png
 
-.. |download_icon| image:: ../../_static/download_icon.png
+.. |download_icon| image:: ../../_static/download_graph.png
 
 .. _general_usage_pattern:
 

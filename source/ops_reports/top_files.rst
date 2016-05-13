@@ -3,15 +3,14 @@
 Top Files
 =========
 
-The "Top Files" report gives an overview of the files which have been used most frequently in S3
+The :guilabel:`Top Files` report gives an overview of the files which have been used most frequently in S3
 requests.
 
 In this report, you find the following information:
 
 * **File Name**: file name 
-* **Type**: the type of the file, image, video, text, ...
 * **Size**: file size.
-* **OPS**: the number of operations on the file (@todo --> is this correct?)
+* **OPS**: the number of operations on the file
 
 Only the first five records are displayed, but you can scroll in the table to get the complete overview.
 

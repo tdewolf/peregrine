@@ -11,12 +11,16 @@ Glossary
    Dashboard
       The Dashboard shows all data racks in all data centers and is the default view when you log in.
 
+   Data Safety
+      The Data Safety is a policy used to store the objects in |prod|. An object is split into several
+      segments, each segment is stored on a separate disk. A policy is noted in a X/Y format.
+      The policy defines in how many segments the object is divided (X) and how many segments may be 
+      unavailable to restore the whole object (Y). 
+      |prod| supports two data safeties: 15/5 and 18/8. 
+
    Erasure Coding
       Erasure coding is a way to split an object into chunks and each chunk is stored on a separate disk.
       The erasure code is able to rebuilt every chunk from other chunks if a chunk is missing. 
-
-      For example, an 18+7 scheme means that your object is divided into 18 segments and and stored on 18
-      separate disks. The erasure code can rebuild the object with a maximum of 7 unavailable disks.
 
    IPMI
       Intelligent Platform Management Interface. It is an interface to monitor the health of remote
