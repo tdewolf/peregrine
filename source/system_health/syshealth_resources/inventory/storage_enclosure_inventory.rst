@@ -1,10 +1,10 @@
-.. |se_inventory| image:: ../../_static/se_inventory.png
+.. |se_inventory| image:: ../../../_static/se_inventory.png
 
-.. |se_fan_property| image:: ../../_static/se_fan_property.png
+.. |se_fan_property| image:: ../../../_static/se_fan_property.png
 
-.. |se_io_property| image:: ../../_static/se_io_property.png
+.. |se_io_property| image:: ../../../_static/se_io_property.png
 
-.. |drive_replace| image:: ../../_static/drive_replace.png
+.. |drive_replace| image:: ../../../_static/drive_replace.png
 
 .. _storage_enclosure_inventory:
 

@@ -1,4 +1,4 @@
-.. |datasafety_safeobject| image:: ../../_static/datasafety_safeobjects.png
+.. |datasafety_safeobjects| image:: ../../_static/datasafety_safeobjects.png
 
 .. |datasafety_degradedobjects| image:: ../../_static/datasafety_degradedobjects.png
 

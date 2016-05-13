@@ -1,6 +1,6 @@
-.. |se_drives_selected| image:: ../../se_drives_selected.png
+.. |se_drives_selected| image:: ../../_static/se_drives_selected.png
 
-.. |drive_analytics| image:: ../../drive_analytics.png
+.. |drive_analytics| image:: ../../_static/drive_analytics.png
 
 .. _drive_analytics:
 

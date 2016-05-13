@@ -1,4 +1,4 @@
-.. _syshealth:
+.. _system_health:
 
 System Health
 =============

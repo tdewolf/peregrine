@@ -6,7 +6,8 @@ System Summary
 The :guilabel:`System Summary` panel on the dashboard summarizes the system's configuration.
 
 * **System Name**: name of the system as known by |prod|
-* **Deployment ID**: @todo
+* **Deployment ID**: the S3 bucket ID on AWS where the telemetry-agent, running on |as|, is going to 
+  upload the log files to.
 * **Serial Number**: serial number of the system
 * **Software**: name and version of the software
 * **Telemetry Version**: the telemetry version used on the system

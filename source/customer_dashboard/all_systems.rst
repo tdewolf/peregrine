@@ -9,12 +9,12 @@ deployed systems.
 In the overview, you find the following information:
 
 * :guilabel:`System Name`
-* :guilabel:`Capacity`: The total raw capacity of the system.
+* :guilabel:`Capacity`: The total *available* capacity of the system.
 * :guilabel:`Usage`: The percentage of storage in use. Hover over the bar to display the actual
   percentage.
 * :guilabel:`Time to Full Capacity`: The time when the system is predicted to have reached its full
   capacity.
-* :guilabel:`Sleds`: The total number of Sleds per rack.
+* :guilabel:`Sleds`: The total number of Sleds per system.
 * :guilabel:`Deployment`: Indicates the type of the system, single site (1-Geo) or multi site (3-Geo).
 * :guilabel:`Version`: Displays the installed version of |as| on the system.
 * :guilabel:`Racks`: The total number of racks of the system.
