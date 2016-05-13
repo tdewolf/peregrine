@@ -4,6 +4,8 @@
 
 .. |se_io_property| image:: ../../_static/se_io_property.png
 
+.. |drive_replace| image:: ../../_static/drive_replace.png
+
 .. _storage_enclosure_inventory:
 
 Storage Enclosure Inventory
@@ -16,6 +18,15 @@ The storage enclosure inventory displays the number of disks, fans, I/O modules 
 Hover over a fan, I/O module or power module to obtain their details.
 
 |se_fan_property| |se_io_property|
+
+In the sleds overview, the drives that need replacement are flagged. The flagging of disks is based on
+|prod| statistical analysis.
+
+|drive_replace|
+
+
+Drive Details
+-------------
 
 Click :guilabel:`Show All Drives` to display the disks table.
 
