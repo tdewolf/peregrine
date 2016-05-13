@@ -1,7 +1,7 @@
-.. _syshealth_performance:
+.. _syshealth_usage_patterns:
 
-System Performance
-==================
+System Usage Patterns
+=====================
 
 .. toctree::
 

@@ -3,7 +3,8 @@
 Install Base
 ============
 
-The :guilabel:`Install Base` panel displays a table with all customers and some of its basic information. 
+The :guilabel:`Install Base` panel displays a table with all customers and some of their basic 
+information. 
 
 
 Install Base Table

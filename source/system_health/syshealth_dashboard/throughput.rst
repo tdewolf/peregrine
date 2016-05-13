@@ -7,7 +7,7 @@
 Throughput
 ==========
 
-The :guilabel:`Throughput` panel displays the used bandwidth for PUT and GET operations (separated) over
+The :guilabel:`Throughput` panel displays the used bandwidth for Read and Write operations (separated) over
 time.
 
 |throughput|

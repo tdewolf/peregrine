@@ -1,13 +1,13 @@
 .. |forecast| image:: ../../_static/forecast.png
    :scale: 75%
 
-.. |usage_threshold| image:: ../../_static/usage_threshold.png
+.. |capacity_threshold| image:: ../../_static/capacity_threshold.png
    :scale: 75%
 
 .. _historic_usage:
 
-Historic Usage and Forecast
-===========================
+Historic Capacity Usage
+=======================
 
 @todo: forecast on rack or setup level?
 
@@ -20,7 +20,7 @@ up or down.
 
 |forecast|
 
-The :guilabel:`Usage Threshold` graphic displays the current storage usage.
+The :guilabel:`Capacity Threshold` graphic displays the current storage usage.
 
-|usage_threshold|
+|capacity_threshold|
 

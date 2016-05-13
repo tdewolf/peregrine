@@ -7,8 +7,8 @@
 Response Time
 =============
 
-The :guilabel:`Response Time` panel displays the history of the response times of the system for PUT and
-GET operations. The graphic can help you in identifying possible network issues.
+The :guilabel:`Response Time` panel displays the history of the response times of the system for Read and
+Write operations. The graphic can help you in identifying possible network issues.
 
 |response_time|
 

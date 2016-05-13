@@ -3,6 +3,7 @@
 .. |search_inventory_result| image:: ../_static/search_inventory_result.png
 
 .. |filter_search_results| image:: ../_static/filter_search_results.png
+   :scale: 70
 
 .. _searching_in_peregrine:
 

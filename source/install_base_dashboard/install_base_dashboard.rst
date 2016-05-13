@@ -15,7 +15,7 @@ It is also the default view when you log in to |prod|.
    install_base.rst
    top_customers.rst
    object_sizes.rst
-   time_to_full_capacity.rst
+   storage_capacity_forecast.rst
    activity.rst
    systems_deployed.rst
    availability.rst
