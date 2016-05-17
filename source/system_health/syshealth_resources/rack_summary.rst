@@ -40,7 +40,7 @@ The summary of a Controller Node (CNx) or Storage Node (SNx)  displays the follo
 * **Network**: name and type of network interfaces
 
 The full inventory of a Controller or Storage Node can be found in the :ref:`inventory table
-<ctrl_sn_inventory>`.
+<stor_ctrl_node_inventory>`.
 
 
 Storage Enclosure
@@ -59,5 +59,5 @@ The summary of a Storage Enclosure (SExx) contains this data:
 * **Type**: type of the sled (@todo: what's this?) 
 
 The full inventory of a Storage Enclosure can be found in the :ref:`inventory table
-<stor_enc_inventory>`.
+<storage_enclosure_inventory>`.
 
