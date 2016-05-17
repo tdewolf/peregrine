@@ -10,7 +10,7 @@ case of disk failures.
 
 In :guilabel:`Erasure Coding Overhead` report you can see the ratio between the actual user data capacity 
 and the erasure coding overhead capacity. The panel label also indicates the raw capacity that is
-reserved for metadata on the system.
+taken by the erasure coding.
 
 |erasure_coding_overhead|
 

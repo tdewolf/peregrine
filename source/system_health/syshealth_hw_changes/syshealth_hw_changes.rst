@@ -1,6 +1,10 @@
 .. |hw_changes| image:: ../../_static/hw_changes.png
    :scale: 70
 
+.. |hw_changes_powercycle| image:: ../../_static/hw_changes_powercycle.png
+
+.. |hw_changes_se| image:: ../../_static/hw_changes_se.png
+
 .. _syshealth_hw_changes:
 
 Hardware Changes
@@ -13,6 +17,8 @@ The time line indicates replaced parts and added parts information and the affec
 
 |hw_changes|
 
-On the time line itself you find the affected device in a green bullet. Hovering your mouse over the
-bullet displays the details of the device, such as type and affected node.
+On the time line itself you find the affected device or action that has been executed. Hovering your 
+mouse over the bullet displays the details of the device, such as type and affected node.
 
+* |hw_changes_se|: disk in a storage enclosure
+* |hw_changes_powercycle|: indication of a node restart

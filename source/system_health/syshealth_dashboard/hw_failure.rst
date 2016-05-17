@@ -1,10 +1,14 @@
 .. _hw_failure:
 
-Hardware Failure
-================
+Hardware Failures
+=================
 
-The :guilabel:`Hardware Failure` panel displays hardware failures of the selected system. It helps you 
+The :guilabel:`Hardware Failures` panel displays hardware failures of the selected system. It helps you 
 to quickly and precisely identify the devices that you have to replace.
+
+.. note::
+
+   In this release, only disk failures apppear in the :guilabel:`Hardware Failures` table.
 
 The hardware failures are stored in a table, which can be sorted by column in ascending or descending
 order.

@@ -11,7 +11,7 @@ The :guilabel:`Usage Patterns` tab on the :guilabel:`System Health` page of a sy
 of all storage related actions. These actions are divided into three levels: storage, compute and 
 network.
 
-On top of the page you can filter the data by date and you can select the statistics that you want to
+At the top of the page, you can filter the data by date and you can select the statistics that you want to
 see. By default the :ref:`Storage Total Writes <usage_pattern_storage>`, :ref:`CPU Usage
 <usage_pattern_compute>` and :ref:`Network Received Data <usage_pattern_network>` are displayed.
 
@@ -20,7 +20,7 @@ Available Statistics
 --------------------
 
 Besides the default statistics, you can select the following ones via the :guilabel:`Select Stats` menu 
-on top of the :guilabel:`System Health` page.
+at the top of the :guilabel:`System Health` page.
 
 * Total Read/Writes
 * Total Reads 

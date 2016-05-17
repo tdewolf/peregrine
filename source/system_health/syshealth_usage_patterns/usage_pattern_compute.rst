@@ -5,7 +5,7 @@
 Compute Usage Pattern
 =====================
 
-On Compute level, |prod| captures the following data:
+There are three different usage patterns on compute level:
 
 * :guilabel:`CPU usage` (default): CPU utilization, averaged across all Controller and Storage Nodes
 * :guilabel:`RAM`: available memory over time, averaged across all Controller and Storage Nodes

@@ -4,19 +4,20 @@
 .. |capacity_threshold| image:: ../../_static/capacity_threshold.png
    :scale: 75%
 
-.. _historic_usage:
+.. _storage_capacity_usage:
 
-Historic Capacity Usage
-=======================
+Storage Capacity Usage
+======================
 
-@todo: forecast on rack or setup level?
+The :guilabel:`Storage Capacity Usage` panel visualizes the forecast of the storage usage and when the
+storage capacity will reach its threshold. The threshold is by default set on 80%.
 
-The Forecast predicts storage utilization in upcoming months (light grey) based on this system's 
-historical data (dark grey). The red line is the usage threshold. If the prediction is close to 
-this threshold, increase the system's capacity.
+This graphic allows you to closely monitor the evolution of the storage consumption and to plan the
+increase of the system's storage capacity.
 
-The default threshold is 80% of the total capacity, but you can lower or raise it by moving the red line
-up or down.
+The threshold of 80% is displayed by the orange line in the panel. You can increase or decrease the
+threshold line, this automatically updates the date of reaching the storage capacity threshold. Click
+:guilabel:`Reset` to reset the threshold to 80%.
 
 |forecast|
 

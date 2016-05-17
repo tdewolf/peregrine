@@ -5,7 +5,7 @@
 Storage Usage Pattern
 =====================
 
-|prod| provides three different storage performance statistics:
+|prod| provides three different usage patterns for storage:
 
 * :guilabel:`Total Writes` (default): total number of write operations, averaged across all the Controller Nodes 
   and Storage Nodes.

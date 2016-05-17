@@ -21,8 +21,7 @@ The summary of a switch (SWx) contains the following data:
   Internet?)
 * **Operating System**: installed OS on the switch
 * **Serial Number**: the serial number of the switch
-* **System Description**: short description of the switch, custom description added by installer (@todo
-  who adds the description?)
+* **System Description**: short description of the switch, as defined on the |as| system.
 * **System Up Time**: uptime of the switch
 
 The full inventory of the switch can be found in the :ref:`inventory table <switch_inventory>`.
@@ -47,7 +46,7 @@ The full inventory of a Controller or Storage Node can be found in the :ref:`inv
 Storage Enclosure
 -----------------
 
-The summary of a Storage Enclosure (SEx) contains this data:
+The summary of a Storage Enclosure (SExx) contains this data:
 
 * **FAN**: number of fans
 * **PartNum**: identification of the storage enclosure
@@ -55,7 +54,7 @@ The summary of a Storage Enclosure (SEx) contains this data:
 * **SerialNum**: serial number of the storage enclosure
 * **Vendor**: name of the storage enclosure's vendor
 * **IOM**: number of ... (@todo: what's the meaning of IOM?)
-* **Product**: name of the hardware product, for example Pikes Peak or Mount Whitney
+* **Product**: name of the storage enclosure hardware, for example Pikes Peak or Haleakala
 * **SLED**: number of disk sleds in the enclosure
 * **Type**: type of the sled (@todo: what's this?) 
 

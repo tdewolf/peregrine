@@ -5,7 +5,7 @@
 Network Usage Pattern
 =====================
 
-To consult the network usage pattern of a system, you have three statistics:
+You can consult the network usage pattern of a system via three statistics:
 
 * :guilabel:`Rx` (default): received amount of data in KB, averaged across all Controller Nodes and Storage
   Nodes.
