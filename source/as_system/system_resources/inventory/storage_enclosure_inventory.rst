@@ -30,13 +30,13 @@ Drive Details
 
 Click :guilabel:`Show All Drives` to display the disks table.
 
-* **Slot**: the ID of the slot in the storage enclosure where the disk is located
+* **Physical Slot #**: the ID of the slot in the storage enclosure where the disk is located
 * **% Used**: percentage of the used disk capacity
 * **Type**: type of the disk
-* **Logical Device**: name of the logical device on the disk
-* **Size**: size of the logical device
+* **Logical Name**: name of the logical device on the disk
+* **Size**: usable disk space
 * **Vendor**: name of the disk vendor
-* **Product**: model identification of the disk
+* **Model**: model identification of the disk
 * **Serial**: serial number of the disk, this can be used for verfication in case of a disk replacement
 * **Firmware**: firmware version on the disk
 * **Description**: description of the disk

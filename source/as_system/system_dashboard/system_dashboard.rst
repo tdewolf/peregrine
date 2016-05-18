@@ -1,10 +1,9 @@
-.. _syshealth_dashboard:
+.. _system_dashboard:
 
-System Health Dashboard
-=======================
+System Dashboard
+================
 
-The :guilabel:`System Health Dashboard` gives you an overview of the selected system's health at a
-glance.
+The :guilabel:`System Dashboard` gives you an overview of the selected system's health at a glance.
 
 On top of the page you can :ref:`specify the date range <filtering_data>` for which you want to consult 
 the system health.

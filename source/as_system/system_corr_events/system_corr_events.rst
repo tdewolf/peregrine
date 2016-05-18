@@ -7,13 +7,13 @@
 .. |correlation_detail_storage| image:: ../../_static/correlation_detail_storage.png
    :scale: 70
 
-.. _syshealth_corr_events:
+.. _system_corr_events:
 
 Correlated Events
 =================
 
-The Correlated Events tab features a chart with bars for various correlations. The correlations display
-the relationship between two statistics.
+The :guilabel:`Correlated Events` tab features a chart with bars for various correlations. The 
+correlations display the relationship between two statistics.
 
 |correlations|
 

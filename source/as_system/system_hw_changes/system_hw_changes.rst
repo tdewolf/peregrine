@@ -5,7 +5,7 @@
 
 .. |hw_changes_se| image:: ../../_static/hw_changes_se.png
 
-.. _syshealth_hw_changes:
+.. _system_hw_changes:
 
 Hardware Changes
 ================

@@ -1,7 +1,7 @@
-.. _rack_resources:
+.. _system_resources:
 
-Rack Resources
-==============
+System Resources
+================
 
 .. toctree::
 

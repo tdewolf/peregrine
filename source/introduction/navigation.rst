@@ -11,7 +11,7 @@ To easily navigate through the various sections in |prod|, there is a breadcrumb
 
 #. Home page of |prod|, which is the :ref:`Install Base Dashboard <install_base_dashboard>`.
 #. The second item of the breadcrumb is the name of the :ref:`customer <customer_dashboard>`.
-#. The third item is the name of the :ref:`customer's system <system_health>`.
+#. The third item is the name of the :ref:`customer's system <as_system>`.
 #. The possible fourth item of the breadcrumb is the name of a subsection of a system, for example a tab
    page.
 

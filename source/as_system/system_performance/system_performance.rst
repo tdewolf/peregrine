@@ -1,4 +1,4 @@
-.. _syshealth_system_performance:
+.. _system_performance:
 
 System Performance
 ==================

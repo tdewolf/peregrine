@@ -1,4 +1,4 @@
-.. _syshealth_usage_patterns:
+.. _system_usage_patterns:
 
 System Usage Patterns
 =====================

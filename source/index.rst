@@ -12,7 +12,7 @@
    introduction/introduction.rst
    install_base_dashboard/install_base_dashboard.rst
    customer_dashboard/customer_dashboard.rst
-   system_health/system_health.rst
+   as_system/as_system.rst
    ops_reports/ops_reports.rst
    accounts/accounts.rst
    profile/profile.rst

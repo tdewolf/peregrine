@@ -1,4 +1,4 @@
-.. _capacity_planner:
+.. _system_capacity_planner:
 
 Capacity Planner
 ================
