@@ -5,8 +5,8 @@
 Customer Capacity
 =================
 
-The :guilabel:`Capacity` panel on the customer's dashboard displays a pie chart with the percentages of
-the used capacity and the free storage capacity.
+The :guilabel:`Storage Capacity` panel on the customer's dashboard displays a pie chart with the 
+percentages of the used capacity and the free storage capacity.
 
 |customer_capacity|
 
