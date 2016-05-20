@@ -19,10 +19,16 @@ import os
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
+def setup(app):
+    app.add_config_value('branding','hgst',True)
+    app.add_config_value('persona','admin',True)
+
 branding = os.environ.get('BRANDING', 'hgst')
 brandings = {
-    'hgst': ('ActiveScale CM', 'HGST', '1.1','ActiveScale Cloud Management','ActiveScale SM'),
+    'hgst': ('ActiveScale CM', 'HGST', '1.1','ActiveScale Cloud Management','ActiveScale system'),
 }
+
+persona = os.environ.get('PERSONA','admin')
 
 rst_epilog = """
 .. |prod| replace:: %s
@@ -31,6 +37,7 @@ rst_epilog = """
 .. |prodlong| replace:: %s
 .. |as| replace:: %s
 """% brandings[branding]
+
 
 # -- General configuration ------------------------------------------------
 

@@ -3,7 +3,7 @@
 .. |select_grid_view| image:: ../_static/grid_view.png
 
 .. _install_base_dashboard:
-
+   
 Install Base Dashboard
 ======================
 
@@ -20,4 +20,4 @@ It is also the default view when you log in to |prod|.
    systems_deployed.rst
    availability.rst
    sw_versions.rst
-
+   
