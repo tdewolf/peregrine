@@ -1,9 +1,9 @@
 .. _as_system:
 
-System Health
-=============
+ActiveScale System
+==================
 
-The :guilabel:`System Health` page provides detailed information about a selected system. The information
+The :guilabel:`ActiveScale System` page provides detailed information about a selected system. The information
 includes amongst others the system information, alerts, events and so on.
 
 .. toctree::

@@ -1,6 +1,8 @@
 .. |ops_per_sec| image:: ../../_static/ops_per_sec.png
+   :scale: 70
 
 .. |ops_per_sec_put| image:: ../../_static/ops_per_sec_put.png
+   :scale: 70
 
 .. _transactions_per_second:
 

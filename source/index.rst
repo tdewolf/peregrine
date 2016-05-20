@@ -10,9 +10,7 @@
    :maxdepth: 2
 
    introduction/introduction.rst
-   .. ifconfig:: persona != 'customer'
-
-      install_base_dashboard/install_base_dashboard.rst
+   install_base_dashboard/install_base_dashboard.rst
    customer_dashboard/customer_dashboard.rst
    as_system/as_system.rst
    ops_reports/ops_reports.rst

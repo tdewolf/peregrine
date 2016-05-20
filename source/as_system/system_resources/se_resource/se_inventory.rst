@@ -1,19 +1,27 @@
 .. |se_inventory| image:: ../../../_static/se_inventory.png
 
+.. |se_inventory_customer| image:: ../../../_static/se_inventory_customer.png
+
 .. |se_fan_property| image:: ../../../_static/se_fan_property.png
 
 .. |se_io_property| image:: ../../../_static/se_io_property.png
 
 .. |drive_replace| image:: ../../../_static/drive_replace.png
 
-.. _storage_enclosure_inventory:
+.. _se_inventory:
 
 Storage Enclosure Inventory
 ===========================
 
 The storage enclosure inventory displays the number of disks, fans, I/O modules and power modules.
 
-|se_inventory|
+.. ifconfig:: persona != 'customer'
+
+   |se_inventory|
+
+.. ifconfig:: persona == 'customer'
+
+   |se_inventory_customer|
 
 Hover over a fan, I/O module or power module to obtain their details.
 

@@ -3,7 +3,13 @@
 Customer Dashboard
 ==================
 
-The customer dashboard displays detailed information about the customer's deployments.
+.. ifconfig:: persona != 'customer'
+
+   The customer dashboard displays detailed information about the customer's deployments.
+
+.. ifconfig:: persona == 'customer'
+
+   The dashboard displays detailed information about your deployments. 
 
 .. toctree::
 

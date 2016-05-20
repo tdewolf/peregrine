@@ -1,4 +1,4 @@
-.. _stor_ctrl_node_inventory:
+.. _cn_sn_inventory:
 
 Controller and Storage Node Inventory
 =====================================

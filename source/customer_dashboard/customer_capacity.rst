@@ -1,13 +1,13 @@
-.. |customer_capacity| image:: ../_static/customer_capacity.png
+.. |storage_capacity| image:: ../_static/storage_capacity.png
 
-.. _customer_capacity:
+.. _storage_capacity:
 
-Customer Capacity
-=================
+Storage Capacity
+================
 
 The :guilabel:`Storage Capacity` panel on the customer's dashboard displays a pie chart with the 
 percentages of the used capacity and the free storage capacity.
 
-|customer_capacity|
+|storage_capacity|
 
 The information is aggregated over all systems of a customer.

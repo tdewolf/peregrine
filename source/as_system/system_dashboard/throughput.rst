@@ -1,6 +1,8 @@
 .. |throughput| image:: ../../_static/throughput.png
+   :scale: 70
 
 .. |throughput_get| image:: ../../_static/throughput_get.png
+   :scale: 70
 
 .. _throughput:
 

@@ -20,23 +20,17 @@ import os
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 def setup(app):
-    app.add_config_value('branding','hgst',True)
     app.add_config_value('persona','admin',True)
 
-branding = os.environ.get('BRANDING', 'hgst')
-brandings = {
-    'hgst': ('ActiveScale CM', 'HGST', '1.1','ActiveScale Cloud Management','ActiveScale system'),
-}
-
-persona = os.environ.get('PERSONA','admin')
+persona = os.environ.get('PERSONA')
 
 rst_epilog = """
-.. |prod| replace:: %s
-.. |comp| replace:: %s
-.. |version| replace:: %s
-.. |prodlong| replace:: %s
-.. |as| replace:: %s
-"""% brandings[branding]
+.. |prod| replace:: ActiveScale CM
+.. |comp| replace:: HGST
+.. |version| replace:: 1.1
+.. |prodlong| replace:: ActiveScale Cloud Management
+.. |as| replace:: ActiveScale system
+"""
 
 
 # -- General configuration ------------------------------------------------

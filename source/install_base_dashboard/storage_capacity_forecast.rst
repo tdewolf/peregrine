@@ -1,9 +1,9 @@
-.. _time_to_full_capacity:
+.. _storage_capacity_forecast:
 
-Time to Full Capacity
-=====================
+Storage Capacity Forecast
+=========================
 
-The :guilabel:`Time to Full Capacity` panel predicts when a customer's aggregated capacity will be fully
+The :guilabel:`Storage Capacity Forecast` panel predicts when a customer's aggregated capacity will be fully
 consumed. This prediction is based on the analysis of historic and forecasted usage consumption. 
 
 You can sort the table in ascending and descending order, by clicking any of the two column headers. 

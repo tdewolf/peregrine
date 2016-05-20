@@ -1,12 +1,12 @@
-.. _system_usage_patterns:
+.. ifconfig:: persona == 'admin'
 
-System Usage Patterns
-=====================
-
-.. toctree::
-
-   general_usage_pattern.rst
-   usage_pattern_storage.rst
-   usage_pattern_compute.rst
-   usage_pattern_network.rst
+   System Usage Patterns
+   =====================
+   
+   .. toctree::
+   
+      general_usage_pattern.rst
+      usage_pattern_storage.rst
+      usage_pattern_compute.rst
+      usage_pattern_network.rst
 

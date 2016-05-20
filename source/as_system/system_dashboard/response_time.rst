@@ -1,6 +1,8 @@
 .. |response_time| image:: ../../_static/response_time.png
+   :scale: 70
 
 .. |response_time_put| image:: ../../_static/response_time_put.png
+   :scale: 70
 
 .. _response_time:
 
