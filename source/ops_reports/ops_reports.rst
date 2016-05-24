@@ -3,9 +3,17 @@
 Operational Reports
 ===================
 
-Operational reports provide you clear overviews about the usage of system. This includes the requests per
-user, requests per file, file sizes and erasure coding overhead.
+.. ifconfig:: persona != 'customer'
 
+   Operational reports provide you clear overviews about the usage of a system. This includes the 
+   requests per bucket, requests per file, file sizes and :term:`erasure coding <Erasure Coding>` 
+   overhead.
+   
+.. ifconfig:: persona == 'customer'
+
+   Operational reports provide you clear overviews about the usage of a system. This includes the 
+   requests per bucket, requests per file and file sizes.
+   
 For each of the reports, you can specify a :ref:`period <filtering_data>` for which you want the data.
 
 .. toctree::

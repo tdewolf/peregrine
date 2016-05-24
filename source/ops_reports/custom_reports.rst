@@ -8,5 +8,7 @@ enter natural language, such as "What should we worry about in the next few week
 
 The results page varies according the data that you're looking for. 
 
-For example, the list of buckets is displayed per rack, the list of things to worry about in the next few
-weeks is displayed per customer.
+For example, when you look up the list of buckets, the results page displays the buckets per rack. When
+you look for the list of things to worry about in the next few weeks, the results page displays a list
+per customer.
+

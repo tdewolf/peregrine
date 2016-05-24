@@ -8,8 +8,8 @@
 File Size
 =========
 
-In the :guilabel:`File Size` report, you get a schematic overview of the percentage of files per file
-size, stored on the selected system.
+In the :guilabel:`File Size` report, you get an overview of the percentage of files per file size, stored 
+on the selected system.
 
 |file_size_report|
 

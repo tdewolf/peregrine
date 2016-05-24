@@ -9,6 +9,10 @@
 Updating a User
 ===============
 
+.. note::
+
+   Only Super Users can update the user information.
+
 When the data of a user is outdated, you can update it in the :guilabel:`Manage Accounts` section.
 
 To update a user:

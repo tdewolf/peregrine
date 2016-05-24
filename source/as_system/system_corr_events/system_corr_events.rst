@@ -9,7 +9,7 @@
    |correlations|
    
    Click any correlation bar to get detailed time series correlation data along with issues and suggestions.
-   The detailed time series are displayed per controller nodes and per storage nodes. 
+   The detailed time series are displayed per controller node and per storage node. 
    
    In these detailed correlation graphics, you can have an insight on how differenct statistics are related 
    to each other. 

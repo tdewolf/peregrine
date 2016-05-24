@@ -18,9 +18,13 @@ Glossary
       unavailable to restore the whole object (Y). 
       |prod| supports two data safeties: 15/5 and 18/8. 
 
+.. ifconfig:: persona != 'customer'
+
    Erasure Coding
       Erasure coding is a way to split an object into chunks and each chunk is stored on a separate disk.
       The erasure code is able to rebuilt every chunk from other chunks if a chunk is missing. 
+
+.. ifconfig:: persona in ('customer', 'oem', 'admin')
 
    IPMI
       Intelligent Platform Management Interface. It is an interface to monitor the health of remote
@@ -31,9 +35,13 @@ Glossary
       JSON (JavaScript Object Notation) is a lightweight data-interchange format which is human readable
       and easy to generate.
 
+.. ifconfig:: persona != 'customer'
+
    Persona
       The persona identifies the type of the user and defines the information that is available to this
-      user. There arethree types of persona: admin, customer, and OEM. 
+      user. There are three types of persona: admin, customer, and OEM. 
+
+.. ifconfig:: persona in ('customer', 'oem', 'admin')
 
    Role
       The role of a user defines the user rights. As "User", you can only consult information, as "Super

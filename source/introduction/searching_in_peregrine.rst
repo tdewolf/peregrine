@@ -40,8 +40,8 @@ Filtering Search Results
 
 In the search result window, you can narrow down the number of results by selecting extra filters.
 
-The filters are located on the right-hand side of the results window. Each of the items give an
-indication on the number of results it will return when selecting the filter item. 
+The filters are located on the right-hand side of the results window. Each of the items indicates the 
+number of results it will return when selecting the filter item. 
 
 Click the item to activate the item as filter.
 

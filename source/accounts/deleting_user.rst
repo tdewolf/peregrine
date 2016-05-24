@@ -10,7 +10,7 @@ delete the user.
 
 .. warning::
 
-   Deleting a user is an irreversible action.
+   Deleting a user is an irreversible action. Only Super Users can delete users.
 
 To delete a user:
 

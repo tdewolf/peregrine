@@ -9,5 +9,4 @@ on the evolution in the upcoming months.
 .. toctree::
 
    historic_usage.rst
-   customize_forecast.rst
 

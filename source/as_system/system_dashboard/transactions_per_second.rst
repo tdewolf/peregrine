@@ -9,7 +9,7 @@
 Transactions per Second
 =======================
 
-The :guilabel:`Transactions/seconds` panel displays the setup's overall operations per second.
+The :guilabel:`Transactions/seconds` panel displays the system's overall operations per second.
 
 |ops_per_sec|
 

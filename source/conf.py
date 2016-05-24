@@ -29,7 +29,7 @@ rst_epilog = """
 .. |comp| replace:: HGST
 .. |version| replace:: 1.1
 .. |prodlong| replace:: ActiveScale Cloud Management
-.. |as| replace:: ActiveScale system
+.. |as| replace:: Object Storage
 """
 
 

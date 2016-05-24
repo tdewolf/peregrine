@@ -7,9 +7,8 @@
 About the Usage Patterns
 ========================
 
-The :guilabel:`Usage Patterns` tab on the :guilabel:`System Health` page of a system contains the graphics 
-of all storage related actions. These actions are divided into three levels: storage, compute and 
-network.
+The :guilabel:`Usage Patterns` tab on the :guilabel:`System` page contains the graphics of all storage 
+related actions. These actions are divided into three levels: storage, compute and network.
 
 At the top of the page, you can filter the data by date and you can select the statistics that you want to
 see. By default the :ref:`Storage Total Writes <usage_pattern_storage>`, :ref:`CPU Usage
@@ -20,7 +19,7 @@ Available Statistics
 --------------------
 
 Besides the default statistics, you can select the following ones via the :guilabel:`Select Stats` menu 
-at the top of the :guilabel:`System Health` page.
+at the top of the :guilabel:`System` page.
 
 * Total Read/Writes
 * Total Reads 
@@ -35,7 +34,7 @@ Graphics
 
 The performance page is split into three graphics per available statistic.
 
-* In the left panel, you find the statistics in a time series way, divided between Controller and Storage
+* In the left panel, you find the statistics in a time series, divided between Controller and Storage
   Nodes.
 * On the right you find the issues in chronological order on the Controller Nodes and the Storage Nodes. 
 
@@ -55,20 +54,24 @@ When you click an issue in the time series the bullet turns green and the issue 
 corresponding controller or storage graphic.
 
 
-Time Series
------------
+Zoom
+----
 
-The time series graphic displays the statistics over a period in time. The zoom level of the time series 
-graphic depends on the date range you have selected on top of the :guilabel:`System Health` page. In each 
-of the time series graphic, you can zoom in to a specific period. Click :guilabel:`Reset zoom` to return 
-to the default zoom level.
+The zoom level of the time series graphic depends on the date range you have selected on top of the 
+:guilabel:`System` page. In each of the time series graphic, you can zoom in to a specific period. Click 
+:guilabel:`Reset zoom` to return to the default zoom level.
 
 Keep in mind that zooming in on the time series may update the scale units on the Y-axis.
 
 For example when the Y-axis has a range of 0 to 50k and you create a selection with the lower boundary at
 10k, the origin of the Y-axis then starts at 10k and not the original 0.
 
-You can download (|download_icon|) the time series in the following formats:
+
+Time Series
+-----------
+
+The time series graphic displays the statistics over a period in time. You can download (|download_icon|) 
+the time series in the following formats:
 
 * PNG
 * JPEG
@@ -79,8 +82,7 @@ You can download (|download_icon|) the time series in the following formats:
 Issue Details
 -------------
 
-The content of the issue details panel depends on the type of information. This information may be
-graphical or textual.
+The content of the issue details panel may be graphical or textual.
 
 If the content is graphical, you can click on the node names underneath the graphic to disable (greyed 
 out) or enable (bold) the node's information. 

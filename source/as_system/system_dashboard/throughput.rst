@@ -10,7 +10,7 @@ Throughput
 ==========
 
 The :guilabel:`Throughput` panel displays the used bandwidth for Read and Write operations (separated) over
-time.
+time. The displayed information is aggregated from all racks of a system.
 
 |throughput|
 

@@ -9,9 +9,15 @@
 Workload
 ========
 
-The :guilabel:`Workload` panel displays the workload of the aggregated systems of a customer. In the
-panel, you find two pie-chart graphics and two time-line graphics.
+.. ifconfig:: persona != 'customer'
 
+   The :guilabel:`Workload` panel displays the workload of the aggregated systems of a customer. In the
+   panel, you find two pie-chart graphics and two time-line graphics.
+
+.. ifconfig:: persona == 'customer'
+
+   The :guilabel:`Workload` panel displays the workload of all your systems. In the panel, you find two 
+   pie-chart graphics and two time-line graphics.
 
 Pie-Chart Graphics
 ------------------

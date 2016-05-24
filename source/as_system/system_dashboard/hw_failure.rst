@@ -4,7 +4,7 @@ Hardware Failures
 =================
 
 The :guilabel:`Hardware Failures` panel displays hardware failures of the selected system. It helps you 
-to quickly and precisely identify the devices that you have to replace.
+to quickly and precisely identify the devices that you may need service or replacement.
 
 .. note::
 

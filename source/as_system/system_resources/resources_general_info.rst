@@ -5,12 +5,12 @@
 About Resources
 ===============
 
-On the :guilabel:`Resources` tab of a system's :guilabel:`System Health` page, you get an overview of the
-system's resources. A resource is any physical component of the system.
+On the :guilabel:`Resources` tab of a :guilabel:`System` page, you get an overview of the system's 
+resources. A resource is any physical component of the system.
 
-The :guilabel:`Resources` tab displays the summary of a rack and the rack's full :ref:`inventory 
-<inventory>`. In case that the system is a multi site system, you can select the rack by clicking the 
-rack name above the rack image. This opens a menu with the list of racks in the system.
+The :guilabel:`Resources` tab displays the summary of the rack devices and their full inventory. In case 
+that the system is a multi site system, you can select the rack by clicking the name above the rack 
+image. This opens a menu with the list of racks in the system.
 
 |select_rack|
 

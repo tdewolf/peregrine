@@ -43,7 +43,7 @@ Click :guilabel:`Show All Drives` to display the disks table.
 * **Type**: type of the disk
 * **Logical Name**: name of the logical device on the disk
 * **Size**: usable disk space
-* **Vendor**: name of the disk vendor
+* **Vendor**: name of the disk manufacturer
 * **Model**: model identification of the disk
 * **Serial**: serial number of the disk, this can be used for verfication in case of a disk replacement
 * **Firmware**: firmware version on the disk

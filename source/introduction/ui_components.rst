@@ -40,7 +40,6 @@ help icon (|csh_help|).
 Some information can be dowloaded via the panel:
 
 * **graphical data**: Click the download icon in the panel (|download_graph|) to download the graphic.
-  You can download the information in various formats (PNG, JPEG, PDF, SVG) or directly sent to a
-  printer.
+  You can download the information in various formats (PNG, JPEG, PDF, SVG) or to a printer.
 * **tables**: Click the :guilabel:`Export to CSV` link in the panel to download the data in CSV format.
 

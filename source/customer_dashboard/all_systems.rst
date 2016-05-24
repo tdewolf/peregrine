@@ -3,8 +3,7 @@
 All Systems
 ===========
 
-In the :guilabel:`All Systems` panel of the customer dashboard, you find an overview of the customer's 
-deployed systems.
+In the :guilabel:`All Systems` panel of the dashboard, you find an overview of your deployed systems.
 
 In the overview, you find the following information:
 
@@ -17,7 +16,7 @@ In the overview, you find the following information:
   capacity.
 * :guilabel:`Drive Sled`: The total number of Sleds per system.
 * :guilabel:`Deployment`: Indicates the type of the system, single site (1-Geo) or multi site (3-Geo).
-* :guilabel:`Version`: Displays the installed version of |as| on the system.
+* :guilabel:`Version`: Displays the installed version of the |as| on the system.
 * :guilabel:`Racks`: The total number of racks of the system.
 
 To reduce the number of records in the displayed table, you can add a free text query in the

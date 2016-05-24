@@ -11,7 +11,7 @@ The :guilabel:`System Summary` panel on the dashboard summarizes the system's co
 * **Serial Number**: serial number of the system
 * **Software**: name and version of the software
 * **Telemetry Version**: the telemetry version used on the system
-* **Platform**: name and version of the hardware platform (Active Archive, Mount Whitney, ...)
+* **Platform**: name and version of the hardware platform, for example ActiveScale X-100
 * **Switches**: the number of switches in the system
 * **Controller Nodes**: the number of :term:`Controller Nodes <Controller Node>` in the system
 * **Storage Nodes**: the number of :term:`Storage Nodes <Storage Node>` in the system

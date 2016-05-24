@@ -5,7 +5,13 @@
 Overall System Statistic
 ========================
 
-At the bottom of the customer dashboard, you find the following overall statistics of the customer:
+.. ifconfig:: persona != 'customer'
+
+   At the bottom of the customer dashboard, you find the following overall statistics of the customer:
+
+.. ifconfig:: persona == 'customer'
+
+   At the bottom of your dashboard, you find the following overall statistics:
 
 * :guilabel:`Object Count`: The total number of objects, stored on all setups of the customer.
 * :guilabel:`S3 Users`: The total number of S3 users of the customer.

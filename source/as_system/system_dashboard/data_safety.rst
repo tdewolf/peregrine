@@ -18,7 +18,7 @@ For example, 15/5 means that the object is divided into 15 segments and each seg
 different disk. The 5 indicates that |as| can reconstruct the object with up to 5 missing disks and
 thus 5 missing object segments.
 
-In the panel you see the number of disks that may loose and how many disks are unavailable (empty block).
+In the panel you see the number of disks that may be offline and how many disks are actually unavailable.
 
 
 Examples

@@ -7,6 +7,10 @@
 Enabling and Disabling a User
 =============================
 
+.. note::
+
+   Only Super Users can disable or enable users.
+
 Enabling and disabling a user allows you to quickly activate and deactivate a user. By disabling a user,
 you disallow all access to the web user interface but you keep the user's data. When you enable a user,
 the user data is re-activated and can start where he or she left off.

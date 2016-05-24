@@ -5,7 +5,7 @@ Customer Dashboard
 
 .. ifconfig:: persona != 'customer'
 
-   The customer dashboard displays detailed information about the customer's deployments.
+   The customer dashboard displays detailed information about the deployments of your customers.
 
 .. ifconfig:: persona == 'customer'
 
