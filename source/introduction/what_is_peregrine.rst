@@ -3,13 +3,18 @@
 Introducing |prodlong|
 ======================
 
-|prod| is a software suite to monitor and analyze all |as| systems. By monitoring and analyzing
-the systems, |prod| can inform you for possible issues and gives you the opportunity to proactively
-intervene and avoid downtime of the systems. 
+|prod| is a software suite which retrieves the useful information from all |as| systems and creates
+reports from this data. These reports of the systems give you better insights on how the systems and 
+their data are being used. 
 
-For example, |prod| provides a variety of reports which help you better understand the behavior of the 
-various |as| systems. Almost every panel in |prod| is a report, but you can also make reports by making 
-custom queries.
+For example, you can detect the periods of peak utilization of the |as| systems and verify the 
+corresponding performance statistics. Or you can identify the buckets with the highest amount of files or
+highest used storage capacity.
+
+Besides the reporting, |prod| analyzes the ingested data and it can correlate two events with each other
+
+The analysis of the data informs you of possible issues and gives you the opportunity to proactively 
+intervene and avoid downtime of the systems. 
 
 .. ifconfig:: persona != 'customer'
 
@@ -20,6 +25,6 @@ custom queries.
 
    The actions that you can perform in |prod|, depend on the :term:`role`.
 
-All data, except for the accounts and user information, are taken from the |as| databases and cannot be 
-changed in |prod|.
+All data, except for the |prod| user information, are taken from the |as| databases and cannot be 
+changed.
 

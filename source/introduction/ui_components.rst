@@ -15,20 +15,37 @@ UI Components
 
 The |prod| interface is divided in two main sections:
 
-* a top bar with the search function, operational reports link and the profile menu.
-* the main page with various panels, which vary per page.
+* a :ref:`top bar <top_bar>`
+* the :ref:`main page <main_page>`  with various panels, which vary per page.
 
+
+.. _top_bar:
 
 Top Bar
 -------
 
 In the top bar you find the following components:
 
-* |search|: icon to open the search window
-* link to "Operational Reports"
-* |full_screen|: icon to open |prod| in full screen mode
-* |peregrine_avatar|: icon to open user and account specific actions 
+.. ifconfig:: persona == 'customer'
 
+   * |search|: icon to open the search window
+   * link to :ref:`Operational Reports <ops_reports>`
+   * |full_screen|: icon to open |prod| in full screen mode
+   * |peregrine_avatar|: icon to open user and account specific actions 
+
+.. ifconfig:: persona != 'customer'
+
+   * |full_screen|: icon to open |prod| in full screen mode
+   * |peregrine_avatar|: icon to open the user and account specific actions
+
+   The following items are not available on the :ref:`Install Base Dashboard <install_base_dashboard>`,
+   you first have to select a customer to make them visible:
+
+   * |search|: icon to open the search window
+   * link to :ref:`Operational Reports <ops_reports>`
+   
+
+.. _main_page:
 
 Main Page
 ---------

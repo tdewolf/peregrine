@@ -12,7 +12,7 @@
         \vspace{-0.2cm}{\hspace{-1.3cm}\includegraphics[width=1.0cm]{../../source/_static/HGST_Pictogram_4C_Innovation.png}}
         \textsf{\textbf{\textcolor{white}{\Huge {Administration Guide\\}}}}\\
         \textsf{\textbf{\textcolor{white}{\huge {ActiveScale Cloud Management\\}}}}\\
-        \textsf{\textbf{\textcolor{white}{\large {Active Archive Telemetry, Analytics, Supportability\\}}}}\\
+        \textsf{\textbf{\textcolor{white}{\large {Cloud Portal for System Telemetry and Data Analytics\\}}}}\\
         \textsf{\textbf{\textcolor{white}{\py@release\releaseinfo\hspace{0.2cm}|\hspace{0.2cm}\ifcase
         \month \or January\or February\or March\or April\or May\or June\or July\or August\or September\or October\or November\or December\fi, \the\year}}\\
         }\\ \\ \\
@@ -41,7 +41,7 @@
 \par
 \noindent
 \textbf{\LARGE \textsf{ActiveScale Cloud Management}}\\
-\textsf{\large Active Archive Telemetry, Analytics, Supportability}
+\textsf{\large Cloud Portal for System Telemetry and Data Analytics}
 \vfill
 \vfill
 \noindent
