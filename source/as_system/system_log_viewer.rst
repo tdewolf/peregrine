@@ -42,7 +42,7 @@ The following log and configuration files are available on controller and storag
 * **config**: displays the configuration of the selected node, such as disks, network, general node 
   information, ...
 * **event**: contains the events that occurred on the node
-* **log1**: @todo what's this and what's difference with log2?
+* **log1**: records the following statistics @todo fill out
 * **log2**: @todo see log1
 * **authentication**: logging of all access attempts to the node
 * **ipmi**: data indicating the status of :term:`IPMI` controlled components such as fans, RAM modules, power

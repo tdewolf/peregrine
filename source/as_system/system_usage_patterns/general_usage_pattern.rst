@@ -50,7 +50,8 @@ At the bottom of the graphics you can make selections. By default the average (:
 displayed, but you can select one or more nodes to compare the performance of specific nodes with the
 average performance. If the name of the node is greyed out, the node is not displayed in the graph.
 
-The time series graphic contains also the issues on the nodes, indicated by orange or yellow icons.
+The time series graphic contains also the issues on the nodes, indicated by orange (error) or yellow 
+(warning) icons.
 
 When you click an issue in the time series the bullet turns green and the issue is displayed in the
 corresponding controller or storage graphic.

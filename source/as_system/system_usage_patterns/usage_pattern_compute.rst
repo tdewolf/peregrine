@@ -16,8 +16,6 @@ There are three different usage patterns on compute level:
 Toggle the node name at the bottom of each graphic to display or hide the node's data. This allows you to
 compare the specific node's values aagainst the average values.
 
-@todo: what's difference between cpu usage and total cpu usage
-
 The following graphic gives you an example of the CPU usage statistics:
 
 |compute_performance|
