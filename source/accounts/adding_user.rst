@@ -13,9 +13,9 @@ Adding a User
 
 To add a user:
 
-#. Click on your user name in the top-right corner and select :guilabel:`Manage Accounts`.
+#. Click on your user name in the top-right corner and select :guilabel:`User Management`.
 
-   The :guilabel:`Manage Accounts` window appears.
+   The :guilabel:`User Management` window appears.
 #. On top of the table, click :guilabel:`Add User`.
 
    A new row appears in the table.

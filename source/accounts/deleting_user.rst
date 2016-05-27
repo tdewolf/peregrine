@@ -14,9 +14,9 @@ delete the user.
 
 To delete a user:
 
-#. Click on your user name in the top-right corner and select :guilabel:`Manage Accounts`.
+#. Click on your user name in the top-right corner and select :guilabel:`User Management`.
 
-   The :guilabel:`Manage Accounts` window appears.
+   The :guilabel:`User Management` window appears.
 #. Look up the user by scrolling in the table or by searching for the user in the :guilabel:`Search user` 
    box.
 #. In the :guilabel:`Actions` column, click the Delete button (|user_delete|).

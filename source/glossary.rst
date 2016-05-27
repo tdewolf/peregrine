@@ -6,7 +6,9 @@ Glossary
 .. glossary::
 
    Controller Node
-      See Scaler Node.
+      A Controller Node is the node in a system which processes all storage client requests. It has also
+      the logic of authentication and authorization. The Controller Node has all information of the 
+      bucket and objects in the system.
 
    Dashboard
       The Dashboard shows all data racks in all data centers and is the default view when you log in.
@@ -45,7 +47,9 @@ Glossary
 
    Role
       The role of a user defines the user rights. As "User", you can only consult information, as "Super
-      User" you can create other users.
+      User" you can manage other users.
+
+.. ifconfig:: persona not in ('customer', 'oem', 'admin')
 
    Scaler Node
       A Scaler Node is the node in a system which processes all storage client requests. It has also
@@ -53,6 +57,8 @@ Glossary
       and objects in the system.
 
       It is sometimes referred to as Controller Node.
+
+.. ifconfig:: persona in ('customer', 'oem', 'admin')
 
    Storage Enclosure
       The storage enclosure is the hardware component which holds the disks to store the data. The
