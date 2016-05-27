@@ -7,17 +7,14 @@ Storage Capacity
 
 .. ifconfig:: persona != 'customer'
 
-   The :guilabel:`Storage Capacity` panel on the customer's dashboard displays a pie chart with the 
-   percentages of the used capacity and the free storage capacity.
-
-   The information is aggregated over all systems of a customer.
+   The :guilabel:`Storage Capacity` panel on the customer's dashboard displays the aggregated storage
+   capacity for the customer. The pie chart shows the used capacity relative to the free storage 
+   capacity.
 
 .. ifconfig:: persona == 'customer'
 
-   The :guilabel:`Storage Capacity` panel on your dashboard displays a pie chart with the percentages of 
-   the used capacity and the free storage capacity.
-
-   The information is aggregated over all your systems.
+   The :guilabel:`Storage Capacity` panel on your dashboard displays the aggregated storage capacity of
+   all your systems. The pie chart shows the used capacity relative to the free storage capacity.
 
 |storage_capacity|
 

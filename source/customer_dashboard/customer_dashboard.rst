@@ -14,12 +14,12 @@ Customer Dashboard
 .. toctree::
 
    all_systems.rst
-   workload.rst
    customer_capacity.rst
+   workload.rst
    customer_activity.rst
-   customer_availability.rst
-   outliers.rst
    metadata_usage.rst
+   customer_availability.rst
    overall_statistic.rst
+   outliers.rst
    recommendations.rst
 

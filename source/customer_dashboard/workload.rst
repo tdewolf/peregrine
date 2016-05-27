@@ -11,13 +11,16 @@ Workload
 
 .. ifconfig:: persona != 'customer'
 
-   The :guilabel:`Workload` panel displays the workload of the aggregated systems of a customer. In the
-   panel, you find two pie-chart graphics and two time-line graphics.
+   The :guilabel:`Workload` panel displays the total workload across all systems of a customer. The pie
+   charts show the distribution of read and write operations across small and large objects. The time
+   graphics of the small and large objects, show the number of read and write operations during the
+   period.
 
 .. ifconfig:: persona == 'customer'
 
-   The :guilabel:`Workload` panel displays the workload of all your systems. In the panel, you find two 
-   pie-chart graphics and two time-line graphics.
+   The :guilabel:`Workload` panel displays the total workload across all your systems. The pie charts 
+   show the distribution of read and write operations across small and large objects. The time graphics
+   of the small and large objects, show the number of read and write operation during the period.
 
 Pie-Chart Graphics
 ------------------
