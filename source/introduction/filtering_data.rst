@@ -12,14 +12,15 @@ you can filter these data.
 Filtering by Date
 -----------------
 
-For each report, you can select a period to retrieve the data. You have weekly, monthly, and
-yearly reports, but you can also customize a period.
+To filter the data, you can select a period to retrieve the data. The default period is the last day of 
+retrieving the statistics from the |as| systems.
 
-To select a weekly or monthly report, click respectively on :guilabel:`1 Week` or :guilabel:`1
-Month`.
+The :guilabel:`1 Week` or :guilabel:`1 Month` buttons allow you to return back in time with respectively
+one week and one month. 
 
-To set a custom period, click the calendar icon (|calendar|) in the :guilabel:`From` and :guilabel:`to`
-field and select the proper dates. When you have set the start and end date, click :guilabel:`Apply`. 
+You can also set a custom period by clicking the calendar icon (|calendar|) in the :guilabel:`From` and 
+:guilabel:`to` field and select the proper dates. When you have set the start and end date, click 
+:guilabel:`Apply`. 
 
 The data are updated for the selected period.
 

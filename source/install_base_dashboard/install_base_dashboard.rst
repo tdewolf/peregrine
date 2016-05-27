@@ -7,6 +7,8 @@
    
    The |prod| :guilabel:`Install Base Dashboard` shows all deployed systems from all over the world. 
    It is also the default view when you log in to |prod|.
+
+   The charts on this dashboard show the ten customers from the :guilabel:`Top Customers` chart. 
    
    .. toctree::
    
