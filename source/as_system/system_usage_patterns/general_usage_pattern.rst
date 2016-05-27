@@ -11,8 +11,16 @@ The :guilabel:`Usage Patterns` tab on the :guilabel:`System` page contains the g
 related actions. These actions are divided into three levels: storage, compute and network.
 
 At the top of the page, you can filter the data by date and you can select the statistics that you want to
-see. By default the :ref:`Storage Total Writes <usage_pattern_storage>`, :ref:`CPU Usage
-<usage_pattern_compute>` and :ref:`Network Received Data <usage_pattern_network>` are displayed.
+see. By default the following statistics are displayed:
+
+* :ref:`Storage Total Writes <usage_pattern_storage>`
+* :ref:`CPU Usage <usage_pattern_compute>`
+* :ref:`Rx (Network Received Data) <usage_pattern_network>` 
+  
+The default data is taken from the last uploaded telemetry data.
+
+Click on :guilabel:`1 week` or :guilabel:`1 Month` to return respectively one week or one month back in
+time. 
 
 
 Available Statistics
@@ -39,16 +47,10 @@ The performance page is split into three graphics per available statistic.
 * On the right you find the issues in chronological order on the Controller Nodes and the Storage Nodes. 
 
 At the bottom of the graphics you can make selections. By default the average (:guilabel:`Avg`) is
-displayed, but you can select one or more nodes to investigate the performance of specific nodes. 
-If the name of the node is greyed out, the node is not displayed in the graph.
+displayed, but you can select one or more nodes to compare the performance of specific nodes with the
+average performance. If the name of the node is greyed out, the node is not displayed in the graph.
 
-The time series graphic contains also the issues on the nodes. The color of the issue indicates the
-severity of the issue:
-
-* **yellow**
-* **orange**
-
-@todo: what are the color codes?
+The time series graphic contains also the issues on the nodes, indicated by orange or yellow icons.
 
 When you click an issue in the time series the bullet turns green and the issue is displayed in the
 corresponding controller or storage graphic.
@@ -92,3 +94,4 @@ out) or enable (bold) the node's information.
    It may occur that you have to scroll down in the details panel to view all content.
 
 When you open the details of an issue, click |close_issue_details| to return to the list of issues.
+

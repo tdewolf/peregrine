@@ -3,8 +3,8 @@
 Capacity Planner
 ================
 
-The :guilabel:`Capacity Planner` page gives you an overview of a system's historic usage and an estimate
-on the evolution in the upcoming months. 
+The :guilabel:`Capacity Planner` page gives you an overview of a system's historic usage and a predicted
+usage in the upcoming months and years.
   
 .. toctree::
 

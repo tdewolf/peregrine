@@ -9,7 +9,7 @@ The :guilabel:`System Summary` panel on the dashboard summarizes the system's co
 * **Deployment ID**: the S3 bucket ID on AWS where the telemetry-agent, running on |as|, is going to 
   upload the log files to.
 * **Serial Number**: serial number of the system
-* **Software**: name and version of the software
+* **Software**: name and version of the |as| software
 * **Telemetry Version**: the telemetry version used on the system
 * **Platform**: name and version of the hardware platform, for example ActiveScale X-100
 * **Switches**: the number of switches in the system

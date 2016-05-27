@@ -5,6 +5,8 @@
 
 .. |hw_changes_se| image:: ../../_static/hw_changes_se.png
 
+.. |hw_changes_ps| image:: ../../_static/hw_changes_ps.png
+
 .. _system_hw_changes:
 
 Hardware Changes
@@ -22,3 +24,4 @@ mouse over the bullet displays the details of the device, such as type and affec
 
 * |hw_changes_se|: disk in a storage enclosure
 * |hw_changes_powercycle|: indication of a node restart
+* |hw_changes_ps|: power supply replacement

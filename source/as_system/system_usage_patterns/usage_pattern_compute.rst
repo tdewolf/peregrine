@@ -7,9 +7,14 @@ Compute Usage Pattern
 
 There are three different usage patterns on compute level:
 
-* :guilabel:`CPU usage` (default): CPU utilization, averaged across all Controller and Storage Nodes
+* :guilabel:`CPU usage` (default): CPU utilization (user CPU usage), averaged across all Controller and 
+  Storage Nodes
 * :guilabel:`RAM`: available memory over time, averaged across all Controller and Storage Nodes
-* :guilabel:`Total CPU usage`: total CPU utilization
+* :guilabel:`Total CPU usage`: total CPU utilization (kernel/system CPU usage and user CPU usage),
+  averaged across all Controller and Storage Nodes
+
+Toggle the node name at the bottom of each graphic to display or hide the node's data. This allows you to
+compare the specific node's values aagainst the average values.
 
 @todo: what's difference between cpu usage and total cpu usage
 

@@ -23,7 +23,7 @@ The storage enclosure inventory displays the number of disks, fans, I/O modules 
 
    |se_inventory_customer|
 
-Hover over a fan, I/O module or power module to obtain their details.
+Hover over a fan or I/O module to obtain their details.
 
 |se_fan_property| |se_io_property|
 
@@ -36,6 +36,7 @@ In the sleds overview, the drives that need replacement are flagged. The flaggin
 Drive Details
 -------------
 
+@todo: what is the content of the table dd May 27 I have seen two different versions of the table
 Click :guilabel:`Show All Drives` to display the disks table.
 
 * **Physical Slot #**: the ID of the slot in the storage enclosure where the disk is located
@@ -44,7 +45,7 @@ Click :guilabel:`Show All Drives` to display the disks table.
 * **Logical Name**: name of the logical device on the disk
 * **Size**: usable disk space
 * **Vendor**: name of the disk manufacturer
-* **Model**: model identification of the disk
+* **Product**: model identification of the disk
 * **Serial**: serial number of the disk, this can be used for verfication in case of a disk replacement
 * **Firmware**: firmware version on the disk
 * **Description**: description of the disk

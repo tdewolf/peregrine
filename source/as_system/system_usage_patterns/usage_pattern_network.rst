@@ -14,6 +14,9 @@ You can consult the network usage pattern of a system via three statistics:
 * :guilabel:`Total Transmitted Packets`: total amount of transmitted packets, averaged across all Controller
   Nodes and Storage Nodes.
 
+Toggle the node name at the bottom of each graphic to display or hide the node's data. This allows you to
+compare the specific node's values aagainst the average values.
+
 The following graphic is an example of the received data network performance:
 
 |network_performance|

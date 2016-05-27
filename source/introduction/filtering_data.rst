@@ -16,7 +16,7 @@ To filter the data, you can select a period to retrieve the data. The default pe
 retrieving the statistics from the |as| systems.
 
 The :guilabel:`1 Week` or :guilabel:`1 Month` buttons allow you to return back in time with respectively
-one week and one month. 
+one week and one month. Every new selection returns one week or month further back in time.
 
 You can also set a custom period by clicking the calendar icon (|calendar|) in the :guilabel:`From` and 
 :guilabel:`to` field and select the proper dates. When you have set the start and end date, click 

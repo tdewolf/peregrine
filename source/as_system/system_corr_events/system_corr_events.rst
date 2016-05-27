@@ -4,7 +4,7 @@
    =================
    
    The :guilabel:`Correlated Events` tab features a chart with bars for various correlations. The 
-   correlations display the relationship between two statistics.
+   correlations display the relationship between two seemingly independent tatistics.
    
    |correlations|
    
