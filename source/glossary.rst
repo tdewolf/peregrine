@@ -37,17 +37,23 @@ Glossary
       JSON (JavaScript Object Notation) is a lightweight data-interchange format which is human readable
       and easy to generate.
 
-.. ifconfig:: persona != 'customer'
+.. ifconfig:: persona == 'admin'
 
    Persona
       The persona identifies the type of the user and defines the information that is available to this
       user. There are three types of persona: admin, customer, and OEM. 
 
+.. ifconfig:: persona == 'oem'
+
+   Persona
+      The persona identifies the type of the user and defines the information that is available to this
+      user. There are two types of persona: customer and OEM. 
+
 .. ifconfig:: persona in ('customer', 'oem', 'admin')
 
    Role
       The role of a user defines the user rights. As "User", you can only consult information, as "Super
-      User" you can manage other users.
+      User" you can manage other |prod| users.
 
 .. ifconfig:: persona not in ('customer', 'oem', 'admin')
 
@@ -65,5 +71,5 @@ Glossary
       enclosure does not have any logic on board, it stores the data sent by a storage node.
 
    Storage Node
-      A storage node is the node which receives objects from the :term:`Scaler Node`. It is responsible
-      for the erasure coding
+      A storage node is the node which receives objects from the :term:`Controller Node`. It is responsible
+      for the erasure coding.

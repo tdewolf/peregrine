@@ -5,13 +5,12 @@ Switch Inventory
 
 The switch inventory table contains the details of all the components in the used switch.
 
-* **Port**: number of the switch port
-* **Name**: name of the switch port
-* **Flow Control Status**: status of the port
-* **Link State**: status of the port link, up or down
-* **Physical Mode**: physical configuration of the port, type of port (Automatic, 10G Full, ...)
-* **Media Type**: connected media type
-* **Physical Status**: status of the physical port
-
-@todo: what's the meaning of the last 5 switch properties?
+* :guilabel:`Port`: number of the switch port
+* :guilabel:`Name`: name of the switch port
+* :guilabel:`Flow Control Status`: indication if the flow control is active or not
+* :guilabel:`Link State`: status of the port link, up or down
+* :guilabel:`Physical Mode`: physical configuration of the port, type of port (Automatic, 10G Full, ...)
+* :guilabel:`Media Type`: actual capability of the interface, for example 10G-BaseSX
+* :guilabel:`Physical Status`: negotiated capability of the interface. If the physical mode is set to "Auto",
+  this value is significant because it then indicates the actual negotiated capability
 

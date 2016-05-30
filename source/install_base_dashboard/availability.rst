@@ -1,5 +1,4 @@
 .. |availability_all| image:: ../_static/availability_all.png
-   :scale: 70
 
 .. _availability:
 

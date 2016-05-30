@@ -1,5 +1,4 @@
 .. |all_systems| image:: ../_static/all_systems.png
-   :scale: 70
 
 .. _all_systems:
 

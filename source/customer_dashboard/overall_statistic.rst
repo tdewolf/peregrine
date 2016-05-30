@@ -1,10 +1,12 @@
 .. |overall_statistic_buckets_users| image:: ../_static/overall_statistic_buckets_users.png
+   :scale: 70
 
 .. |overall_statistic_objects| image:: ../_static/overall_statistic_objects.png
+   :scale: 70
 
 .. _overall_statistic:
 
-Overall System Statistic
+Overall System Statistics
 ========================
 
 .. ifconfig:: persona != 'customer'

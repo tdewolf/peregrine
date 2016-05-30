@@ -8,9 +8,9 @@ requests.
 
 In this report, you find the following information:
 
-* **File Name**: file name 
-* **Size**: file size.
-* **OPS**: the number of operations on the file
+* :guilabel:`File Name`: file name 
+* :guilabel:`Size`: file size
+* :guilabel:`OPS`: the number of operations on the file
 
 Only the first five records are displayed, but you can scroll in the table to get the complete overview.
 

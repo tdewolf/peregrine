@@ -1,6 +1,6 @@
 .. ifconfig:: persona == 'admin'
 
-   .. _user_roles:
+   .. _user_roles_admin:
    
    User Roles and Permissions
    ==========================

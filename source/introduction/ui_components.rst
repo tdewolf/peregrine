@@ -1,3 +1,5 @@
+.. |overview_window| image:: ../_static/overview_window.png
+
 .. |search| image:: ../_static/search.png
 
 .. |full_screen| image:: ../_static/full_screen.png
@@ -17,6 +19,8 @@ The |prod| interface is divided in two main sections:
 
 * a :ref:`top bar <top_bar>`
 * the :ref:`main page <main_page>`  with various panels, which vary per page.
+
+|overview_window|
 
 
 .. _top_bar:

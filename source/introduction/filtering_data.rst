@@ -1,3 +1,12 @@
+.. |filter_by_date| image:: ../_static/filter_by_date.png
+   :scale: 80
+
+.. |filter_by_text| image:: ../_static/filter_by_text.png
+   :scale: 70
+
+.. |order_column_ascending| image:: ../_static/order_column_ascending.png
+   :scale: 70
+
 .. |calendar| image:: ../_static/calendar.png
 
 .. _filtering_data:
@@ -14,6 +23,8 @@ Filtering by Date
 
 To filter the data, you can select a period to retrieve the data. The default period is the last day of 
 retrieving the statistics from the |as| systems.
+
+|filter_by_date|
 
 The :guilabel:`1 Week` or :guilabel:`1 Month` buttons allow you to return back in time with respectively
 one week and one month. Every new selection returns one week or month further back in time.
@@ -32,6 +43,8 @@ In some panels, you find a large list of items, which makes it often hard to fin
 looking for. To help you looking for the desired information, such panels have a filter box in which you 
 can search for the necessary data. 
 
+|filter_by_text|
+
 This filter box is case-insensitive and returns any match, regardless the column in which the query data 
 is retrieved.
 
@@ -41,4 +54,8 @@ Ordering by Column
 
 You can order all data, that are displayed in tables, in ascending or descending way. To do so, click the
 column header whose information you want to order; click the header again to reverse the order.
+
+In the next example, the data are displayed by :guilabel:`Storage Capacity` in ascending order.
+
+|order_column_ascending|
 

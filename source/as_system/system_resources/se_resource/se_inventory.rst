@@ -36,17 +36,16 @@ In the sleds overview, the drives that need replacement are flagged. The flaggin
 Drive Details
 -------------
 
-@todo: what is the content of the table dd May 27 I have seen two different versions of the table
 Click :guilabel:`Show All Drives` to display the disks table.
 
-* **Physical Slot #**: the ID of the slot in the storage enclosure where the disk is located
-* **% Used**: percentage of the used disk capacity
-* **Type**: type of the disk
-* **Logical Name**: name of the logical device on the disk
-* **Size**: usable disk space
-* **Vendor**: name of the disk manufacturer
-* **Product**: model identification of the disk
-* **Serial**: serial number of the disk, this can be used for verfication in case of a disk replacement
-* **Firmware**: firmware version on the disk
-* **Description**: description of the disk
+* :guilabel:`Physical Slot #`: the ID of the slot in the storage enclosure where the disk is located
+* :guilabel:`% Used`: percentage of the used disk capacity
+* :guilabel:`Type`: type of the disk
+* :guilabel:`Logical Name`: name of the logical device on the disk
+* :guilabel:`Size`: usable disk space
+* :guilabel:`Vendor`: name of the disk manufacturer
+* :guilabel:`Product`: model identification of the disk
+* :guilabel:`Serial`: serial number of the disk, this can be used for verfication in case of a disk replacement
+* :guilabel:`Firmware`: firmware version on the disk
+* :guilabel:`Description`: description of the disk
 

@@ -5,11 +5,11 @@ Customer Dashboard
 
 .. ifconfig:: persona != 'customer'
 
-   The customer dashboard displays detailed information about the deployments of your customers.
+   The customer dashboard displays detailed information about the |as| systems of your customers.
 
 .. ifconfig:: persona == 'customer'
 
-   The dashboard displays detailed information about your deployments. 
+   The dashboard displays detailed information about your |as| systems. 
 
 .. toctree::
 

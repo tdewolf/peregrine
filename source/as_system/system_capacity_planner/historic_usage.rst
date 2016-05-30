@@ -1,5 +1,4 @@
 .. |forecast| image:: ../../_static/forecast.png
-   :scale: 75%
 
 .. |capacity_threshold| image:: ../../_static/capacity_threshold.png
    :scale: 75%

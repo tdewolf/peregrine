@@ -16,5 +16,5 @@
    
       * :guilabel:`User`: A user with the "User" role has only view rights on the data.
       * :guilabel:`Super User`: A user with the "Super User" role has the same rights as users with the
-        "User" role, but can also manage |as| users.
+        "User" role, but can also manage |prod| users.
    

@@ -15,8 +15,17 @@ channel and their number of installations.
 Install Base Table
 ------------------
 
-The content of the :guilabel:`Install Base` table depends on the user who is logged in. See the section
-:ref:`User Roles <user_roles>` for more information about users.
+.. ifconfig:: persona == 'oem'
+
+   The content of the :guilabel:`Install Base` table depends on the user who is logged in. See the section
+   :ref:`User Roles <user_roles_oem>` for more information about users.
+
+.. ifconfig:: persona == 'admin'
+
+   The content of the :guilabel:`Install Base` table depends on the user who is logged in. See the section
+   :ref:`User Roles <user_roles_admin>` for more information about users.
+
+|install_base|
 
 * :guilabel:`Customer`: Displays the name of the customer.
 * :guilabel:`Channel`: The Channel is the sales channel who is responsible for the customer.
@@ -26,8 +35,6 @@ The content of the :guilabel:`Install Base` table depends on the user who is log
 
 You can sort the table by column. Click the column header to sort the data in ascending or descending
 order.
-
-|install_base|
 
 
 Filtering Data

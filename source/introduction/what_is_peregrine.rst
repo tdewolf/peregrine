@@ -11,7 +11,7 @@ For example, you can detect the periods of peak utilization of the |as| systems 
 corresponding performance statistics. Or you can identify the buckets with the highest amount of files or
 highest used storage capacity.
 
-Besides the reporting, |prod| analyzes the ingested data and it can correlate two events with each other
+Besides the reporting, |prod| analyzes the ingested data and it can correlate two events with each other.
 
 The analysis of the data informs you of possible issues and gives you the opportunity to proactively 
 intervene and avoid downtime of the systems. 

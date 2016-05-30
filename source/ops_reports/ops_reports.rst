@@ -14,7 +14,8 @@ Operational Reports
    Operational reports provide you clear overviews about the usage of a system. This includes the 
    requests per bucket, requests per file and file sizes.
    
-For each of the reports, you can specify a :ref:`period <filtering_data>` for which you want the data.
+For each of the reports, you can specify a :ref:`period <filtering_data>` for which you want to consult 
+the data.
 
 .. toctree::
 

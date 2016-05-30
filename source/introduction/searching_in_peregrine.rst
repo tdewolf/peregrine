@@ -1,7 +1,11 @@
+.. |searching_in_as_cm| image:: ../_static/searching_in_as_cm.png
+
+.. |search_result| image:: ../_static/search_result.png
+
 .. |search| image:: ../_static/search.png
 
 .. |filter_search_results| image:: ../_static/filter_search_results.png
-   :scale: 60
+   :scale: 70
 
 .. _searching_in_peregrine:
 
@@ -12,9 +16,11 @@ You can quickly search for information in |prod| by using opening the search box
 
 .. ifconfig:: persona != 'customer'
 
-   You can use the search function when you have selected a customer.
+   You have to select a customer before you can perform a search operation.
 
 On the left of the search box, you have a menu with three choices:
+
+|searching_in_as_cm|
 
 * :guilabel:`System Log`
 * :guilabel:`Inventory`
@@ -33,6 +39,8 @@ If you want to look for the inventory of a system with the name A0005:
 #. Enter "A0005" and press :kbd:`Enter` *twice* to start the search.
 
    The main panel displays all items which have "A0005" as information.
+
+|search_result|
 
 
 Filtering Search Results

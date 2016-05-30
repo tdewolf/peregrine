@@ -1,5 +1,4 @@
 .. |top_customers_all| image:: ../_static/top_customers_all.png
-   :scale: 70
 
 .. _top_customers:
 
