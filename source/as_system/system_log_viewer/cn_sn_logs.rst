@@ -10,8 +10,8 @@ The following log and configuration files are available on controller and storag
   information, ...
 * :guilabel:`event`: contains the events that occurred on the node
 * :guilabel:`amplilog1`: log files with the system statistics reported by the |as| software
-* :guilabel:`amplilog2`: logging of the customer facing S3 transactions, such as Read, Write, Delete, Add 
-  Bucket, Delete Bucket). 
+* :guilabel:`amplilog2`: logging of the customer facing S3 transactions, Read, Write, Delete, Add Bucket, 
+  Delete Bucket. 
 * :guilabel:`authentication`: logging of all access attempts to the node
 * :guilabel:`ipmi`: data indicating the status of :term:`IPMI` controlled components such as fans, RAM modules, power
   supply, ...
@@ -20,23 +20,48 @@ The following log and configuration files are available on controller and storag
 * :guilabel:`switchX`: switch information such as connected ports and switch status
 * :guilabel:`syslog`: contains the greatest deal of information by default about your node's operating system
 
+The log statistics are logged every five minutes by default. Each statistic corresponds with a certain
+value wich is calculated from a certain action. For example, a value can be the time that a certain call
+or action takes.
 
-Log File Content
-----------------
+
+Log File Content Amplilog1
+--------------------------
+
+The content of 'amplilog1' is a comma-separated file:
 
 * :guilabel:`ds`: date stamp
 * :guilabel:`ts`: time stamp
 * :guilabel:`server`: guid of the server which is selected in the rack image
 * :guilabel:`daemon_id`: guid of the daemon who executed the action
-* :guilabel:`stat_name`: name of the statistic, see amplilog1_
-* :guilabel:`num_ops`: number of recorded operations in the statistics
-* :guilabel:`variance`: variance of the operations in the statistics
+* :guilabel:`stat_name`: name of the statistic, see `amplilog1`_
+* :guilabel:`num_ops`: number of recorded operations in the statistic
+* :guilabel:`variance`: variance of the operations in the statistic
 * :guilabel:`avg_millis`: average duration of one operation
 * :guilabel:`min_millis`: shortest duration of an operation
-* :guilabel:`min_millis_size`: 
+* :guilabel:`min_millis_size`: minimum size of an object in the statistic
 * :guilabel:`max_millis`: longest duration of an operation
-* :guilabel:`max_millis_size`:
+* :guilabel:`max_millis_size`: maximum size of an object in the statistic
 
+
+Log File Content Amplilog2
+--------------------------
+
+The content of 'amplilog2' is a comma-separated file:
+
+* :guilabel:`ds`: date stamp
+* :guilabel:`ts`: time stamp
+* :guilabel:`server`: guid of the server which is selected in the rack
+* :guilabel:`daemon_id`: guid of the daemon who executed the action
+* :guilabel:`key`: key to identify the object in the database
+* :guilabel:`namespace`: name of the S3 bucket in which the related action is executed
+* :guilabel:`action`: name of the action (put, delete, get, ...)
+* :guilabel:`size`: size of the object used in the action, expressed in <unit>
+* :guilabel:`time`: 
+* :guilabel:`throughput`:
+* :guilabel:`actual_size`:
+* :guilabel:`actual_rate`:
+* :guilabel:`object`: name of the object affected by this action
 
 .. _amplilog1:
 
@@ -45,41 +70,176 @@ Amplilog1
 
 The |as| software logs contains the following data:
 
-* :guilabel:`delete_duration`: duration of the delete operations
-* :guilabel:`add_blocks_throughput`: throughput of 
-* :guilabel:`sd_delete_blocks_duration`: 
-* :guilabel:`put_duration`: duration of a write operation
-* :guilabel:`add_obj_md_duration`
-* :guilabel:`sd_get_full_copy_duration`
-* :guilabel:`sd_add_obj_md_duration`
-* :guilabel:`sd_get_blocks_throughput`
-* :guilabel:`sd_get_blocks_duration`
-* :guilabel:`s3_put_duration`: duration of an S3 write operation
-* :guilabel:`spread_gen_normal_duration`
-* :guilabel:`sd_add_blocks_duration`
-* :guilabel:`add_full_copy_duration`
-* :guilabel:`add_full_copy_throughput`
-* :guilabel:`enc_sb_throughput`
-* :guilabel:`rd_sb_duration`
-* :guilabel:`sd_add_full_copy_duration`
-* :guilabel:`s3_put_throughput`
-* :guilabel:`sd_add_blocks_throughput`
-* :guilabel:`sd_add_full_copy_throughput`
-* :guilabel:`add_blocks_duration`
-* :guilabel:`s3_auth_duration`
-* :guilabel:`s3_md5_throughput`
-* :guilabel:`enc_sb_duration`
-* :guilabel:`rd_sb_throughput`
-* :guilabel:`put_throughput`
-* :guilabel:`sd_get_full_copy_throughput`
-* :guilabel:`spread_gen_custom_duration`
-* :guilabel:`sd_delete_full_copy_duration`
-* :guilabel:`s3_md5_duration`
-
-
-.. _amplilog2:
-
-Amplilog2
----------
-
-
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| Statistic name                          | Description                                                | Size                              |
++=========================================+============================================================+===================================+
+| add_blocks_duration                     | Duration (in seconds) and throughput (in MiB/s) of the     | Size (in MiB) of the blocks       |
+| add_blocks_throughput                   | blockstore add_blocks call, which sends the blocks to      |                                   |
+|                                         | a blockstore where they are written to disk.               |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| other_location_add_blocks_duration      | Same as the previous statistic, but only for add_blocks    | Size (in MiB) of the blocks       |
+| other_location_add_blocks_throughput    | calls to a different location. Typically a different       |                                   |
+|                                         | datacenter in a 3-GEO setup.                               |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| add_full_copy_duration                  | Duration and throughput of the blockstore add_superblock   | Size of the superblock.           |
+| add_full_copy_throughput                | call, which sends an entire superblock to a blockstore     |                                   |
+|                                         | where it is written to disk. Used for full-copy policies.  |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| other_location_add_full_copy_duration   | Same as the previous, but to a different location.         | Size of the superblock.           |
+| other_location_add_full_copy_throughput |                                                            |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| get_blocks_duration                     | Duration and throughput of the blockstore get_blocks       | Retrieved size of the blocks.     |
+| get_blocks_throughput                   | call, which requests the blocks from the blockstore.       |                                   |
+|                                         | This blockstore reads the bloks from disk and sends        |                                   |
+|                                         | it back.                                                   |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| other_location_get_blocks_duration      | Same as the previous, but from a different location.       | Retrieved size of the blocks.     |
+| other_location_get_blocks_throughput    |                                                            |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| get_full_copy_duration                  | Duration and throughput of the blockstore get_superblock   | Retrieved size of the superblock. |
+| get_full_copy_throughput                | call, which requests the superblock from a blockstore.     |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| other_location_get_full_copy_duration   | Same as the previous, but from a different location.       | Retrieved size of the superblock. |
+| other_location_get_full_copy_throughput |                                                            |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| get_sb_duration                         | Total duration and throughput for the retrieval of a       | Retrieved size of the superblock. |
+| get_sb_throughput                       | superblock. This can include erasure decoding, fetching    |                                   |
+|                                         | the data from the blockstores, ...                         |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| dec_sb_duration                         | Duration and throughput of the erasure decoding of a       | Size of the superblock.           |
+| dec_sb_throughput                       | superblock.                                                |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| enc_sb_duration                         | Duration and throughput of the erasure encoding of a       | Size of the superblock.           |
+| enc_sb_throughput                       | superblock.                                                |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| wr_sb_duration                          | Duration and throughput of writing a single superblock of  | Size of the superblock.           |
+| wr_sb_throughput                        | incoming data to the client during a GET request.          |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| rd_sb_duration                          | Duration and throughput of reading a single superblock of  | Size of the superblock.           |
+| rd_sb_throughput                        | incoming data from the client during a PUT request.        |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| add_obj_md_duration                     | Duration of the add_object_metadata blockstore call,       | None                              |
+|                                         | which send object metadata to a blockstore where it is     |                                   |
+|                                         | written to disk.                                           |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| ck_blocks_duration                      | Duration and throughput of the blockstore ck_blocks        | Size of the blocks.               |
+| ck_blocks_throughput                    | call, where the blockstore reads in a checkblock file      |                                   |
+|                                         | from disk and verifies that its content is still ok.       |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| ck_full_copy_duration                   | Duration and throughput of the blockstore ck_superblock    | Size of the superblock.           |
+| ck_full_copy_throughput                 | call, where the blockstore reads in a superblock from      |                                   |
+|                                         | disk and verifies that its content is still ok.            |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| delete_blocks_duration                  | Duration of the blockstore delete_blocks or                | Total deleted size.               |
+| delete_full_copy_duration               | delete_superblock call, which requests the blockstore to   |                                   |
+|                                         | delete the blocks or a superblock.                         |                                   |
+|                                         | Both statistics contain the same values. They also         |                                   |
+|                                         | contain entries for OFFLINE, DECOMMISSIONED and ABANDONED  |                                   |
+|                                         | blockstores, where deletes are never send to.              |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| spread_gen_normal                       | Duration of generating of a completely new spread.         | None                              |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| spread_gen_custom                       | Duration of generating a spread starting from an           | None                              |
+|                                         | existing spread.                                           |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| sd_add_blocks_duration                  | Duration and throughput of the blockstore add_blocks       | Size of the blocks.               |
+| sd_add_blocks_throughput                | call, locally within a storage daemon/blockstore.          |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| sd_get_blocks_duration                  | Duration and throughput of the blockstore get_blocks       | Retrieved size of the blocks.     |
+| sd_get_blocks_throughput                | call, locally within a storage daemon.                     |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| sd_ck_blocks_duration                   | Duration and throughput of the blockstore ck_blocks call,  | Size of the blocks.               |
+| sd_ck_blocks_throughput                 | locally within a storage daemon.                           |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| sd_delete_blocks_duration               | Duration of the blockstore delete_blocks call, locally     | None                              |
+|                                         | within a storage daemon.                                   |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| sd_add_full_copy_duration               | Duration and throughput of the blockstore add_full_copy    | Size of the superblock.           |
+| sd_add_full_copy_throughput             | call, locally within a storage daemon.                     |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| sd_get_full_copy_duration               | Duration and throughput of the blockstore get_full_copy    | Retrieved size of the superblock. |
+| sd_get_full_copy_throughput             | call, locally within a storage daemon.                     |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| sd_ck_full_copy_duration                | Duration and throughput of the blockstore ck_full_copy     | Size of the superblock.           |
+| sd_ck_full_copy_throughput              | call, locally within a storage daemon.                     |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| sd_delete_full_copy_duration            | Duration of the blockstore delete_full_copy call,          | None                              |
+|                                         | locally within a storage daemon.                           |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| sd_add_obj_md_duration                  | Duration of the blockstore delete_full_copy call,          | None                              |
+|                                         | locally within a storage daemon.                           |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| put_duration                            | Duration and throughput of an entire object PUT call.      | Size of the object.               |
+| put_throughput                          | This only measures the codepath shared between AXR and S3. |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| get_duration                            | Duration and throughput of an entire object GET call.      | Retrieved size of the object.     |
+| get_throughput                          | This only measures the codepath shared between AXR and S3. |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| failed_get_duration                     | Duration and throughput of a failed object GET call.       | Total size of the object's        |
+| failed_get_throughput                   | This only measures the codepath shared between AXR and S3. | data for which superblock         |
+|                                         |                                                            | retrieval was started.            |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| delete_duration                         | Duration of an entire object DELETE call, which is a       | None                              |
+|                                         | metadata-only operation.                                   |                                   |
+|                                         | This only measures the codepath shared between AXR and S3. |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| rcc_get_duration                        | All related to the cache cluster, which is not used in the |                                   |
+| rcc_get_throughput                      | Active Archive System.                                     |                                   |
+| rcc_missed_get_duration                 |                                                            |                                   |
+| rcc_missed_get_throughput               |                                                            |                                   |
+| rcc_failed_get_duration                 |                                                            |                                   |
+| rcc_failed_get_throughput               |                                                            |                                   |
+| rcc_put_duration                        |                                                            |                                   |
+| rcc_put_throughput                      |                                                            |                                   |
+| rcc_failed_put_duration                 |                                                            |                                   |
+| rcc_failed_put_throughput               |                                                            |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| repair_NORMAL_duration                  | Duration of the execution of a NORMAL repair task by the   | None                              |
+|                                         | repair daemon.                                             |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| repair_DECOMMISSION_duration            | Duration of the execution of a DECOMMISSION repair task    | None                              |
+|                                         | by the repair daemon.                                      |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| repair_REBALANCE_duration               | Duration of the execution of a REBALANCE repair task by    | None                              |
+|                                         | the repair daemon.                                         |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| repair_CLEAN_duration                   | Duration of the execution of a CLEAN repair task by the    | None                              |
+|                                         | repair daemon.                                             |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| repair_VERIFY_duration                  | Duration of the execution of a VERIFY repair task by the   | None                              |
+|                                         | repair daemon.                                             |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| delete_task_duration                    | Duration of the execution of a DELETE task by the          | None                              |
+|                                         | repair daemon.                                             |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| forced_delete_task_duration             | Duration of the execution of a FORCED_DELETE task by the   | None                              |
+|                                         | repair daemon.                                             |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| http_get_duration                       | Duration and throuhput of an entire AXR object GET call.   | Retrieved size of the object.     |
+| http_get_throughput                     | This does not include the HTTP-related things, like        |                                   |
+|                                         | reading in the request, responding to the request,         |                                   |
+|                                         | authentication, ...                                        |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| http_put_duration                       | Duration and throuhput of an entire AXR object PUT call.   | Size of the object.               |
+| http_put_throughput                     | This does not include the HTTP-related things.             |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| http_auth_duration                      | Duration of the authentication of an AXR request.          | None                              |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| s3_get_duration                         | Duration and throuhput of an entire S3 object GET call.    | Retrieved size of the object.     |
+| s3_get_throughput                       | This does not include the HTTP-related things.             |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| s3_put_duration                         | Duration and throuhput of an entire S3 object PUT call.    | Size of the object.               |
+| s3_put_throughput                       | This does not include the HTTP-related things.             |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| s3_auth_duration                        | Duration of the authentication of an S3 request.           | None                              |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| s3_md5_duration                         | Duration and throughput of the MD5 calculation during a    | Size of the superblock.           |
+| s3_md5_throughput                       | an S3 object PUT request. This calculation happens for     |                                   |
+|                                         | every superblock.                                          |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| encrypt_duration                        | Duration and throughput of the encryption of a superblock  | Size of the superblock.           |
+| encrypt_throughput                      | during an object PUT call.                                 |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
+| decrypt_duration                        | Duration and throughput if the decryption of a superblock  | Size of the superblock.           |
+| decrypt_throughput                      | during an object GET call.                                 |                                   |
++-----------------------------------------+------------------------------------------------------------+-----------------------------------+
