@@ -16,7 +16,8 @@
       * :guilabel:`Customer`: A user who is a "Customer" type has view access to the data of its own
         account.
       * :guilabel:`OEM`: A user who is of an "OEM" type belongs to a special type of customer. This customer
-        is typically a service provider or reseller, providing |prod| to its own customers. 
+        is typically an |comp| partner, for example a service provider or reseller. The partner provides 
+        |prod| to its own customers. 
         This type of user has view access to the account data and to the data of all his/her customers.
    
    * :guilabel:`Role`: The :term:`Role` defines the action privileges of the user. There are two roles in

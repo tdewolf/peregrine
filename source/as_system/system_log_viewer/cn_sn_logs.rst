@@ -13,16 +13,19 @@ The following log and configuration files are available on controller and storag
 * :guilabel:`amplilog2`: logging of the customer facing S3 transactions, Read, Write, Delete, Add Bucket, 
   Delete Bucket. 
 * :guilabel:`authentication`: logging of all access attempts to the node
-* :guilabel:`ipmi`: data indicating the status of :term:`IPMI` controlled components such as fans, RAM modules, power
-  supply, ...
+* :guilabel:`ipmi`: data indicating the status of :term:`IPMI` controlled components such as fans, RAM 
+  modules, power supply, ...
 * :guilabel:`kernel`: kernel log file of the node
 * :guilabel:`lshw`: detailed hardware configuration of the node
 * :guilabel:`switchX`: switch information such as connected ports and switch status
-* :guilabel:`syslog`: contains the greatest deal of information by default about your node's operating system
+* :guilabel:`syslog`: contains the greatest deal of information by default about your node's operating 
+  system
 
-The log statistics are logged every five minutes by default. Each statistic corresponds with a certain
-value wich is calculated from a certain action. For example, a value can be the time that a certain call
-or action takes.
+The log statistics are logged every five minutes by default, which means that all values in the
+statistics are calculated for this statistics interval.
+
+Each statistic corresponds with a certain value wich is calculated from a certain action. For example, a 
+value can be the time that a certain call or action takes.
 
 
 Log File Content Amplilog1
@@ -35,13 +38,13 @@ The content of 'amplilog1' is a comma-separated file:
 * :guilabel:`server`: guid of the server which is selected in the rack image
 * :guilabel:`daemon_id`: guid of the daemon who executed the action
 * :guilabel:`stat_name`: name of the statistic, see `amplilog1`_
-* :guilabel:`num_ops`: number of recorded operations in the statistic
-* :guilabel:`variance`: variance of the operations in the statistic
-* :guilabel:`avg_millis`: average duration of one operation
-* :guilabel:`min_millis`: shortest duration of an operation
-* :guilabel:`min_millis_size`: minimum size of an object in the statistic
-* :guilabel:`max_millis`: longest duration of an operation
-* :guilabel:`max_millis_size`: maximum size of an object in the statistic
+* :guilabel:`num_ops`: number of recorded operations in the statistic interval
+* :guilabel:`variance`: the population variance of all the values for the action
+* :guilabel:`avg_millis`: average duration of one operation, measured during the statistic interval
+* :guilabel:`min_millis`: shortest duration of an operation in the interval
+* :guilabel:`min_millis_size`: minimum size of an object in the statistic, expressed in MiB
+* :guilabel:`max_millis`: longest duration of an operation in the interval
+* :guilabel:`max_millis_size`: maximum size of an object in the statistic, expressed in MiB
 
 
 Log File Content Amplilog2
@@ -56,11 +59,12 @@ The content of 'amplilog2' is a comma-separated file:
 * :guilabel:`key`: key to identify the object in the database
 * :guilabel:`namespace`: name of the S3 bucket in which the related action is executed
 * :guilabel:`action`: name of the action (put, delete, get, ...)
-* :guilabel:`size`: size of the object used in the action, expressed in <unit>
-* :guilabel:`time`: 
-* :guilabel:`throughput`:
-* :guilabel:`actual_size`:
-* :guilabel:`actual_rate`:
+* :guilabel:`size`: size of the object used in the action, expressed in MiB
+* :guilabel:`time`: duration of the action
+* :guilabel:`throughput`: the throughput for the object's size, expressed in MiB/s
+* :guilabel:`actual_size`: used capacity on disk by the object (object size + erasure coding overhead),
+  expressed in MiB
+* :guilabel:`actual_rate`: the throughput for the object's "actual_size", expressed in MiB/s
 * :guilabel:`object`: name of the object affected by this action
 
 .. _amplilog1:
@@ -69,6 +73,9 @@ Amplilog1
 ---------
 
 The |as| software logs contains the following data:
+
+.. tabularcolumns:: |p{6cm}|p{5cm}|p{2,5cm}|
+.. cssclass:: longtable
 
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | Statistic name                          | Description                                                | Size                              |
@@ -113,7 +120,7 @@ The |as| software logs contains the following data:
 | enc_sb_throughput                       | superblock.                                                |                                   |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | wr_sb_duration                          | Duration and throughput of writing a single superblock of  | Size of the superblock.           |
-| wr_sb_throughput                        | incoming data to the client during a GET request.          |                                   |
+| wr_sb_throughput                        | incoming data to the client during a read request.         |                                   |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | rd_sb_duration                          | Duration and throughput of reading a single superblock of  | Size of the superblock.           |
 | rd_sb_throughput                        | incoming data from the client during a PUT request.        |                                   |
@@ -169,30 +176,19 @@ The |as| software logs contains the following data:
 | sd_add_obj_md_duration                  | Duration of the blockstore delete_full_copy call,          | None                              |
 |                                         | locally within a storage daemon.                           |                                   |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
-| put_duration                            | Duration and throughput of an entire object PUT call.      | Size of the object.               |
-| put_throughput                          | This only measures the codepath shared between AXR and S3. |                                   |
+| put_duration                            | Duration and throughput of an entire object write call.    | Size of the object.               |
+| put_throughput                          |                                                            |                                   |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | get_duration                            | Duration and throughput of an entire object GET call.      | Retrieved size of the object.     |
-| get_throughput                          | This only measures the codepath shared between AXR and S3. |                                   |
+| get_throughput                          |                                                            |                                   |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | failed_get_duration                     | Duration and throughput of a failed object GET call.       | Total size of the object's        |
-| failed_get_throughput                   | This only measures the codepath shared between AXR and S3. | data for which superblock         |
+| failed_get_throughput                   |                                                            | data for which superblock         |
 |                                         |                                                            | retrieval was started.            |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | delete_duration                         | Duration of an entire object DELETE call, which is a       | None                              |
 |                                         | metadata-only operation.                                   |                                   |
 |                                         | This only measures the codepath shared between AXR and S3. |                                   |
-+-----------------------------------------+------------------------------------------------------------+-----------------------------------+
-| rcc_get_duration                        | All related to the cache cluster, which is not used in the |                                   |
-| rcc_get_throughput                      | Active Archive System.                                     |                                   |
-| rcc_missed_get_duration                 |                                                            |                                   |
-| rcc_missed_get_throughput               |                                                            |                                   |
-| rcc_failed_get_duration                 |                                                            |                                   |
-| rcc_failed_get_throughput               |                                                            |                                   |
-| rcc_put_duration                        |                                                            |                                   |
-| rcc_put_throughput                      |                                                            |                                   |
-| rcc_failed_put_duration                 |                                                            |                                   |
-| rcc_failed_put_throughput               |                                                            |                                   |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | repair_NORMAL_duration                  | Duration of the execution of a NORMAL repair task by the   | None                              |
 |                                         | repair daemon.                                             |                                   |
@@ -215,26 +211,16 @@ The |as| software logs contains the following data:
 | forced_delete_task_duration             | Duration of the execution of a FORCED_DELETE task by the   | None                              |
 |                                         | repair daemon.                                             |                                   |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
-| http_get_duration                       | Duration and throuhput of an entire AXR object GET call.   | Retrieved size of the object.     |
-| http_get_throughput                     | This does not include the HTTP-related things, like        |                                   |
-|                                         | reading in the request, responding to the request,         |                                   |
-|                                         | authentication, ...                                        |                                   |
-+-----------------------------------------+------------------------------------------------------------+-----------------------------------+
-| http_put_duration                       | Duration and throuhput of an entire AXR object PUT call.   | Size of the object.               |
-| http_put_throughput                     | This does not include the HTTP-related things.             |                                   |
-+-----------------------------------------+------------------------------------------------------------+-----------------------------------+
-| http_auth_duration                      | Duration of the authentication of an AXR request.          | None                              |
-+-----------------------------------------+------------------------------------------------------------+-----------------------------------+
-| s3_get_duration                         | Duration and throuhput of an entire S3 object GET call.    | Retrieved size of the object.     |
+| s3_get_duration                         | Duration and throuhput of an entire S3 object read call.   | Retrieved size of the object.     |
 | s3_get_throughput                       | This does not include the HTTP-related things.             |                                   |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
-| s3_put_duration                         | Duration and throuhput of an entire S3 object PUT call.    | Size of the object.               |
+| s3_put_duration                         | Duration and throuhput of an entire S3 object write call.  | Size of the object.               |
 | s3_put_throughput                       | This does not include the HTTP-related things.             |                                   |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | s3_auth_duration                        | Duration of the authentication of an S3 request.           | None                              |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | s3_md5_duration                         | Duration and throughput of the MD5 calculation during a    | Size of the superblock.           |
-| s3_md5_throughput                       | an S3 object PUT request. This calculation happens for     |                                   |
+| s3_md5_throughput                       | an S3 object write request. This calculation happens for   |                                   |
 |                                         | every superblock.                                          |                                   |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | encrypt_duration                        | Duration and throughput of the encryption of a superblock  | Size of the superblock.           |

@@ -11,7 +11,7 @@ The summary of a Storage Enclosure (SExx) contains this data:
 * :guilabel:`Sleds`: number of disk sleds in the enclosure
 * :guilabel:`Vendor`: name of the storage enclosure's manufacturer
 * :guilabel:`IOM`: number of I/O modules
-* :guilabel:`Product`: name of the storage enclosure hardware, for example ActiveScale X-100 or ActiveScale
+* :guilabel:`Product`: name of the storage enclosure hardware, for example Active Archive or ActiveScale
   P-100.
 * :guilabel:`Serial Number`: serial number of the storage enclosure
 * :guilabel:`Type`: hexadecimal representation of the storage enclosure type

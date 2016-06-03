@@ -5,7 +5,7 @@ Controller and Storage Node Summary
 
 The summary of a Controller Node (CNx) or Storage Node (SNx)  displays the following information:
 
-* :guilabel:`Bios`: name of the BIOS software
+* :guilabel:`Bios`: brand name of the BIOS software
 * :guilabel:`IP Address`: list of IP addresseses of the node
 * :guilabel:`Motherboard`: name and type of the motherboard
 * :guilabel:`Cpu`: model of CPU in the Controller

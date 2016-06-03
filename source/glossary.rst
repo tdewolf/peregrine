@@ -11,7 +11,7 @@ Glossary
       bucket and objects in the system.
 
    Dashboard
-      The Dashboard shows all data racks in all data centers and is the default view when you log in.
+      The Dashboard is a collection of panels to give you an overview of system data at a glance.
 
    Data Safety
       The Data Safety is a policy used to store the objects in |prod|. An object is split into several
@@ -67,8 +67,8 @@ Glossary
 .. ifconfig:: persona in ('customer', 'oem', 'admin')
 
    Storage Enclosure
-      The storage enclosure is the hardware component which holds the disks to store the data. The
-      enclosure does not have any logic on board, it stores the data sent by a storage node.
+      The storage enclosure is a container for the disk drives to store the data. It stores the data that 
+      is sent by a storage node.
 
    Storage Node
       A storage node is the node which receives objects from the :term:`Controller Node`. It is responsible
