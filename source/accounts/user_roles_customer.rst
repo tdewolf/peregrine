@@ -9,7 +9,8 @@
    level of view and action privileges.
    
    * :guilabel:`Persona`: The :term:`Persona` identifies the user type and defines the information that is
-     available to this user. As "customer" persona, you have view access to your own account information.
+     available to this user. As "customer" persona, you have view access to your own account information
+     and system data.
    
    * :guilabel:`Role`: The :term:`Role` defines the action privileges of the user. There are two roles in
      |prod|:
