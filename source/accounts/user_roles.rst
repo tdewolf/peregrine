@@ -5,7 +5,7 @@
    User Roles and Permissions
    ==========================
    
-   Every user in |prod| has belongs is associated with an account and has two specific parameters which 
+   Every user in |prod| is associated with an account and has two specific parameters which 
    define the level of view and action privileges.
    
    * :guilabel:`Persona`: The :term:`Persona` identifies the user type and defines the information that is
