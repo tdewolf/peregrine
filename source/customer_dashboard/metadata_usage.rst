@@ -8,7 +8,7 @@ Metadata Usage
 ==============
 
 The :guilabel:`Metadata Usage` panel displays the capacity and used capacity of the metadata, per 
-deployment. The values are expressed in terabyte. 
+deployment. The values are expressed in terabytes.
 
 By default the total reserved capacity for the object's metadata is displayed in the graphic.
 

@@ -22,8 +22,8 @@
    #. Fill out the row with the proper values:
    
       * :guilabel:`Username`: user name to access |prod|
-      * :guilabel:`Persona`: this value is automatically filled out with 'Customer'
-        OEM). See :ref:`User Roles <user_roles>` for more information.
+      * :guilabel:`Persona`: this value is automatically filled out with 'Customer'. See 
+        :ref:`User Roles <user_roles>` for more information.
       * :guilabel:`Account`: the name of the account to which the user belongs. 
       * :guilabel:`Role`: the role of the user (User, Super User). See :ref:`User Roles
         <user_roles>` for more information.

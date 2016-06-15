@@ -3,7 +3,7 @@
 Switch Inventory
 ================
 
-The switch inventory table contains the details of all the components in the used switch.
+The switch inventory table contains details for the important attributes of the switch.
 
 * :guilabel:`Port`: number of the switch port
 * :guilabel:`Name`: name of the switch port

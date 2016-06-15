@@ -6,25 +6,26 @@ Glossary
 .. glossary::
 
    Controller Node
-      A Controller Node is the node in a system which processes all storage client requests. It has also
-      the logic of authentication and authorization. The Controller Node has all information of the 
-      bucket and objects in the system.
+      A Controller Node is the node in a system which processes all storage client requests. It also
+      controls the logic of authentication and authorization. The Controller Node has all information of 
+      the bucket and objects in the system.
 
    Dashboard
       The Dashboard is a collection of panels to give you an overview of system data at a glance.
 
    Data Safety
-      The Data Safety is a policy used to store the objects in |prod|. An object is split into several
-      segments, each segment is stored on a separate disk. A policy is noted in a X/Y format.
+      The Data Safety is a policy used to store the objects in the |as| systems. An object is split into 
+      several segments, each segment is stored on a separate disk. A policy is noted in a X/Y format.
       The policy defines in how many segments the object is divided (X) and how many segments may be 
       unavailable to restore the whole object (Y). 
-      |prod| supports two data safeties: 15/5 and 18/8. 
+      The |as| systems support two data safeties: 15/5 and 18/8. 
 
 .. ifconfig:: persona != 'customer'
 
    Erasure Coding
-      Erasure coding is a way to split an object into chunks and each chunk is stored on a separate disk.
-      The erasure code is able to rebuilt every chunk from other chunks if a chunk is missing. 
+      Erasure coding is a way to split and encrypt an object into chunks, with each chunk stored on a 
+      separate disk.
+      The erasure code is able to rebuild every chunk from other chunks if a chunk is missing. 
 
 .. ifconfig:: persona in ('customer', 'oem', 'admin')
 
@@ -67,8 +68,7 @@ Glossary
 .. ifconfig:: persona in ('customer', 'oem', 'admin')
 
    Storage Enclosure
-      The storage enclosure is a container for the disk drives to store the data. It stores the data that 
-      is sent by a storage node.
+      The storage enclosure is a container for the disk drives to store the data. 
 
    Storage Node
       A storage node is the node which receives objects from the :term:`Controller Node`. It is responsible

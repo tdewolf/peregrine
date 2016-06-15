@@ -4,7 +4,7 @@ Capacity Planner
 ================
 
 The :guilabel:`Capacity Planner` page gives you an overview of a system's historic usage and a predicted
-usage in the upcoming months and years.
+consumption for the upcoming months and years.
   
 .. toctree::
 

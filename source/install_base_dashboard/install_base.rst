@@ -28,7 +28,7 @@ Install Base Table
 |install_base|
 
 * :guilabel:`Customer`: Displays the name of the customer.
-* :guilabel:`Channel`: The Channel is the sales channel who is responsible for the customer.
+* :guilabel:`Channel`: The Channel is the sales channel with responsibility for the customer.
 * :guilabel:`Region`: The Region indicates where the customer's systems are installed.
 * :guilabel:`Systems`: The Systems column displays the number of systems that a customer has deployed.
 * :guilabel:`Sentiment`: Coming soon...

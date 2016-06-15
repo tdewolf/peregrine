@@ -5,5 +5,5 @@ Recommendations
 
 .. note::
 
-   The :guilabel:`Recommendations` panel is under development. The displayed information represents fake 
-   data.
+   The :guilabel:`Recommendations` panel is under development. The displayed information contains only
+   representative data.

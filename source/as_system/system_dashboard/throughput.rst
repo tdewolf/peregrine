@@ -9,13 +9,13 @@
 Throughput
 ==========
 
-The :guilabel:`Throughput` panel displays the used bandwidth for Read and Write operations (separated) over
+The :guilabel:`Throughput` panel displays the bandwidth, consumed for Read and Write operations over 
 time. The displayed information is aggregated from all racks of a system.
 
 |throughput|
 
 You can hide one of the operations by clicking one of the operations below the graphic. By hiding one of
-the operations, it may occur that the scale of the Y-axis is rescaled.
+the operations, it may occur that the Y-axis is rescaled.
 
 |throughput_get|
 

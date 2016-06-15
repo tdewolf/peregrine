@@ -3,7 +3,7 @@
 Storage Enclosure Summary
 =========================
 
-The summary of a Storage Enclosure (SExx) contains this data:
+The summary of a Storage Enclosure (SEaa) contains this data:
 
 * :guilabel:`Fans`: number of fans
 * :guilabel:`Part Number`: identification of the storage enclosure

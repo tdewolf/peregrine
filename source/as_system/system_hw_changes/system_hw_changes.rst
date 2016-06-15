@@ -15,7 +15,7 @@ Hardware Changes
 On the :guilabel:`Hardware Changes` page, you find a time line of all hardware changes that occurred on
 the system. The time line only covers the selected period
 
-The time line indicates replaced parts and added parts information and the affected node.
+The time line indicates replaced parts and added parts information for the affected node.
 
 |hw_changes|
 

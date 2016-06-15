@@ -26,7 +26,7 @@ time.
 Available Statistics
 --------------------
 
-Besides the default statistics, you can select the following ones via the :guilabel:`Select Stats` menu 
+Besides the default statistics, you can select the following via the :guilabel:`Select Stats` menu 
 at the top of the :guilabel:`System` page.
 
 * Total Read/Writes
@@ -47,10 +47,10 @@ The performance page is split into three graphics per available statistic.
 * On the right you find the issues in chronological order on the Controller Nodes and the Storage Nodes. 
 
 At the bottom of the graphics you can make selections. By default the average (:guilabel:`Avg`) is
-displayed, but you can select one or more nodes to compare the performance of specific nodes with the
-average performance. If the name of the node is greyed out, the node is not displayed in the graph.
+displayed, but you can select one or more specific nodes to compare against the average performance of
+the nodes. If the name of the node is greyed out, the node is not displayed in the graph.
 
-The time series graphic contains also the issues on the nodes, indicated by orange (error) or yellow 
+The time series graphic also contains the issues on the nodes, indicated by orange (error) or yellow 
 (warning) icons.
 
 When you click an issue in the time series the bullet turns green and the issue is displayed in the
@@ -60,7 +60,7 @@ corresponding controller or storage graphic.
 Zoom
 ----
 
-The zoom level of the time series graphic depends on the date range you have selected on top of the 
+The zoom level of the time series graphic depends on the date range you have selected at the top of the 
 :guilabel:`System` page. In each of the time series graphic, you can zoom in to a specific period. Click 
 :guilabel:`Reset zoom` to return to the default zoom level.
 
@@ -87,8 +87,8 @@ Issue Details
 
 The content of the issue details panel may be graphical or textual.
 
-If the content is graphical, you can click on the node names underneath the graphic to disable (greyed 
-out) or enable (bold) the node's information. 
+If the content is graphical, you can click on the node names underneath the graphic to disable (grey out) 
+or enable (bold) the node's information. 
 
 .. tip::
 

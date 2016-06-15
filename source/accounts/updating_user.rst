@@ -13,7 +13,7 @@ Updating a User
 
    Only Super Users can update the user information.
 
-When the data of a user is outdated, you can update it in the :guilabel:`User Management` section.
+When the profile of a user is outdated, you can update it in the :guilabel:`User Management` section.
 
 To update a user:
 
