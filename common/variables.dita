@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<dita>
+  <topic id="general">
+    <title>General</title>
+    <body>
+      <p><ph id="CompanyNameShort">HGST, a Western Digital company</ph></p>
+      <p><ph id="CompanyNameAcronym">HGST</ph></p>
+      <p><ph id="CompanyNameInc">HGST, Inc.</ph></p>
+      <p><ph id="support_name"><xref href="http://support.hgst.com" format="html">HGST Support</xref></ph></p>
+      <p><ph id="support_phonehome">HGST_PhoneHome@hgst.com</ph></p>
+    </body>
+  </topic>
+  <topic id="sw">
+    <title>Software</title>
+    <body>
+      <p><ph id="cm_short">ActiveScale CM</ph></p>
+      <p><ph id="cm_long">ActiveScale Cloud Management</ph></p>
+      <p><ph id="version">1.1</ph></p>
+    </body>
+  </topic>
+</dita>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_spn_1gc_gw" xml:lang="en-us">
+    <title>Disabling a User</title>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword/>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Disabling a user allows you to quickly deactivate a user, the user account remains in
+                the system, but the user can no longer access <ph/>. </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click on your user name in the top-right corner.</cmd>
+            </step>
+            <step>
+                <cmd>Select <uicontrol>User Management</uicontrol>.</cmd>
+                <stepresult>The <wintitle>User Management</wintitle> window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Look up the user by scrolling in the table or by searching for the user in the
+                        <uicontrol>Search user</uicontrol> box.</cmd>
+            </step>
+            <step>
+                <cmd>In the <uicontrol>Actions</uicontrol> column, click the disable <image
+                        href="../../common/images/user_enabled.png" id="image_hn5_x3c_gw"/>
+                    switch.</cmd>
+                <stepresult>The switch is set to disabled (<image
+                        href="../../common/images/user_disabled.png" id="image_a5v_bjc_gw"
+                    />)</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

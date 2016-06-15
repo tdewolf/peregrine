@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>ActiveScale Cloud Management</mainbooktitle>
+    </booktitle>
+    <chapter href="accounts/topic/topic_Accounts.dita">
+        <topicref href="accounts/topic/topic_UserRolesAndPermissions.dita">
+            <topicref href="accounts/concept/concept_Persona.dita"/>
+            <topicref href="accounts/concept/concept_Role.dita"/>
+        </topicref>
+        <topicref href="accounts/task/task_DisablingUser.dita"/>
+    </chapter>
+    
+</bookmap>

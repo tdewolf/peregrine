@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_Role" xml:lang="en-us">
+ <title>Roles</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The Role defines the action privileges of the user. There are two roles in <ph>prod</ph>:</p>
+  <p>
+   <dl>
+    <dlentry>
+     <dt>User</dt>
+     <dd>A user with the "User" role has only view rights on the system data.</dd>
+    </dlentry>
+    <dlentry>
+     <dt>Super User</dt>
+     <dd>A user with the "Super User" role has the same rights as users with the "User" role, but
+      can also manage <ph>prod</ph> users.</dd>
+    </dlentry>
+   </dl>
+  </p>
+ </conbody>
+</concept>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_UserRoles" xml:lang="en-us">
+  <title>User Roles</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword/>
+        <indexterm/>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <dl>
+        <dlentry>
+          <dt>User</dt>
+          <dd>A user with the "User" role has only view rights on the system data.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Super User</dt>
+          <dd>A user with the "Super User" role has the same rights as users with the "User" role,
+            but can also manage <ph>prod</ph> users.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>
