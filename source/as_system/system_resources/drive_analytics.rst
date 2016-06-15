@@ -14,8 +14,8 @@
    
    There are five different drive analytics:
    
-   * :guilabel:`Read Bytes Processed`: the amount of bytes processed in read operations.
-   * :guilabel:`Write Bytes Processed`: the amount of bytes processed in write operations.
+   * :guilabel:`Read Bytes Processed`: the number of bytes processed in read operations.
+   * :guilabel:`Write Bytes Processed`: the number of bytes processed in write operations.
    * :guilabel:`Temperature`: the disk temperature
    * :guilabel:`Read Errors Corrected with Possible Delays`: the number of read errors that have been
      corrected.

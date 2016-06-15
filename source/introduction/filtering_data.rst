@@ -21,7 +21,7 @@ you can filter these data.
 Filtering by Date
 -----------------
 
-To filter the data, you can select a period to retrieve the data. The default period is the last day of 
+To filter the data, you can select a time period for retrieval. The default period is the last day of 
 retrieving the statistics from the |as| systems.
 
 |filter_by_date|
@@ -40,8 +40,8 @@ Filtering by Text
 -----------------
 
 In some panels, you find a large list of items, which makes it often hard to find the data that you're
-looking for. To help you looking for the desired information, such panels have a filter box in which you 
-can search for the necessary data. 
+looking for. To help you locate the desired information, such panels have a filter box in which you can 
+search for the necessary data. 
 
 |filter_by_text|
 
@@ -52,7 +52,7 @@ is retrieved.
 Ordering by Column
 ------------------
 
-You can order all data, that are displayed in tables, in ascending or descending way. To do so, click the
+You can order all data, displayed in tables, in ascending or descending order. To do so, click the
 column header whose information you want to order; click the header again to reverse the order.
 
 In the next example, the data are displayed by :guilabel:`Storage Capacity` in ascending order.

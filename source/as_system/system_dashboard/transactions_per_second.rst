@@ -14,7 +14,7 @@ The :guilabel:`Transactions/seconds` panel displays the system's overall operati
 |ops_per_sec|
 
 You can hide one of the operations by clicking one of the operations below the graphic. By hiding one of
-the operations, it may occur that the scale of the Y-axis is rescaled.
+the operations, it may occur that the Y-axis is rescaled.
 
 |ops_per_sec_put|
 

@@ -38,5 +38,5 @@ To reduce the number of records in the displayed table, you can add a free text 
 :guilabel:`Filter` field. Once you start typing, the table is updated with matching records.
 
 For example, if you type :kbd:`4.1`, the table automatically shows all systems that use version 4.1, but
-also systems that would have a capacity, which contains 4.1, for example 4.19 PB.
+also systems that would have for example 4.19 PB.
 

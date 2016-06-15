@@ -18,6 +18,6 @@ The inventory table of a Controller or Storage Node are identical. The table con
 * :guilabel:`Model`: model of the component
 * :guilabel:`Serial`: serial number of the component
 * :guilabel:`Description`: short description of the component
-* :guilabel:`Firmware`: version of the used firmware in the component
+* :guilabel:`Firmware`: version of the firmware installed in the component
 * :guilabel:`Slot`: slot ID of the component
 

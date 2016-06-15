@@ -4,7 +4,7 @@
 ===========
 
 The :guilabel:`Object Storage System` page provides detailed information about a selected system. The information
-includes amongst others the system information, alerts, events and so on.
+includes, amongst others, the system information, alerts, events and so on.
 
 .. toctree::
 

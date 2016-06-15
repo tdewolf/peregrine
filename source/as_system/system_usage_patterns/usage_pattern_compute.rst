@@ -5,7 +5,7 @@
 Compute Usage Pattern
 =====================
 
-There are three different usage patterns on compute level:
+There are three different usage patterns at the compute level:
 
 * :guilabel:`CPU usage` (default): CPU utilization (user CPU usage), averaged across all Controller and 
   Storage Nodes

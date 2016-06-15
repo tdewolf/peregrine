@@ -4,14 +4,14 @@
    =================
    
    The :guilabel:`Correlated Events` tab features a chart with bars for various correlations. The 
-   correlations display the relationship between two seemingly independent tatistics.
+   correlations display the relationship between two seemingly independent statistics.
    
    |correlations|
    
-   Click any correlation bar to get detailed time series correlation data along with issues and suggestions.
-   The detailed time series are displayed per controller node and per storage node. 
+   Click any correlation bar to get detailed time series correlation data along with issues and 
+   suggestions. The detailed time series are displayed per controller node and per storage node. 
    
-   In these detailed correlation graphics, you can have an insight on how differenct statistics are related 
+   In these detailed correlation graphics, you can gain insight on how differenct statistics are related 
    to each other. 
    
    |correlation_detail_ctrl|

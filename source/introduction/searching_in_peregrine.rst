@@ -12,7 +12,7 @@
 Searching in |prod|
 ===================
 
-You can quickly search for information in |prod| by using opening the search box with the |search| icon.
+You can quickly search for information in |prod| by opening the search box with the |search| icon.
 
 .. ifconfig:: persona != 'customer'
 
@@ -29,8 +29,8 @@ On the left of the search box, you have a menu with three choices:
 You can enter any term, from a node name, Linux error to a user name. The search term is case
 insensitive.
 
-For example, "warning A0010 SN01", "warning md2 EXT4-fs", "warn_slowpath_common". Press :kbd:`Enter` for 
-suggestions. Type "|" for OR. Press :kbd:`Enter` *twice* to start the search.
+Examples of valid entries may be: "warning A0010 SN01", "warning md2 EXT4-fs", "warn_slowpath_common". 
+Press :kbd:`Enter` for suggestions. Type :kbd:`|` for OR. Press :kbd:`Enter` *twice* to start the search.
 
 If you want to look for the inventory of a system with the name A0005:
 

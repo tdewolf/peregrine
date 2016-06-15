@@ -7,9 +7,9 @@ Network Usage Pattern
 
 You can consult the network usage pattern of a system via three statistics:
 
-* :guilabel:`Rx` (default): received amount of data in KB, averaged across all Controller Nodes and Storage
+* :guilabel:`Rx` (default): received number of data in KB, averaged across all Controller Nodes and Storage
   Nodes.
-* :guilabel:`Total Received Packets`: total amount of received packets, averaged across all Controller Nodes and
+* :guilabel:`Total Received Packets`: total number of received packets, averaged across all Controller Nodes and
   Storage Nodes.
 * :guilabel:`Total Transmitted Packets`: total amount of transmitted packets, averaged across all Controller
   Nodes and Storage Nodes.

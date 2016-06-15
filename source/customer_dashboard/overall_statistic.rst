@@ -11,7 +11,7 @@ Overall System Statistics
 
 .. ifconfig:: persona != 'customer'
 
-   There are four overall statistics of the customer, the values are aggregated over all its systems:
+   There are four overall statistics of the customer, with the values aggregated over all its systems:
 
    * :guilabel:`Total Buckets`: The total number of S3 buckets that are deployed by this customer.
    * :guilabel:`S3 Users`: The total number of S3 users of the customer.

@@ -10,9 +10,9 @@ files. Click a dot on the time line to select a day.
 
 |log_timeline|
 
-When you have selected the day on the timeline, click on the node in the rack, whose log details you want
-to consult. If you haven't selected a dot in the :guilabel:`Log Timeline`, the displayed log
-files will be the most recent.
+When you have selected the day on the timeline, click on that node in the rack for which you want to
+consult the log details. If you haven't selected a dot in the :guilabel:`Log Timeline`, the displayed 
+log files will be the most recent.
 
 There are various log files, depending on the device type:
 

@@ -18,7 +18,7 @@ The following log and configuration files are available on controller and storag
 * :guilabel:`kernel`: kernel log file of the node
 * :guilabel:`lshw`: detailed hardware configuration of the node
 * :guilabel:`switchX`: switch information such as connected ports and switch status
-* :guilabel:`syslog`: contains the greatest deal of information by default about your node's operating 
+* :guilabel:`syslog`: a source of detailed information about the behavior of your node's operating 
   system
 
 The log statistics are logged every five minutes by default, which means that all values in the
@@ -97,7 +97,7 @@ The |as| software logs contains the following data:
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | get_blocks_duration                     | Duration and throughput of the blockstore get_blocks       | Retrieved size of the blocks.     |
 |                                         | call, which requests the blocks from the blockstore.       |                                   |
-| get_blocks_throughput                   | This blockstore reads the bloks from disk and sends        |                                   |
+| get_blocks_throughput                   | This blockstore reads the blocks from disk and sends       |                                   |
 |                                         | it back.                                                   |                                   |
 +-----------------------------------------+------------------------------------------------------------+-----------------------------------+
 | other_location_get_blocks_duration      | Same as the previous, but from a different location.       | Retrieved size of the blocks.     |

@@ -15,7 +15,7 @@ Write operations. The graphic can help you in identifying possible network issue
 |response_time|
 
 You can hide one of the operations by clicking one of the operations below the graphic. By hiding one of
-the operations, it may occur that the scale of the Y-axis is rescaled.
+the operations, it may occur that the Y-axis is rescaled.
 
 |response_time_put|
 
