@@ -65,7 +65,7 @@ The main page displays the information that you have selected from the dashboard
 on. The page consists of multiple panels which contain the information in table or graphical format. 
 For more information about the panel, hover over the panel's help icon (|csh_help|).
 
-Wherever applicable, some information can be dowloaded via the panel:
+Where applicable, some information can be dowloaded via the panel:
 
 * **graphical data**: Click the download icon in the panel (|download_graph|) to download the graphic.
   You can download the information in various formats (PNG, JPEG, PDF, SVG) or to a printer.
