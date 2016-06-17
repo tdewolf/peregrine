@@ -10,7 +10,11 @@
             <topicref href="accounts/concept/concept_Role.dita"/>
         </topicref>
         <topicref href="accounts/topic/topic_ManagingUsers.dita">
+            <topicref href="accounts/task/task_AddingUser.dita"/>
+            <topicref href="accounts/task/task_UpdatingUser.dita"/>
             <topicref href="accounts/task/task_DisablingUser.dita"/>
+            <topicref href="accounts/task/task_EnablingUser.dita"/>
+            <topicref href="accounts/task/task_DeletingUser.dita"/>
         </topicref>
     </chapter>
     
