@@ -9,7 +9,9 @@
             <topicref href="accounts/concept/concept_Persona.dita"/>
             <topicref href="accounts/concept/concept_Role.dita"/>
         </topicref>
-        <topicref href="accounts/task/task_DisablingUser.dita"/>
+        <topicref href="accounts/topic/topic_ManagingUsers.dita">
+            <topicref href="accounts/task/task_DisablingUser.dita"/>
+        </topicref>
     </chapter>
     
 </bookmap>

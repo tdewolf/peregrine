@@ -2,23 +2,65 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_chp_drb_gw" xml:lang="en-us">
     <title>Adding a User</title>
-    <shortdesc/>
     <prolog>
         <metadata>
             <keywords>
                 <keyword/>
-                <indexterm/>
+                <indexterm>add<indexterm>user</indexterm></indexterm>
             </keywords>
         </metadata>
     </prolog>
     <taskbody>
-        <context>
-            <p/>
-        </context>
+        <prereq>
+            <p>You can only add users if you have the role of "Super User".</p>
+            <p audience="admin">The options in the user properties vary according the "Persona", for
+                example an OEM persona is not able to add a user with an Admin persona.</p>
+            <p audience="partner">The options in the user properties vary according the "Persona",
+                for example a Customer persona is not able to add a user with an OEM persona.</p>
+        </prereq>
         <steps>
-            <step>
+            <step conref="../../common/warehouse.dita#task_w1w_t3j_3w/click_username"
+                conrefend="../../common/warehouse.dita#task_w1w_t3j_3w/select_user_mgmt">
                 <cmd/>
             </step>
+            <step>
+                <cmd>On top of the table, click <uicontrol>Add User</uicontrol>.</cmd>
+                <stepresult>A new row appears in the table.</stepresult>
+            </step>
+            <step>
+                <cmd>Fill out the row with the proper values:</cmd>
+                <info>
+                    <ul id="ul_xcn_yjj_3w" audience="">
+                        <li><uicontrol>Username</uicontrol>: user name to access <ph
+                                conref="../../common/variables.dita#sw/cm_short"/></li>
+                        <li audience="admin"><uicontrol>Persona</uicontrol>: this value defines the
+                            information that the user will see in the UI (Admin, Customer, OEM). See
+                                <xref href="../concept/concept_Persona.dita#concept_Persona"/> for
+                            more information.</li>
+                        <li audience="partner"><uicontrol>Persona</uicontrol>: this value defines
+                            the information that the user will see in the UI (Customer, OEM). See
+                                <xref href="../concept/concept_Persona.dita#concept_Persona"/> for
+                            more information.</li>
+                        <li audience="customer"><uicontrol>Persona</uicontrol>: this value is
+                            automatically filled out with 'Customer'. See <xref
+                                href="../concept/concept_Persona.dita#concept_Persona"/> for more
+                            information.</li>
+                        <li><uicontrol>Account</uicontrol>: the name of the account to which the
+                            user belongs.</li>
+                        <li><uicontrol>Role</uicontrol>: the role of the user (User, Super User).
+                            See <xref href="../concept/concept_Role.dita#concept_Role"/> for more
+                            information.</li>
+                        <li><uicontrol>Email</uicontrol>: e-mail address of the user for all
+                            communication.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the Save button (<image href="../../common/images/save_user.png"
+                        width="16" height="16" id="image_bhy_blj_3w"/>) in the
+                        <uicontrol>Actions</uicontrol> column.</cmd>
+            </step>
         </steps>
+        <result>The user receives an email with the login and a temporary password.</result>
     </taskbody>
 </task>

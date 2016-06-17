@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ManagingUsers" xml:lang="en-us">
+  <title>Managing <ph conref="../../common/variables.dita#sw/cm_short">prod</ph> Users</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword/>
+        <indexterm/>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p/>
+  </body>
+</topic>

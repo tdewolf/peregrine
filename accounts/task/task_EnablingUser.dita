@@ -6,18 +6,30 @@
     <prolog>
         <metadata>
             <keywords>
-                <keyword/>
-                <indexterm/>
+                <keyword>enable</keyword>
+                <indexterm>enable<indexterm>user</indexterm></indexterm>
             </keywords>
         </metadata>
     </prolog>
     <taskbody>
+        <prereq>Only <xref href="../concept/concept_Role.dita#concept_Role">Super Users</xref> can
+            enable a user.</prereq>
         <context>
-            <p/>
+            <p>Enabling a user allows you to quickly activate a user instead of creating a new
+                user.</p>
         </context>
-        <steps>
-            <step>
+        <steps id="steps_qzx_3hj_3w">
+            <step conref="../../common/warehouse.dita#task_w1w_t3j_3w/click_username"
+                conrefend="../../common/warehouse.dita#task_w1w_t3j_3w/look_for_user">
                 <cmd/>
+            </step>
+            <step>
+                <cmd>In the <uicontrol>Actions</uicontrol> column, click the enable <image
+                        href="../../common/images/user_disabled.png" id="image_a5v_bjc_gw"/>
+                    switch.</cmd>
+                <stepresult>The switch is set to enabled (<image
+                        href="../../common/images/user_enabled.png" id="image_hn5_x3c_gw"
+                    />)</stepresult>
             </step>
         </steps>
     </taskbody>

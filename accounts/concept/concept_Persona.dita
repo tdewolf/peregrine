@@ -12,9 +12,14 @@
   </metadata>
  </prolog>
  <conbody>
-  <p>The Persona identifies the user type and defines the information that is available to this
-   user. There are three types of “persona”: </p>
-  <dl>
+  <p audience="admin">The Persona identifies the user type and defines the information that is
+   available to this user. There are three types of “persona”: </p>
+  <p audience="partner">The Persona identifies the user type and defines the information that is
+   available to this user. There are two types of “persona”: </p>
+  <p audience="customer">The Persona identifies the user type and defines the information that is
+   available to this user. As "customer" persona, you have view access to your own account
+   information and system data. </p>
+  <dl audience="admin">
    <dlentry>
     <dt>Admin</dt>
     <dd>A user who is an “Admin” type, has view access to the system data of all customers. These
@@ -23,9 +28,24 @@
    <dlentry>
     <dt>OEM</dt>
     <dd>A user who is of an "OEM" type belongs to a special type of customer. This customer is
-     typically an |comp| partner, for example a service provider or reseller. The partner provides
-     |prod| to its own customers. This type of user has view access to the account system data and
-     to the system data of all his/her customers.</dd>
+     typically an <ph conref="../../common/variables.dita#general/CompanyNameAcronym">HGST</ph>
+     partner, for example a service provider or reseller. The partner provides <ph
+      conref="../../common/variables.dita#sw/cm_short">ActiveScale CM</ph> to its own customers.
+     This type of user has view access to the account system data and to the system data of all
+     his/her customers.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>Customer</dt>
+    <dd>A user who is a "Customer" type has view access to the system data of its own account.</dd>
+   </dlentry>
+  </dl>
+  <dl audience="partner">
+   <dlentry>
+    <dt>OEM</dt>
+    <dd>A user who has the "OEM" persona, belongs typically to an <ph
+      conref="../../common/variables.dita#general/CompanyNameAcronym">HGST</ph> partner. This can be
+     a service provider or reseller, providing <ph conref="../../common/variables.dita#sw/cm_short"
+      >ActiveScale CM</ph> to its own customers.</dd>
    </dlentry>
    <dlentry>
     <dt>Customer</dt>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<dita>
+  <topic id="topic_e2h_13j_3w" xml:lang="en-us">
+    <title>Warehouse Reusable Content</title>
+  </topic>
+  <concept id="concept_vxd_djj_3w">
+    <title>Concept Reusable Content</title>
+    <conbody/>
+  </concept>
+  <reference id="reference_rsc_t3j_3w">
+    <title>Reference Reusable Content</title>
+    <refbody/>
+  </reference>
+  <task id="task_w1w_t3j_3w">
+    <title>Task Reusable Content</title>
+    <taskbody>
+      <steps>
+        <step id="click_username">
+          <cmd>Click on your user name in the top-right corner.</cmd>
+        </step>
+        <step id="select_user_mgmt">
+          <cmd>Select <uicontrol>User Management</uicontrol>.</cmd>
+          <stepresult>The <wintitle>User Management</wintitle> window appears.</stepresult>
+        </step>
+        <step id="look_for_user">
+          <cmd>Look up the user by scrolling in the table or by searching for the user in the
+              <uicontrol>Search user</uicontrol> box.</cmd>
+        </step>
+      </steps>
+    </taskbody>
+  </task>
+  <topic id="topic_jzt_bjj_3w">
+    <title>Topic Reusable Content</title>
+    <body/>
+  </topic>
+</dita>

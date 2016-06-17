@@ -12,12 +12,32 @@
         </metadata>
     </prolog>
     <taskbody>
+        <prereq>Only Super Users can update the user information.</prereq>
         <context>
-            <p/>
+            <p>When the profile of a user is outdated, you can update it in the <uicontrol>User
+                    Management</uicontrol> section.</p>
+            <p>To update a user:</p>
         </context>
         <steps>
-            <step>
+            <step conref="../../common/warehouse.dita#task_w1w_t3j_3w/click_username"
+                conrefend="../../common/warehouse.dita#task_w1w_t3j_3w/look_for_user">
                 <cmd/>
+            </step>
+            <step>
+                <cmd>In the <uicontrol>Actions</uicontrol> column, click the Edit button (<image
+                        href="../../common/images/user_edit.png" width="16" height="16"
+                        id="image_zws_nlj_3w"/>).</cmd>
+                <stepresult>The user row becomes editable.</stepresult>
+            </step>
+            <step>
+                <cmd>You can update the <uicontrol>Account</uicontrol>, <uicontrol>Role</uicontrol>,
+                    and <uicontrol>Email</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the save button (<image href="../../common/images/user_save.png"
+                        width="16" height="16" id="image_xyt_vlj_3w"/>) to apply the changes, or
+                    click the cancel button (<image href="../../common/images/user_edit_cancel.png"
+                        width="16" height="16" id="image_ipn_xlj_3w"/>) to cancel the changes.</cmd>
             </step>
         </steps>
     </taskbody>
