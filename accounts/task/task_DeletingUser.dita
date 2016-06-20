@@ -13,11 +13,26 @@
     </prolog>
     <taskbody>
         <context>
-            <p/>
+            <p>When you no longer need a user, you can opt to <xref
+                    href="task_DisablingUser.dita#task_spn_1gc_gw">disable a user</xref> or to
+                permanently delete the user.</p>
+            <note type="warning">Deleting a user is an irreversible action. Only <xref
+                    href="../concept/concept_Role.dita#concept_Role">Super Users</xref> can delete
+                users.</note>
         </context>
         <steps>
-            <step>
+            <step conref="../../common/warehouse.dita#task_w1w_t3j_3w/click_username"
+                conrefend="../../common/warehouse.dita#task_w1w_t3j_3w/look_for_user">
                 <cmd/>
+            </step>
+            <step>
+                <cmd>In the <uicontrol>Actions</uicontrol> column, click the Delete button (<image
+                        href="../../common/images/user_delete.png" width="16" height="16"
+                        id="image_qcz_s3d_jw"/>).</cmd>
+                <stepresult>A warning appears that this action is irreversible.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol> to delete the user.</cmd>
             </step>
         </steps>
     </taskbody>
