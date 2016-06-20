@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_Navigation" xml:lang="en-us">
+ <title>Navigation</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>navigation</keyword>
+    <keyword>breadcrumb</keyword>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>To easily navigate through the various sections in <ph conkeyref="variables/cm_short"/>, there
+   is a breadcrumb trail below the top bar.<fig id="fig_alf_242_jw" audience="admin">
+    <title>Breadcrumb</title>
+    <image placement="break" href="../../common/images/breadcrumb.png" align="center"
+     id="image_blf_242_jw"/>
+   </fig><fig audience="partner" id="fig_b2t_w42_jw">
+    <title>Breadcrumb</title>
+    <image placement="break" href="../../common/images/breadcrumb.png" align="center"
+     id="image_c2t_w42_jw"/>
+   </fig><fig audience="customer" id="fig_yg5_w42_jw">
+    <title>Breadcrumb</title>
+    <image placement="break" href="../../common/images/breadcrumb_customer.png" align="center"
+     id="image_zg5_w42_jw"/>
+   </fig></p>
+  <p audience="admin">
+   <ol id="ol_xgg_f42_jw">
+    <li>Home page of <ph conkeyref="variables/cm_short"/>, which is the <xref
+      href="../../install_base_dashboard/topic/topic_InstallBaseDashboard.dita#topic_InstallBaseDashboard"
+     />.</li>
+    <li>The second item of the breadcrumb is the name of the <xref
+      href="../../customer_dashboard/topic/topic_CustomerDashboard.dita#topic_CustomerDashboard"
+      >customer or partner</xref>. </li>
+    <li>The third item is the name of the <xref
+      href="../../as_system/topic/topic_AsSystem.dita#topic_AsSystem">customer's <ph
+       conkeyref="variables/osm"/> system</xref>.</li>
+    <li>The possible fourth item of the breadcrumb is the name of a subsection of a system's
+     dashboard page.</li>
+   </ol>
+  </p>
+  <p audience="admin">Click any of the items to return to that level. For example, if you click the
+   second item in the breadcrumb, you return to the customer's dashboard.</p>
+  <p audience="partner">
+   <ol id="ol_jbj_3p2_jw">
+    <li>Home page of <ph conkeyref="variables/cm_short"/>, which is the <xref
+      href="../../install_base_dashboard/topic/topic_InstallBaseDashboard.dita#topic_InstallBaseDashboard"
+     />.</li>
+    <li>The second item of the breadcrumb is the name of the <xref
+      href="../../customer_dashboard/topic/topic_CustomerDashboard.dita#topic_CustomerDashboard"
+      >customer or partner</xref>. </li>
+    <li>The third item is the name of the <xref
+      href="../../as_system/topic/topic_AsSystem.dita#topic_AsSystem">customer's <ph
+       conkeyref="variables/osm"/> system</xref>.</li>
+    <li>The possible fourth item of the breadcrumb is the name of a subsection of a system's
+     dashboard page.</li>
+   </ol>
+  </p>
+  <p audience="partner">Click any of the items to return to that level. For example, if you click
+   the second item in the breadcrumb, you return to the customer's dashboard.</p>
+  <p audience="customer">
+   <ol id="ol_ot1_jp2_jw">
+    <li>Home page of <ph conkeyref="variables/cm_short"/>, which is the dashboard of your <xref
+      href="../../customer_dashboard/topic/topic_CustomerDashboard.dita#topic_CustomerDashboard"
+      >account</xref>.</li>
+    <li>The second item is the name of the <xref
+      href="../../as_system/topic/topic_AsSystem.dita#topic_AsSystem">selected <ph
+       conkeyref="variables/osm"/> system</xref>.</li>
+    <li>The possible third item is the name of a subsection of a system's dashboard page.</li>
+   </ol>
+  </p>
+  <p audience="customer">Click any of the items to return to that level. For example, if you click
+   the second item in the breadcrumb, you return to the selected system.</p>
+ </conbody>
+</concept>

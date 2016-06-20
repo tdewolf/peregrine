@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_Typography">
+   <title>Typography</title>
+   
+   
+   
+   <prolog>
+      <metadata>
+         <keywords>
+            <indexterm>typography</indexterm>
+         </keywords>
+      </metadata>
+   </prolog>
+   <conbody>
+      <table id="table_vvh_1zs_5q">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="40%"/>
+            <colspec colname="col2"/>
+            <thead>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1" outputclass="head"
+                     >Element</entry>
+                  <entry morerows="0" namest="col2" nameend="col2" outputclass="head">Sample
+                     Notation</entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">Linux commands or user input</entry>
+                  <entry morerows="0" namest="col2" nameend="col2"><userinput>rm -rf
+                        /tmp</userinput></entry>
+               </row>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">Linux system output</entry>
+                  <entry morerows="0" namest="col2" nameend="col2"><systemoutput
+                       >Installation
+                     successful!</systemoutput></entry>
+               </row>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">Commands longer than one line are
+                     split with "\"</entry>
+                  <entry morerows="0" namest="col2" nameend="col2">
+                     <codeblock>s3cmd \
+--dump-config</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">User-supplied values</entry>
+                  <entry morerows="0" namest="col2" nameend="col2"><varname>ManagementNodeVirtualIPAddress</varname> or
+                        <codeph>&lt;ManagementNodeVirtualIPAddress></codeph></entry>
+               </row>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">File and directory names</entry>
+                  <entry morerows="0" namest="col2" nameend="col2">The file <filepath
+                       >aFile.txt</filepath> is stored in <filepath
+                       >/home/user</filepath>.</entry>
+               </row>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">Any graphical user interface
+                     label</entry>
+                  <entry morerows="0" namest="col2" nameend="col2">Click <uicontrol
+                        >OK</uicontrol>.</entry>
+               </row>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">Keyboard keys and
+                     sequences</entry>
+                  <entry morerows="0" namest="col2" nameend="col2">To cancel the operation, press <userinput outputclass="kbd docutils literal"
+                        >Ctrl+c</userinput>.</entry>
+               </row>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">Menu navigation in a graphical user interface</entry>
+                  <entry morerows="0" namest="col2" nameend="col2">Navigate to <menucascade>
+                        <uicontrol>Dashboard</uicontrol> <uicontrol>Administration</uicontrol> <uicontrol>Hardware</uicontrol> <uicontrol>Servers</uicontrol>
+                     </menucascade>.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </conbody>
+   
+</concept>

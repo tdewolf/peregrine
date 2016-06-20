@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"><concept id="concept_Admonitions">
+   <title>Admonitions</title>
+   
+   
+   
+   <prolog>
+      <metadata>
+         <keywords>
+            <indexterm>conventions</indexterm>
+         </keywords>
+      </metadata>
+   </prolog>
+   <conbody>
+      <table id="table_jxj_czs_5q">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="30%"/>
+            <colspec colname="col3"/>
+            <thead>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1" outputclass="head">Type</entry>
+                  <entry morerows="0" namest="col3" nameend="col3" outputclass="head">Usage</entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">
+                     <note/>
+                  </entry>
+                   <entry morerows="0" namest="col3" nameend="col3">Indicates extra information that has no specific hazardous or damaging consequences.</entry>
+               </row>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">
+                     <note type="tip"/>
+                  </entry>
+                  <entry morerows="0" namest="col3" nameend="col3">Indicates a faster or more efficient way to do something.</entry>
+               </row>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">
+                     <note type="caution"/>
+                  </entry>
+                  <entry morerows="0" namest="col3" nameend="col3">Indicates an action that, if taken or avoided, may result in hazardous or damaging
+                     consequences.</entry>
+               </row>
+               <row>
+                  <entry morerows="0" namest="col1" nameend="col1">
+                     <note type="warning"/>
+                  </entry>
+                  <entry morerows="0" namest="col3" nameend="col3">Indicates an action that, if taken or avoided, may result in data loss or
+                     unavailability.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </conbody>
+   
+</concept>

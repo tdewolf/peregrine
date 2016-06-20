@@ -6,14 +6,14 @@
  <prolog>
   <metadata>
    <keywords>
-    <keyword/>
-    <indexterm/>
+    <keyword>role</keyword>
+    <indexterm>super<indexterm>user</indexterm></indexterm>
    </keywords>
   </metadata>
  </prolog>
  <conbody>
   <p>The Role defines the action privileges of the user. There are two roles in <ph
-    conref="../../common/variables.dita#sw/cm_short">prod</ph>:</p>
+    conkeyref="variables/cm_short">ActiveScale CM</ph>:</p>
   <p>
    <dl>
     <dlentry>
@@ -23,8 +23,7 @@
     <dlentry>
      <dt>Super User</dt>
      <dd>A user with the "Super User" role has the same rights as users with the "User" role, but
-      can additionally manage <ph conref="../../common/variables.dita#sw/cm_short">prod</ph>
-      users.</dd>
+      can additionally manage <ph conkeyref="variables/cm_short">ActiveScale CM</ph> users.</dd>
     </dlentry>
    </dl>
   </p>

@@ -6,8 +6,8 @@
  <prolog>
   <metadata>
    <keywords>
-    <keyword/>
-    <indexterm/>
+    <keyword>persona</keyword>
+    <indexterm>persona</indexterm>
    </keywords>
   </metadata>
  </prolog>
@@ -28,11 +28,10 @@
    <dlentry>
     <dt>OEM</dt>
     <dd>A user who is of an "OEM" type belongs to a special type of customer. This customer is
-     typically an <ph conref="../../common/variables.dita#general/CompanyNameAcronym">HGST</ph>
-     partner, for example a service provider or reseller. The partner provides <ph
-      conref="../../common/variables.dita#sw/cm_short">ActiveScale CM</ph> to its own customers.
-     This type of user has view access to the account system data and to the system data of all
-     his/her customers.</dd>
+     typically an <ph conkeyref="variables/CompanyNameAcronym">HGST</ph> partner, for example a
+     service provider or reseller. The partner provides <ph conkeyref="variables/cm_short"
+      >ActiveScale CM</ph> to its own customers. This type of user has view access to the account
+     system data and to the system data of all his/her customers.</dd>
    </dlentry>
    <dlentry>
     <dt>Customer</dt>
@@ -43,9 +42,9 @@
    <dlentry>
     <dt>OEM</dt>
     <dd>A user who has the "OEM" persona, belongs typically to an <ph
-      conref="../../common/variables.dita#general/CompanyNameAcronym">HGST</ph> partner. This can be
-     a service provider or reseller, providing <ph conref="../../common/variables.dita#sw/cm_short"
-      >ActiveScale CM</ph> to its own customers.</dd>
+      conkeyref="variables/CompanyNameAcronym">HGST</ph> partner. This can be a service provider or
+     reseller, providing <ph conkeyref="variables/cm_short">ActiveScale CM</ph> to its own
+     customers.</dd>
    </dlentry>
    <dlentry>
     <dt>Customer</dt>

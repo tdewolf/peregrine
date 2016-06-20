@@ -4,6 +4,40 @@
     <booktitle>
         <mainbooktitle>ActiveScale Cloud Management</mainbooktitle>
     </booktitle>
+    <frontmatter>
+        <keydef keys="variables" href="common/variables.dita" format="dita" type="topic"></keydef>
+        <booklists product="print">
+            <toc/>
+        </booklists>
+        <notices href="common/topic/topic_Preface.dita">
+            <topicref href="common/concept/concept_Conventions.dita">
+                <topicref href="common/concept/concept_Typography.dita"/>
+                <topicref href="common/concept/concept_StorageNotations.dita"/>
+                <topicref href="common/concept/concept_Admonitions.dita"/>
+            </topicref>
+        </notices>
+    </frontmatter>
+    <chapter href="introduction/topic/topic_IntroducingAsCm.dita">
+        <topicref href="introduction/concept/concept_WhatIsPeregrine.dita"/>
+        <topicref href="introduction/concept/concept_UIComponents.dita">
+            <topicref href="introduction/concept/concept_TopBar.dita"/>
+            <topicref href="introduction/concept/concept_MainPage.dita"/>
+        </topicref>
+        <topicref href="search_filter/concept/concept_SearchPeregrine.dita">
+            <topicref href="search_filter/task/task_ExampleSearchOperation.dita"/>
+            <topicref href="search_filter/concept/concept_FilteringSearchResults.dita"/>
+        </topicref>
+        <topicref href="search_filter/topic/topic_FilteringData.dita">
+            <topicref href="search_filter/concept/concept_FilterByDate.dita"/>
+            <topicref href="search_filter/concept/concept_FilterByText.dita"/>
+            <topicref href="search_filter/concept/concept_OrderByColumn.dita"/>
+        </topicref>
+        <topicref href="introduction/concept/concept_Navigation.dita"/>
+    </chapter>
+    <chapter href="install_base_dashboard/topic/topic_InstallBaseDashboard.dita"/>
+    <chapter href="customer_dashboard/topic/topic_CustomerDashboard.dita"/>
+    <chapter href="as_system/topic/topic_AsSystem.dita"/>
+    <chapter href="ops_report/topic/topic_OpsReport.dita"/>
     <chapter href="accounts/topic/topic_Accounts.dita">
         <topicref href="accounts/topic/topic_UserRolesAndPermissions.dita">
             <topicref href="accounts/concept/concept_Persona.dita"/>

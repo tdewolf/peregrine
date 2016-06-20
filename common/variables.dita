@@ -17,6 +17,7 @@
       <p><ph id="cm_short">ActiveScale CM</ph></p>
       <p><ph id="cm_long">ActiveScale Cloud Management</ph></p>
       <p><ph id="version">1.1</ph></p>
+      <p><ph id="osm">object storage</ph></p>
     </body>
   </topic>
 </dita>

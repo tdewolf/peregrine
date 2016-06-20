@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="topic_ManagingUsers" xml:lang="en-us">
-  <title>Managing <ph conkeyref="variables/cm_short">ActiveScale CM</ph> Users</title>
+<topic id="topic_FilteringData" xml:lang="en-us">
+  <title>Filtering Data</title>
   <prolog>
     <metadata>
       <keywords>
@@ -11,6 +11,7 @@
     </metadata>
   </prolog>
   <body>
-    <p/>
+    <p>The amount of data that is available can be very large. To help you find the data that you're
+      looking for, you can filter these data.</p>
   </body>
 </topic>

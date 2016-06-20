@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_OrderByColumn" xml:lang="en-us">
+ <title>Ordering by Column</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>column</keyword>
+    <keyword>order</keyword>
+    <indexterm>column<indexterm>order<indexterm>ascending</indexterm></indexterm></indexterm>
+    <indexterm>order<indexterm>column<indexterm>descending</indexterm></indexterm></indexterm>
+    <indexterm>column<indexterm>order<indexterm>descending</indexterm></indexterm></indexterm>
+    <indexterm>order<indexterm>column<indexterm>ascending</indexterm></indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>You can order all data, displayed in tables, in ascending or descending order. To do so, click
+   the column header whose information you want to order; click the header again to reverse the
+   order. </p>
+  <p>In the next example, the data are displayed by <uicontrol>Storage Capacity</uicontrol> in
+   ascending order.</p>
+  <p>
+   <fig id="fig_dkn_wn2_jw">
+    <title>Order column ascending</title>
+    <image placement="break" href="../../common/images/order_column_ascending.png" align="center"
+     id="image_ekn_wn2_jw"/>
+   </fig>
+  </p>
+ </conbody>
+</concept>

@@ -32,7 +32,7 @@
                 <info>
                     <ul id="ul_xcn_yjj_3w" audience="">
                         <li><uicontrol>Username</uicontrol>: user name to access <ph
-                                conref="../../common/variables.dita#sw/cm_short"/></li>
+                                conkeyref="variables/cm_short">ActiveScale CM</ph></li>
                         <li audience="admin"><uicontrol>Persona</uicontrol>: this value defines the
                             information that the user will see in the UI (Admin, Customer, OEM). See
                                 <xref href="../concept/concept_Persona.dita#concept_Persona"/> for

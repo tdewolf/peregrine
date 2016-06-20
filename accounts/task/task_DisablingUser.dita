@@ -15,8 +15,8 @@
             disable a user.</prereq>
         <context>
             <p>Disabling a user allows you to quickly deactivate a user, the user account remains in
-                the system, but the user can no longer access <ph
-                    conref="../../common/variables.dita#sw/cm_short">prod</ph>. </p>
+                the system, but the user can no longer access <ph conkeyref="variables/cm_short"
+                    >ActiveScale CM</ph>. </p>
         </context>
         <steps>
             <step conref="../../common/warehouse.dita#task_w1w_t3j_3w/click_username"
