@@ -18,39 +18,25 @@
     <li>link to <xref href="../../ops_report/topic/topic_OpsReport.dita#topic_OpsReportUntitled12"
      /></li>
     <li><image placement="inline" href="../../common/images/full_screen.png" width="16" height="16"
-      id="image_tst_2h2_jw"/>: icon to open <ph conkeyref="variables/cm_short"/> in full screen
-     mode</li>
+            id="image_tst_2h2_jw"/>: icon to open <ph conkeyref="variables/cm_short"/> in full
+          screen mode</li>
     <li><image placement="inline" href="../../common/images/peregrine_avatar.png" width="16"
       height="16" id="image_fjv_hh2_jw"/>: icon to open user and account specific actions</li>
    </ul>
    </p>
-  <p audience="admin">In the top bar, you find the following components:<ul audience=""
-    id="ul_tsd_kh2_jw">
-    <li><image placement="inline" href="../../common/images/full_screen.png" width="16" height="16"
-      id="image_vsd_kh2_jw"/>: icon to open <ph conkeyref="variables/cm_short"/> in full screen
-     mode</li>
-    <li><image placement="inline" href="../../common/images/peregrine_avatar.png" width="16"
-      height="16" id="image_wsd_kh2_jw"/>: icon to open user and account specific actions</li>
-   </ul>The following items are not available on the <ph>Install Base Dashboard</ph>, you first have
-   to select a customer to make the icons visible:<ul audience="" id="ul_btz_th2_jw">
-    <li><image placement="inline" href="../../common/images/search.png" width="16" height="16"
-      id="image_ctz_th2_jw"/>: icon to open the search window</li>
-    <li>link to <xref href="../../ops_report/topic/topic_OpsReport.dita#topic_OpsReportUntitled12"
-     /></li>
-   </ul></p>
-  <p audience="partner">In the top bar, you find the following components:<ul audience=""
-    id="ul_tgy_wh2_jw">
-    <li><image placement="inline" href="../../common/images/full_screen.png" width="16" height="16"
-      id="image_ugy_wh2_jw"/>: icon to open <ph conkeyref="variables/cm_short"/> in full screen
-     mode</li>
-    <li><image placement="inline" href="../../common/images/peregrine_avatar.png" width="16"
-      height="16" id="image_vgy_wh2_jw"/>: icon to open user and account specific actions</li>
-   </ul>The following items are not available on the <ph>Install Base Dashboard</ph>, you first have
-   to select a customer to make the icons visible:<ul audience="" id="ul_wgy_wh2_jw">
-    <li><image placement="inline" href="../../common/images/search.png" width="16" height="16"
-      id="image_xgy_wh2_jw"/>: icon to open the search window</li>
-    <li>link to <xref href="../../ops_report/topic/topic_OpsReport.dita#topic_OpsReportUntitled12"
-     /></li>
-   </ul></p>
+  <p audience="admin partner">In the top bar, you find the following components:<ul audience=""
+        id="ul_tsd_kh2_jw">
+        <li><image placement="inline" href="../../common/images/full_screen.png" width="16"
+            height="16" id="image_vsd_kh2_jw"/>: icon to open <ph conkeyref="variables/cm_short"/>
+          in full screen mode</li>
+        <li><image placement="inline" href="../../common/images/peregrine_avatar.png" width="16"
+            height="16" id="image_wsd_kh2_jw"/>: icon to open user and account specific actions</li>
+      </ul>The following items are not available on the <ph>Install Base Dashboard</ph>, you first
+      have to select a customer to make the icons visible:<ul audience="" id="ul_btz_th2_jw">
+        <li><image placement="inline" href="../../common/images/search.png" width="16" height="16"
+            id="image_ctz_th2_jw"/>: icon to open the search window</li>
+        <li>link to <xref
+            href="../../ops_report/topic/topic_OpsReport.dita#topic_OpsReportUntitled12"/></li>
+      </ul></p>
  </conbody>
 </concept>

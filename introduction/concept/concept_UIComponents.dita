@@ -22,14 +22,7 @@
    <fig id="fig_fbg_fl2_jw">
     <title>UI components</title>
     <image placement="break" href="../../common/images/overview_window.png" align="center"
-     audience="admin" id="image_chh_222_jw"/>
-   </fig>
-  </p>
-  <p>
-   <fig id="fig_pt3_3l2_jw">
-    <title>UI components</title>
-    <image placement="break" href="../../common/images/overview_window.png" align="center"
-     audience="partner" id="image_l5m_222_jw"/>
+     audience="admin partner" id="image_chh_222_jw"/>
    </fig>
   </p>
   <p>

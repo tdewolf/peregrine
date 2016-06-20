@@ -6,7 +6,15 @@
   </topic>
   <concept id="concept_vxd_djj_3w">
     <title>Concept Reusable Content</title>
-    <conbody/>
+    <conbody>
+      <p id="sort_table_column">You can sort the table by column. Click the column header to sort
+        the data in ascending or descending order.</p>
+      <p id="filter_data">To easily find information, you can also filter the data by typing any
+        text in the <wintitle>Filter</wintitle> field. The text can contain any information: number
+        of systems, customer name, channel name, or region. Once you start typing in the
+          <wintitle>Filter</wintitle> field, the table is automatically updated with the matching
+        data.</p>
+    </conbody>
   </concept>
   <reference id="reference_rsc_t3j_3w">
     <title>Reference Reusable Content</title>

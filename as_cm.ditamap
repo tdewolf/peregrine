@@ -34,7 +34,18 @@
         </topicref>
         <topicref href="introduction/concept/concept_Navigation.dita"/>
     </chapter>
-    <chapter href="install_base_dashboard/topic/topic_InstallBaseDashboard.dita"/>
+    <chapter href="install_base_dashboard/topic/topic_InstallBaseDashboard.dita">
+        <topicref href="install_base_dashboard/topic/topic_InstallBase.dita">
+            <topicref href="install_base_dashboard/concept/concept_InstallBaseTable.dita"/>
+            <topicref href="install_base_dashboard/concept/concept_ISBFilterData.dita"/>
+        </topicref>
+        <topicref href="install_base_dashboard/concept/concept_TopCustomers.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_ObjectSizes.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_StorageCapacityForecast.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_Activity.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_SystemsDeployed.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_Availability.dita"/>
+    </chapter>
     <chapter href="customer_dashboard/topic/topic_CustomerDashboard.dita"/>
     <chapter href="as_system/topic/topic_AsSystem.dita"/>
     <chapter href="ops_report/topic/topic_OpsReport.dita"/>

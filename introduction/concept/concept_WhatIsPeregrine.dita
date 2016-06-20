@@ -23,14 +23,10 @@
    events with each other.</p>
   <p>The analysis of the data informs you of possible issues and gives you the opportunity to
    proactively intervene and avoid downtime of the systems.</p>
-  <p audience="admin">The content that you see in <ph conkeyref="variables/cm_short"/> depends on
-   your <xref href="../../accounts/concept/concept_Persona.dita#concept_Persona"/>; the actions that
-   you can perform depend on your <xref href="../../accounts/concept/concept_Role.dita#concept_Role"
-    >role</xref>.</p>
-  <p audience="partner">The content that you see in <ph conkeyref="variables/cm_short"/> depends on
-   your <xref href="../../accounts/concept/concept_Persona.dita#concept_Persona"/>; the actions that
-   you can perform depend on your <xref href="../../accounts/concept/concept_Role.dita#concept_Role"
-    >role</xref>.</p>
+  <p audience="admin partner">The content that you see in <ph conkeyref="variables/cm_short"/>
+      depends on your <xref href="../../accounts/concept/concept_Persona.dita#concept_Persona"/>;
+      the actions that you can perform depend on your <xref
+        href="../../accounts/concept/concept_Role.dita#concept_Role">role</xref>.</p>
   <p audience="customer">The actions that you can perform depend on your <xref
     href="../../accounts/concept/concept_Role.dita#concept_Role">role</xref></p>
   <p>All data, except for the <ph conkeyref="variables/cm_short"/> user information, are taken from

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_InstallBaseTable" xml:lang="en-us">
+ <title>Install Base Table</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The content of the <wintitle>Install Base</wintitle> table depends on the user who is logged
+   in. See the section <xref href="../../accounts/concept/concept_Role.dita#concept_Role">User
+    Roles</xref> for more information about users.<fig id="fig_pnq_b52_jw">
+    <title>Install base table</title>
+    <image placement="break" href="../../common/images/install_base.png" align="center"
+     id="image_qnq_b52_jw"/>
+   </fig><!--update image with latest version, Sentiment column is replaced by Telemetry--></p>
+  <p>
+   <ul id="ul_a3k_c52_jw">
+    <li><wintitle>Customer</wintitle>: Displays the name of the customer. </li>
+    <li><wintitle>Channel</wintitle>: The Channel is the sales channel with responsibility for the
+     customer. </li>
+    <li><wintitle>Region</wintitle>: The Region indicates where the customer's systems are
+     installed.</li>
+    <li><wintitle>Systems</wintitle>: The Systems column displays the number of systems that a
+     customer has deployed.</li>
+    <li><wintitle>Telemetry</wintitle>: Coming soon...</li>
+   </ul>
+  </p>
+  <p conref="../../common/warehouse.dita#concept_vxd_djj_3w/sort_table_column"/>
+ </conbody>
+</concept>

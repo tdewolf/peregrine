@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ObjectSizes" xml:lang="en-us">
+ <title>Object Sizes</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>object sizes</keyword>
+    <indexterm>object<indexterm>sizes</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Object Sizes</wintitle> panel displays, per customer, the percentage of stored
+   objects by size. This is the distribution of total objects stored across different object sizes. </p>
+  <p>The objects are divided into three size categories: <ul id="ul_idy_wx2_jw">
+    <li><wintitle>0 MB to 2 MB</wintitle></li>
+    <li><wintitle>2 MB to 1 GB</wintitle>
+    </li>
+    <li><wintitle>> 1GB</wintitle></li>
+   </ul> You can toggle the appearance of the size category by clicking the category. <fig
+    id="fig_rdn_2y2_jw">
+    <title>Object sizes category deselected</title>
+    <image placement="break" href="../../common/images/object_sizes_category_deselected.png"
+     align="center" id="image_sdn_2y2_jw"/>
+   </fig></p>
+  <p>To display this graphic for all customers, click <uicontrol>All</uicontrol>. This opens a popup
+   window with an identical graphic with all customers. Use the horizontal scrollbar to scroll
+   through the graphic. <fig id="fig_v1x_fy2_jw">
+    <title>Object sizes</title>
+    <image placement="break" href="../../common/images/object_sizes_all.png" align="center"
+     id="image_w1x_fy2_jw"/>
+   </fig></p>
+ </conbody>
+</concept>

@@ -15,8 +15,8 @@
   <p>You can quickly search for information in <ph conkeyref="variables/cm_short"/> by opening the
    search box with the <image placement="inline" href="../../common/images/search.png" width="16"
     height="16" id="image_n2n_bj2_jw"/> icon. </p>
-  <p audience="admin">You have to select a customer before you can perform a search operation. </p>
-  <p audience="partner">You have to select a customer before you can perform a search operation. </p>
+  <p audience="admin partner">You have to select a customer before you can perform a search
+      operation. </p>
   <p>On the left of the search box, you have a menu with three choices: <fig id="fig_vn3_dl2_jw">
     <title>Searching in ActiveScale CM</title>
     <image placement="break" href="../../common/images/searching_in_as_cm.png" align="center"

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_Activity" xml:lang="en-us">
+ <title>Activity</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>activity</keyword>
+    <indexterm>activity</indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Activity</wintitle> panel displays the distribution of total transactions across
+   read, write and delete operations and per customer. </p>
+  <p>You can toggle the appearance of a transaction by clicking the transaction type on top of the
+   graphic. <fig id="fig_dh1_mz2_jw">
+    <title>Activity transaction deselected</title>
+    <image placement="break" href="../../common/images/activity_transaction_deselected.png"
+     align="center" id="image_eh1_mz2_jw"/>
+   </fig>
+  </p>
+  <p>To display all customers in one graphic, click <uicontrol>All</uicontrol>. This opens a popup
+   window with an identical graphic including all customers. Use the horizontal scrollbar to scroll
+   through the graphic.<fig id="fig_dnv_nz2_jw">
+    <title>Activity</title>
+    <image placement="break" href="../../common/images/activity_all.png" align="center"
+     id="image_env_nz2_jw"/>
+   </fig></p>
+ </conbody>
+</concept>
