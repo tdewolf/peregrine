@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_UsagePatternGraphics" xml:lang="en-us">
+  <title>Usage Pattern Graphics</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword/>
+        <indexterm/>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>The performance page is split into three graphics per available statistic. <ul
+        id="ul_a3n_gfm_jw">
+        <li>In the left panel, you find the statistics in a time series, divided between Controller
+          and Storage Nodes. </li>
+        <li>On the right you find the issues in chronological order on the Controller Nodes and the
+          Storage Nodes.</li>
+      </ul></p>
+    <p>At the bottom of the graphics you can make selections. By default the average
+        (<uicontrol>Avg</uicontrol>) is displayed, but you can select one or more specific nodes to
+      compare against the average performance of the nodes. If the name of the node is greyed out,
+      the node is not displayed in the graph. </p>
+    <p>The time series graphic also contains the issues on the nodes, indicated by orange (error) or
+      yellow (warning) icons. </p>
+    <p>When you click an issue in the time series the bullet turns green and the issue is displayed
+      in the corresponding controller or storage graphic.</p>
+  </body>
+</topic>

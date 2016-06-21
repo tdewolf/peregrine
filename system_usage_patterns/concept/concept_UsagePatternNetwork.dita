@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_UsagePatternNetwork" xml:lang="en-us">
+ <title>Network Usage Pattern</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm>network<indexterm>usage pattern</indexterm></indexterm>
+    <indexterm>usage pattern<indexterm>network</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>You can consult the network usage pattern of a system via three statistics: <ul
+    id="ul_tdz_khm_jw">
+    <li><wintitle>Rx</wintitle> (default): received number of data in KB, averaged across all
+     Controller Nodes and Storage Nodes. </li>
+    <li><wintitle>Total Received Packets</wintitle>: total number of received packets, averaged
+     across all Controller Nodes and Storage Nodes. </li>
+    <li><wintitle>Total Transmitted Packets</wintitle>: total amount of transmitted packets,
+     averaged across all Controller Nodes and Storage Nodes.</li>
+   </ul> Toggle the node name at the bottom of each graphic to display or hide the node's data. This
+   allows you to compare the specific node's values against the average values. </p>
+  <p>The following graphic is an example of the received data network performance: <fig
+    id="fig_zvb_4hm_jw">
+    <title>Network usage pattern</title>
+    <image placement="break" href="../../common/images/network_performance.png" align="center"
+     id="image_awb_4hm_jw"/>
+   </fig></p>
+ </conbody>
+</concept>

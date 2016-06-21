@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_UsagePatternStats" xml:lang="en-us">
+  <title>Available Usage Pattern Statistics</title>
+  <shortdesc/>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword/>
+        <indexterm/>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <p><ph conkeyref="variables/cm_long"/> has the following usage patterns statistics. You can
+        select them via the <uicontrol>Select Stats</uicontrol> menu at the top of the
+          <wintitle>System</wintitle> page:<ul id="ul_edk_r2m_jw">
+          <li>Storage Total Writes (selected by default)</li>
+          <li>Total Read/Writes</li>
+          <li>Total Reads</li>
+          <li>CPU Usage (selected by default)</li>
+          <li>RAM Usage</li>
+          <li>Total CPU</li>
+          <li>Rx (Network Received Data) (selected by default)</li>
+          <li>Total Received Packets</li>
+          <li>Total Transmitted Packets</li>
+        </ul></p>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_AboutUsagePatterns" xml:lang="en-us">
+  <title>About Usage Patterns</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>usage patterns</keyword>
+        <indexterm>usage<indexterm>patterns</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>The <wintitle>Usage Patterns</wintitle> tab on the <wintitle>System</wintitle> page contains
+      the graphics of all storage related actions. These actions are divided into three levels:
+      storage, compute and network. </p>
+    <p>At the top of the page, you can filter the data by date and you can select the statistics
+      that you want to see. By default the following statistics are displayed: <ul
+        id="ul_k2c_d2m_jw">
+        <li>* :ref:`Storage Total Writes &lt;usage_pattern_storage>` </li>
+        <li>* :ref:`CPU Usage &lt;usage_pattern_compute>` </li>
+        <li>* :ref:`Rx (Network Received Data) &lt;usage_pattern_network>`</li>
+      </ul>
+    </p>
+    <p>The default data is taken from the last uploaded telemetry data. </p>
+    <p>Click on <uicontrol>1 week</uicontrol> or <uicontrol>1 Month</uicontrol> to return
+      respectively one week or one month back in time.</p>
+  </body>
+</topic>

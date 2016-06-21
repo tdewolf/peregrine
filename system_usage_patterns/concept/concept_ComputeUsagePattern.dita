@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ComputeUsagePattern" xml:lang="en-us">
+ <title>Compute Usage Pattern</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm>compute<indexterm>usage pattern</indexterm></indexterm>
+    <indexterm>usage pattern<indexterm>compute</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>There are three different usage patterns at the compute level: <ul id="ul_axn_chm_jw">
+    <li><wintitle>CPU usage</wintitle> (default): CPU utilization (user CPU usage), averaged across
+          all Controller and Storage Nodes.</li>
+    <li><wintitle>RAM</wintitle>: available memory over time, averaged across all Controller and
+          Storage Nodes.</li>
+    <li><wintitle>Total CPU usage</wintitle>: total CPU utilization (kernel/system CPU usage and
+          user CPU usage), averaged across all Controller and Storage Nodes.</li>
+   </ul> Toggle the node name at the bottom of each graphic to display or hide the node's data. This
+   allows you to compare the specific node's values against the average values. </p>
+  <p>The following graphic gives you an example of the CPU usage statistics: <fig
+    id="fig_ajn_2hm_jw">
+    <title>Compute usage pattern</title>
+    <image placement="break" href="../../common/images/compute_performance.png" align="center"
+     id="image_bjn_2hm_jw"/>
+   </fig></p>
+ </conbody>
+</concept>

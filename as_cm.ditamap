@@ -62,37 +62,38 @@
         <topicref href="customer_dashboard/concept/concept_Recommendations.dita"/>
     </chapter>
     <chapter href="as_system/topic/topic_AsSystem.dita">
-        <topicref href="as_system/topic/topic_SystemDashboard.dita">
-            <topicref href="as_system/concept/concept_SystemSummary.dita"/>
-            <topicref href="as_system/concept/concept_DataSafety.dita">
-                <topicref href="as_system/concept/concept_DataSafetyExample.dita"/>
+        <topicref href="system_dashboard/topic/topic_SystemDashboard.dita">
+            <topicref href="system_dashboard/concept/concept_SystemSummary.dita"/>
+            <topicref href="system_dashboard/concept/concept_DataSafety.dita">
+                <topicref href="system_dashboard/concept/concept_DataSafetyExample.dita"/>
             </topicref>
-            <topicref href="as_system/concept/concept_StorageCapacity.dita"/>
-            <topicref href="as_system/concept/concept_Throughput.dita"/>
-            <topicref href="as_system/concept/concept_ResponseTime.dita"/>
-            <topicref href="as_system/concept/concept_IOPS.dita"/>
-            <topicref href="as_system/concept/concept_HWFailures.dita"/>
+            <topicref href="system_dashboard/concept/concept_StorageCapacity.dita"/>
+            <topicref href="system_dashboard/concept/concept_Throughput.dita"/>
+            <topicref href="system_dashboard/concept/concept_ResponseTime.dita"/>
+            <topicref href="system_dashboard/concept/concept_IOPS.dita"/>
+            <topicref href="system_dashboard/concept/concept_HWFailures.dita"/>
         </topicref>
-        <topicref href="as_system/topic/topic_SystemResources.dita">
-            <topicref href="as_system/concept/concept_AboutResources.dita"/>
-            <topicref href="as_system/topic/topic_CnSnResource.dita">
-                <topicref href="as_system/concept/concept_CnSnResourceSummary.dita"/>
-                <topicref href="as_system/concept/concept_CnSnResourceInventory.dita"/>
+        <topicref href="as_resources/topic/topic_SystemResources.dita">
+            <topicref href="as_resources/concept/concept_AboutResources.dita"/>
+            <topicref href="as_resources/topic/topic_CnSnResource.dita">
+                <topicref href="as_resources/concept/concept_CnSnResourceSummary.dita"/>
+                <topicref href="as_resources/concept/concept_CnSnResourceInventory.dita"/>
             </topicref>
-            <topicref href="as_system/topic/topic_SeResource.dita">
-                <topicref href="as_system/concept/concept_SESummary.dita"/>
-                <topicref href="as_system/concept/concept_SEInventory.dita"/>
+            <topicref href="as_resources/topic/topic_SeResource.dita">
+                <topicref href="as_resources/concept/concept_SESummary.dita"/>
+                <topicref href="as_resources/concept/concept_SEInventory.dita"/>
             </topicref>
             <topicref href="drive_analytics/topic/topic_DriveAnalytics.dita">
                 <topicref href="drive_analytics/reference/reference_DriveAnalyticsTypes.dita"/>
                 <topicref href="drive_analytics/task/task_CompareDrives.dita"/>
                 <topicref href="drive_analytics/concept/concept_WorkingWithDriveAnalytics.dita"/>
             </topicref>
-            <topicref href="as_system/topic/topic_SwitchResource.dita">
-                <topicref href="as_system/concept/concept_SwitchSummary.dita"/>
-                <topicref href="as_system/concept/concept_SwitchInventory.dita"/>
+            <topicref href="as_resources/topic/topic_SwitchResource.dita">
+                <topicref href="as_resources/concept/concept_SwitchSummary.dita"/>
+                <topicref href="as_resources/concept/concept_SwitchInventory.dita"/>
             </topicref>
         </topicref>
+        <topicref href="system_usage_patterns/topic/topic_SystemUsagePatterns.dita"/>
     </chapter>
     <chapter href="ops_report/topic/topic_OpsReport.dita"/>
     <chapter href="accounts/topic/topic_Accounts.dita">
