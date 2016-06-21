@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ActivityCustomerSystems" xml:lang="en-us">
+ <title>Activity on Object Storage Systems</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm>object storage<indexterm>activity</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p audience="admin partner">The <wintitle>Activity</wintitle> panel on the customer dashboard
+   displays the distribution of Read, Write and Delete operations per deployment. When you hover
+   your mouse over a graphic, you see the actual percentages of the operations.</p>
+  <p audience="customer">The <wintitle>Activity</wintitle> panel on your dashboard displays the
+   distribution of Read, Write and Delete operations per deployment. When you hover your mouse over
+   a graphic, you see the actual percentages of the operations.</p>
+  <p>
+   <fig id="fig_qwm_jgf_jw">
+    <title>Activity on object storage system</title>
+    <image placement="break" href="../../common/images/customer_activity.png" align="center"
+     id="image_rwm_jgf_jw"/>
+   </fig>
+  </p>
+ </conbody>
+</concept>

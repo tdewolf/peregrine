@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_AvailabilityCustomerSystems" xml:lang="en-us">
+ <title>Availability of Object Storage Systems</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>availability</keyword>
+    <indexterm>availability<indexterm>object
+     storage<indexterm>system</indexterm></indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p audience="admin partner">The <wintitle>Availability</wintitle> panel on the customer dashboard
+   displays the percentage of time that the customer's systems are available for S3 transactions.
+   When you hover your mouse over a graphic, you see the actual uptime percentage of the system.</p>
+  <p audience="customer">The <wintitle>Availability</wintitle> panel on your dashboard displays the
+   percentage of time that your systems are available for S3 transactions. When you hover your mouse
+   over a graphic, you see the actual uptime percentage of the system.</p>
+ </conbody>
+</concept>

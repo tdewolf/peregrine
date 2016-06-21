@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_MetadataUsage" xml:lang="en-us">
+ <title>Metadata Usage</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>metadata</keyword>
+    <indexterm>metadata<indexterm>usage</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Metadata Usage</wintitle> panel displays the capacity and used capacity of the
+   metadata, per deployment. The values are expressed in terabytes. </p>
+  <p>By default the total reserved capacity for the object's metadata is displayed in the graphic. </p>
+  <p>
+   <fig id="fig_lgb_qgf_jw">
+    <title>Total metadata usage</title>
+    <image placement="break" href="../../common/images/metadata_usage_total.png" align="center"
+     id="image_mgb_qgf_jw"/>
+   </fig>
+  </p>
+  <p>To retrieve the actual used storage by the metadata, deactivate the total graphic by clicking
+    <uicontrol>Total</uicontrol> above the graphic. </p>
+  <p>
+   <fig id="fig_yrg_sgf_jw">
+    <title>Used metadata</title>
+    <image placement="break" href="../../common/images/metadata_usage_used.png" align="center"
+     id="image_zrg_sgf_jw"/>
+   </fig>
+  </p>
+ </conbody>
+</concept>

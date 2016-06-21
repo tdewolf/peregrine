@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_OverallSystemStatistics" xml:lang="en-us">
+ <title>Overall System Statistics</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>system statistics</keyword>
+    <keyword>overall</keyword>
+    <indexterm>overall<indexterm>system<indexterm>statistics</indexterm></indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p audience="admin partner">There are four overall statistics of the customer, with the values
+   aggregated over all its systems: <ul id="ul_q5x_3qk_jw">
+    <li>Total Buckets: The total number of S3 buckets that are deployed by this customer.</li>
+    <li>S3 Users: The total number of S3 users of the customer.</li>
+    <li>Object Count: The total number of objects, stored in all buckets of the customer.</li>
+    <li>Average Object Size: The average object size of all objects, which is the total used storage
+     capacity divided by the object count.</li>
+   </ul></p>
+  <p audience="customer">There are four overall statistics of which the values are aggregated over
+   all your systems:<ul id="ul_c1h_nqk_jw">
+    <li>Total Buckets: The total number of S3 buckets aggregated over all your systems.</li>
+    <li>S3 Users: The total number of S3 users across your systems.</li>
+    <li>Object Count: The total number of objects, stored in all your buckets.</li>
+    <li>Average Object Size: The average object size of all objects, which is the total used storage
+     capacity divided by the object count.</li>
+   </ul></p>
+  <p>
+   <fig id="fig_jzp_sqk_jw">
+    <title>Overall statistics buckets/users</title>
+    <image placement="break" href="../../common/images/overall_statistic_buckets_users.png"
+     align="center" id="image_kzp_sqk_jw"/>
+   </fig>
+   <fig id="fig_fdm_5qk_jw">
+    <title>Overall statistics objects</title>
+    <image placement="break" href="../../common/images/overall_statistic_objects.png" align="center"
+     id="image_gdm_5qk_jw"/>
+   </fig>
+  </p>
+ </conbody>
+</concept>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_AllSystems" xml:lang="en-us">
+ <title>All Object Storage Systems</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p audience="admin partner">In the <wintitle>All Systems</wintitle> panel of the dashboard, you
+   find an overview of your deployed systems and the ones from your customers.</p>
+  <p audience="customer">In the <wintitle>All Systems</wintitle> panel of the dashboard, you find an
+   overview of your deployed systems.</p>
+  <p>The overview excludes systems which do not upload telemetry data.</p>
+  <p>
+   <fig id="fig_mj1_vbf_jw">
+    <title>All object storage systems</title>
+    <image placement="break" href="../../common/images/all_systems.png" align="center"
+     id="image_nj1_vbf_jw"/>
+   </fig>
+  </p>
+  <p>You find the following information in the table: <ul id="ul_zrr_wbf_jw">
+    <li><wintitle>System Name</wintitle>: the name of the system, this cannot be changed as this is
+     taken from the <ph conkeyref="variables/osm"/> deployments.</li>
+    <li><wintitle>Storage Capacity</wintitle>: The total <i>installed</i> capacity of the
+     system.</li>
+    <li><wintitle>Usage</wintitle>: The percentage of storage in use. Hover over the bar to display
+     the actual percentage.</li>
+    <li><wintitle>Time to Full</wintitle>: The time when the system is predicted to have reached 80%
+     of its storage capacity.</li>
+    <li><wintitle>Drive Sled</wintitle>: The total number of Sleds per system.</li>
+    <li><wintitle>Deployment</wintitle>: Indicates the type of the system, single site (1-Geo) or
+     multi site (3-Geo).</li>
+    <li><wintitle>Version</wintitle>: Displays the installed version of the <ph
+      conkeyref="variables/osm"/> on the system.</li>
+    <li><wintitle>Racks</wintitle>: The total number of racks that make up a system.</li>
+   </ul> To reduce the number of records in the displayed table, you can add a free text query in
+   the <wintitle>Filter</wintitle> field. Once you start typing, the table is updated with matching
+   records. </p>
+  <p>For example, if you type <userinput>4.1</userinput>, the table automatically shows all systems
+   that use version 4.1, but also systems that would have for example 4.19 PB.</p>
+ </conbody>
+</concept>

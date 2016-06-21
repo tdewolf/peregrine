@@ -29,7 +29,10 @@
     <li><wintitle>Systems</wintitle>: The Systems column displays the number of systems that a
      customer has deployed.</li>
     <li><wintitle>Telemetry</wintitle>: The Telemetry columns displays if the customer's <ph
-      conkeyref="variables/osm"/> systems are able to upload the telemetry data or not.</li>
+      conkeyref="variables/osm"/> systems are able to upload the telemetry data (<image
+      href="../../common/images/telemetry_upload.png" width="16" height="16" id="image_imx_d4k_jw"
+     />) or not (<image href="../../common/images/telemetry_nok.png" width="16" height="16"
+      id="image_ybq_f4k_jw"/>).</li>
    </ul>
   </p>
   <p conref="../../common/warehouse.dita#concept_vxd_djj_3w/sort_table_column"/>
