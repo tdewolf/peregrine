@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_CnSnResourceInventory" xml:lang="en-us">
+ <title>Controller and Storage Node Inventory</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>resource</keyword>
+    <keyword>inventory</keyword>
+    <indexterm>resource<indexterm>inventory</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The inventory table of a Controller or Storage Node are identical. The table contains the
+   following data: <ul id="ul_omv_vhl_jw">
+    <li><wintitle>Component</wintitle>: type of the resource component <ul id="ul_tzy_whl_jw">
+      <li><wintitle>Network</wintitle>: network interface </li>
+      <li><wintitle>Disk</wintitle>: hard disk or solid state disk </li>
+      <li><wintitle>Power</wintitle>: power supply unit </li>
+      <li><wintitle>Memory</wintitle>: RAM memory module </li>
+      <li><wintitle>Display</wintitle>: video card controller </li>
+      <li><wintitle>BIOS</wintitle>: system BIOS </li>
+      <li><wintitle>CPU</wintitle>: processor of the node </li>
+      <li><wintitle>Motherboard</wintitle>: motherboard of the node</li>
+     </ul>
+    </li>
+    <li><wintitle>Vendor</wintitle>: name of the component's manufacturer </li>
+    <li><wintitle>Model</wintitle>: model of the component </li>
+    <li><wintitle>Serial</wintitle>: serial number of the component </li>
+    <li><wintitle>Description</wintitle>: short description of the component </li>
+    <li><wintitle>Firmware</wintitle>: version of the firmware installed in the component </li>
+    <li><wintitle>Slot</wintitle>: slot ID of the component</li>
+   </ul></p>
+ </conbody>
+</concept>

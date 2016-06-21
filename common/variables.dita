@@ -20,4 +20,10 @@
       <p><ph id="osm">object storage</ph></p>
     </body>
   </topic>
+  <topic id="hw">
+    <title>Hardware</title>
+    <body>
+      <p><ph id="switch">Storage Interconnect</ph></p>
+    </body>
+  </topic>
 </dita>

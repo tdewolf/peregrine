@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_SESummary" xml:lang="en-us">
+ <title>Storage Enclosure Resource Summary</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm>storage<indexterm>enclosure<indexterm>summary</indexterm></indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The summary of a Storage Enclosure (SEaa) contains this data: <ul id="ul_jqn_gsl_jw">
+    <li><wintitle>Fans</wintitle>: number of fans </li>
+    <li><wintitle>Part Number</wintitle>: identification of the storage enclosure </li>
+    <li><wintitle>SAS Address</wintitle>: address of the SAS controller </li>
+    <li><wintitle>Sleds</wintitle>: number of disk sleds in the enclosure </li>
+    <li><wintitle>Vendor</wintitle>: name of the storage enclosure's manufacturer </li>
+    <li><wintitle>IOM</wintitle>: number of I/O modules </li>
+    <li><wintitle>Product</wintitle>: name of the storage enclosure hardware, for example Active
+     Archive or ActiveScale P-100. </li>
+    <li><wintitle>Serial Number</wintitle>: serial number of the storage enclosure </li>
+    <li><wintitle>Type</wintitle>: hexadecimal representation of the storage enclosure type</li>
+   </ul> The full inventory of a Storage Enclosure can be found in the <xref
+    href="concept_SEInventory.dita#concept_SEInventory">inventory table</xref>.</p>
+ </conbody>
+</concept>

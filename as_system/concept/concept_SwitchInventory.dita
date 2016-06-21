@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_SwitchInventory" xml:lang="en-us">
+ <title><ph conkeyref="variables/switch"/> Inventory</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm>storage interconnect<indexterm>inventory</indexterm></indexterm>
+    <indexterm>switch<indexterm>inventory</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <ph conkeyref="variables/switch"/> inventory table contains details for the important
+      attributes of the <ph conkeyref="variables/switch"/>. <ul id="ul_cmz_kzl_jw">
+        <li><wintitle>Port</wintitle>: number of the <ph conkeyref="variables/switch"/> port </li>
+        <li><wintitle>Name</wintitle>: name of the <ph conkeyref="variables/switch"/> port </li>
+        <li><wintitle>Flow Control Status</wintitle>: indication if the flow control is active or
+          not </li>
+        <li><wintitle>Link State</wintitle>: status of the port link, up or down </li>
+        <li><wintitle>Physical Mode</wintitle>: physical configuration of the port, type of port
+          (Automatic, 10G Full, ...) </li>
+        <li><wintitle>Media Type</wintitle>: actual capability of the interface, for example
+          10G-BaseSX </li>
+        <li><wintitle>Physical Status</wintitle>: negotiated capability of the interface. If the
+          physical mode is set to "Auto", this value is significant because it then indicates the
+          actual negotiated capability</li>
+      </ul></p>
+ </conbody>
+</concept>
