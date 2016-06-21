@@ -57,8 +57,23 @@
         <topicref href="customer_dashboard/concept/concept_ActivityCustomerSystems.dita"/>
         <topicref href="customer_dashboard/concept/concept_MetadataUsage.dita"/>
         <topicref href="customer_dashboard/concept/concept_AvailabilityCustomerSystems.dita"/>
+        <topicref href="customer_dashboard/concept/concept_OverallSystemStatistics.dita"/>
+        <topicref href="customer_dashboard/concept/concept_Outliers.dita"/>
+        <topicref href="customer_dashboard/concept/concept_Recommendations.dita"/>
     </chapter>
-    <chapter href="as_system/topic/topic_AsSystem.dita"/>
+    <chapter href="as_system/topic/topic_AsSystem.dita">
+        <topicref href="as_system/topic/topic_SystemDashboard.dita">
+            <topicref href="as_system/concept/concept_SystemSummary.dita"/>
+            <topicref href="as_system/concept/concept_DataSafety.dita">
+                <topicref href="as_system/concept/concept_DataSafetyExample.dita"/>
+            </topicref>
+            <topicref href="as_system/concept/concept_StorageCapacity.dita"/>
+            <topicref href="as_system/concept/concept_Throughput.dita"/>
+            <topicref href="as_system/concept/concept_ResponseTime.dita"/>
+            <topicref href="as_system/concept/concept_IOPS.dita"/>
+            <topicref href="as_system/concept/concept_HWFailures.dita"/>
+        </topicref>
+    </chapter>
     <chapter href="ops_report/topic/topic_OpsReport.dita"/>
     <chapter href="accounts/topic/topic_Accounts.dita">
         <topicref href="accounts/topic/topic_UserRolesAndPermissions.dita">

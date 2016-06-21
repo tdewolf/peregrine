@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_SystemSummary" xml:lang="en-us">
+ <title>System Summary</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>object storage</keyword>
+    <keyword>system summary</keyword>
+    <indexterm>object storage<indexterm>system summary</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>System Summary</wintitle> panel on the dashboard summarizes the <ph
+    conkeyref="variables/osm"/> system's configuration. <ul id="ul_xwk_4vk_jw">
+    <li><wintitle>System Name</wintitle>: name of the system as identified by <ph
+      conkeyref="variables/cm_short"/></li>
+    <li><wintitle>Deployment ID</wintitle>: the S3 bucket ID on AWS where the telemetry-agent,
+     running on the <ph conkeyref="variables/osm"/> systems, is going to upload the log files to. </li>
+    <li><wintitle>Serial Number</wintitle>: serial number of the system </li>
+    <li><wintitle>Software</wintitle>: name and version of the <ph conkeyref="variables/osm"/>
+     software </li>
+    <li><wintitle>Telemetry Version</wintitle>: the telemetry version used on the system </li>
+    <li><wintitle>Platform</wintitle>: name and version of the hardware platform, for example Active
+     Archive 1.0. </li>
+    <li><wintitle>Switches</wintitle>: the number of switches in the system </li>
+    <li><wintitle>Controller Nodes</wintitle>: the number of Controller Nodes in the <ph
+      conkeyref="variables/osm"/> system </li>
+    <li><wintitle>Storage Nodes</wintitle>: the number of Storage Nodes in the <ph
+      conkeyref="variables/osm"/> system </li>
+    <li><wintitle>Storage Enclosures</wintitle>: the number of Storage Enclosures in the <ph
+      conkeyref="variables/osm"/> system</li>
+   </ul></p>
+ </conbody>
+</concept>
