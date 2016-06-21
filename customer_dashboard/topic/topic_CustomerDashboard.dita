@@ -11,6 +11,9 @@
     </metadata>
   </prolog>
   <body>
-    <p/>
+    <p audience="admin partner">The customer dashboard displays detailed information about the <ph
+        conkeyref="variables/osm"/> systems of your customers.</p>
+    <p audience="customer">The dashboard displays detailed information about your <ph
+        conkeyref="variables/osm"/> systems.</p>
   </body>
 </topic>

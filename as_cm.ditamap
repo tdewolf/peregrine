@@ -45,8 +45,19 @@
         <topicref href="install_base_dashboard/concept/concept_Activity.dita"/>
         <topicref href="install_base_dashboard/concept/concept_SystemsDeployed.dita"/>
         <topicref href="install_base_dashboard/concept/concept_Availability.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_SWVersions.dita"/>
     </chapter>
-    <chapter href="customer_dashboard/topic/topic_CustomerDashboard.dita"/>
+    <chapter href="customer_dashboard/topic/topic_CustomerDashboard.dita">
+        <topicref href="customer_dashboard/concept/concept_AllSystems.dita"/>
+        <topicref href="customer_dashboard/concept/concept_StorageCapacity.dita"/>
+        <topicref href="customer_dashboard/topic/topic_Workload.dita">
+            <topicref href="customer_dashboard/concept/concept_PieChartGraph.dita"/>
+            <topicref href="customer_dashboard/concept/concept_TimeLineGraphic.dita"/>
+        </topicref>
+        <topicref href="customer_dashboard/concept/concept_ActivityCustomerSystems.dita"/>
+        <topicref href="customer_dashboard/concept/concept_MetadataUsage.dita"/>
+        <topicref href="customer_dashboard/concept/concept_AvailabilityCustomerSystems.dita"/>
+    </chapter>
     <chapter href="as_system/topic/topic_AsSystem.dita"/>
     <chapter href="ops_report/topic/topic_OpsReport.dita"/>
     <chapter href="accounts/topic/topic_Accounts.dita">
