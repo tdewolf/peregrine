@@ -31,7 +31,8 @@ Install Base Table
 * :guilabel:`Channel`: The Channel is the sales channel with responsibility for the customer.
 * :guilabel:`Region`: The Region indicates where the customer's systems are installed.
 * :guilabel:`Systems`: The Systems column displays the number of systems that a customer has deployed.
-* :guilabel:`Sentiment`: Coming soon...
+* :guilabel:`Telemetry`: The Telemetry columns displays if the customer's |as| systems are able to
+  upload the telemetry data or not.
 
 You can sort the table by column. Click the column header to sort the data in ascending or descending
 order.
