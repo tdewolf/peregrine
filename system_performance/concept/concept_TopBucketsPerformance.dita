@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_TopBucketsPerformance" xml:lang="en-us">
+ <title>Top Buckets Performance</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm>top buckets<indexterm>performance</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Top Buckets</wintitle> widget displays the most active buckets with regards to
+   Read and Write requests. <fig id="fig_etw_sfs_jw">
+    <title>Top buckets performance</title>
+    <image placement="break" href="../../common/images/top_buckets_performance.png" align="center"
+     id="image_ftw_sfs_jw"/>
+   </fig></p>
+  <p>The table contains the following information: <ul id="ul_yd2_3fs_jw">
+    <li><wintitle>Bucket Name</wintitle>: the bucket name </li>
+    <li><wintitle>Reads</wintitle>: percentage of Read requests on the bucket, as part of all Read
+     requests in all buckets on the system. </li>
+    <li><wintitle>Writes</wintitle>: percentage of Write requests in this bucket, as part of all
+     Write requests in all buckets on the system. </li>
+    <li><wintitle>Total</wintitle>: total percentage of combined Read and Write requests in this
+     bucket, as part of all requests to other buckets on the system. </li>
+    <li><wintitle>Average Response Time</wintitle>: average response time on the total of Read and
+     Write requests over the set time period. </li>
+    <li><wintitle>Date</wintitle>: end date of the requested date range for which you want to
+     retrieve the top buckets information.</li>
+   </ul>
+  </p>
+  <p>You can order the data in ascending or descending order per column. For example, if you wish to
+   order the table by Write requests, click <wintitle>Writes</wintitle> in the header row of the
+   table. This orders your table by Write requests in descending order. Click the header again to
+   invert the order. The same applies to all other rows of the table.</p>
+ </conbody>
+</concept>
