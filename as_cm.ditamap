@@ -122,7 +122,9 @@
             <topicref href="log_viewer/concept/concept_SwitchLogs.dita"/>
         </topicref>
         <topicref href="system_performance/topic/topic_SystemPerformance.dita">
-            <topicref href="system_performance/concept/concept_OperationsPerformance.dita"/>
+            <topicref href="system_performance/concept/concept_TransactionsPerformance.dita"/>
+            <topicref href="system_performance/concept/concept_ThroughputPerformance.dita"/>
+            <topicref href="system_performance/concept/concept_TopBucketsPerformance.dita"/>
         </topicref>
     </chapter>
     <chapter href="ops_report/topic/topic_OpsReport.dita"/>
