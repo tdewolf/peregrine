@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_customreport">
+ <title>Custom Reports</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>You can create your own custom operational reports by creating your own query. In the query
+   field you can enter natural language, such as “What should we worry about in the next few
+   weeks?”.</p>
+  <p>The results page varies according the data that you’re looking for.</p>
+  <p>For example, when you look up the list of buckets, the results page displays the buckets per
+   rack. When you look for the list of things to worry about in the next few weeks, the results page
+   displays a list per customer.</p>
+ </conbody>
+</concept>

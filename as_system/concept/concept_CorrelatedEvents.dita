@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_CorrelatedEvents" xml:lang="en-us" audience="admin">
+ <title>Correlated Events</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>correlation</keyword>
+    <indexterm>correlated<indexterm>events</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Correlated Events</wintitle> tab features a chart with bars for various
+   correlations. The correlations display the relationship between two seemingly independent
+   statistics. <fig id="fig_ucs_x3m_jw">
+    <title>Correlations</title>
+    <image placement="break" href="../../common/images/correlations.png" align="center"
+     id="image_vcs_x3m_jw"/>
+   </fig></p>
+  <p>Click any correlation bar to get detailed time series correlation data along with issues and
+   suggestions. The detailed time series are displayed per controller node and per storage node. </p>
+  <p>In these detailed correlation graphics, you can gain insight on how different statistics are
+   related to each other. <fig id="fig_uvm_z3m_jw">
+    <title>Correlation detail - controller node</title>
+    <image placement="break" href="../../common/images/correlation_detail_ctrl.png" align="center"
+     id="image_vvm_z3m_jw"/>
+   </fig>
+   <fig id="fig_k3b_bjm_jw">
+    <title>Correlation detail - storage node</title>
+    <image placement="break" href="../../common/images/correlation_detail_storage.png"
+     align="center" id="image_l3b_bjm_jw"/>
+   </fig></p>
+ </conbody>
+</concept>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_SwitchLogs" xml:lang="en-us">
+ <title><ph conkeyref="variables/switch"/> Logs</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm>switch<indexterm>log</indexterm></indexterm>
+    <indexterm>storage interconnect<indexterm>log</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>Coming soon...</p>
+ </conbody>
+</concept>

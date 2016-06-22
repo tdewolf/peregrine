@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_Amplilog1Content" xml:lang="en-us">
+  <title>Amplilog1 Statistics</title>
+  <shortdesc/>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword/>
+        <indexterm/>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <p>The <ph conkeyref="variables/osm"/> software logs contains the following data:</p>
+      <p>
+        <table frame="all" rowsep="1" colsep="1" id="table_n3y_lmm_jw">
+          <title>Amplilog1 statistics</title>
+          <tgroup cols="3">
+            <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+            <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+            <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+            <thead>
+              <row>
+                <entry>Statistic Name</entry>
+                <entry>Description</entry>
+                <entry>Size</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <p>add_blocks_duration</p>
+                  <p>add_blocks_throughput</p>
+                </entry>
+                <entry>Duration (in seconds) and throughput (in MiB/s) of the blockstore add_blocks
+                  call, which sends the blocks to a blockstore where they are written to
+                  disk.</entry>
+                <entry>Size (in MiB) of the blocks</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>other_location_add_blocks_duration</p>
+                  <p>other_location_add_blocks_throughput</p>
+                </entry>
+                <entry>Same as the previous statistic, but only for add_blocks calls to a different
+                  location. Typically a different datacenter in a 3-GEO setup.</entry>
+                <entry>Size (in MiB) of the blocks</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>add_full_copy_duration</p>
+                  <p>add_full_copy_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the blockstore add_superblock call, which sends an
+                  entire superblock to a blockstore where it is written to disk. Used for full-copy
+                  policies.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>other_location_add_full_copy_duration</p>
+                  <p>other_location_add_full_copy_throughput</p>
+                </entry>
+                <entry>Same as the previous, but to a different location.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>get_blocks_duration</p>
+                  <p>get_blocks_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the blockstore get_blocks call, which requests the
+                  blocks from the blockstore. This blockstore reads the blocks from disk and sends
+                  it back.</entry>
+                <entry>Retrieved size of the blocks</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>other_location_get_blocks_throughput</p>
+                  <p>other_location_get_blocks_duration</p>
+                </entry>
+                <entry>Same as the previous, but from a different location.</entry>
+                <entry>Retrieved size of the blocks</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>get_full_copy_duration</p>
+                  <p>get_full_copy_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the blockstore get_superblock call, which requests
+                  the superblock from a blockstore.</entry>
+                <entry>Retrieved size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>other_location_get_full_copy_duration</p>
+                  <p>other_location_get_full_copy_throughput</p>
+                </entry>
+                <entry>Same as the previous, but from a different location.</entry>
+                <entry>Retrieved size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>get_sb_duration</p>
+                  <p>get_sb_throughput</p>
+                </entry>
+                <entry>Total duration and throughput for the retrieval of a superblock. This
+                  includes amongst others erasure decoding and fetching the data from the
+                  blockstores.</entry>
+                <entry>Retrieved size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>dec_sb_duration</p>
+                  <p>dec_sb_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the erasure decoding of a superblock.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>enc_sb_duration</p>
+                  <p>enc_sb_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the erasure encoding of a superblock.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>wr_sb_duration</p>
+                  <p>wr_sb_throughput</p>
+                </entry>
+                <entry>Duration and throughput of writing a single superblock of incoming data to
+                  the client during a read request.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>rd_sb_duration</p>
+                  <p>rd_sb_throughput</p>
+                </entry>
+                <entry>Duration and throughput of reading a single superblock of incoming data from
+                  the client during a PUT request.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+              <row>
+                <entry>add_obj_md_duration</entry>
+                <entry>Duration of the add_object_metadata blockstore call, which send object
+                  metadata to a blockstore where it is written to disk.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>ck_blocks_duration</p>
+                  <p>ck_blocks_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the blockstore ck_blocks call, where the
+                  blockstore reads in a checkblock file from disk and verifies that its content is
+                  still ok.</entry>
+                <entry>Size of the blocks</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>ck_full_copy_duration</p>
+                  <p>ck_full_copy_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the blockstore ck_superblock call, where the
+                  blockstore reads in a superblock from disk and verifies that its content is still
+                  ok.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>delete_blocks_duration</p>
+                  <p>delete_full_copy_duration</p>
+                </entry>
+                <entry>Duration of the blockstore delete_blocks or delete_superblock call, which
+                  requests the blockstore to delete the blocks or a superblock. Both statistics
+                  contain the same values. They also contain entries for OFFLINE, DECOMMISSIONED and
+                  ABANDONED blockstores, where deletes are never send to.</entry>
+                <entry>Total deleted size</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>spread_gen_normal</p>
+                </entry>
+                <entry>Duration of generating a spread starting from an existing spread.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>spread_gen_custom</p>
+                </entry>
+                <entry>Duration of generating a spread starting from an existing spread.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>sd_add_blocks_duration</p>
+                  <p>sd_add_blocks_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the blockstore add_blocks call, locally within a
+                  storage daemon/blockstore.</entry>
+                <entry>Size of the blocks</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>sd_get_blocks_duration</p>
+                  <p>sd_get_blocks_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the blockstore get_blocks call, locally within a
+                  storage daemon.</entry>
+                <entry>Retrieved size of the blocks</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>sd_ck_blocks_duration</p>
+                  <p>sd_ck_blocks_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the blockstore ck_blocks call, locally within a
+                  storage daemon.</entry>
+                <entry>Size of the blocks</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>sd_delete_blocks_duration</p>
+                </entry>
+                <entry>Duration of the blockstore delete_blocks call, locally within a storage
+                  daemon.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>sd_add_full_copy_duration</p>
+                  <p>sd_add_full_copy_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the blockstore add_full_copy call, locally within
+                  a storage daemon.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>sd_get_full_copy_duration</p>
+                  <p>sd_get_full_copy_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the blockstore get_full_copy call, locally within
+                  a storage daemon.</entry>
+                <entry>Retrieved size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>sd_ck_full_copy_duration</p>
+                  <p>sd_ck_full_copy_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the blockstore ck_full_copy call, locally within a
+                  storage daemon.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>sd_delete_full_copy_duration</p>
+                </entry>
+                <entry>Duration of the blockstore delete_full_copy call, locally within a storage
+                  daemon.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>sd_add_obj_md_duration</p>
+                </entry>
+                <entry>Duration of the blockstore delete_full_copy call, locally within a storage
+                  daemon.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>put_duration</p>
+                  <p>put_throughput</p>
+                </entry>
+                <entry>Duration and throughput of an entire object write call.</entry>
+                <entry>Size of the object</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>get_duration</p>
+                  <p>get_throughput</p>
+                </entry>
+                <entry>Duration and throughput of an entire object GET call.</entry>
+                <entry>Retrieved size of the object</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>failed_get_duration</p>
+                  <p>failed_get_throughput</p>
+                </entry>
+                <entry>Duration and throughput of a failed object GET call.</entry>
+                <entry>Total size of the object's data for which superblock retrieval was
+                  started.</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>delete_duration</p>
+                </entry>
+                <entry>Duration of an entire object DELETE call, which is a metadata-only operation.
+                  This only measures the codepath shared between AXR and S3.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>repair_NORMAL_duration</p>
+                </entry>
+                <entry>Duration of the execution of a NORMAL repair task by the repair
+                  daemon.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>repair_DECOMMISSION_duration</p>
+                </entry>
+                <entry>Duration of the execution of a DECOMMISSION repair task by the repair
+                  daemon.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>repair_REBALANCE_duration</p>
+                </entry>
+                <entry>Duration of the execution of a REBALANCE repair task by the repair
+                  daemon.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>repair_CLEAN_duration</p>
+                </entry>
+                <entry>Duration of the execution of a CLEAN repair task by the repair
+                  daemon.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>repair_VERIFY_duration</p>
+                </entry>
+                <entry>Duration of the execution of a VERIFY repair task by the repair
+                  daemon.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>delete_task_duration</p>
+                </entry>
+                <entry>Duration of the execution of a DELETE task by the repair daemon.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>forced_delete_task_duration</p>
+                </entry>
+                <entry>Duration of the execution of a FORCED_DELETE task by the repair
+                  daemon.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>s3_get_duration</p>
+                  <p>s3_get_throughput</p>
+                </entry>
+                <entry>Duration and throuhput of an entire S3 object read call. This does not
+                  include the HTTP-related things.</entry>
+                <entry>Retrieved size of the object</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>s3_put_duration</p>
+                  <p>s3_put_throughput</p>
+                </entry>
+                <entry>Duration and throuhput of an entire S3 object write call. This does not
+                  include the HTTP-related things.</entry>
+                <entry>Size of the object</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>s3_auth_duration</p>
+                </entry>
+                <entry>Duration of the authentication of an S3 request.</entry>
+                <entry>None</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>s3_md5_duration</p>
+                  <p>s3_md5_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the MD5 calculation during a an S3 object write
+                  request. This calculation happens for every superblock.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>encrypt_duration</p>
+                  <p>encrypt_throughput</p>
+                </entry>
+                <entry>Duration and throughput of the encryption of a superblock during an object
+                  PUT call.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+              <row>
+                <entry>
+                  <p>decrypt_duration</p>
+                  <p>decrypt_throughput</p>
+                </entry>
+                <entry> Duration and throughput if the decryption of a superblock during an object
+                  GET call.</entry>
+                <entry>Size of the superblock</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </section>
+  </refbody>
+</reference>

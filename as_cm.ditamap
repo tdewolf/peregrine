@@ -93,7 +93,32 @@
                 <topicref href="as_resources/concept/concept_SwitchInventory.dita"/>
             </topicref>
         </topicref>
-        <topicref href="system_usage_patterns/topic/topic_SystemUsagePatterns.dita"/>
+        <topicref href="system_usage_patterns/topic/topic_SystemUsagePatterns.dita">
+            <topicref href="system_usage_patterns/topic/topic_AboutUsagePatterns.dita">
+                <topicref href="system_usage_patterns/reference/reference_UsagePatternStats.dita"/>
+                <topicref href="system_usage_patterns/topic/topic_UsagePatternGraphics.dita">
+                    <topicref
+                        href="system_usage_patterns/concept/concept_UsagePatternGraphicZoom.dita"/>
+                    <topicref
+                        href="system_usage_patterns/concept/concept_UsagePatternTimeSeries.dita"/>
+                    <topicref
+                        href="system_usage_patterns/concept/concept_UsagePatternIssueDetails.dita"/>
+                </topicref>
+            </topicref>
+            <topicref href="system_usage_patterns/concept/concept_StorageUsagePattern.dita"/>
+            <topicref href="system_usage_patterns/concept/concept_ComputeUsagePattern.dita"/>
+            <topicref href="system_usage_patterns/concept/concept_UsagePatternNetwork.dita"/>
+        </topicref>
+        <topicref href="as_system/concept/concept_CorrelatedEvents.dita"/>
+        <topicref href="as_system/concept/concept_HWChanges.dita"/>
+        <topicref href="log_viewer/topic/topic_SystemLogViewer.dita">
+            <topicref href="log_viewer/concept/concept_SelectLogFile.dita"/>
+            <topicref href="log_viewer/concept/concept_CnSnLogs.dita">
+                <topicref href="log_viewer/reference/reference_Amplilog1.dita"/>
+                <topicref href="log_viewer/reference/reference_Amplilog2.dita"/>
+                <topicref href="log_viewer/reference/reference_Amplilog1Content.dita"/>
+            </topicref>
+        </topicref>
     </chapter>
     <chapter href="ops_report/topic/topic_OpsReport.dita"/>
     <chapter href="accounts/topic/topic_Accounts.dita">

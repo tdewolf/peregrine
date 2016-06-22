@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="concept_CnSnLogs" xml:lang="en-us">
+  <title>Controller and Storage Node Logs</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword/>
+        <indexterm/>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>The following log and configuration files are available on controller and storage nodes: <ul
+        id="ul_amb_5km_jw">
+        <li><wintitle>disk status</wintitle>: displays the disk status of the selected Controller
+          Node </li>
+        <li><wintitle>config</wintitle>: displays the configuration of the selected node, such as
+          disks, network, general node information, ... </li>
+        <li><wintitle>event</wintitle>: contains the events that occurred on the node </li>
+        <li><wintitle>amplilog1</wintitle>: log files with the system statistics reported by the <ph
+            conkeyref="variables/osm"/> software </li>
+        <li><wintitle>amplilog2</wintitle>: logging of the S3 transactions, Read, Write, Delete, Add
+          Bucket, Delete Bucket. </li>
+        <li><wintitle>authentication</wintitle>: logging of all access attempts to the node </li>
+        <li><wintitle>ipmi</wintitle>: data indicating the status of IPMI controlled components such
+          as fans, RAM modules, power supply, ... </li>
+        <li><wintitle>kernel</wintitle>: kernel log file of the node </li>
+        <li><wintitle>lshw</wintitle>: detailed hardware configuration of the node </li>
+        <li><wintitle>switchX</wintitle>: switch information such as connected ports and switch
+          status </li>
+        <li><wintitle>syslog</wintitle>: a source of detailed information about the behavior of your
+          node's operating system</li>
+      </ul> The log statistics are logged every five minutes by default, which means that all values
+      in the statistics are calculated for this statistics interval. </p>
+    <p>Each statistic corresponds with a certain value which is calculated from a certain action.
+      For example, a value can be the time that a certain call or action takes.</p>
+  </body>
+</topic>
