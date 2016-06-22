@@ -116,8 +116,10 @@
             <topicref href="log_viewer/concept/concept_CnSnLogs.dita">
                 <topicref href="log_viewer/reference/reference_Amplilog1.dita"/>
                 <topicref href="log_viewer/reference/reference_Amplilog2.dita"/>
-                <topicref href="log_viewer/reference/reference_Amplilog1Content.dita"/>
+                <topicref href="log_viewer/reference/reference_Amplilog1Statistics.dita"/>
             </topicref>
+            <topicref href="log_viewer/concept/concept_SELogs.dita"/>
+            <topicref href="log_viewer/concept/concept_SwitchLogs.dita"/>
         </topicref>
     </chapter>
     <chapter href="ops_report/topic/topic_OpsReport.dita"/>

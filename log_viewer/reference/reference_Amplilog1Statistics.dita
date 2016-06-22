@@ -168,7 +168,7 @@
                 </entry>
                 <entry>Duration and throughput of the blockstore ck_superblock call, where the
                   blockstore reads in a superblock from disk and verifies that its content is still
-                  ok.</entry>
+                  OK.</entry>
                 <entry>Size of the superblock</entry>
               </row>
               <row>
