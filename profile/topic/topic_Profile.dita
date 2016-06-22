@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_Profile" xml:lang="en-us">
+  <title>User Profile</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>profile</keyword>
+        <indexterm>user<indexterm>profile</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p/>
+  </body>
+</topic>

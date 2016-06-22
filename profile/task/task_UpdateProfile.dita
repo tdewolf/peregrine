@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_profileemail">
+    <title>Updating User Profile</title>
+    <shortdesc/>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword/>
+                <indexterm>update<indexterm>user<indexterm>profile</indexterm></indexterm></indexterm>
+                <indexterm>update<indexterm>email</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>The email address of your profile is used to send you information about the
+                system.</p>
+            <p>To update your email address:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click on your user name in the top-right corner and select
+                        <uicontrol>Profile</uicontrol>.</cmd>
+                <stepresult>The <wintitle>Profile</wintitle>window appears.</stepresult>
+            </step>
+            <step>
+                <cmd>Update your email address in the <wintitle>Email address
+                    </wintitle>field.</cmd>
+            </step>
+            <step>
+                <cmd>Click<uicontrol>Update Profile</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Type your password and click <uicontrol>Update</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result>All notifications from <ph conkeyref="variables/cm_short"/> are sent to the new
+            email address.</result>
+    </taskbody>
+</task>
