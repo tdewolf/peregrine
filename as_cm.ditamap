@@ -126,6 +126,7 @@
             <topicref href="system_performance/concept/concept_ThroughputPerformance.dita"/>
             <topicref href="system_performance/concept/concept_TopBucketsPerformance.dita"/>
         </topicref>
+        <topicref href="as_system/concept/concept_CapacityPlanner.dita"/>
     </chapter>
     <chapter href="ops_report/topic/topic_OpsReport.dita"/>
     <chapter href="accounts/topic/topic_Accounts.dita">
