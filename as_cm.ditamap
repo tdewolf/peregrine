@@ -128,7 +128,13 @@
         </topicref>
         <topicref href="as_system/concept/concept_CapacityPlanner.dita"/>
     </chapter>
-    <chapter href="ops_report/topic/topic_OpsReport.dita"/>
+    <chapter href="operational_reports/topic/topic_OpsReport.dita">
+        <topicref href="operational_reports/concept/concept_TopBuckets.dita"/>
+        <topicref href="operational_reports/concept/concept_ErasureCodingOverhead.dita"/>
+        <topicref href="operational_reports/concept/concept_TopFiles.dita"/>
+        <topicref href="operational_reports/concept/concept_FileSize.dita"/>
+        <topicref href="operational_reports/concept/concept_CustomReport.dita"/>
+    </chapter>
     <chapter href="accounts/topic/topic_Accounts.dita">
         <topicref href="accounts/topic/topic_UserRolesAndPermissions.dita">
             <topicref href="accounts/concept/concept_Persona.dita"/>

@@ -11,6 +11,8 @@
     </metadata>
   </prolog>
   <body>
-    <p/>
+    <p>Operational reports provide you clear overviews about the usage of a system. This includes
+      the requests per bucket, requests per file and file sizes.</p>
+    <p>For each of the reports, you can specify a period for which you want to consult the data.</p>
   </body>
 </topic>

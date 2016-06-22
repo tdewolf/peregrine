@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_filesize">
+ <title>File Size</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>In the <wintitle>File Size</wintitle> report, you get an overview of the percentage of files
+   per file size, stored on the selected system.<fig id="fig_x5k_2vs_jw">
+    <title>File size operational report</title>
+    <image placement="break" href="../../common/images/file_size_report.png" align="center"
+     id="image_y5k_2vs_jw" width="600"/>
+   </fig></p>
+  <p>You can download the graphic via the download icon in the panel <image placement="inline"
+    href="../../common/images/download_graph.png" id="image_vhp_tgl_jw"/>.The following formats are
+    provided:<ul id="ul_vvl_5gl_jw">
+    <li>PNG</li>
+    <li>JPEG</li>
+    <li>SVG</li>
+    <li>PDF</li>
+   </ul></p>
+ </conbody>
+</concept>
