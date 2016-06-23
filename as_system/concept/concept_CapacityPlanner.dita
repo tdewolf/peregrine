@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_CapacityPlanner" xml:lang="en-us">
  <title>Capacity Planner</title>
- <shortdesc/>
  <prolog>
   <metadata>
    <keywords>
@@ -25,14 +24,14 @@
    be reached. Click <uicontrol>Reset</uicontrol> to reset the threshold to 80%. <fig
     id="fig_rtj_ngs_jw">
     <title>Storage capacity forecast</title>
-    <image placement="break" href="../../common/images/forecast.png" align="center"
-     id="image_stj_ngs_jw"/>
+    <image placement="break" href="../../common/images/forecast.png" align="left"
+          id="image_stj_ngs_jw" width="18cm"/>
    </fig></p>
   <p>The <wintitle>Capacity Threshold</wintitle> graphic displays the current storage usage.<fig
     id="fig_pqy_qgs_jw">
     <title>Storage capacity threshold</title>
-    <image placement="break" href="../../common/images/capacity_threshold.png" align="center"
-     id="image_qqy_qgs_jw"/>
+    <image placement="break" href="../../common/images/capacity_threshold.png" align="left"
+          id="image_qqy_qgs_jw"/>
    </fig></p>
  </conbody>
 </concept>

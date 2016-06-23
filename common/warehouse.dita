@@ -4,7 +4,7 @@
   <topic id="topic_e2h_13j_3w" xml:lang="en-us">
     <title>Warehouse Reusable Content</title>
   </topic>
-  <concept id="concept_vxd_djj_3w">
+  <concept id="warehouse_concept">
     <title>Concept Reusable Content</title>
     <conbody>
       <p id="sort_table_column">You can sort the table by column. Click the column header to sort
@@ -16,11 +16,11 @@
         data.</p>
     </conbody>
   </concept>
-  <reference id="reference_rsc_t3j_3w">
+  <reference id="warehouse_reference">
     <title>Reference Reusable Content</title>
     <refbody/>
   </reference>
-  <task id="task_w1w_t3j_3w">
+  <task id="warehouse_task">
     <title>Task Reusable Content</title>
     <taskbody>
       <steps>
@@ -38,7 +38,7 @@
       </steps>
     </taskbody>
   </task>
-  <topic id="topic_jzt_bjj_3w">
+  <topic id="warehouse_topic">
     <title>Topic Reusable Content</title>
     <body/>
   </topic>

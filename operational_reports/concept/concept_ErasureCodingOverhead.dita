@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_ErasureCodingOverhead" xml:lang="en-us" audience="admin partner">
  <title>Erasure Coding Overhead</title>
- <shortdesc/>
  <prolog>
   <metadata>
    <keywords>
@@ -19,8 +18,8 @@
    actual user data capacity and the erasure coding overhead capacity. The panel label also
    indicates the raw capacity that is taken by the erasure coding. <fig id="fig_vz5_r5s_jw">
     <title>Erasure coding overhead</title>
-    <image placement="break" href="../../common/images/erasure_coding_overhead.png" align="center"
-     id="image_wz5_r5s_jw"/>
+    <image placement="break" href="../../common/images/erasure_coding_overhead.png" align="left"
+     id="image_wz5_r5s_jw" width="15cm"/>
    </fig></p>
  </conbody>
 </concept>

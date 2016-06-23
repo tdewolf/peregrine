@@ -32,7 +32,7 @@
                     <fig id="fig_iyw_zwl_jw">
                         <title>Drives selected for analytics</title>
                         <image placement="break" href="../../common/images/se_drives_selected.png"
-                            align="center" id="image_jyw_zwl_jw"/>
+                            align="left" id="image_jyw_zwl_jw" width="15cm"/>
                     </fig>
                 </info>
             </step>
@@ -41,7 +41,7 @@
                 <stepresult>A new window appears with the five analytics:<fig id="fig_a5p_cxl_jw">
                         <title>Drive analytics</title>
                         <image placement="break" href="../../common/images/drive_analytics.png"
-                            align="center" id="image_b5p_cxl_jw"/>
+                            align="left" id="image_b5p_cxl_jw" width="15cm"/>
                     </fig></stepresult>
             </step>
         </steps>

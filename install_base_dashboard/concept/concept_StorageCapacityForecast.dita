@@ -20,8 +20,8 @@
   <p>Click <uicontrol>All</uicontrol> to open the table for all customers. In this table you can
    filter the data to find the desired information in a fast and easy way.<fig id="fig_e24_py2_jw">
     <title>Capacity forecast</title>
-    <image placement="break" href="../../common/images/capacity_forecast_all.png" align="center"
-     id="image_f24_py2_jw"/>
+    <image placement="break" href="../../common/images/capacity_forecast_all.png" align="left"
+     id="image_f24_py2_jw" width="12cm"/>
    </fig></p>
  </conbody>
 </concept>

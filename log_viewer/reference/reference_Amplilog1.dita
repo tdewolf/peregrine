@@ -2,12 +2,11 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_Amplilog1" xml:lang="en-us">
   <title>Log File Content Amplilog1</title>
-  <shortdesc/>
   <prolog>
     <metadata>
       <keywords>
-        <keyword/>
-        <indexterm/>
+        <keyword>amplilog1</keyword>
+        <indexterm>amplilog1</indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -31,6 +30,8 @@
           <li><wintitle>max_millis_size</wintitle>: maximum size of an object in the statistic,
             expressed in MiB</li>
         </ul></p>
+      <p>For more information about the statistics in this log, consult <xref
+          href="reference_Amplilog1Statistics.dita#reference_Amplilog1Content"/></p>
     </section>
   </refbody>
 </reference>

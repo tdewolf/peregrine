@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_TimeLineGraphic" xml:lang="en-us">
  <title>Workload Time Line Graphic</title>
- <shortdesc/>
  <prolog>
   <metadata>
    <keywords>
@@ -17,8 +16,8 @@
   <p>
    <fig id="fig_bsm_pff_jw">
     <title>Workload time line</title>
-    <image placement="break" href="../../common/images/workload_timeline.png" align="center"
-     id="image_csm_pff_jw"/>
+    <image placement="break" href="../../common/images/workload_timeline.png" align="left"
+     id="image_csm_pff_jw" width="10cm"/>
    </fig>
   </p>
   <p>By default, the Read and Write operations are displayed. You can disable one of the graphics by
@@ -27,8 +26,8 @@
   <p>
    <fig id="fig_vbk_5ff_jw">
     <title>Workload deselected read operation</title>
-    <image placement="break" href="../../common/images/workload_deselected.png" align="center"
-     id="image_wbk_5ff_jw"/>
+    <image placement="break" href="../../common/images/workload_deselected.png" align="left"
+     id="image_wbk_5ff_jw" width="4cm"/>
    </fig>
   </p>
  </conbody>

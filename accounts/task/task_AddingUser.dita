@@ -19,8 +19,8 @@
                 for example a Customer persona is not able to add a user with an OEM persona.</p>
         </prereq>
         <steps>
-            <step conref="../../common/warehouse.dita#task_w1w_t3j_3w/click_username"
-                conrefend="../../common/warehouse.dita#task_w1w_t3j_3w/select_user_mgmt">
+            <step conref="../../common/warehouse.dita#warehouse_task/click_username"
+                conrefend="../../common/warehouse.dita#warehouse_task/select_user_mgmt">
                 <cmd/>
             </step>
             <step>
@@ -31,34 +31,34 @@
                 <cmd>Fill out the row with the proper values:</cmd>
                 <info>
                     <ul id="ul_xcn_yjj_3w" audience="">
-                        <li><uicontrol>Username</uicontrol>: user name to access <ph
+                        <li><wintitle>Username</wintitle>: user name to access <ph
                                 conkeyref="variables/cm_short">ActiveScale CM</ph></li>
-                        <li audience="admin"><uicontrol>Persona</uicontrol>: this value defines the
+                        <li audience="admin"><wintitle>Persona</wintitle>: this value defines the
                             information that the user will see in the UI (Admin, Customer, OEM). See
                                 <xref href="../concept/concept_Persona.dita#concept_Persona"/> for
                             more information.</li>
-                        <li audience="partner"><uicontrol>Persona</uicontrol>: this value defines
+                        <li audience="partner"><wintitle>Persona</wintitle>: this value defines
                             the information that the user will see in the UI (Customer, OEM). See
                                 <xref href="../concept/concept_Persona.dita#concept_Persona"/> for
                             more information.</li>
-                        <li audience="customer"><uicontrol>Persona</uicontrol>: this value is
+                        <li audience="customer"><wintitle>Persona</wintitle>: this value is
                             automatically filled out with 'Customer'. See <xref
                                 href="../concept/concept_Persona.dita#concept_Persona"/> for more
                             information.</li>
-                        <li><uicontrol>Account</uicontrol>: the name of the account to which the
+                        <li><wintitle>Account</wintitle>: the name of the account to which the
                             user belongs.</li>
-                        <li><uicontrol>Role</uicontrol>: the role of the user (User, Super User).
+                        <li><wintitle>Role</wintitle>: the role of the user (User, Super User).
                             See <xref href="../concept/concept_Role.dita#concept_Role"/> for more
                             information.</li>
-                        <li><uicontrol>Email</uicontrol>: e-mail address of the user for all
+                        <li><wintitle>Email</wintitle>: e-mail address of the user for all
                             communication.</li>
                     </ul>
                 </info>
             </step>
             <step>
                 <cmd>Click the Save button (<image href="../../common/images/save_user.png"
-                        width="16" height="16" id="image_bhy_blj_3w"/>) in the
-                        <uicontrol>Actions</uicontrol> column.</cmd>
+                        width="18" height="18" id="image_bhy_blj_3w"/>) in the
+                        <wintitle>Actions</wintitle> column.</cmd>
             </step>
         </steps>
         <result>The user receives an email with the login and a temporary password.</result>

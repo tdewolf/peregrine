@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_UsagePatternIssueDetails" xml:lang="en-us">
  <title>Usage Pattern Issue Details</title>
- <shortdesc/>
  <prolog>
   <metadata>
    <keywords>
@@ -17,7 +16,7 @@
    (grey out) or enable (bold) the node's information. </p>
   <p><note type="tip">It may occur that you have to scroll down in the details panel to view all
     content.</note> When you open the details of an issue, click <image placement="inline"
-    href="../../common/images/close_issue_details.png" width="16" height="16" id="image_lrq_hgm_jw"
+    href="../../common/images/close_issue_details.png" width="18" height="18" id="image_lrq_hgm_jw"
    /> to return to the list of issues.</p>
  </conbody>
 </concept>

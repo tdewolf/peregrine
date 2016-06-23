@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_HWChanges" xml:lang="en-us">
  <title>Hardware Changes</title>
- <shortdesc/>
  <prolog>
   <metadata>
    <keywords>
@@ -18,8 +17,8 @@
   <p>The time line only covers the selected period The time line indicates replaced parts and added
    parts information for the affected node. <fig id="fig_mjc_jjm_jw">
     <title>Hardware changes</title>
-    <image placement="break" href="../../common/images/hw_changes.png" align="center"
-     id="image_njc_jjm_jw"/>
+    <image placement="break" href="../../common/images/hw_changes.png" align="left"
+          id="image_njc_jjm_jw"/>
    </fig></p>
   <p>On the time line itself you find the affected device or action that has been executed. Hovering
    your mouse over the bullet displays the details of the device, such as type and affected node.

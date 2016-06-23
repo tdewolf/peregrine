@@ -2,7 +2,6 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_kl2_jrb_gw" xml:lang="en-us">
     <title>Updating a User</title>
-    <shortdesc/>
     <prolog>
         <metadata>
             <keywords>
@@ -19,25 +18,25 @@
             <p>To update a user:</p>
         </context>
         <steps>
-            <step conref="../../common/warehouse.dita#task_w1w_t3j_3w/click_username"
-                conrefend="../../common/warehouse.dita#task_w1w_t3j_3w/look_for_user">
+            <step conref="../../common/warehouse.dita#warehouse_task/click_username"
+                conrefend="../../common/warehouse.dita#warehouse_task/look_for_user">
                 <cmd/>
             </step>
             <step>
-                <cmd>In the <uicontrol>Actions</uicontrol> column, click the Edit button (<image
-                        href="../../common/images/user_edit.png" width="16" height="16"
+                <cmd>In the <wintitle>Actions</wintitle> column, click the Edit button (<image
+                        href="../../common/images/user_edit.png" width="18" height="18"
                         id="image_zws_nlj_3w"/>).</cmd>
                 <stepresult>The user row becomes editable.</stepresult>
             </step>
             <step>
-                <cmd>You can update the <uicontrol>Account</uicontrol>, <uicontrol>Role</uicontrol>,
-                    and <uicontrol>Email</uicontrol>.</cmd>
+                <cmd>You can update the <wintitle>Account</wintitle>, <wintitle>Role</wintitle>,
+                    and <wintitle>Email</wintitle>.</cmd>
             </step>
             <step>
                 <cmd>Click the save button (<image href="../../common/images/user_save.png"
-                        width="16" height="16" id="image_xyt_vlj_3w"/>) to apply the changes, or
+                        width="18" height="18" id="image_xyt_vlj_3w"/>) to apply the changes, or
                     click the cancel button (<image href="../../common/images/user_edit_cancel.png"
-                        width="16" height="16" id="image_ipn_xlj_3w"/>) to cancel the changes.</cmd>
+                        width="18" height="18" id="image_ipn_xlj_3w"/>) to cancel the changes.</cmd>
             </step>
         </steps>
     </taskbody>

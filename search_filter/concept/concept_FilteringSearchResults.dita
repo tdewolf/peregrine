@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_FilteringSearchResults" xml:lang="en-us">
  <title>Filtering Search Results</title>
- <shortdesc/>
  <prolog>
   <metadata>
    <keywords>
@@ -19,7 +18,7 @@
    indicates the number of results it will return when selecting the filter item. </p>
   <p>Click the item to activate the item as filter.<fig id="fig_a4n_5l2_jw">
     <title>Filter search results</title>
-    <image placement="break" href="../../common/images/filter_search_results.png" align="center"
+    <image placement="break" href="../../common/images/filter_search_results.png" align="left"
      id="image_b4n_5l2_jw"/>
    </fig></p>
   <p>To clear the item, click the item at the top of the filter box or clear all filter items by

@@ -5,8 +5,10 @@
   <prolog>
     <metadata>
       <keywords>
-        <keyword/>
-        <indexterm/>
+        <keyword>role</keyword>
+        <keyword>permission</keyword>
+        <indexterm>role</indexterm>
+        <indexterm>permission</indexterm>
       </keywords>
     </metadata>
   </prolog>

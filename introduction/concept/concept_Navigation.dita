@@ -2,13 +2,12 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_Navigation" xml:lang="en-us">
  <title>Navigation</title>
- <shortdesc/>
  <prolog>
   <metadata>
    <keywords>
     <keyword>navigation</keyword>
     <keyword>breadcrumb</keyword>
-    <indexterm/>
+    <indexterm>breadcrumb</indexterm>
    </keywords>
   </metadata>
  </prolog>
@@ -16,18 +15,18 @@
   <p>To easily navigate through the various sections in <ph conkeyref="variables/cm_short"/>, there
    is a breadcrumb trail below the top bar.<fig id="fig_alf_242_jw" audience="admin partner">
     <title>Breadcrumb</title>
-    <image placement="break" href="../../common/images/breadcrumb.png" align="center"
-     id="image_blf_242_jw"/>
+    <image placement="break" href="../../common/images/breadcrumb.png" align="left"
+          id="image_blf_242_jw" width="6cm"/>
    </fig><fig audience="customer" id="fig_yg5_w42_jw">
     <title>Breadcrumb</title>
-    <image placement="break" href="../../common/images/breadcrumb_customer.png" align="center"
-     id="image_zg5_w42_jw"/>
+    <image placement="break" href="../../common/images/breadcrumb_customer.png" align="left"
+          id="image_zg5_w42_jw" width="6cm"/>
    </fig></p>
   <p audience="admin partner">
    <ol id="ol_xgg_f42_jw">
     <li>Home page of <ph conkeyref="variables/cm_short"/>, which is the <xref
-      href="../../install_base_dashboard/topic/topic_InstallBaseDashboard.dita#topic_InstallBaseDashboard"
-     />.</li>
+            href="../../install_base_dashboard/topic/topic_InstallBaseDashboard.dita#topic_InstallBaseDashboard"
+            >Install Base Dashboard</xref>.</li>
     <li>The second item of the breadcrumb is the name of the <xref
       href="../../customer_dashboard/topic/topic_CustomerDashboard.dita#topic_CustomerDashboard"
       >customer or partner</xref>. </li>

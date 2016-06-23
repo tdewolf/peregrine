@@ -10,13 +10,7 @@
     </booktitle>
     <frontmatter>
         <keydef keys="variables" href="common/variables.dita" format="dita" type="topic"></keydef>
-        <notices href="common/topic/topic_Preface.dita">
-            <topicref href="common/concept/concept_Conventions.dita">
-                <topicref href="common/concept/concept_Typography.dita"/>
-                <topicref href="common/concept/concept_StorageNotations.dita"/>
-                <topicref href="common/concept/concept_Admonitions.dita"/>
-            </topicref>
-        </notices>
+        <keydef keys="warehouse" href="common/warehouse.dita" format="dita"></keydef>
     </frontmatter>
     <chapter href="introduction/topic/topic_IntroducingAsCm.dita">
         <topicref href="introduction/concept/concept_WhatIsPeregrine.dita"/>
@@ -36,10 +30,7 @@
         <topicref href="introduction/concept/concept_Navigation.dita"/>
     </chapter>
     <chapter href="install_base_dashboard/topic/topic_InstallBaseDashboard.dita">
-        <topicref href="install_base_dashboard/topic/topic_InstallBase.dita">
-            <topicref href="install_base_dashboard/concept/concept_InstallBaseTable.dita"/>
-            <topicref href="install_base_dashboard/concept/concept_ISBFilterData.dita"/>
-        </topicref>
+        <topicref href="install_base_dashboard/concept/concept_InstallBaseTable.dita"/>
         <topicref href="install_base_dashboard/concept/concept_TopCustomers.dita"/>
         <topicref href="install_base_dashboard/concept/concept_ObjectSizes.dita"/>
         <topicref href="install_base_dashboard/concept/concept_StorageCapacityForecast.dita"/>

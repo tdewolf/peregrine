@@ -22,13 +22,13 @@
     id="fig_rdn_2y2_jw">
     <title>Object sizes category deselected</title>
     <image placement="break" href="../../common/images/object_sizes_category_deselected.png"
-     align="center" id="image_sdn_2y2_jw"/>
+     align="left" id="image_sdn_2y2_jw" width="12cm"/>
    </fig></p>
   <p>To display this graphic for all customers, click <uicontrol>All</uicontrol>. This opens a popup
-   window with an identical graphic with all customers. Use the horizontal scrollbar to scroll
+   window with an identical graphic with all customers. Use the horizontal scroll bar to scroll
    through the graphic. <fig id="fig_v1x_fy2_jw">
     <title>Object sizes</title>
-    <image placement="break" href="../../common/images/object_sizes_all.png" align="center"
+    <image placement="break" href="../../common/images/object_sizes_all.png" align="left"
      id="image_w1x_fy2_jw"/>
    </fig></p>
  </conbody>

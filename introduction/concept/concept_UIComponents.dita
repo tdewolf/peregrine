@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_UIComponents" xml:lang="en-us">
  <title>User Interface Components</title>
- <shortdesc/>
  <prolog>
   <metadata>
    <keywords>
@@ -19,17 +18,17 @@
     <li>the main page with various panels, which vary per page.</li>
    </ul></p>
   <p>
-   <fig id="fig_fbg_fl2_jw">
+   <fig id="fig_fbg_fl2_jw" audience="admin partner">
     <title>UI components</title>
-    <image placement="break" href="../../common/images/overview_window.png" align="center"
-     audience="admin partner" id="image_chh_222_jw"/>
+    <image placement="break" href="../../common/images/overview_window.png" width="18cm"
+     align="left" id="image_opq_kkt_jw"/>
    </fig>
   </p>
   <p>
-   <fig id="fig_lcz_3l2_jw">
+   <fig id="fig_lcz_3l2_jw" audience="customer">
     <title>UI components</title>
-    <image placement="break" href="../../common/images/overview_window_customer.png" align="center"
-     audience="customer" id="image_vgk_y22_jw"/>
+    <image placement="break" href="../../common/images/overview_window_customer.png" align="left"
+     audience="customer" id="image_vgk_y22_jw" width="18cm"/>
    </fig>
   </p>
  </conbody>

@@ -2,12 +2,11 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_Amplilog2" xml:lang="en-us">
   <title>Log File Content Amplilog2</title>
-  <shortdesc/>
   <prolog>
     <metadata>
       <keywords>
-        <keyword/>
-        <indexterm/>
+        <keyword>amplilog2</keyword>
+        <indexterm>amplilog2</indexterm>
       </keywords>
     </metadata>
   </prolog>

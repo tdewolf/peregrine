@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_StorageCapacity" xml:lang="en-us">
  <title>Storage Capacity</title>
- <shortdesc/>
  <prolog>
   <metadata>
    <keywords>
@@ -21,8 +20,8 @@
   <p>
    <fig id="fig_mby_rcf_jw">
     <title>Storage capacity</title>
-    <image placement="break" href="../../common/images/storage_capacity.png" align="center"
-     id="image_nby_rcf_jw"/>
+    <image placement="break" href="../../common/images/storage_capacity.png" align="left"
+     id="image_nby_rcf_jw" scale="70"/>
    </fig>
   </p>
  </conbody>

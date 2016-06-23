@@ -2,12 +2,12 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_Amplilog1Content" xml:lang="en-us">
   <title>Amplilog1 Statistics</title>
-  <shortdesc/>
   <prolog>
     <metadata>
       <keywords>
-        <keyword/>
-        <indexterm/>
+        <keyword>amplilog1</keyword>
+        <keyword>statistics</keyword>
+        <indexterm>amplilog1<indexterm>statistics</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -304,7 +304,7 @@
                   <p>delete_duration</p>
                 </entry>
                 <entry>Duration of an entire object DELETE call, which is a metadata-only operation.
-                  This only measures the codepath shared between AXR and S3.</entry>
+                  This only measures the code path shared between AXR and S3.</entry>
                 <entry>None</entry>
               </row>
               <row>
@@ -367,7 +367,7 @@
                   <p>s3_get_duration</p>
                   <p>s3_get_throughput</p>
                 </entry>
-                <entry>Duration and throuhput of an entire S3 object read call. This does not
+                <entry>Duration and throughput of an entire S3 object read call. This does not
                   include the HTTP-related things.</entry>
                 <entry>Retrieved size of the object</entry>
               </row>
@@ -376,7 +376,7 @@
                   <p>s3_put_duration</p>
                   <p>s3_put_throughput</p>
                 </entry>
-                <entry>Duration and throuhput of an entire S3 object write call. This does not
+                <entry>Duration and throughput of an entire S3 object write call. This does not
                   include the HTTP-related things.</entry>
                 <entry>Size of the object</entry>
               </row>

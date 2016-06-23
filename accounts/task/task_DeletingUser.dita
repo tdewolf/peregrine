@@ -2,7 +2,6 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_nyw_frb_gw" xml:lang="en-us">
     <title>Deleting a User</title>
-    <shortdesc/>
     <prolog>
         <metadata>
             <keywords>
@@ -21,13 +20,13 @@
                 users.</note>
         </context>
         <steps>
-            <step conref="../../common/warehouse.dita#task_w1w_t3j_3w/click_username"
-                conrefend="../../common/warehouse.dita#task_w1w_t3j_3w/look_for_user">
+            <step conref="../../common/warehouse.dita#warehouse_task/click_username"
+                conrefend="../../common/warehouse.dita#warehouse_task/look_for_user">
                 <cmd/>
             </step>
             <step>
-                <cmd>In the <uicontrol>Actions</uicontrol> column, click the Delete button (<image
-                        href="../../common/images/user_delete.png" width="16" height="16"
+                <cmd>In the <wintitle>Actions</wintitle> column, click the Delete button (<image
+                        href="../../common/images/user_delete.png" width="18" height="18"
                         id="image_qcz_s3d_jw"/>).</cmd>
                 <stepresult>A warning appears that this action is irreversible.</stepresult>
             </step>

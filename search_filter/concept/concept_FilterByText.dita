@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_FilterByText" xml:lang="en-us">
  <title>Filtering by Text</title>
- <shortdesc/>
  <prolog>
   <metadata>
    <keywords>
@@ -17,7 +16,7 @@
    you're looking for. To help you locate the desired information, such panels have a filter box in
    which you can search for the necessary data.<fig id="fig_o1p_ln2_jw">
     <title>Filter by text</title>
-    <image placement="break" href="../../common/images/filter_by_text.png" align="center"
+    <image placement="break" href="../../common/images/filter_by_text.png" align="left"
      id="image_p1p_ln2_jw"/>
    </fig></p>
   <p>This filter box is case-insensitive and returns any match, regardless the column in which the

@@ -2,7 +2,6 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_g4x_grb_gw" xml:lang="en-us">
     <title>Enabling a User</title>
-    <shortdesc/>
     <prolog>
         <metadata>
             <keywords>
@@ -19,16 +18,16 @@
                 user.</p>
         </context>
         <steps id="steps_qzx_3hj_3w">
-            <step conref="../../common/warehouse.dita#task_w1w_t3j_3w/click_username"
-                conrefend="../../common/warehouse.dita#task_w1w_t3j_3w/look_for_user">
+            <step conref="../../common/warehouse.dita#warehouse_task/click_username"
+                conrefend="../../common/warehouse.dita#warehouse_task/look_for_user">
                 <cmd/>
             </step>
             <step>
-                <cmd>In the <uicontrol>Actions</uicontrol> column, click the enable <image
-                        href="../../common/images/user_disabled.png" id="image_a5v_bjc_gw"/>
-                    switch.</cmd>
+                <cmd>In the <wintitle>Actions</wintitle> column, click the enable <image
+                        href="../../common/images/user_disabled.png" id="image_a5v_bjc_gw"
+                        width="18"/> switch.</cmd>
                 <stepresult>The switch is set to enabled (<image
-                        href="../../common/images/user_enabled.png" id="image_hn5_x3c_gw"
+                        href="../../common/images/user_enabled.png" id="image_hn5_x3c_gw" width="18"
                     />)</stepresult>
             </step>
         </steps>
