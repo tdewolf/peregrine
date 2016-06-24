@@ -14,7 +14,7 @@
   <p>The <wintitle>Availability</wintitle> panel displays the percentage of time that a customer's
     <ph conkeyref="variables_as_cm/osm"/> systems are available for S3 operations. The percentage is
    calculated for all systems of a customer. </p>
-  <p>To display all customers in one graphic, click <uicontrol>All</uicontrol>. This opens a popup
+  <p>To display all customers in one graphic, click <uicontrol>All</uicontrol>. This opens a pop-up
    window with an identical graphic including all customers. Use the horizontal scroll bar to scroll
    through the graphic.<fig id="fig_bdc_l1f_jw">
     <title>Availability</title>

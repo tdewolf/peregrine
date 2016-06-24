@@ -4,27 +4,7 @@
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
             <serialized version="17.1" xml:space="preserve">
-                <map>
-                    <entry>
-                        <String>scenario.associations</String>
-                        <scenarioAssociation-array>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>as_cm.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>pikes_peak_external_fop (PDF)</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                        </scenarioAssociation-array>
-                    </entry>
+                <serializableOrderedMap>
                     <entry>
                         <String>scenarios</String>
                         <scenario-array>
@@ -350,7 +330,7 @@
                             </ditaScenario>
                         </scenario-array>
                     </entry>
-                </map>
+                </serializableOrderedMap>
             </serialized>
         </options>
     </meta>

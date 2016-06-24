@@ -27,7 +27,7 @@
         >persona</xref>; the actions that you can perform depend on your <xref
         href="../../accounts/concept/concept_Role.dita#concept_Role">role</xref>.</p>
   <p audience="customer">The actions that you can perform depend on your <xref
-    href="../../accounts/concept/concept_Role.dita#concept_Role">role</xref></p>
+        href="../../accounts/concept/concept_Role.dita#concept_Role">role</xref>.</p>
   <p>All data, except for the <ph conkeyref="variables_as_cm/cm_short"/> user information, are taken from
    observations of the <ph conkeyref="variables_as_cm/osm"/> systems and cannot be changed.</p>
  </conbody>
