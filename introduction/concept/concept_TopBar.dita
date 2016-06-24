@@ -18,7 +18,7 @@
             href="../../operational_reports/topic/topic_OpsReport.dita#topic_OpsReportUntitled12"
             >Operational Reports</xref></li>
     <li><image placement="inline" href="../../common/images/full_screen.png" width="16" height="16"
-            id="image_tst_2h2_jw"/>: icon to open <ph conkeyref="variables/cm_short"/> in full
+            id="image_tst_2h2_jw"/>: icon to open <ph conkeyref="variables_as_cm/cm_short"/> in full
           screen mode</li>
     <li><image placement="inline" href="../../common/images/peregrine_avatar.png" width="16"
             height="16" id="image_fjv_hh2_jw"/>: icon to open user and account specific actions</li>
@@ -27,7 +27,7 @@
   <p audience="admin partner">In the top bar, you find the following components:<ul audience=""
         id="ul_tsd_kh2_jw">
         <li><image placement="inline" href="../../common/images/full_screen.png" width="16"
-            height="16" id="image_vsd_kh2_jw"/>: icon to open <ph conkeyref="variables/cm_short"/>
+            height="16" id="image_vsd_kh2_jw"/>: icon to open <ph conkeyref="variables_as_cm/cm_short"/>
           in full screen mode</li>
         <li><image placement="inline" href="../../common/images/peregrine_avatar.png" width="16"
             height="16" id="image_wsd_kh2_jw"/>: icon to open user and account specific actions</li>

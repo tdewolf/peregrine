@@ -9,7 +9,7 @@
         <booktitlealt audience="customer">End-user version</booktitlealt>
     </booktitle>
     <frontmatter>
-        <keydef keys="variables" href="common/variables.dita" format="dita" type="topic"></keydef>
+        <keydef keys="variables_as_cm" href="common/variables.dita" format="dita" type="topic"/>
         <keydef keys="warehouse" href="common/warehouse.dita" format="dita"></keydef>
     </frontmatter>
     <chapter href="introduction/topic/topic_IntroducingAsCm.dita">

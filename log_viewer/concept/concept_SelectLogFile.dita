@@ -26,7 +26,7 @@
         <li><xref href="concept_CnSnLogs.dita#concept_CnSnLogs">Controller and Storage
           Node</xref></li>
         <li><xref href="concept_SELogs.dita#concept_SELogs">Storage Enclosure</xref></li>
-        <li><xref href="concept_SwitchLogs.dita#concept_SwitchLogs"><ph conkeyref="variables/switch"
+        <li><xref href="concept_SwitchLogs.dita#concept_SwitchLogs"><ph conkeyref="variables_as_cm/switch"
             /></xref></li>
       </ul></p>
     <p>

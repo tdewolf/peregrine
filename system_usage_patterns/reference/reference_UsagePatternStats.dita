@@ -12,7 +12,7 @@
   </prolog>
   <refbody>
     <section>
-      <p><ph conkeyref="variables/cm_long"/> has the following usage patterns statistics. You can
+      <p><ph conkeyref="variables_as_cm/cm_long"/> has the following usage patterns statistics. You can
         select them via the <uicontrol>Select Stats</uicontrol> menu at the top of the
           <wintitle>System</wintitle> page:<ul id="ul_edk_r2m_jw">
           <li>Storage Total Writes (selected by default)</li>

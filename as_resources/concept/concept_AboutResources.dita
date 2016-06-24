@@ -12,7 +12,7 @@
  </prolog>
  <conbody>
   <p>On the <wintitle>Resources</wintitle> tab of a <wintitle>System</wintitle> page, you get an
-   overview of the <ph conkeyref="variables/osm"/> system's resources. A resource is any physical
+   overview of the <ph conkeyref="variables_as_cm/osm"/> system's resources. A resource is any physical
    component of the system. </p>
   <p>By default, the <b>first</b> Controller Node of the rack is selected. Click any other device in
    the rack to consult its summary and inventory. </p>

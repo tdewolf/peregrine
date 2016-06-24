@@ -11,7 +11,7 @@
   </metadata>
  </prolog>
  <conbody>
-  <p>The <wintitle>Transactions/seconds</wintitle> panel displays the <ph conkeyref="variables/osm"
+  <p>The <wintitle>Transactions/seconds</wintitle> panel displays the <ph conkeyref="variables_as_cm/osm"
    /> system's overall operations per second.<fig id="fig_s5z_szk_jw">
     <title>Transactions per second</title>
     <image placement="break" href="../../common/images/ops_per_sec.png" align="left"

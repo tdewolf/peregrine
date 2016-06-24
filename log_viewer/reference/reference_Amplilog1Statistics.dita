@@ -13,7 +13,7 @@
   </prolog>
   <refbody>
     <section>
-      <p>The <ph conkeyref="variables/osm"/> software logs contains the following data:</p>
+      <p>The <ph conkeyref="variables_as_cm/osm"/> software logs contains the following data:</p>
       <p>
         <table frame="all" rowsep="1" colsep="1" id="table_n3y_lmm_jw">
           <title>Amplilog1 statistics</title>

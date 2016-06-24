@@ -12,7 +12,7 @@
   </metadata>
  </prolog>
  <conbody>
-  <p><ph conkeyref="variables/cm_short"/> provides three different usage patterns for storage: <ul
+  <p><ph conkeyref="variables_as_cm/cm_short"/> provides three different usage patterns for storage: <ul
         id="ul_avt_qgm_jw">
         <li><wintitle>Total Writes</wintitle> (default): total number of write operations, averaged
           across all the Controller Nodes and Storage Nodes. </li>

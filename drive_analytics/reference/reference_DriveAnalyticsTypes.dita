@@ -12,7 +12,7 @@
   </prolog>
   <refbody>
     <section>
-      <p><ph conkeyref="variables/cm_short"/> has five types of drive analytics:<ul
+      <p><ph conkeyref="variables_as_cm/cm_short"/> has five types of drive analytics:<ul
           id="ul_et3_15l_jw">
           <li><wintitle>Read Bytes Processed</wintitle>: the number of bytes processed in read
             operations. </li>

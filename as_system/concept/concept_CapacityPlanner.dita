@@ -12,7 +12,7 @@
  </prolog>
  <conbody>
   <p>The <wintitle>Capacity Planner</wintitle> page gives you an overview of an <ph
-    conkeyref="variables/osm"/> system's historic usage and a predicted consumption for the upcoming
+    conkeyref="variables_as_cm/osm"/> system's historic usage and a predicted consumption for the upcoming
    months and years.</p>
   <p>The <wintitle>Storage Capacity Usage</wintitle> panel visualizes the forecast of the storage
    usage and when the storage capacity will reach its threshold. The threshold is by default set at

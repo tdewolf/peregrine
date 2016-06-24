@@ -12,7 +12,7 @@
   </metadata>
  </prolog>
  <conbody>
-  <p>The <ph conkeyref="variables/cm_short"/> interface is divided in two main sections: <ul
+  <p>The <ph conkeyref="variables_as_cm/cm_short"/> interface is divided in two main sections: <ul
     id="ul_jr1_2td_jw">
     <li>a top bar</li>
     <li>the main page with various panels, which vary per page.</li>

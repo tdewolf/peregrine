@@ -13,7 +13,7 @@
  </prolog>
  <conbody>
   <p>To filter the data, you can select a time period for retrieval. The default period is the last
-   day of retrieving the statistics from the <ph conkeyref="variables/osm"/> systems.<fig
+   day of retrieving the statistics from the <ph conkeyref="variables_as_cm/osm"/> systems.<fig
     id="fig_gcl_hm2_jw">
     <title>Filter by date</title>
     <image placement="break" href="../../common/images/filter_by_date.png" align="left"

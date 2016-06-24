@@ -19,7 +19,7 @@
           disks, network, general node information, ... </li>
         <li><wintitle>event</wintitle>: contains the events that occurred on the node </li>
         <li><wintitle>amplilog1</wintitle>: log files with the system statistics reported by the <ph
-            conkeyref="variables/osm"/> software </li>
+            conkeyref="variables_as_cm/osm"/> software </li>
         <li><wintitle>amplilog2</wintitle>: logging of the S3 transactions, Read, Write, Delete, Add
           Bucket, Delete Bucket. </li>
         <li><wintitle>authentication</wintitle>: logging of all access attempts to the node </li>

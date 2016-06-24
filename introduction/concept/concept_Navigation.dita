@@ -12,7 +12,7 @@
   </metadata>
  </prolog>
  <conbody>
-  <p>To easily navigate through the various sections in <ph conkeyref="variables/cm_short"/>, there
+  <p>To easily navigate through the various sections in <ph conkeyref="variables_as_cm/cm_short"/>, there
    is a breadcrumb trail below the top bar.<fig id="fig_alf_242_jw" audience="admin partner">
     <title>Breadcrumb</title>
     <image placement="break" href="../../common/images/breadcrumb.png" align="left"
@@ -24,7 +24,7 @@
    </fig></p>
   <p audience="admin partner">
    <ol id="ol_xgg_f42_jw">
-    <li>Home page of <ph conkeyref="variables/cm_short"/>, which is the <xref
+    <li>Home page of <ph conkeyref="variables_as_cm/cm_short"/>, which is the <xref
             href="../../install_base_dashboard/topic/topic_InstallBaseDashboard.dita#topic_InstallBaseDashboard"
             >Install Base Dashboard</xref>.</li>
     <li>The second item of the breadcrumb is the name of the <xref
@@ -32,7 +32,7 @@
       >customer or partner</xref>. </li>
     <li>The third item is the name of the <xref
       href="../../as_system/topic/topic_AsSystem.dita#topic_AsSystem">customer's <ph
-       conkeyref="variables/osm"/> system</xref>.</li>
+       conkeyref="variables_as_cm/osm"/> system</xref>.</li>
     <li>The possible fourth item of the breadcrumb is the name of a subsection of a system's
      dashboard page.</li>
    </ol>
@@ -41,12 +41,12 @@
    click the second item in the breadcrumb, you return to the customer's dashboard.</p>
   <p audience="customer">
    <ol id="ol_ot1_jp2_jw">
-    <li>Home page of <ph conkeyref="variables/cm_short"/>, which is the dashboard of your <xref
+    <li>Home page of <ph conkeyref="variables_as_cm/cm_short"/>, which is the dashboard of your <xref
       href="../../customer_dashboard/topic/topic_CustomerDashboard.dita#topic_CustomerDashboard"
       >account</xref>.</li>
     <li>The second item is the name of the <xref
       href="../../as_system/topic/topic_AsSystem.dita#topic_AsSystem">selected <ph
-       conkeyref="variables/osm"/> system</xref>.</li>
+       conkeyref="variables_as_cm/osm"/> system</xref>.</li>
     <li>The possible third item is the name of a subsection of a system's dashboard page.</li>
    </ol>
   </p>

@@ -12,7 +12,7 @@
   </prolog>
   <body>
     <p>On the <wintitle>System Performance</wintitle> panel, you can analyze the performance of the
-        <ph conkeyref="variables/osm"/> system, such as the read and write requests, throughput over
+        <ph conkeyref="variables_as_cm/osm"/> system, such as the read and write requests, throughput over
       time and top users. </p>
     <p>You can <xref href="../../search_filter/topic/topic_FilteringData.dita#topic_FilteringData"
         >set a time period</xref> to facilitate the performance analysis for the selected

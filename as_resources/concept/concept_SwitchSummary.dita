@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_SwitchSummary" xml:lang="en-us">
- <title><ph conkeyref="variables/switch"/> Summary</title>
+ <title><ph conkeyref="variables_as_cm/switch"/> Summary</title>
  <prolog>
   <metadata>
    <keywords>
@@ -14,32 +14,32 @@
  <conbody>
   <p>The summary of a switch (SWx) contains the following data: <ul id="ul_mrq_nyl_jw">
     <li><wintitle>Interface Status</wintitle>: status of the management interface of the <ph
-      conkeyref="variables/switch"/>
+      conkeyref="variables_as_cm/switch"/>
     </li>
-    <li><wintitle>Machine Model</wintitle>: model ID of the <ph conkeyref="variables/switch"/>
+    <li><wintitle>Machine Model</wintitle>: model ID of the <ph conkeyref="variables_as_cm/switch"/>
     </li>
-    <li><wintitle>Part Number</wintitle>: part number of the <ph conkeyref="variables/switch"/>
+    <li><wintitle>Part Number</wintitle>: part number of the <ph conkeyref="variables_as_cm/switch"/>
     </li>
     <li><wintitle>Software Version</wintitle>: version installed on the <ph
-      conkeyref="variables/switch"/>
+      conkeyref="variables_as_cm/switch"/>
     </li>
-    <li><wintitle>System Name</wintitle>: name of the <ph conkeyref="variables/switch"/> as known in
-     the <ph conkeyref="variables/cm_short"/> software </li>
+    <li><wintitle>System Name</wintitle>: name of the <ph conkeyref="variables_as_cm/switch"/> as known in
+     the <ph conkeyref="variables_as_cm/cm_short"/> software </li>
     <li><wintitle>MAC Address</wintitle>: MAC address of the management interface of the <ph
-      conkeyref="variables/switch"/>
+      conkeyref="variables_as_cm/switch"/>
     </li>
-    <li><wintitle>Operating System</wintitle>: OS installed on the <ph conkeyref="variables/switch"
+    <li><wintitle>Operating System</wintitle>: OS installed on the <ph conkeyref="variables_as_cm/switch"
      />
     </li>
     <li><wintitle>Serial Number</wintitle>: the serial number of the <ph
-      conkeyref="variables/switch"/>
+      conkeyref="variables_as_cm/switch"/>
     </li>
     <li><wintitle>System Description</wintitle>: short description of the <ph
-      conkeyref="variables/switch"/>, as defined within the <ph conkeyref="variables/osm"/> system. </li>
-    <li><wintitle>System Up Time</wintitle>: uptime of the <ph conkeyref="variables/switch"/>
+      conkeyref="variables_as_cm/switch"/>, as defined within the <ph conkeyref="variables_as_cm/osm"/> system. </li>
+    <li><wintitle>System Up Time</wintitle>: uptime of the <ph conkeyref="variables_as_cm/switch"/>
     </li>
    </ul></p>
-  <p>The full inventory of the <ph conkeyref="variables/switch"/> can be found in the <xref
+  <p>The full inventory of the <ph conkeyref="variables_as_cm/switch"/> can be found in the <xref
     href="concept_SwitchInventory.dita#concept_SwitchInventory">inventory table</xref>.</p>
  </conbody>
 </concept>

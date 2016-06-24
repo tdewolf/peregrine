@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_SwitchLogs" xml:lang="en-us">
- <title><ph conkeyref="variables/switch"/> Logs</title>
+ <title><ph conkeyref="variables_as_cm/switch"/> Logs</title>
  <prolog>
   <metadata>
    <keywords>

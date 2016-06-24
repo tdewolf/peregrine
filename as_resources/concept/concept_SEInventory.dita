@@ -35,7 +35,7 @@
    </fig>
   </p>
   <p>In the sleds overview, the drives that need replacement are flagged. The flagging of disks is
-   based on <ph conkeyref="variables/cm_short"/> statistical analysis.<fig id="fig_gyr_yvl_jw">
+   based on <ph conkeyref="variables_as_cm/cm_short"/> statistical analysis.<fig id="fig_gyr_yvl_jw">
     <title>Drive with anomalies</title>
     <image placement="break" href="../../common/images/drive_replace.png" align="left"
      id="image_hyr_yvl_jw"/>

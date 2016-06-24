@@ -34,7 +34,7 @@
                 <cmd>Type your password and click <uicontrol>Update</uicontrol>.</cmd>
             </step>
         </steps>
-        <result>All notifications from <ph conkeyref="variables/cm_short"/> are sent to the new
+        <result>All notifications from <ph conkeyref="variables_as_cm/cm_short"/> are sent to the new
             email address.</result>
     </taskbody>
 </task>

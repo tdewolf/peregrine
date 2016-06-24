@@ -25,7 +25,7 @@
   </p>
   <p>You find the following information in the table: <ul id="ul_zrr_wbf_jw">
     <li><wintitle>System Name</wintitle>: the name of the system, this cannot be changed as this is
-     taken from the <ph conkeyref="variables/osm"/> deployments.</li>
+     taken from the <ph conkeyref="variables_as_cm/osm"/> deployments.</li>
     <li><wintitle>Storage Capacity</wintitle>: The total <i>installed</i> capacity of the
      system.</li>
     <li><wintitle>Usage</wintitle>: The percentage of storage in use. Hover over the bar to display
@@ -36,7 +36,7 @@
     <li><wintitle>Deployment</wintitle>: Indicates the type of the system, single site (1-Geo) or
      multi site (3-Geo).</li>
     <li><wintitle>Version</wintitle>: Displays the installed version of the <ph
-      conkeyref="variables/osm"/> on the system.</li>
+      conkeyref="variables_as_cm/osm"/> on the system.</li>
     <li><wintitle>Racks</wintitle>: The total number of racks that make up a system.</li>
    </ul> To reduce the number of records in the displayed table, you can add a free text query in
    the <wintitle>Filter</wintitle> field. Once you start typing, the table is updated with matching

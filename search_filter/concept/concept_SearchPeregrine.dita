@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_SearchPeregrine" xml:lang="en-us">
- <title>Searching in <ph conkeyref="variables/cm_short"/></title>
+ <title>Searching in <ph conkeyref="variables_as_cm/cm_short"/></title>
  <prolog>
   <metadata>
    <keywords>
@@ -11,7 +11,7 @@
   </metadata>
  </prolog>
  <conbody>
-  <p>You can quickly search for information in <ph conkeyref="variables/cm_short"/> by opening the
+  <p>You can quickly search for information in <ph conkeyref="variables_as_cm/cm_short"/> by opening the
    search box with the <image placement="inline" href="../../common/images/search.png" width="16"
     height="16" id="image_n2n_bj2_jw"/> icon. </p>
   <p audience="admin partner">You have to select a customer before you can perform a search

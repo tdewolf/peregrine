@@ -12,7 +12,7 @@
  </prolog>
  <conbody>
   <p>The <wintitle>Availability</wintitle> panel displays the percentage of time that a customer's
-    <ph conkeyref="variables/osm"/> systems are available for S3 operations. The percentage is
+    <ph conkeyref="variables_as_cm/osm"/> systems are available for S3 operations. The percentage is
    calculated for all systems of a customer. </p>
   <p>To display all customers in one graphic, click <uicontrol>All</uicontrol>. This opens a popup
    window with an identical graphic including all customers. Use the horizontal scroll bar to scroll

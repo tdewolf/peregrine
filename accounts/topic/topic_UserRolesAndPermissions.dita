@@ -13,7 +13,7 @@
     </metadata>
   </prolog>
   <body>
-    <p>Every user in <ph conkeyref="variables/cm_long">prod</ph> is associated with an account and
+    <p>Every user in <ph conkeyref="variables_as_cm/cm_long">prod</ph> is associated with an account and
       has two specific parameters which define the level of view and action privileges.</p>
   </body>
 </topic>

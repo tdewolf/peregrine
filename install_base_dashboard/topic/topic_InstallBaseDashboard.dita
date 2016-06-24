@@ -11,9 +11,9 @@
     </metadata>
   </prolog>
   <body>
-    <p>The <ph conkeyref="variables/cm_long"/>
+    <p>The <ph conkeyref="variables_as_cm/cm_long"/>
       <wintitle>Install Base Dashboard</wintitle> shows all deployed systems from all over the
-      world. It is also the default view when you log in to <ph conkeyref="variables/cm_short"/>.
+      world. It is also the default view when you log in to <ph conkeyref="variables_as_cm/cm_short"/>.
       The charts on this dashboard show the ten customers from the <wintitle>Top
         Customers</wintitle> chart.</p>
   </body>

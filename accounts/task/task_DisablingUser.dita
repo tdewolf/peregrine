@@ -15,7 +15,7 @@
             disable a user.</prereq>
         <context>
             <p>Disabling a user allows you to quickly deactivate a user, the user account remains in
-                the system, but the user can no longer access <ph conkeyref="variables/cm_short"
+                the system, but the user can no longer access <ph conkeyref="variables_as_cm/cm_short"
                     >ActiveScale CM</ph>. </p>
         </context>
         <steps>

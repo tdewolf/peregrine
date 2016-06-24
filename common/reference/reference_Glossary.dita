@@ -33,11 +33,11 @@
           <dt>Data Safety</dt>
           <dd>
             <p>The Data Safety is a policy used to store the objects in the <ph
-                conkeyref="variables/osm"/> systems. An object is split into several segments, each
+                conkeyref="variables_as_cm/osm"/> systems. An object is split into several segments, each
               segment is stored on a separate disk. A policy is noted in a X/Y format. The policy
               defines in how many segments the object is divided (X) and how many segments may be
               unavailable to restore the whole object (Y).</p>
-            <p>The <ph conkeyref="variables/osm"/> systems support two data safeties: 15/5 and
+            <p>The <ph conkeyref="variables_as_cm/osm"/> systems support two data safeties: 15/5 and
               18/8.</p>
           </dd>
         </dlentry>
@@ -78,7 +78,7 @@
           <dt>Role</dt>
           <dd>
             <p>The role of a user defines the user rights. As "User", you can only consult
-              information, as "Super User" you can manage other <ph conkeyref="variables/cm_short"/>
+              information, as "Super User" you can manage other <ph conkeyref="variables_as_cm/cm_short"/>
               users.</p>
           </dd>
         </dlentry>
