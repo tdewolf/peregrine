@@ -22,7 +22,7 @@
   </p>
   <p>By default, the Read and Write operations are displayed. You can disable one of the graphics by
    clicking the <wintitle>Writes</wintitle>/<wintitle>Reads</wintitle> labels below the graphic. If
-   an operation is not shown in the graphic, it appears greyed out.</p>
+   an operation is not shown in the graphic, it appears grayed out.</p>
   <p>
    <fig id="fig_vbk_5ff_jw">
     <title>Workload deselected read operation</title>

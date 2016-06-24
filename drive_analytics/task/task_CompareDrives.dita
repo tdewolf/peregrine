@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="task_CompareDrives" xml:lang="en-us" audience="admin partner">
+<task id="task_CompareDrives" xml:lang="en-us" audience="">
     <title>Comparing Drives</title>
     <prolog>
         <metadata>
@@ -20,8 +20,8 @@
                 <cmd>Open the Storage Enclosure inventory via the <wintitle>Resources</wintitle> tab
                     of the <ph conkeyref="variables_as_cm/osm"/> system (<menucascade>
                         <uicontrol>Home</uicontrol>
-                        <uicontrol>&lt;customer></uicontrol>
-                        <uicontrol>&lt;system></uicontrol>
+                        <uicontrol>"customer"</uicontrol>
+                        <uicontrol>"system"</uicontrol>
                         <uicontrol>Resources</uicontrol>
                     </menucascade>).</cmd>
             </step>

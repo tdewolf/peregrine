@@ -34,7 +34,7 @@
      of its storage capacity.</li>
     <li><wintitle>Drive Sled</wintitle>: The total number of Sleds per system.</li>
     <li><wintitle>Deployment</wintitle>: Indicates the type of the system, single site (1-Geo) or
-     multi site (3-Geo).</li>
+     multi-site (3-Geo).</li>
     <li><wintitle>Version</wintitle>: Displays the installed version of the <ph
       conkeyref="variables_as_cm/osm"/> on the system.</li>
     <li><wintitle>Racks</wintitle>: The total number of racks that make up a system.</li>

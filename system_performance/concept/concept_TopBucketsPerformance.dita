@@ -20,15 +20,15 @@
   <p>The table contains the following information: <ul id="ul_yd2_3fs_jw">
     <li><wintitle>Bucket Name</wintitle>: the bucket name </li>
     <li><wintitle>Reads</wintitle>: percentage of Read requests on the bucket, as part of all Read
-     requests in all buckets on the system. </li>
+     requests in all buckets on the system</li>
     <li><wintitle>Writes</wintitle>: percentage of Write requests in this bucket, as part of all
-     Write requests in all buckets on the system. </li>
+     Write requests in all buckets on the system</li>
     <li><wintitle>Total</wintitle>: total percentage of combined Read and Write requests in this
-     bucket, as part of all requests to other buckets on the system. </li>
+     bucket, as part of all requests to other buckets on the system</li>
     <li><wintitle>Average Response Time</wintitle>: average response time on the total of Read and
-     Write requests over the set time period. </li>
+     Write requests over the set time period</li>
     <li><wintitle>Date</wintitle>: end date of the requested date range for which you want to
-     retrieve the top buckets information.</li>
+     retrieve the top buckets information</li>
    </ul>
   </p>
   <p>You can order the data in ascending or descending order per column. For example, if you wish to

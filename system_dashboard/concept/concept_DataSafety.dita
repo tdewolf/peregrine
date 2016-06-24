@@ -21,7 +21,7 @@
   <p>For example, 15/5 means that the object is divided into 15 segments and each segment is stored
    on a different disk. The 5 indicates that <ph conkeyref="variables_as_cm/osm"/> can reconstruct the
    object with up to 5 missing disks and thus 5 missing object segments.</p>
-  <p>In the panel you see the number of disks that may be offline and how many disks are actually
+  <p>In the panel, you see the number of disks that may be offline and how many disks are actually
    unavailable.</p>
  </conbody>
 </concept>

@@ -20,7 +20,7 @@
       </ul></p>
     <p>At the bottom of the graphics you can make selections. By default the average
         (<uicontrol>Avg</uicontrol>) is displayed, but you can select one or more specific nodes to
-      compare against the average performance of the nodes. If the name of the node is greyed out,
+      compare against the average performance of the nodes. If the name of the node is grayed out,
       the node is not displayed in the graph. </p>
     <p>The time series graphic also contains the issues on the nodes, indicated by orange (error) or
       yellow (warning) icons. </p>

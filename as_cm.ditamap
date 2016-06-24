@@ -75,7 +75,7 @@
                 <topicref href="as_resources/concept/concept_SESummary.dita"/>
                 <topicref href="as_resources/concept/concept_SEInventory.dita"/>
             </topicref>
-            <topicref href="drive_analytics/topic/topic_DriveAnalytics.dita">
+            <topicref href="drive_analytics/topic/topic_DriveAnalytics.dita" audience="admin partner">
                 <topicref href="drive_analytics/reference/reference_DriveAnalyticsTypes.dita"/>
                 <topicref href="drive_analytics/task/task_CompareDrives.dita"/>
                 <topicref href="drive_analytics/concept/concept_WorkingWithDriveAnalytics.dita"/>
@@ -122,7 +122,7 @@
     </chapter>
     <chapter href="operational_reports/topic/topic_OpsReport.dita">
         <topicref href="operational_reports/concept/concept_TopBuckets.dita"/>
-        <topicref href="operational_reports/concept/concept_ErasureCodingOverhead.dita"/>
+        <topicref href="operational_reports/concept/concept_ErasureCodingOverhead.dita" audience="admin partner"/>
         <topicref href="operational_reports/concept/concept_TopFiles.dita"/>
         <topicref href="operational_reports/concept/concept_FileSize.dita"/>
         <topicref href="operational_reports/concept/concept_CustomReport.dita"/>

@@ -11,7 +11,7 @@
     </metadata>
   </prolog>
   <body>
-    <p><ph conkeyref="variables_as_cm/cm_long"/> provides analytics for the drives in a storage enclosure.
-      With this analytics tool, you can compare up to 15 drives at a time.</p>
+    <p><ph conkeyref="variables_as_cm/cm_long"/> provides analytics for the drives in a storage
+      enclosure. With the drive analytics tool, you can compare up to 15 drives at a time.</p>
   </body>
 </topic>

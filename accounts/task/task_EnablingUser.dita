@@ -25,9 +25,9 @@
             <step>
                 <cmd>In the <wintitle>Actions</wintitle> column, click the enable <image
                         href="../../common/images/user_disabled.png" id="image_a5v_bjc_gw"
-                        width="18"/> switch.</cmd>
+                        width="20"/> switch.</cmd>
                 <stepresult>The switch is set to enabled (<image
-                        href="../../common/images/user_enabled.png" id="image_hn5_x3c_gw" width="18"
+                        href="../../common/images/user_enabled.png" id="image_hn5_x3c_gw" width="20"
                     />)</stepresult>
             </step>
         </steps>

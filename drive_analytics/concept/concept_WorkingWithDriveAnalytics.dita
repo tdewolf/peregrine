@@ -22,11 +22,11 @@
      fields.</li>
     <li><i>Select/Deselect Drives</i>: In any of the analytics, the graphic of the selected drives
      are displayed. You can deselect drives by clicking on the drive number at the bottom of the
-     graphic, the drive number is then greyed out and no longer visible in the graphic. To show the
-     drive again in the graphic, click the greyed out name again.</li>
+     graphic, the drive number is then grayed out and no longer visible in the graphic. To show the
+     drive again in the graphic, click the grayed out name again.</li>
     <li><i>Zoom</i>: You can zoom in the graphic by selecting a part of the graphic. When you have
-     zoomed in, there is an horizontal ̱ which you can use to go back and forth in time on the
-     graphic. To reset to the normal zoom level, click <uicontrol>Reset zoom</uicontrol>.</li>
+     zoomed in, there is an horizontal scroll bar to go back and forth in time on the graphic. To
+     reset to the normal zoom level, click <uicontrol>Reset zoom</uicontrol>.</li>
    </ul></p>
  </conbody>
 </concept>
