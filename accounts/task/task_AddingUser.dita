@@ -30,7 +30,7 @@
             <step>
                 <cmd>Fill out the row with the proper values:</cmd>
                 <info>
-                    <ul id="ul_xcn_yjj_3w" audience="">
+                    <ul id="ul_xcn_yjj_3w">
                         <li><wintitle>Username</wintitle>: user name to access <ph
                                 conkeyref="variables_as_cm/cm_short">ActiveScale CM</ph></li>
                         <li audience="admin"><wintitle>Persona</wintitle>: this value defines the
