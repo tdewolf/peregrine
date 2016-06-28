@@ -13,9 +13,14 @@
         <keydef keys="warehouse" href="common/warehouse.dita" format="dita"></keydef>
         <booklists>
             <toc/>
-            <figurelist/>
-            <tablelist/>
         </booklists>
+        <notices href="common/topic/topic_Preface.dita">
+            <topicref href="common/concept/concept_Conventions.dita">
+                <topicref href="common/concept/concept_Typography.dita"/>
+                <topicref href="common/concept/concept_StorageNotations.dita"/>
+                <topicref href="common/concept/concept_Admonitions.dita"/>
+            </topicref>
+        </notices>
     </frontmatter>
     <chapter href="introduction/topic/topic_IntroducingAsCm.dita">
         <topicref href="introduction/concept/concept_WhatIsPeregrine.dita"/>

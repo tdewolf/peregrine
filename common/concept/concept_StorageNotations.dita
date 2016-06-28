@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"><concept id="concept_StorageNotations">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_StorageNotations">
    <title>Storage Notations</title>
-   
-   
-   
    <prolog>
       <metadata>
          <keywords>
@@ -13,71 +11,38 @@
    </prolog>
    <conbody>
       <table id="table_hpr_bzs_5q">
-         <tgroup cols="3">
+         <tgroup cols="4">
             <colspec colname="col1"/>
             <colspec colname="col2"/>
             <colspec colname="col3"/>
+            <colspec colname="newCol4" colwidth="1*"/>
             <thead>
                <row>
-                  <entry morerows="0" namest="col1" nameend="col1" outputclass="head"
-                     >Convention</entry>
+                  <entry morerows="0" namest="col1" nameend="col1" outputclass="head">Convention</entry>
                   <entry morerows="0" namest="col2" nameend="col2" outputclass="head">Prefix</entry>
-                  <entry morerows="0" namest="col3" nameend="col3" outputclass="head">Size
-                     (bytes)</entry>
+                  <entry morerows="0" namest="col3" nameend="col3" outputclass="head">Examples</entry>
+                  <entry>Usage</entry>
                </row>
             </thead>
             <tbody>
                <row>
-                  <entry morerows="0" namest="col1" nameend="col1">KB</entry>
-                  <entry morerows="0" namest="col2" nameend="col2">kilobyte</entry>
-                  <entry morerows="0" namest="col3" nameend="col3">1,000</entry>
+                  <entry morerows="0" namest="col1" nameend="col1"><varname>x</varname>B (base 10 notation)</entry>
+                  <entry morerows="0" namest="col2" nameend="col2">SI prefix: (kilo, mega, giga, tera, peta, exa, zetta, yotta)</entry>
+                  <entry morerows="0" namest="col3" nameend="col3">1GB = 1 gigabyte = 1,000,000,000 bytes<p>1TB = 1 terabyte = 1,000,000,000,000 bytes</p></entry>
+                  <entry>Disk sizes</entry>
                </row>
                <row>
-                  <entry morerows="0" namest="col1" nameend="col1">KiB</entry>
-                  <entry morerows="0" namest="col2" nameend="col2">kibibyte</entry>
-                  <entry morerows="0" namest="col3" nameend="col3">1,024</entry>
-               </row>
-               <row>
-                  <entry morerows="0" namest="col1" nameend="col1">MB</entry>
-                  <entry morerows="0" namest="col2" nameend="col2">megabyte</entry>
-                  <entry morerows="0" namest="col3" nameend="col3">1,000,000</entry>
-               </row>
-               <row>
-                  <entry morerows="0" namest="col1" nameend="col1">MiB</entry>
-                  <entry morerows="0" namest="col2" nameend="col2">mebibyte</entry>
-                  <entry morerows="0" namest="col3" nameend="col3">1,048,567</entry>
-               </row>
-               <row>
-                  <entry morerows="0" namest="col1" nameend="col1">GB</entry>
-                  <entry morerows="0" namest="col2" nameend="col2">gigabyte</entry>
-                  <entry morerows="0" namest="col3" nameend="col3">1,00,000,000</entry>
-               </row>
-               <row>
-                  <entry morerows="0" namest="col1" nameend="col1">GiB</entry>
-                  <entry morerows="0" namest="col2" nameend="col2">gibibyte</entry>
-                  <entry morerows="0" namest="col3" nameend="col3">1,073,741,824</entry>
-               </row>
-               <row>
-                  <entry morerows="0" namest="col1" nameend="col1">TB</entry>
-                  <entry morerows="0" namest="col2" nameend="col2">terabyte</entry>
-                  <entry morerows="0" namest="col3" nameend="col3">1,000,000,000,000</entry>
-               </row>
-               <row>
-                  <entry morerows="0" namest="col1" nameend="col1">TiB</entry>
-                  <entry morerows="0" namest="col2" nameend="col2">tibibyte</entry>
-                  <entry morerows="0" namest="col3" nameend="col3">1,099,511,627,776</entry>
+                  <entry morerows="0" namest="col1" nameend="col1"><varname>xi</varname>B (base 8 notation)</entry>
+                  <entry morerows="0" namest="col2" nameend="col2">Binary prefixes (kibi, mebi, gibi, tebi, pebi, exbi, zebi, yobi)</entry>
+                  <entry morerows="0" namest="col3" nameend="col3">1GiB = 1 gibibyte = 1,073,741,824 bytes<p>1TiB = 1 tebibyte = 1,099,511,627,776 bytes</p></entry>
+                  <entry>Storage space, and sizes of partitions or file systems</entry>
                </row>
             </tbody>
          </tgroup>
       </table>
       <ul id="ul_yrr_bzs_5q">
-         <li>Sizes of disks are expressed with <term>SI prefixes</term> (kilo, mega, tera, peta,
-            exa)</li>
-         <li>Space, size of partitions and file systems are expressed with the <term>binary
-               prefixes</term> (kibi, mebi, tebi, pebi, exbi)</li>
-         <li>A comma (",") is used for digit grouping, for example 1,000 is 1 thousand.</li>
-         <li>A period (".") is used as decimal mark, for example 12.5 %.</li>
+         <li>This document uses a comma (",") for digit grouping; for example, 1,000 is one thousand.</li>
+         <li>This document uses a period (".") as a decimal mark; for example, 12.5 %.</li>
       </ul>
    </conbody>
-   
 </concept>
