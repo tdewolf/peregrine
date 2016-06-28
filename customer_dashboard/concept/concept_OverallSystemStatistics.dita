@@ -17,7 +17,7 @@
     <li><wintitle>Total Buckets</wintitle>: The total number of S3 buckets that are deployed by this
      customer.</li>
     <li><wintitle>S3 Users</wintitle>: The total number of S3 users of the customer.</li>
-    <li><wintitle>Object Count</wintitle>: The total number of objects, stored in all buckets of the
+    <li><wintitle>Object Count</wintitle>: The total number of objects stored in all buckets of the
      customer.</li>
     <li><wintitle>Average Object Size</wintitle>: The average object size of all objects, which is
      the total used storage capacity divided by the object count.</li>

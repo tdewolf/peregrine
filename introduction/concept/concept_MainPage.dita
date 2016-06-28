@@ -16,13 +16,13 @@
       or graphical format. For more information about the panel, hover over the panel's help icon
         (<image placement="inline" href="../../common/images/csh_help.png" id="image_axt_zh2_jw"
         width="18"/>).</p>
-  <p>Where applicable, some information can be downloaded via the panel:<ul id="ul_slv_132_jw">
-    <li>graphical data: Click the download icon in the panel (<image placement="inline"
+  <p>Where applicable, some information may be downloaded via the panel:<ul id="ul_slv_132_jw">
+        <li>graphical data: Click the download icon in the panel (<image placement="inline"
             href="../../common/images/download_graph.png" id="image_i3g_d32_jw" width="18"/>) to
           download the graphic. You can download the information in various formats (PNG, JPEG, PDF,
-          SVG) or to a printer.</li>
-    <li>tables: Click the <uicontrol>Export to CSV</uicontrol> link in the panel to download the
-     data in CSV format.</li>
-   </ul></p>
+          SVG) or direct it to a printer.</li>
+        <li>tables: Click the <uicontrol>Export to CSV</uicontrol> link in the panel to download the
+          data in CSV format.</li>
+      </ul></p>
  </conbody>
 </concept>

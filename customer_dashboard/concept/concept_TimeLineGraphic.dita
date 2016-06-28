@@ -20,9 +20,9 @@
      id="image_csm_pff_jw" width="10cm"/>
    </fig>
   </p>
-  <p>By default, the Read and Write operations are displayed. You can disable one of the graphics by
-   clicking the <wintitle>Writes</wintitle>/<wintitle>Reads</wintitle> labels below the graphic. If
-   an operation is not shown in the graphic, it appears grayed out.</p>
+  <p>By default, the rate of Read and Write operations are displayed, by time. You can disable one
+   of the graphics by clicking the <wintitle>Writes</wintitle>/<wintitle>Reads</wintitle> labels
+   below the graphic. If an operation is not shown in the graphic, it appears grayed out.</p>
   <p>
    <fig id="fig_vbk_5ff_jw">
     <title>Workload deselected read operation</title>

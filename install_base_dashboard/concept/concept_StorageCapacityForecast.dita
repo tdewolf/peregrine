@@ -15,7 +15,7 @@
   <p>The <wintitle>Storage Capacity Forecast</wintitle> panel predicts when a customer's aggregated
    used capacity will consume 80% of its total storage capacity. This prediction is based on the
    analysis of historic and forecast usage consumption. </p>
-  <p>You can sort the table in ascending and descending order, by clicking any of the two column
+  <p>You can sort the table in ascending or descending order, by clicking any of the two column
    headers. </p>
   <p>Click <uicontrol>All</uicontrol> to open the table for all customers. In this table you can
    filter the data to find the desired information in a fast and easy way.<fig id="fig_e24_py2_jw">

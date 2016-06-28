@@ -15,10 +15,10 @@
   <p>The <wintitle>Software Versions</wintitle> panel displays the distribution of all systems
    across different versions of the <ph conkeyref="variables_as_cm/osm"/> software. The chart does not
    include the systems that do not upload telemetry data. </p>
-  <p>This graphic is a global overview, not on a customer basis.<fig id="fig_rbb_v1f_jw">
-    <title>Software versions</title>
-    <image placement="break" href="../../common/images/sw_versions.png" align="left"
-     id="image_sbb_v1f_jw" width="12cm"/>
-   </fig></p>
+  <p>This graphic is a global overview, not on a customer-specific basis.<fig id="fig_rbb_v1f_jw">
+        <title>Software versions</title>
+        <image placement="break" href="../../common/images/sw_versions.png" align="left"
+          id="image_sbb_v1f_jw" width="12cm"/>
+      </fig></p>
  </conbody>
 </concept>

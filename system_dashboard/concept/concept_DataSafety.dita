@@ -13,10 +13,10 @@
   </metadata>
  </prolog>
  <conbody>
-  <p>The <wintitle>Data Safety</wintitle> panel displays the data safety of the system. In an <ph
-    conkeyref="variables_as_cm/osm"/> system, the objects are stored with a data safety policy of 15/5 or
-   18/8. The first part of the policy indicates on how many disks the objects are stored, the second
-   part indicates how many of these disks may be unavailable before the <ph
+  <p>The <wintitle>Data Safety</wintitle> panel displays the data safety status of the system. In an
+    <ph conkeyref="variables_as_cm/osm"/> system, the objects are stored with a data safety policy
+   of 15/5 or 18/8. The first part of the policy indicates on how many disks the objects are stored,
+   the second part indicates how many of these disks may be unavailable before the <ph
     conkeyref="variables_as_cm/osm"/> software is no longer able to reconstruct the object.</p>
   <p>For example, 15/5 means that the object is divided into 15 segments and each segment is stored
    on a different disk. The 5 indicates that <ph conkeyref="variables_as_cm/osm"/> can reconstruct the

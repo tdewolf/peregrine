@@ -13,7 +13,7 @@
  <conbody>
   <p>The <wintitle>Total Transactions</wintitle> panel displays a time series of read and write
    operations and their corresponding response times. This allows you to identify network issues or
-   a possible degraded system.<fig id="fig_yqv_dcs_jw">
+   a potentially degraded system.<fig id="fig_yqv_dcs_jw">
     <title>Transactions performance</title>
     <image placement="break" href="../../common/images/transactions_performance.png" align="left"
      id="image_zqv_dcs_jw" width="18cm"/>

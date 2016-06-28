@@ -33,10 +33,11 @@
           <dt>Data Safety</dt>
           <dd>
             <p>The Data Safety is a policy used to store the objects in the <ph
-                conkeyref="variables_as_cm/osm"/> systems. An object is split into several segments, each
-              segment is stored on a separate disk. A policy is noted in a X/Y format. The policy
-              defines in how many segments the object is divided (X) and how many segments may be
-              unavailable to restore the whole object (Y).</p>
+                conkeyref="variables_as_cm/osm"/> systems. An object is split into several segments,
+              each segment is stored on a separate disk. A policy is noted in a X/Y format. The
+              policy defines in how many segments the object is divided (X) and how many segments
+              may be unavailable before restoration of the whole object (Y) would no longer be
+              possible.</p>
             <p>The <ph conkeyref="variables_as_cm/osm"/> systems support two data safeties: 15/5 and
               18/8.</p>
           </dd>
@@ -44,9 +45,9 @@
         <dlentry audience="admin partner">
           <dt>Erasure Coding</dt>
           <dd>
-            <p>Erasure coding is a way to split and encrypt an object into chunks, with each chunk
-              stored on a separate disk. </p>
-            <p>The erasure code is able to rebuild every chunk from other chunks if a chunk is
+            <p>Erasure coding is a way to split and encrypt an object into segments, with each
+              segment stored on a separate disk. </p>
+            <p>The erasure code is able to rebuild every segment from other segments if a segment is
               missing.</p>
           </dd>
         </dlentry>

@@ -15,8 +15,9 @@
       <p>The content of 'amplilog2' is a comma-separated file: <ul id="ul_ych_rlm_jw">
           <li><wintitle>ds</wintitle>: date stamp </li>
           <li><wintitle>ts</wintitle>: time stamp </li>
-          <li><wintitle>server</wintitle>: guid of the server which is selected in the rack </li>
-          <li><wintitle>daemon_id</wintitle>: guid of the daemon who executed the action </li>
+          <li><wintitle>server</wintitle>: GUID (global unique identifier) of the server which is
+            selected in the rack </li>
+          <li><wintitle>daemon_id</wintitle>: GUID of the daemon that executed the action </li>
           <li><wintitle>key</wintitle>: key to identify the object in the database </li>
           <li><wintitle>namespace</wintitle>: name of the S3 bucket in which the related action is
             executed </li>

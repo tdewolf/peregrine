@@ -20,7 +20,7 @@
    and system data. </p>
   <p audience="admin">
    <ul id="ul_akf_jv1_kw">
-    <li><i>Admin</i>: A user who is an “Admin” type, has view access to the system data of all
+    <li><i>Admin</i>: A user who is an “Admin” type has view access to the system data of all
      customers. These users are typically <ph>company</ph> personnel.</li>
     <li><i>OEM</i>: A user who is of an "OEM" type belongs to a special type of customer. This
      customer is typically an <ph conkeyref="variables_as_cm/CompanyNameAcronym">HGST</ph> partner, for

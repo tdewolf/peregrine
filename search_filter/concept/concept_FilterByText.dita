@@ -12,14 +12,14 @@
   </metadata>
  </prolog>
  <conbody>
-  <p>In some panels, you find a large list of items, which makes it often hard to find the data that
-   you're looking for. To help you locate the desired information, such panels have a filter box in
-   which you can search for the necessary data.<fig id="fig_o1p_ln2_jw">
+  <p>In some panels you find a large list of items, which often makes it hard to find the data
+   you're looking for. To help locate the desired information, such panels have a filter box in
+   which may be used to search for the necessary data.<fig id="fig_o1p_ln2_jw">
     <title>Filter by text</title>
     <image placement="break" href="../../common/images/filter_by_text.png" align="left"
      id="image_p1p_ln2_jw"/>
    </fig></p>
-  <p>This filter box is case-insensitive and returns any match, regardless the column in which the
-   query data is retrieved.</p>
+  <p>This filter box is case-insensitive and returns any match, regardless of the column in which
+   the query data is retrieved.</p>
  </conbody>
 </concept>

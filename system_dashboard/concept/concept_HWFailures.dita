@@ -13,8 +13,8 @@
  </prolog>
  <conbody>
   <p>The <wintitle>Hardware Failures</wintitle> panel displays hardware failures of the selected
-   system. It helps you to quickly and precisely identify the devices, for which you may need
-   service or replacement. </p>
+   system. It helps you to quickly and precisely identify the devices, that may need service or
+   replacement. </p>
   <p>
    <note>In this release, only disk failures appear in the <wintitle>Hardware Failures</wintitle>
     table. </note>

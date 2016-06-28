@@ -11,9 +11,9 @@
   </metadata>
  </prolog>
  <conbody>
-  <p>The <wintitle>Throughput</wintitle> panel displays the bandwidth, consumed for Read and Write
-   operations over time. The displayed information is aggregated from all racks of a system.<fig
-    id="fig_lph_1zk_jw">
+  <p>The <wintitle>Throughput</wintitle> panel displays the approximate bandwidth, sustained by for
+   Read and Write operations over time. The displayed information is aggregated from all racks of a
+    system.<fig id="fig_lph_1zk_jw">
     <title>Throughput</title>
     <image placement="break" href="../../common/images/throughput.png" align="left"
      id="image_mph_1zk_jw" width="15cm"/>

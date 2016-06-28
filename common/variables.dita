@@ -9,6 +9,7 @@
       <p><ph id="CompanyNameInc">HGST, Inc.</ph></p>
       <p><ph id="support_name"><xref href="http://support.hgst.com" format="html">HGST Support</xref></ph></p>
       <p><ph id="support_phonehome">HGST_PhoneHome@hgst.com</ph></p>
+      <p><ph id="aws">HGST data store</ph></p>
     </body>
   </topic>
   <topic id="sw">
@@ -18,6 +19,7 @@
       <p><ph id="cm_long">ActiveScale Cloud Management</ph></p>
       <p><ph id="version">1.1</ph></p>
       <p><ph id="osm">object storage</ph></p>
+      <p><ph id="aws">HGST data store</ph></p>
     </body>
   </topic>
   <topic id="hw">

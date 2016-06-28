@@ -11,6 +11,11 @@
     <frontmatter>
         <keydef keys="variables_as_cm" href="common/variables.dita" format="dita" type="topic"/>
         <keydef keys="warehouse" href="common/warehouse.dita" format="dita"></keydef>
+        <booklists>
+            <toc/>
+            <figurelist/>
+            <tablelist/>
+        </booklists>
     </frontmatter>
     <chapter href="introduction/topic/topic_IntroducingAsCm.dita">
         <topicref href="introduction/concept/concept_WhatIsPeregrine.dita"/>

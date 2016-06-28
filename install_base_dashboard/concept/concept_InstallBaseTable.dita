@@ -29,8 +29,8 @@
      installed.</li>
     <li><wintitle>Systems</wintitle>: The Systems column displays the number of systems that a
      customer has deployed.</li>
-    <li><wintitle>Telemetry</wintitle>: The Telemetry columns displays if the customer's <ph
-      conkeyref="variables_as_cm/osm"/> systems are able to upload the telemetry data (<image
+    <li><wintitle>Telemetry</wintitle>: The Telemetry column displays if the customer's <ph
+      conkeyref="variables_as_cm/osm"/> systems are enabled to upload the telemetry data (<image
       href="../../common/images/telemetry_upload.png" id="image_imx_d4k_jw" width="18" height="18"
      />) or not (<image href="../../common/images/telemetry_nok.png" id="image_ybq_f4k_jw"
       width="18"/>).</li>

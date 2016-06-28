@@ -25,8 +25,8 @@
      Write requests in all buckets on the system</li>
     <li><wintitle>Total</wintitle>: total percentage of combined Read and Write requests in this
      bucket, as part of all requests to other buckets on the system</li>
-    <li><wintitle>Average Response Time</wintitle>: average response time on the total of Read and
-     Write requests over the set time period</li>
+    <li><wintitle>Average Response Time</wintitle>: average response time of all Read and Write
+     requests over the set time period</li>
     <li><wintitle>Date</wintitle>: end date of the requested date range for which you want to
      retrieve the top buckets information</li>
    </ul>

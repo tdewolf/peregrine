@@ -11,23 +11,24 @@
   </metadata>
  </prolog>
  <conbody>
-  <p><ph conkeyref="variables_as_cm/cm_long"/> is a software suite which retrieves the useful information
-   from all <ph conkeyref="variables_as_cm/osm"/> systems and creates reports from this data. These
-   reports of the systems give you better insights on how the systems and their data are being
-   used.</p>
-  <p>For example, you can detect the periods of peak utilization of the <ph
-    conkeyref="variables_as_cm/osm"/> systems and verify the corresponding performance statistics. Or you
-   can identify the buckets with the largest number of files or highest used storage capacity.</p>
-  <p>Besides <ph conkeyref="variables_as_cm/cm_short"/> analyzes the ingested data and can correlate two
-   events with each other.</p>
+  <p><ph conkeyref="variables_as_cm/cm_long"/> is a software suite which retrieves useful
+   operational information from all <ph conkeyref="variables_as_cm/osm"/> systems and creates
+   reports from this data. These reports give you better insights on how the storage systems and
+   their data are being used.</p>
+  <p>For example, you can detect periods of peak utilization of the <ph
+    conkeyref="variables_as_cm/osm"/> systems and verify the corresponding performance statistics.
+   Alternatively, you can identify the buckets with the largest number of files, or highest used
+   storage capacity.</p>
+  <p>In addition, <ph conkeyref="variables_as_cm/cm_short"/> analyzes the ingested data and is able
+   to correlate two events with each other.</p>
   <p>The analysis of the data informs you of possible issues and gives you the opportunity to
    proactively intervene and avoid downtime of the systems.</p>
   <p audience="admin partner">The content that you see in <ph conkeyref="variables_as_cm/cm_short"/>
-      depends on your <xref href="../../accounts/concept/concept_Persona.dita#concept_Persona"
-        >persona</xref>; the actions that you can perform depend on your <xref
-        href="../../accounts/concept/concept_Role.dita#concept_Role">role</xref>.</p>
-  <p audience="customer">The actions that you can perform depend on your <xref
-        href="../../accounts/concept/concept_Role.dita#concept_Role">role</xref>.</p>
+   depends upon your <xref href="../../accounts/concept/concept_Persona.dita#concept_Persona"
+    >persona</xref>; the actions that you may perform depend on your <xref
+    href="../../accounts/concept/concept_Role.dita#concept_Role">role</xref>.</p>
+  <p audience="customer">The actions that you may perform depend upon your <xref
+    href="../../accounts/concept/concept_Role.dita#concept_Role">role</xref>.</p>
   <p>All data, except for the <ph conkeyref="variables_as_cm/cm_short"/> user information, are taken from
    observations of the <ph conkeyref="variables_as_cm/osm"/> systems and cannot be changed.</p>
  </conbody>

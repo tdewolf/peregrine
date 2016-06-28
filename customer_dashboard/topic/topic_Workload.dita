@@ -13,11 +13,11 @@
   <body>
     <p audience="admin partner">The <wintitle>Workload</wintitle> panel displays the total workload
       across all systems of a customer. The pie charts show the distribution of read and write
-      operations across small and large objects. The time graphics of the small and large objects,
+      operations across small and large objects. The time graphics of the small and large objects
       show the number of read and write operations during the period.</p>
     <p audience="customer">The <wintitle>Workload</wintitle> panel displays the total workload
       across all your systems. The pie charts show the distribution of read and write operations
-      across small and large objects. The time graphics of the small and large objects, show the
+      across small and large objects. The time graphics of the small and large objects show the
       number of read and write operation during the period.</p>
   </body>
 </topic>

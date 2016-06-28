@@ -16,8 +16,9 @@
    component of the system. </p>
   <p>By default, the <b>first</b> Controller Node of the rack is selected. Click any other device in
    the rack to consult its summary and inventory. </p>
-  <p>In case of a multi-site system, you can select the rack by clicking the name above the rack
-   image. This opens a menu with the list of racks in the system.<fig id="fig_tyk_zgl_jw">
+  <p>For a system consisting of multiple racks, perhaps at multiple sites, you can select the
+   desired rack by clicking the name above the rack image. This opens a menu with the list of racks
+   in the system.<fig id="fig_tyk_zgl_jw">
     <title>Select rack</title>
     <image placement="break" href="../../common/images/select_rack.png" align="left"
      id="image_uyk_zgl_jw" width="8cm"/>

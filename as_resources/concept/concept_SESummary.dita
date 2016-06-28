@@ -11,7 +11,7 @@
   </metadata>
  </prolog>
  <conbody>
-  <p>The summary of a Storage Enclosure (SEaa) contains this data: <ul id="ul_jqn_gsl_jw">
+  <p>The summary of a Storage Enclosure (SEnn) contains this data: <ul id="ul_jqn_gsl_jw">
     <li><wintitle>Fans</wintitle>: number of fans </li>
     <li><wintitle>Part Number</wintitle>: identification of the storage enclosure </li>
     <li><wintitle>SAS Address</wintitle>: address of the SAS controller </li>

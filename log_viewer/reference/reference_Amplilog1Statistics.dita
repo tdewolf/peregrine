@@ -149,7 +149,7 @@
                 <entry>add_obj_md_duration</entry>
                 <entry>Duration of the add_object_metadata blockstore call, which send object
                   metadata to a blockstore where it is written to disk.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -187,14 +187,14 @@
                   <p>spread_gen_normal</p>
                 </entry>
                 <entry>Duration of generating a spread starting from an existing spread.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
                   <p>spread_gen_custom</p>
                 </entry>
                 <entry>Duration of generating a spread starting from an existing spread.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -229,7 +229,7 @@
                 </entry>
                 <entry>Duration of the blockstore delete_blocks call, locally within a storage
                   daemon.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -264,7 +264,7 @@
                 </entry>
                 <entry>Duration of the blockstore delete_full_copy call, locally within a storage
                   daemon.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -272,7 +272,7 @@
                 </entry>
                 <entry>Duration of the blockstore delete_full_copy call, locally within a storage
                   daemon.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -305,7 +305,7 @@
                 </entry>
                 <entry>Duration of an entire object DELETE call, which is a metadata-only operation.
                   This only measures the code path shared between AXR and S3.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -313,7 +313,7 @@
                 </entry>
                 <entry>Duration of the execution of a NORMAL repair task by the repair
                   daemon.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -321,7 +321,7 @@
                 </entry>
                 <entry>Duration of the execution of a DECOMMISSION repair task by the repair
                   daemon.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -329,7 +329,7 @@
                 </entry>
                 <entry>Duration of the execution of a REBALANCE repair task by the repair
                   daemon.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -337,7 +337,7 @@
                 </entry>
                 <entry>Duration of the execution of a CLEAN repair task by the repair
                   daemon.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -345,14 +345,14 @@
                 </entry>
                 <entry>Duration of the execution of a VERIFY repair task by the repair
                   daemon.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
                   <p>delete_task_duration</p>
                 </entry>
                 <entry>Duration of the execution of a DELETE task by the repair daemon.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -360,7 +360,7 @@
                 </entry>
                 <entry>Duration of the execution of a FORCED_DELETE task by the repair
                   daemon.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>
@@ -385,7 +385,7 @@
                   <p>s3_auth_duration</p>
                 </entry>
                 <entry>Duration of the authentication of an S3 request.</entry>
-                <entry>None</entry>
+                <entry>N/A</entry>
               </row>
               <row>
                 <entry>

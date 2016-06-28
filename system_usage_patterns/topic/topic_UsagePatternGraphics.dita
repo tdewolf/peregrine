@@ -22,8 +22,8 @@
         (<uicontrol>Avg</uicontrol>) is displayed, but you can select one or more specific nodes to
       compare against the average performance of the nodes. If the name of the node is grayed out,
       the node is not displayed in the graph. </p>
-    <p>The time series graphic also contains the issues on the nodes, indicated by orange (error) or
-      yellow (warning) icons. </p>
+    <p>The time series graphic also notifies of any issues on the nodes, indicated by orange (error)
+      or yellow (warning) icons. </p>
     <p>When you click an issue in the time series the bullet turns green and the issue is displayed
       in the corresponding controller or storage graphic.</p>
   </body>

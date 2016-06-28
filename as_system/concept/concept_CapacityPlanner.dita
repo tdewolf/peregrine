@@ -15,17 +15,18 @@
     conkeyref="variables_as_cm/osm"/> system's historic usage and a predicted consumption for the upcoming
    months and years.</p>
   <p>The <wintitle>Storage Capacity Usage</wintitle> panel visualizes the forecast of the storage
-   usage and when the storage capacity will reach its threshold. The threshold is by default set at
-   80%. </p>
-  <p>With this graphic, you can closely monitor the evolution of the storage consumption and to plan
+   usage and when the storage capacity will reach its threshold. The threshold is an indicator of
+   when additional capacity should be provided, and is by default set at 80% of total storage
+   capacity.. </p>
+  <p>With this graphic, you can closely monitor the evolution of the storage consumption and plan
    for when to increase the system's storage capacity. </p>
   <p>The threshold of 80% is displayed by the orange line in the panel. You can increase or decrease
    the threshold line. This automatically updates the date when the storage capacity threshold will
-   be reached. Click <uicontrol>Reset</uicontrol> to reset the threshold to 80%. <fig
+   be reached. Click <uicontrol>Reset</uicontrol> to return the threshold to 80%. <fig
     id="fig_rtj_ngs_jw">
     <title>Storage capacity forecast</title>
     <image placement="break" href="../../common/images/forecast.png" align="left"
-          id="image_stj_ngs_jw" width="18cm"/>
+     id="image_stj_ngs_jw" width="18cm"/>
    </fig></p>
   <p>The <wintitle>Capacity Threshold</wintitle> graphic displays the current storage usage.<fig
     id="fig_pqy_qgs_jw">

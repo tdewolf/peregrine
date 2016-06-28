@@ -12,7 +12,7 @@
  </prolog>
  <conbody>
   <p>The <wintitle>Storage Capacity</wintitle> panel displays the total storage capacity of the
-   system and the percentage of used capacity. </p>
+   system and the percentage of that capacity currently used. </p>
   <p>The total capacity is for the complete system, not per system rack.</p>
  </conbody>
 </concept>

@@ -21,7 +21,7 @@
             <step>
                 <cmd>Click on your user name in the top-right corner and select
                         <uicontrol>Profile</uicontrol>.</cmd>
-                <stepresult>The <wintitle>Profile</wintitle>window appears.</stepresult>
+                <stepresult>The <wintitle>Profile</wintitle> window appears.</stepresult>
             </step>
             <step>
                 <cmd>Update your email address in the <wintitle>Email address

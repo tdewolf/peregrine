@@ -12,7 +12,7 @@
     </prolog>
     <taskbody>
         <context>
-            <p>When you no longer need a user, you can opt to <xref
+            <p>When you no longer need a user account, you can opt to <xref
                     href="task_DisablingUser.dita#task_spn_1gc_gw">disable a user</xref> or to
                 permanently delete the user.</p>
             <note type="warning">Deleting a user is an irreversible action. Only <xref

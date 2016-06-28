@@ -12,10 +12,10 @@
  </prolog>
  <conbody>
   <p>The <wintitle>Top Customers</wintitle> panel identifies the customers with the largest storage
-   capacities (in petabytes). The storage capacity excludes <ph conkeyref="variables_as_cm/osm"/> systems
-   which do not upload telemetry data. </p>
-  <p>The graphic also indicates the used storage capacity. By default, the top ten customers are
-   shown and this top ten is used in all other charts on the <wintitle>Install Base</wintitle>
+   capacities (in petabytes). The storage capacity excludes <ph conkeyref="variables_as_cm/osm"/>
+   systems that do not upload telemetry data. </p>
+  <p>The graphic also indicates the used storage capacity. By default the top ten customers are
+   shown, and this top ten is used in all other charts on the <wintitle>Install Base</wintitle>
    dashboard. </p>
   <p>To display all customers in one graphic, click <uicontrol>All</uicontrol>. This opens a pop-up
    window with an identical graphic including all customers. Use the horizontal scroll bar to scroll

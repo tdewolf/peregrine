@@ -12,8 +12,8 @@
  </prolog>
  <conbody>
   <p>The pie-chart graphics display the percentage of Read and Write operations, but separated
-   between small objects, files less than 512 KB, and large objects, files larger than 512 KB.<fig
-    id="fig_abm_jff_jw">
+   between small objects with files less than 512 KB, and large objects with files larger than 512
+    KB.<fig id="fig_abm_jff_jw">
     <title>Workload pie-chart</title>
     <image placement="break" href="../../common/images/workload_piechart.png" align="left"
      id="image_bbm_jff_jw" width="10cm"/>

@@ -13,7 +13,7 @@
  <conbody>
   <p>The <wintitle>Activity</wintitle> panel displays the distribution of total transactions across
    read, write and delete operations and per customer. </p>
-  <p>You can toggle the appearance of a transaction by clicking the transaction type on top of the
+  <p>You can toggle the appearance of a transaction by clicking the transaction type above the
    graphic. <fig id="fig_dh1_mz2_jw">
     <title>Activity write transaction deselected</title>
     <image placement="break" href="../../common/images/activity_transaction_deselected.png"

@@ -32,8 +32,8 @@
         <li><wintitle>syslog</wintitle>: a source of detailed information about the behavior of your
           node's operating system</li>
       </ul> The log statistics are logged every five minutes by default, which means that all values
-      in the statistics are calculated for this statistics interval. </p>
-    <p>Each statistic corresponds with a certain value which is calculated from a certain action.
-      For example, a value can be the time that a certain call or action takes.</p>
+      are collected for this statistics interval. </p>
+    <p>Each value relates to a certain action, event, or may simply be informational.. For example,
+      a value can be the time that a certain call or action takes.</p>
   </body>
 </topic>
