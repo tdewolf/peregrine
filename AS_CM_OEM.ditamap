@@ -4,9 +4,7 @@
     <booktitle>
         <mainbooktitle>ActiveScale Cloud Management</mainbooktitle>
         <booktitlealt>Cloud Portal for System Telemetry and Data Analytics</booktitlealt>
-        <booktitlealt audience="admin">Administrator version</booktitlealt>
         <booktitlealt audience="partner">Partner version</booktitlealt>
-        <booktitlealt audience="customer">End-user version</booktitlealt>
     </booktitle>
     <frontmatter>
         <keydef keys="variables_as_cm" href="common/variables.dita" format="dita" type="topic"/>
@@ -15,6 +13,7 @@
             <toc/>
         </booklists>
         <notices href="common/topic/topic_Preface.dita">
+            <topicref href="common/concept/concept_Copyright.dita"/>
             <topicref href="common/concept/concept_Conventions.dita">
                 <topicref href="common/concept/concept_Typography.dita"/>
                 <topicref href="common/concept/concept_StorageNotations.dita"/>
@@ -39,7 +38,7 @@
         </topicref>
         <topicref href="introduction/concept/concept_Navigation.dita"/>
     </chapter>
-    <chapter href="install_base_dashboard/topic/topic_InstallBaseDashboard.dita" audience="admin partner">
+    <chapter href="install_base_dashboard/topic/topic_InstallBaseDashboard.dita">
         <topicref href="install_base_dashboard/concept/concept_InstallBaseTable.dita"/>
         <topicref href="install_base_dashboard/concept/concept_TopCustomers.dita"/>
         <topicref href="install_base_dashboard/concept/concept_ObjectSizes.dita"/>
@@ -85,7 +84,7 @@
                 <topicref href="as_resources/concept/concept_SESummary.dita"/>
                 <topicref href="as_resources/concept/concept_SEInventory.dita"/>
             </topicref>
-            <topicref href="drive_analytics/topic/topic_DriveAnalytics.dita" audience="admin partner">
+            <topicref href="drive_analytics/topic/topic_DriveAnalytics.dita">
                 <topicref href="drive_analytics/reference/reference_DriveAnalyticsTypes.dita"/>
                 <topicref href="drive_analytics/task/task_CompareDrives.dita"/>
                 <topicref href="drive_analytics/concept/concept_WorkingWithDriveAnalytics.dita"/>
@@ -131,7 +130,7 @@
     </chapter>
     <chapter href="operational_reports/topic/topic_OpsReport.dita">
         <topicref href="operational_reports/concept/concept_TopBuckets.dita"/>
-        <topicref href="operational_reports/concept/concept_ErasureCodingOverhead.dita" audience="admin partner"/>
+        <topicref href="operational_reports/concept/concept_ErasureCodingOverhead.dita"/>
         <topicref href="operational_reports/concept/concept_TopFiles.dita"/>
         <topicref href="operational_reports/concept/concept_FileSize.dita"/>
         <topicref href="operational_reports/concept/concept_CustomReport.dita"/>
@@ -154,5 +153,9 @@
         <topicref href="profile/task/task_UpdateProfile.dita"/>
     </chapter>
     <chapter href="common/reference/reference_Glossary.dita"/>
-    
+    <backmatter>
+        <booklists>
+            <indexlist/>
+        </booklists>
+    </backmatter>
 </bookmap>

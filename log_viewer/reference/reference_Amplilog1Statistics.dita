@@ -25,7 +25,7 @@
               <row>
                 <entry>Statistic Name</entry>
                 <entry>Description</entry>
-                <entry>Size</entry>
+                <entry>Size (in MiB or not applicable)</entry>
               </row>
             </thead>
             <tbody>
@@ -37,7 +37,7 @@
                 <entry>Duration (in seconds) and throughput (in MiB/s) of the blockstore add_blocks
                   call, which sends the blocks to a blockstore where they are written to
                   disk.</entry>
-                <entry>Size (in MiB) of the blocks</entry>
+                <entry>Size of the blocks</entry>
               </row>
               <row>
                 <entry>
@@ -46,7 +46,7 @@
                 </entry>
                 <entry>Same as the previous statistic, but only for add_blocks calls to a different
                   location. Typically a different datacenter in a 3-GEO setup.</entry>
-                <entry>Size (in MiB) of the blocks</entry>
+                <entry>Size of the blocks</entry>
               </row>
               <row>
                 <entry>

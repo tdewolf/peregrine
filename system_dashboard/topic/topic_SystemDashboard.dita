@@ -15,7 +15,7 @@
       glance. </p>
     <p>On top of the page you can <xref
         href="../../search_filter/topic/topic_FilteringData.dita#topic_FilteringData">specify the
-        date range</xref> for which you want to consult the system's data. By default, the data of
+        date range</xref> for which you want to consult the system's data. By default, the data from
       the last telemetry upload is displayed.</p>
   </body>
 </topic>

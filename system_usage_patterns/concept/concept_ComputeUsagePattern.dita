@@ -13,12 +13,11 @@
  </prolog>
  <conbody>
   <p>There are three different usage patterns at the compute level: <ul id="ul_axn_chm_jw">
-    <li><wintitle>CPU usage</wintitle> (default): CPU utilization (user CPU usage), averaged across
+    <li><wintitle>CPU usage</wintitle> (default): average CPU utilization (user CPU usage) across
           all Controller and Storage Nodes.</li>
-    <li><wintitle>RAM</wintitle>: available memory over time, averaged across all Controller and
-          Storage Nodes.</li>
-    <li><wintitle>Total CPU usage</wintitle>: total CPU utilization (kernel/system CPU usage and
-          user CPU usage), averaged across all Controller and Storage Nodes.</li>
+    <li><wintitle>RAM</wintitle>: average memory usage across all Controller and Storage Nodes.</li>
+    <li><wintitle>Total CPU usage</wintitle>: an average of all CPU utilization (kernel/system CPU
+          usage and user CPU usage) across all Controller and Storage Nodes.</li>
    </ul> Toggle the node name at the bottom of each graphic to display or hide the node's data. This
    allows you to compare the specific node's values against the average values. </p>
   <p>The following graphic gives you an example of the CPU usage statistics: <fig

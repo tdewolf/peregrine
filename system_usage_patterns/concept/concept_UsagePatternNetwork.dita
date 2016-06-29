@@ -14,12 +14,12 @@
  <conbody>
   <p>You can consult the network usage pattern of a system via three statistics: <ul
     id="ul_tdz_khm_jw">
-    <li><wintitle>Rx</wintitle> (default): received number of data in kilobytes (KB), averaged
-          across all Controller Nodes and Storage Nodes. </li>
-    <li><wintitle>Total Received Packets</wintitle>: total number of received packets, averaged
-     across all Controller Nodes and Storage Nodes. </li>
-    <li><wintitle>Total Transmitted Packets</wintitle>: total amount of transmitted packets,
-     averaged across all Controller Nodes and Storage Nodes.</li>
+    <li><wintitle>Rx</wintitle> (default): an average of all received data in kilobytes (KB) across
+          all Controller Nodes and Storage Nodes. </li>
+    <li><wintitle>Total Received Packets</wintitle>: an average of all received packets across all
+          Controller Nodes and Storage Nodes. </li>
+    <li><wintitle>Total Transmitted Packets</wintitle>: an average of all transmitted packets across
+          all Controller Nodes and Storage Nodes.</li>
    </ul> Toggle the node name at the bottom of each graphic to display or hide the node's data. This
    allows you to compare the specific node's values against the average values. </p>
   <p>The following graphic is an example of the received data network performance: <fig

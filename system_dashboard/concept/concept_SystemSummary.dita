@@ -18,8 +18,27 @@
                                 <li><wintitle>System Name</wintitle>: name of the system as
                                         identified by <ph conkeyref="variables_as_cm/cm_short"
                                         /></li>
-                                <li><wintitle>Deployment ID</wintitle>: </li>
-                                <li><wintitle>Serial Number</wintitle>: serial number of the system </li>
+                                <li><wintitle>Deployment ID</wintitle>: the identifier (in UUID4
+                                        format) that is assigned by the Factory Installer of the <ph
+                                                conkeyref="variables_as_cm/osm"/> systems. <ul
+                                                id="ul_xgp_21r_lw">
+                                                <li>5.x systems<ul id="ul_ewc_xyq_lw">
+                                                  <li>Single site systems: the deployment ID of the
+                                                  primary rack's System Node</li>
+                                                  <li>Multi site systems: the deployment ID of the
+                                                  System Node of the first rack in the first
+                                                  site</li>
+                                                  <li>Scale-out systems: a new rack takes the
+                                                  deployment ID of the primary rack's deployment
+                                                  ID.</li>
+                                                  </ul></li>
+                                                <li>4.x systems: the deployment ID is a copy of the
+                                                  serial number of the system</li>
+                                        </ul>
+                                </li>
+                                <li><wintitle>Serial Number</wintitle>: serial number is the label
+                                        of the primary rack. This label is identical across all
+                                        racks of a system.</li>
                                 <li><wintitle>Software</wintitle>: name and version of the <ph
                                                 conkeyref="variables_as_cm/osm"/> software </li>
                                 <li><wintitle>Telemetry Version</wintitle>: the telemetry version

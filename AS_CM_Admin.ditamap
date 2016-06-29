@@ -5,12 +5,21 @@
         <mainbooktitle>ActiveScale Cloud Management</mainbooktitle>
         <booktitlealt>Cloud Portal for System Telemetry and Data Analytics</booktitlealt>
         <booktitlealt audience="admin">Administrator version</booktitlealt>
-        <booktitlealt audience="partner">Partner version</booktitlealt>
-        <booktitlealt audience="customer">End-user version</booktitlealt>
     </booktitle>
     <frontmatter>
         <keydef keys="variables_as_cm" href="common/variables.dita" format="dita" type="topic"/>
         <keydef keys="warehouse" href="common/warehouse.dita" format="dita"></keydef>
+        <booklists>
+            <toc/>
+        </booklists>
+        <notices href="common/topic/topic_Preface.dita">
+            <topicref href="common/concept/concept_Copyright.dita"/>
+            <topicref href="common/concept/concept_Conventions.dita">
+                <topicref href="common/concept/concept_Typography.dita"/>
+                <topicref href="common/concept/concept_StorageNotations.dita"/>
+                <topicref href="common/concept/concept_Admonitions.dita"/>
+            </topicref>
+        </notices>
     </frontmatter>
     <chapter href="introduction/topic/topic_IntroducingAsCm.dita">
         <topicref href="introduction/concept/concept_WhatIsPeregrine.dita"/>
@@ -145,5 +154,9 @@
         <topicref href="profile/task/task_UpdateProfile.dita"/>
     </chapter>
     <chapter href="common/reference/reference_Glossary.dita"/>
-    
+    <backmatter>
+        <booklists>
+            <indexlist/>
+        </booklists>
+    </backmatter>
 </bookmap>

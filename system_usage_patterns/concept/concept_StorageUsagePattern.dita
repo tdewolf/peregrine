@@ -14,12 +14,12 @@
  <conbody>
   <p><ph conkeyref="variables_as_cm/cm_short"/> provides three different usage patterns for storage: <ul
         id="ul_avt_qgm_jw">
-        <li><wintitle>Total Writes</wintitle> (default): total number of write operations, averaged
+        <li><wintitle>Total Writes</wintitle> (default): an average of all write operations across
+          all the Controller Nodes and Storage Nodes. </li>
+        <li><wintitle>Total Read/Writes</wintitle>: an average of all read and write operations
           across all the Controller Nodes and Storage Nodes. </li>
-        <li><wintitle>Total Read/Writes</wintitle>: total number of read and write operations,
-          averaged across all the Controller Nodes and Storage Nodes. </li>
-        <li><wintitle>Total Reads</wintitle>: total number of read operations, averaged across all
-          the Controller Nodes and Storage Nodes.</li>
+        <li><wintitle>Total Reads</wintitle>: an average of all read operations across all the
+          Controller Nodes and Storage Nodes.</li>
       </ul> Toggle the node name at the bottom of each graphic to display or hide the node's data.
       This allows you to compare the specific node's values against the average values. </p>
   <p>The Y-axis of the graphics indicates the number of operations. </p>
