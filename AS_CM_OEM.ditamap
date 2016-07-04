@@ -13,7 +13,7 @@
             <toc/>
         </booklists>
         <notices href="common/topic/topic_Preface.dita">
-            <topicref href="common/concept/concept_Copyright.dita"/>
+            <topicref href="common/reference/reference_CopyrightNoticeActiveScaleCM.dita"/>
             <topicref href="common/concept/concept_Conventions.dita">
                 <topicref href="common/concept/concept_Typography.dita"/>
                 <topicref href="common/concept/concept_StorageNotations.dita"/>
