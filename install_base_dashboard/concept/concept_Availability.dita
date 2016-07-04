@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_Availability" xml:lang="en-us">
+ <title>Availability</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Availability</wintitle> panel displays the percentage of time that a customer's
+    <ph conkeyref="variables_as_cm/osm"/> systems are available for S3 operations. The percentage is
+   calculated for all systems of a customer. </p>
+  <p>To display all customers in one graphic, click <uicontrol>All</uicontrol>. This opens a pop-up
+   window with an identical graphic including all customers. Use the horizontal scroll bar to scroll
+   through the graphic.<fig id="fig_bdc_l1f_jw">
+    <title>Availability</title>
+    <image placement="break" href="../../common/images/availability_all.png" align="left"
+     id="image_cdc_l1f_jw" width="18cm"/>
+   </fig></p>
+ </conbody>
+</concept>

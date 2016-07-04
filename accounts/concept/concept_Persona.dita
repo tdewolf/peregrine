@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_Persona" xml:lang="en-us">
+ <title>Persona</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>persona</keyword>
+    <indexterm>persona</indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p audience="admin">The Persona identifies the user type and defines the information that is
+   available to this user. There are three types of “persona”: </p>
+  <p audience="partner">The Persona identifies the user type and defines the information that is
+   available to this user. There are two types of “persona”: </p>
+  <p audience="customer">The Persona identifies the user type and defines the information that is
+   available to this user. As "customer" persona, you have view access to your account information
+   and system data. </p>
+  <p audience="admin">
+   <ul id="ul_akf_jv1_kw">
+    <li><i>Admin</i>: A user who is an “Admin” type has view access to the system data of all
+     customers. These users are typically <ph>company</ph> personnel.</li>
+    <li><i>OEM</i>: A user who is of an "OEM" type belongs to a special type of customer. This
+     customer is typically an <ph conkeyref="variables_as_cm/CompanyNameAcronym">HGST</ph> partner, for
+     example a service provider or reseller. The partner provides <ph conkeyref="variables_as_cm/cm_short"
+      >ActiveScale CM</ph> to its own customers. This type of user has view access to the account
+     system data and to the system data of all his/her customers.</li>
+    <li><i>Customer</i>: A user who is a "Customer" type has view access to the system data of its
+     own account.</li>
+   </ul>
+  </p>
+  <p audience="partner">
+   <ul id="ul_lvn_rv1_kw">
+    <li><i>OEM</i>: A user who is of an "OEM" type belongs to a special type of customer. This
+     customer is typically an <ph conkeyref="variables_as_cm/CompanyNameAcronym">HGST</ph> partner, for
+     example a service provider or reseller. The partner provides <ph conkeyref="variables_as_cm/cm_short"
+      >ActiveScale CM</ph> to its own customers. This type of user has view access to the account
+     system data and to the system data of all his/her customers.</li>
+    <li><i>Customer</i>: A user who is a "Customer" type has view access to the system data of its
+     own account.</li>
+   </ul>
+  </p>
+ </conbody>
+</concept>

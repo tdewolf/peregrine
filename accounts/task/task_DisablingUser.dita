@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_spn_1gc_gw" xml:lang="en-us">
+    <title>Disabling a User</title>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>disable</keyword>
+                <indexterm>disable<indexterm>user</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq>Only <xref href="../concept/concept_Role.dita#concept_Role">Super Users</xref> can
+            disable a user.</prereq>
+        <context>
+            <p>Disabling a user allows you to quickly deactivate a user, the user account remains in
+                the system, but the user can no longer access <ph conkeyref="variables_as_cm/cm_short"
+                    >ActiveScale CM</ph>. </p>
+        </context>
+        <steps>
+            <step conref="../../common/warehouse.dita#warehouse_task/click_username"
+                conrefend="../../common/warehouse.dita#warehouse_task/look_for_user">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>In the <wintitle>Actions</wintitle> column, click the disable <image
+                        href="../../common/images/user_enabled.png" id="image_hn5_x3c_gw" width="20"
+                    /> switch.</cmd>
+                <stepresult>The switch is set to disabled (<image
+                        href="../../common/images/user_disabled.png" id="image_a5v_bjc_gw"
+                        width="20"/>)</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

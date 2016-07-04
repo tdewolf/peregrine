@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_Amplilog2" xml:lang="en-us">
+  <title>Log File Content Amplilog2</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>amplilog2</keyword>
+        <indexterm>amplilog2</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <p>The content of 'amplilog2' is a comma-separated file: <ul id="ul_ych_rlm_jw">
+          <li><wintitle>ds</wintitle>: date stamp </li>
+          <li><wintitle>ts</wintitle>: time stamp </li>
+          <li><wintitle>server</wintitle>: GUID (global unique identifier) of the server which is
+            selected in the rack </li>
+          <li><wintitle>daemon_id</wintitle>: GUID of the daemon that executed the action </li>
+          <li><wintitle>key</wintitle>: key to identify the object in the database </li>
+          <li><wintitle>namespace</wintitle>: name of the S3 bucket in which the related action is
+            executed </li>
+          <li><wintitle>action</wintitle>: name of the action (put, delete, get, ...) </li>
+          <li><wintitle>size</wintitle>: size of the object used in the action, expressed in MiB </li>
+          <li><wintitle>time</wintitle>: duration of the action </li>
+          <li><wintitle>throughput</wintitle>: the throughput for the object's size, expressed in
+            MiB/s </li>
+          <li><wintitle>actual_size</wintitle>: used capacity on disk by the object (object size +
+            erasure coding overhead), expressed in MiB </li>
+          <li><wintitle>actual_rate</wintitle>: the throughput for the object's "actual_size",
+            expressed in MiB/s </li>
+          <li><wintitle>object</wintitle>: name of the object affected by this action</li>
+        </ul></p>
+    </section>
+  </refbody>
+</reference>

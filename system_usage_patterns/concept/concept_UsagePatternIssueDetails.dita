@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_UsagePatternIssueDetails" xml:lang="en-us">
+ <title>Usage Pattern Issue Details</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The content of the issue details panel may be graphical or textual. </p>
+  <p>If the content is graphical, you can click on the node names underneath the graphic to disable
+   (gray out) or enable (bold) the node's information. </p>
+  <p><note type="tip">It may occur that you have to scroll down in the details panel to view all
+    content.</note> When you open the details of an issue, click <image placement="inline"
+    href="../../common/images/close_issue_details.png" width="18" height="18" id="image_lrq_hgm_jw"
+   /> to return to the list of issues.</p>
+ </conbody>
+</concept>

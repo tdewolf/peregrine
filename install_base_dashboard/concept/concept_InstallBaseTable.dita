@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_InstallBaseTable" xml:lang="en-us">
+ <title>Install Base Table</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Install Base</wintitle> table displays a table with all your customers along with
+   their sales channel and their number of installations.</p>
+  <p>The content of the table depends on the user who is logged in. See the section <xref
+    href="../../accounts/concept/concept_Role.dita#concept_Role">User Roles</xref> for more
+   information about users.<fig id="fig_pnq_b52_jw">
+    <title>Install base table</title>
+    <image placement="break" href="../../common/images/install_base.png" align="left"
+     id="image_qnq_b52_jw" width="10cm"/>
+   </fig></p>
+  <p>
+   <ul id="ul_a3k_c52_jw">
+    <li><wintitle>Customer</wintitle>: Displays the name of the customer. </li>
+    <li><wintitle>Channel</wintitle>: The Channel is the sales channel with responsibility for the
+     customer. </li>
+    <li><wintitle>Region</wintitle>: The Region indicates where the customer's systems are
+     installed.</li>
+    <li><wintitle>Systems</wintitle>: The Systems column displays the number of systems that a
+     customer has deployed.</li>
+    <li><wintitle>Telemetry</wintitle>: The Telemetry column displays if the customer's <ph
+      conkeyref="variables_as_cm/osm"/> systems are enabled to upload the telemetry data (<image
+      href="../../common/images/telemetry_upload.png" id="image_imx_d4k_jw" width="18" height="18"
+     />) or not (<image href="../../common/images/telemetry_nok.png" id="image_ybq_f4k_jw"
+      width="18"/>).</li>
+   </ul>
+  </p>
+  <p conkeyref="warehouse/sort_table_column"/>
+  <p conkeyref="warehouse/filter_data"/>
+ </conbody>
+</concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ManagingUsers" xml:lang="en-us">
+  <title>Managing <ph conkeyref="variables_as_cm/cm_short">ActiveScale CM</ph> Users</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>user</keyword>
+        <indexterm>user<indexterm>management</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p/>
+  </body>
+</topic>

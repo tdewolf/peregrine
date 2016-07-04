@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_FilterByText" xml:lang="en-us">
+ <title>Filtering by Text</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>filter</keyword>
+    <keyword>text</keyword>
+    <indexterm>filter<indexterm>text</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>In some panels you find a large list of items, which often makes it hard to find the data
+   you're looking for. To help locate the desired information, such panels have a filter box in
+   which may be used to search for the necessary data.<fig id="fig_o1p_ln2_jw">
+    <title>Filter by text</title>
+    <image placement="break" href="../../common/images/filter_by_text.png" align="left"
+     id="image_p1p_ln2_jw"/>
+   </fig></p>
+  <p>This filter box is case-insensitive and returns any match, regardless of the column in which
+   the query data is retrieved.</p>
+ </conbody>
+</concept>

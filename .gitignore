@@ -2,10 +2,10 @@
 #Build directory#
 #################
 build*/
-!tools/jenkins/*
 *~
 *swp
 *xlsx
 .DS_Store
 ~$*
 out/*
+temp/

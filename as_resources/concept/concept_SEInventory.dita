@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_SEInventory" xml:lang="en-us">
+ <title>Storage Enclosure Inventory</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm>storage<indexterm>enclosure<indexterm>inventory</indexterm></indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The storage enclosure inventory displays the number of disks, fans, I/O modules and power
+   modules. <fig id="fig_qcw_gwl_jw" audience="admin partner">
+    <title>Storage enclosure inventory</title>
+    <image placement="break" href="../../common/images/se_inventory.png" align="left"
+     id="image_rcw_gwl_jw" width="18cm"/>
+   </fig><fig id="fig_tpn_jwl_jw" audience="customer">
+    <title>Storage enclosure inventory</title>
+    <image placement="break" href="../../common/images/se_inventory_customer.png" align="left"
+     id="image_upn_jwl_jw" width="18cm"/>
+   </fig></p>
+  <p>Hover over a fan or I/O module to obtain their details. </p>
+  <p>
+   <fig id="fig_wyd_2wl_jw">
+    <title>Fan property</title>
+    <image placement="break" href="../../common/images/se_fan_property.png" id="image_xyd_2wl_jw"
+     align="left"/>
+   </fig>
+   <fig id="fig_kg4_cwl_jw">
+    <title>I/O property</title>
+    <image placement="break" href="../../common/images/se_io_property.png" id="image_lg4_cwl_jw"
+     align="left"/>
+   </fig>
+  </p>
+  <p>In the sleds overview, the drives that need replacement are flagged. The flagging of disks is
+   based on <ph conkeyref="variables_as_cm/cm_short"/> statistical analysis.<fig id="fig_gyr_yvl_jw">
+    <title>Drive with anomalies</title>
+    <image placement="break" href="../../common/images/drive_replace.png" align="left"
+     id="image_hyr_yvl_jw"/>
+   </fig></p>
+  <p>Click <uicontrol>Show All Drives</uicontrol> to display the details of all drives in the
+   storage enclosure:<ul id="ul_c3q_4wl_jw">
+    <li><wintitle>Physical Slot #</wintitle>: the ID of the slot in the storage enclosure where the
+     disk is located </li>
+    <li><wintitle>% Used</wintitle>: percentage of the used disk capacity </li>
+    <li><wintitle>Type</wintitle>: type of the disk </li>
+    <li><wintitle>Logical Name</wintitle>: name of the logical device on the disk </li>
+    <li><wintitle>Size</wintitle>: usable disk space </li>
+    <li><wintitle>Vendor</wintitle>: name of the disk manufacturer </li>
+    <li><wintitle>Product</wintitle>: model identification of the disk </li>
+    <li><wintitle>Serial</wintitle>: serial number of the disk, this can be used for verification in
+     case of a disk replacement </li>
+    <li><wintitle>Firmware</wintitle>: firmware version on the disk </li>
+    <li><wintitle>Description</wintitle>: description of the disk</li>
+   </ul></p>
+ </conbody>
+</concept>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<dita>
+  <topic id="topic_e2h_13j_3w" xml:lang="en-us">
+    <title>Warehouse Reusable Content</title>
+  </topic>
+  <concept id="warehouse_concept">
+    <title>Concept Reusable Content</title>
+    <conbody>
+      <p id="sort_table_column">You can sort the table by column. Click the column header to sort
+        the data in ascending or descending order.</p>
+      <p id="filter_data">To easily find information, you can also filter the data by typing any
+        text in the <wintitle>Filter</wintitle> field. The text can contain any information: number
+        of systems, customer name, channel name, or region. Once you start typing in the
+          <wintitle>Filter</wintitle> field, the table is automatically updated with the matching
+        data.</p>
+    </conbody>
+  </concept>
+  <reference id="warehouse_reference">
+    <title>Reference Reusable Content</title>
+    <refbody/>
+  </reference>
+  <task id="warehouse_task">
+    <title>Task Reusable Content</title>
+    <taskbody>
+      <steps>
+        <step id="click_username">
+          <cmd>Click on your user name in the top-right corner.</cmd>
+        </step>
+        <step id="select_user_mgmt">
+          <cmd>Select <uicontrol>User Management</uicontrol>.</cmd>
+          <stepresult>The <wintitle>User Management</wintitle> window appears.</stepresult>
+        </step>
+        <step id="look_for_user">
+          <cmd>Look up the user by scrolling in the table or by searching for the user in the
+              <uicontrol>Search user</uicontrol> box.</cmd>
+        </step>
+      </steps>
+    </taskbody>
+  </task>
+  <topic id="warehouse_topic">
+    <title>Topic Reusable Content</title>
+    <body/>
+  </topic>
+</dita>

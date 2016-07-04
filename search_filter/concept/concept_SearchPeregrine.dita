@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_SearchPeregrine" xml:lang="en-us">
+ <title>Searching in <ph conkeyref="variables_as_cm/cm_short"/></title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>You may quickly search for information in <ph conkeyref="variables_as_cm/cm_short"/> by opening
+      the search box with the <image placement="inline" href="../../common/images/search.png"
+        width="16" height="16" id="image_n2n_bj2_jw"/> icon. </p>
+  <p audience="admin partner">You must select a customer before you can perform a search operation. </p>
+  <p>On the left of the search box, you have a menu with three choices: <fig id="fig_vn3_dl2_jw">
+        <title>Searching in ActiveScale CM</title>
+        <image placement="break" href="../../common/images/searching_in_as_cm.png" align="left"
+          id="image_wn3_dl2_jw" width="18cm"/>
+      </fig><ul id="ul_rnf_fj2_jw">
+        <li><uicontrol>System Log</uicontrol></li>
+        <li><uicontrol>Inventory</uicontrol></li>
+        <li><uicontrol>Events</uicontrol></li>
+      </ul>You can enter any term, such as a node name, Linux error, or a user name. The search term
+      is case insensitive.</p>
+ </conbody>
+</concept>

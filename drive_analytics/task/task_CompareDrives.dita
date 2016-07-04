@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_CompareDrives" xml:lang="en-us">
+    <title>Comparing Drives</title>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>compare</keyword>
+                <keyword>drive</keyword>
+                <indexterm>compare<indexterm>drive</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To compare disk drives of a storage enclosure:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the Storage Enclosure inventory via the <wintitle>Resources</wintitle> tab
+                    of the <ph conkeyref="variables_as_cm/osm"/> system (<menucascade>
+                        <uicontrol>Home</uicontrol>
+                        <uicontrol>"customer"</uicontrol>
+                        <uicontrol>"system"</uicontrol>
+                        <uicontrol>Resources</uicontrol>
+                    </menucascade>).</cmd>
+            </step>
+            <step>
+                <cmd>Select up to 15 drives in the overview. These can be randomly chosen over the
+                    various sleds.</cmd>
+                <info>
+                    <fig id="fig_iyw_zwl_jw">
+                        <title>Drives selected for analytics</title>
+                        <image placement="break" href="../../common/images/se_drives_selected.png"
+                            align="left" id="image_jyw_zwl_jw" width="15cm"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Drive Analytics</uicontrol>.</cmd>
+                <stepresult>A new window appears with the five analytics:<fig id="fig_a5p_cxl_jw">
+                        <title>Drive analytics</title>
+                        <image placement="break" href="../../common/images/drive_analytics.png"
+                            align="left" id="image_b5p_cxl_jw" width="15cm"/>
+                    </fig></stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

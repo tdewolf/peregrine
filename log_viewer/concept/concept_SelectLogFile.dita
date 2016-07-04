@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="concept_SelectLogFile" xml:lang="en-us">
+  <title>Selecting a Log or Configuration File</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword/>
+        <indexterm>select<indexterm>logfile</indexterm></indexterm>
+        <indexterm>select<indexterm>configuration</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>In the <uicontrol>Log Timeline</uicontrol> panel, you can choose the day for which you want
+      to consult the log files. Click a dot on the time line to select a day. <fig
+        id="fig_hjx_4km_jw">
+        <title>Log time line</title>
+        <image placement="break" href="../../common/images/log_timeline.png" align="left"
+          id="image_ijx_4km_jw" width="18cm"/>
+      </fig></p>
+    <p>When you have selected the day on the time line, click on that node in the rack for which you
+      want to consult the log details. If you haven't selected a dot in the <uicontrol>Log
+        Timeline</uicontrol>, the displayed log files will be the most recent. </p>
+    <p>There are various log files, depending on the device type: <ul id="ul_bjz_dkm_jw">
+        <li><xref href="concept_CnSnLogs.dita#concept_CnSnLogs">Controller and Storage
+          Node</xref></li>
+        <li><xref href="concept_SELogs.dita#concept_SELogs">Storage Enclosure</xref></li>
+        <li><xref href="concept_SwitchLogs.dita#concept_SwitchLogs"><ph conkeyref="variables_as_cm/switch"
+            /></xref></li>
+      </ul></p>
+    <p>
+      <note>You see only the log files that are actually available on the node.</note>
+    </p>
+  </body>
+</topic>

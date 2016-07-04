@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_HWFailures" xml:lang="en-us">
+ <title>Hardware Failures</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>hardware</keyword>
+    <keyword>failure</keyword>
+    <indexterm>hardware<indexterm>failure</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Hardware Failures</wintitle> panel displays hardware failures of the selected
+   system. It helps you to quickly and precisely identify the devices, that may need service or
+   replacement. </p>
+  <p>
+   <note>In this release, only disk failures appear in the <wintitle>Hardware Failures</wintitle>
+    table. </note>
+  </p>
+  <p>The hardware failures are stored in a table, which can be sorted by column in ascending or
+   descending order. <ul id="ul_idn_c1l_jw">
+    <li><wintitle>Component</wintitle>: the device type </li>
+    <li><wintitle>Rack ID</wintitle>: the rack ID in which the failure occurs </li>
+    <li><wintitle>Node ID</wintitle>: the node ID in which the failure occurs </li>
+    <li><wintitle>Vendor</wintitle>: name of the vendor of the component </li>
+    <li><wintitle>Model</wintitle>: the model number/type of the component </li>
+    <li><wintitle>Serial</wintitle>: the serial number of the component </li>
+    <li><wintitle>Description</wintitle>: the description of the component </li>
+    <li><wintitle>Disk Status</wintitle>: the status of the disk </li>
+    <li><wintitle>Firmware</wintitle>: the firmware version installed in the component </li>
+    <li><wintitle>Slot</wintitle>: the slot number in the enclosure. This allows you to quickly
+     locate the faulty disk.</li>
+   </ul></p>
+ </conbody>
+</concept>

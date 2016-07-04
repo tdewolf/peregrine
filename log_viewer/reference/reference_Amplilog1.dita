@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_Amplilog1" xml:lang="en-us">
+  <title>Log File Content Amplilog1</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>amplilog1</keyword>
+        <indexterm>amplilog1</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <p>The content of 'amplilog1' is a comma-separated file: <ul id="ul_sxt_hlm_jw">
+          <li><wintitle>ds</wintitle>: date stamp </li>
+          <li><wintitle>ts</wintitle>: time stamp </li>
+          <li><wintitle>server</wintitle>: GUID (global unique identifier) of the server which is
+            selected in the rack image </li>
+          <li><wintitle>daemon_id</wintitle>: GUID of the daemon that executed the action </li>
+          <li><wintitle>stat_name</wintitle>: name of the statistic, see <xref
+              href="reference_Amplilog1Statistics.dita#reference_Amplilog1Content"/></li>
+          <li><wintitle>num_ops</wintitle>: number of recorded operations in the statistic interval </li>
+          <li><wintitle>variance</wintitle>: the population variance of all the values for the
+            action </li>
+          <li><wintitle>avg_millis</wintitle>: average duration of one operation, measured during
+            the statistic interval </li>
+          <li><wintitle>min_millis</wintitle>: shortest duration of an operation in the interval </li>
+          <li><wintitle>min_millis_size</wintitle>: minimum size of an object in the statistic,
+            expressed in MiB (mebibytes)</li>
+          <li><wintitle>max_millis</wintitle>: longest duration of an operation in the interval </li>
+          <li><wintitle>max_millis_size</wintitle>: maximum size of an object in the statistic,
+            expressed in MiB</li>
+        </ul></p>
+    </section>
+  </refbody>
+</reference>

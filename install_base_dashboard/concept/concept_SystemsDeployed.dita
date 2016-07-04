@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_SystemsDeployed" xml:lang="en-us">
+ <title>Systems Deployed</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>systems deployed</keyword>
+    <indexterm>systems<indexterm>deployed</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Systems Deployed</wintitle> panel displays the distribution of <ph
+        conkeyref="variables_as_cm/osm"/> systems across single site (<wintitle>1-GEO</wintitle>)
+      and multi-site (<wintitle>3-GEO</wintitle>) deployments. </p>
+  <p>The chart excludes the deployments that do not upload telemetry data.<fig id="fig_uj2_11f_jw">
+    <title>Deployed systems</title>
+    <image placement="break" href="../../common/images/systems_deployed.png" align="left"
+     id="image_vj2_11f_jw" scale="80"/>
+   </fig></p>
+ </conbody>
+</concept>

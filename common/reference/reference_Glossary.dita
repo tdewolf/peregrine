@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_Glossary" xml:lang="en-us">
+  <title>Glossary</title>
+  <shortdesc/>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>glossary</keyword>
+        <indexterm>glossary</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <dl>
+        <dlentry>
+          <dt>Controller Node</dt>
+          <dd>
+            <p>A Controller Node is the node in a system which processes all storage client
+              requests. It also controls the logic of authentication and authorization. The
+              Controller Node has all information of the bucket and objects in the system.</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Dashboard</dt>
+          <dd>
+            <p>The Dashboard is a collection of panels to give you an overview of system data at a
+              glance.</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Data Safety</dt>
+          <dd>
+            <p>The Data Safety is a policy used to store the objects in the <ph
+                conkeyref="variables_as_cm/osm"/> systems. An object is split into several segments,
+              each segment is stored on a separate disk. A policy is noted in a X/Y format. The
+              policy defines in how many segments the object is divided (X) and how many segments
+              may be unavailable before restoration of the whole object (Y) would no longer be
+              possible.</p>
+            <p>The <ph conkeyref="variables_as_cm/osm"/> systems support two data safeties: 15/5 and
+              18/8.</p>
+          </dd>
+        </dlentry>
+        <dlentry audience="admin partner">
+          <dt>Erasure Coding</dt>
+          <dd>
+            <p>Erasure coding is a way to split and encrypt an object into segments, with each
+              segment stored on a separate disk. </p>
+            <p>The erasure code is able to rebuild every segment from other segments if a segment is
+              missing.</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>IPMI (Intelligent Platform Management Interface</dt>
+          <dd>
+            <p>IPMI is an interface to monitor the health of remote hardware such as temperature,
+              fans, power supplies... The interface also allows you to manage the remote hardware,
+              even if the node is turned off.</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>JSON</dt>
+          <dd>JSON (JavaScript Object Notation) is a lightweight data-interchange format which is
+            human readable and easy to generate.</dd>
+        </dlentry>
+        <dlentry audience="admin partner">
+          <dt>Persona</dt>
+          <dd>
+            <p audience="admin">The persona identifies the type of the user and defines the
+              information that is available to this user. There are three types of persona: admin,
+              customer, and OEM.</p>
+            <p audience="partner">The persona identifies the type of the user and defines the
+              information that is available to this user. There are two types of persona: customer
+              and OEM.</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Role</dt>
+          <dd>
+            <p>The role of a user defines the user rights. As "User", you can only consult
+              information, as "Super User" you can manage other <ph conkeyref="variables_as_cm/cm_short"/>
+              users.</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Storage Enclosure</dt>
+          <dd>The storage enclosure is a container for the disk drives, which store the data.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Storage Node</dt>
+          <dd>A storage node is the node which receives objects from the Controller Node. It is
+            responsible for the erasure coding.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

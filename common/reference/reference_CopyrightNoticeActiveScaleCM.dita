@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ckt_yw2_mw" xml:lang="en-us">
+  <title>Copyright</title>
+  <shortdesc/>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword/>
+        <indexterm>copyright<indexterm>notice</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <p>Publication Information One MB is equal to one million bytes, one GB is equal to one
+        billion bytes, one TB equals 1,000GB (one trillion bytes) and one PB equals 1,000TB when
+        referring to storage capacity. Usable capacity will vary from the raw capacity due to object
+        storage methodologies and other factors. </p>
+      <p>The following paragraph does not apply to any jurisdiction where such provisions are
+        inconsistent with local law: THIS PUBLICATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY
+        KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+        MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. </p>
+      <p>This publication could include technical inaccuracies or typographical errors. Changes are
+        periodically made to the information herein; these changes will be incorporated in new
+        editions of the publication. There may be improvements or changes in any products or
+        programs described in this publication at any time. It is possible that this publication may
+        contain reference to, or information about, HGST products (machines and programs),
+        programming, or services that are not announced in your country. Such references or
+        information must not be construed to mean that Western Digital Corporation intends to
+        announce such HGST products, programming, or services in your country. Technical information
+        about this product is available by contacting your local HGST product representative or on
+        the Internet at: support.hgst.com. </p>
+      <p>© 2016 Western Digital Corporation or its affiliates. </p>
+      <p>Long Live Data, EasiScale, and the HGST logo are trademarks of Western Digital Corporation
+        or its affiliates in the U.S. and/or other countries. Amazon S3, Amazon Simple Storage
+        Services, and Amazon AWS S3 are trademarks of Amazon.com, Inc. or its affiliates in the
+        United States and/or other countries. Other trademarks are the property of their respective
+        owners. References in this publication to HGST-branded products, programs, or services do
+        not imply that they will be made available in all countries. Product specifications provided
+        are sample specifications and do not constitute a warranty. Actual specifications for unique
+        part numbers may vary. Please visit the Support section of our website,
+        www.hgst.com/support/systems-support, for additional information on product specifications.
+        Photographs may show design models. References in this publication to HGST-branded products,
+        programs or services do not imply that they are to be available in all countries in which
+        HGST operates.</p>
+    </section>
+  </refbody>
+</reference>

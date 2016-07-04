@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_Outliers" xml:lang="en-us">
+ <title>Outliers</title>
+ <shortdesc/>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>outlier</keyword>
+    <indexterm>outlier</indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>
+   <note>The <wintitle>Outliers</wintitle> panel is under development. The displayed information
+    contains only representative data.</note>
+  </p>
+ </conbody>
+</concept>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ErasureCodingOverhead" xml:lang="en-us">
+ <title>Erasure Coding Overhead</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>erasure coding</keyword>
+    <keyword>overhead</keyword>
+    <indexterm>erasure<indexterm>coding<indexterm>overhead</indexterm></indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>Erasure Coding generates a limited amount of storage overhead to be able to rebuild objects in
+   case of disk failures. </p>
+  <p>In the <wintitle>Erasure Coding Overhead</wintitle> report you can see the ratio between the
+   actual user data capacity and the erasure coding overhead capacity. The panel label also
+   indicates the raw capacity that is taken by the erasure coding. <fig id="fig_vz5_r5s_jw">
+    <title>Erasure coding overhead</title>
+    <image placement="break" href="../../common/images/erasure_coding_overhead.png" align="left"
+     id="image_wz5_r5s_jw" width="15cm"/>
+   </fig></p>
+ </conbody>
+</concept>

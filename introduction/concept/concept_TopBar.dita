@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_TopBar" xml:lang="en-us">
+ <title>Top Bar</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>top bar</keyword>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>In the top bar, you find the following components:<ul id="ul_glh_1h2_jw" audience="customer">
+    <li><image placement="inline" href="../../common/images/search.png" width="16" height="16"
+      id="image_lxw_bh2_jw"/>: icon to open the search window</li>
+    <li>link to <xref
+            href="../../operational_reports/topic/topic_OpsReport.dita#topic_OpsReportUntitled12"
+            >Operational Reports</xref></li>
+    <li><image placement="inline" href="../../common/images/full_screen.png" width="16" height="16"
+            id="image_tst_2h2_jw"/>: icon to open <ph conkeyref="variables_as_cm/cm_short"/> in full
+          screen mode</li>
+    <li><image placement="inline" href="../../common/images/peregrine_avatar.png" width="16"
+            height="16" id="image_fjv_hh2_jw"/>: icon to open user and account specific actions</li>
+   </ul>
+   </p>
+  <p audience="admin partner"><ul id="ul_tsd_kh2_jw">
+                <li><image placement="inline" href="../../common/images/full_screen.png" width="16"
+                        height="16" id="image_vsd_kh2_jw"/>: icon to open <ph
+                        conkeyref="variables_as_cm/cm_short"/> in full screen mode</li>
+                <li><image placement="inline" href="../../common/images/peregrine_avatar.png"
+                        width="16" height="16" id="image_wsd_kh2_jw"/>: icon to open user and
+                    account specific actions</li>
+            </ul>The following items are not available on the <ph>Install Base Dashboard</ph>, you
+            must first select a customer to make the icons visible:<ul id="ul_btz_th2_jw">
+                <li><image placement="inline" href="../../common/images/search.png" width="16"
+                        height="16" id="image_ctz_th2_jw"/>: icon to open the search window</li>
+                <li>link to <xref
+                        href="../../operational_reports/topic/topic_OpsReport.dita#topic_OpsReportUntitled12"
+                        >Operational Reports</xref></li>
+            </ul></p>
+ </conbody>
+</concept>

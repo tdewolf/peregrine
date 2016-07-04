@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_topfiles">
+ <title>Top Files</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm>top files<indexterm>operational<indexterm>report</indexterm></indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Top Files</wintitle> report gives an overview of the files which have been used
+   most frequently in S3 requests.</p>
+  <p>In this report, you find the following information:</p>
+  <p>
+   <ul id="ul_gyc_tfl_jw">
+    <li><wintitle>File Name</wintitle>: file name</li>
+    <li><wintitle>Size</wintitle>: file size</li>
+    <li><wintitle>OPS</wintitle>: the number of operations on the file</li>
+   </ul>
+  </p>
+  <p>Only the first five records are displayed, but you can scroll in the table to get the complete
+   overview.</p>
+  <p>You can also sort the table by clicking on the column’s header row. For example when you click
+   on <wintitle>File Name</wintitle>, you sort on file names in ascending or descending order. You
+   can easily switch between ascending and descending order by clicking again on the column’s
+   header.</p>
+ </conbody>
+</concept>

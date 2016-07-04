@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_UserRolesAndPermissions" xml:lang="en-us">
+  <title>User Roles and Permissions</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>role</keyword>
+        <keyword>permission</keyword>
+        <indexterm>role</indexterm>
+        <indexterm>permission</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>Every user in <ph conkeyref="variables_as_cm/cm_long">prod</ph> is associated with an account and
+      has two specific parameters which define the level of view and action privileges.</p>
+  </body>
+</topic>

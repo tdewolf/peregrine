@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>ActiveScale Cloud Management</mainbooktitle>
+        <booktitlealt>Cloud Portal for System Telemetry and Data Analytics</booktitlealt>
+        <booktitlealt audience="admin">Administrator version</booktitlealt>
+        <booktitlealt audience="partner">Partner version</booktitlealt>
+        <booktitlealt audience="customer">End-user version</booktitlealt>
+    </booktitle>
+    <frontmatter>
+        <keydef keys="variables_as_cm" href="common/variables.dita" format="dita" type="topic"/>
+        <keydef keys="warehouse" href="common/warehouse.dita" format="dita"></keydef>
+        <booklists>
+            <toc/>
+        </booklists>
+        <notices href="common/topic/topic_Preface.dita">
+            <topicref href="common/reference/reference_CopyrightNoticeActiveScaleCM.dita"/>
+            <topicref href="common/concept/concept_Conventions.dita">
+                <topicref href="common/concept/concept_Typography.dita"/>
+                <topicref href="common/concept/concept_StorageNotations.dita"/>
+                <topicref href="common/concept/concept_Admonitions.dita"/>
+            </topicref>
+        </notices>
+    </frontmatter>
+    <chapter href="introduction/topic/topic_IntroducingAsCm.dita">
+        <topicref href="introduction/concept/concept_WhatIsPeregrine.dita"/>
+        <topicref href="introduction/concept/concept_UIComponents.dita">
+            <topicref href="introduction/concept/concept_TopBar.dita"/>
+            <topicref href="introduction/concept/concept_MainPage.dita"/>
+        </topicref>
+        <topicref href="search_filter/concept/concept_SearchPeregrine.dita">
+            <topicref href="search_filter/task/task_ExampleSearchOperation.dita"/>
+            <topicref href="search_filter/concept/concept_FilteringSearchResults.dita"/>
+        </topicref>
+        <topicref href="search_filter/topic/topic_FilteringData.dita">
+            <topicref href="search_filter/concept/concept_FilterByDate.dita"/>
+            <topicref href="search_filter/concept/concept_FilterByText.dita"/>
+            <topicref href="search_filter/concept/concept_OrderByColumn.dita"/>
+        </topicref>
+        <topicref href="introduction/concept/concept_Navigation.dita"/>
+    </chapter>
+    <chapter href="install_base_dashboard/topic/topic_InstallBaseDashboard.dita" audience="admin partner">
+        <topicref href="install_base_dashboard/concept/concept_InstallBaseTable.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_TopCustomers.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_ObjectSizes.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_StorageCapacityForecast.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_Activity.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_SystemsDeployed.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_Availability.dita"/>
+        <topicref href="install_base_dashboard/concept/concept_SWVersions.dita"/>
+    </chapter>
+    <chapter href="customer_dashboard/topic/topic_CustomerDashboard.dita">
+        <topicref href="customer_dashboard/concept/concept_AllSystems.dita"/>
+        <topicref href="customer_dashboard/concept/concept_StorageCapacity.dita"/>
+        <topicref href="customer_dashboard/topic/topic_Workload.dita">
+            <topicref href="customer_dashboard/concept/concept_PieChartGraph.dita"/>
+            <topicref href="customer_dashboard/concept/concept_TimeLineGraphic.dita"/>
+        </topicref>
+        <topicref href="customer_dashboard/concept/concept_ActivityCustomerSystems.dita"/>
+        <topicref href="customer_dashboard/concept/concept_MetadataUsage.dita"/>
+        <topicref href="customer_dashboard/concept/concept_AvailabilityCustomerSystems.dita"/>
+        <topicref href="customer_dashboard/concept/concept_OverallSystemStatistics.dita"/>
+        <topicref href="customer_dashboard/concept/concept_Outliers.dita"/>
+        <topicref href="customer_dashboard/concept/concept_Recommendations.dita"/>
+    </chapter>
+    <chapter href="as_system/topic/topic_AsSystem.dita">
+        <topicref href="system_dashboard/topic/topic_SystemDashboard.dita">
+            <topicref href="system_dashboard/concept/concept_SystemSummary.dita"/>
+            <topicref href="system_dashboard/concept/concept_DataSafety.dita">
+                <topicref href="system_dashboard/concept/concept_DataSafetyExample.dita"/>
+            </topicref>
+            <topicref href="system_dashboard/concept/concept_StorageCapacity.dita"/>
+            <topicref href="system_dashboard/concept/concept_Throughput.dita"/>
+            <topicref href="system_dashboard/concept/concept_ResponseTime.dita"/>
+            <topicref href="system_dashboard/concept/concept_IOPS.dita"/>
+            <topicref href="system_dashboard/concept/concept_HWFailures.dita"/>
+        </topicref>
+        <topicref href="as_resources/topic/topic_SystemResources.dita">
+            <topicref href="as_resources/concept/concept_AboutResources.dita"/>
+            <topicref href="as_resources/topic/topic_CnSnResource.dita">
+                <topicref href="as_resources/concept/concept_CnSnResourceSummary.dita"/>
+                <topicref href="as_resources/concept/concept_CnSnResourceInventory.dita"/>
+            </topicref>
+            <topicref href="as_resources/topic/topic_SeResource.dita">
+                <topicref href="as_resources/concept/concept_SESummary.dita"/>
+                <topicref href="as_resources/concept/concept_SEInventory.dita"/>
+            </topicref>
+            <topicref href="drive_analytics/topic/topic_DriveAnalytics.dita" audience="admin partner">
+                <topicref href="drive_analytics/reference/reference_DriveAnalyticsTypes.dita"/>
+                <topicref href="drive_analytics/task/task_CompareDrives.dita"/>
+                <topicref href="drive_analytics/concept/concept_WorkingWithDriveAnalytics.dita"/>
+            </topicref>
+            <topicref href="as_resources/topic/topic_SwitchResource.dita">
+                <topicref href="as_resources/concept/concept_SwitchSummary.dita"/>
+                <topicref href="as_resources/concept/concept_SwitchInventory.dita"/>
+            </topicref>
+        </topicref>
+        <topicref href="system_usage_patterns/topic/topic_SystemUsagePatterns.dita">
+            <topicref href="system_usage_patterns/topic/topic_AboutUsagePatterns.dita">
+                <topicref href="system_usage_patterns/reference/reference_UsagePatternStats.dita"/>
+                <topicref href="system_usage_patterns/topic/topic_UsagePatternGraphics.dita">
+                    <topicref
+                        href="system_usage_patterns/concept/concept_UsagePatternGraphicZoom.dita"/>
+                    <topicref
+                        href="system_usage_patterns/concept/concept_UsagePatternTimeSeries.dita"/>
+                    <topicref
+                        href="system_usage_patterns/concept/concept_UsagePatternIssueDetails.dita"/>
+                </topicref>
+            </topicref>
+            <topicref href="system_usage_patterns/concept/concept_StorageUsagePattern.dita"/>
+            <topicref href="system_usage_patterns/concept/concept_ComputeUsagePattern.dita"/>
+            <topicref href="system_usage_patterns/concept/concept_UsagePatternNetwork.dita"/>
+        </topicref>
+        <topicref href="as_system/concept/concept_CorrelatedEvents.dita" audience="admin"/>
+        <topicref href="as_system/concept/concept_HWChanges.dita"/>
+        <topicref href="log_viewer/topic/topic_SystemLogViewer.dita">
+            <topicref href="log_viewer/concept/concept_SelectLogFile.dita"/>
+            <topicref href="log_viewer/concept/concept_CnSnLogs.dita">
+                <topicref href="log_viewer/reference/reference_Amplilog1.dita"/>
+                <topicref href="log_viewer/reference/reference_Amplilog2.dita"/>
+                <topicref href="log_viewer/reference/reference_Amplilog1Statistics.dita"/>
+            </topicref>
+            <topicref href="log_viewer/concept/concept_SELogs.dita"/>
+            <topicref href="log_viewer/concept/concept_SwitchLogs.dita"/>
+        </topicref>
+        <topicref href="system_performance/topic/topic_SystemPerformance.dita">
+            <topicref href="system_performance/concept/concept_TransactionsPerformance.dita"/>
+            <topicref href="system_performance/concept/concept_ThroughputPerformance.dita"/>
+            <topicref href="system_performance/concept/concept_TopBucketsPerformance.dita"/>
+        </topicref>
+        <topicref href="as_system/concept/concept_CapacityPlanner.dita"/>
+    </chapter>
+    <chapter href="operational_reports/topic/topic_OpsReport.dita">
+        <topicref href="operational_reports/concept/concept_TopBuckets.dita"/>
+        <topicref href="operational_reports/concept/concept_ErasureCodingOverhead.dita" audience="admin partner"/>
+        <topicref href="operational_reports/concept/concept_TopFiles.dita"/>
+        <topicref href="operational_reports/concept/concept_FileSize.dita"/>
+        <topicref href="operational_reports/concept/concept_CustomReport.dita"/>
+    </chapter>
+    <chapter href="accounts/topic/topic_Accounts.dita">
+        <topicref href="accounts/topic/topic_UserRolesAndPermissions.dita">
+            <topicref href="accounts/concept/concept_Persona.dita"/>
+            <topicref href="accounts/concept/concept_Role.dita"/>
+        </topicref>
+        <topicref href="accounts/topic/topic_ManagingUsers.dita">
+            <topicref href="accounts/task/task_AddingUser.dita"/>
+            <topicref href="accounts/task/task_UpdatingUser.dita"/>
+            <topicref href="accounts/task/task_DisablingUser.dita"/>
+            <topicref href="accounts/task/task_EnablingUser.dita"/>
+            <topicref href="accounts/task/task_DeletingUser.dita"/>
+        </topicref>
+    </chapter>
+    <chapter href="profile/topic/topic_Profile.dita">
+        <topicref href="profile/task/task_ChangePassword.dita"/>
+        <topicref href="profile/task/task_UpdateProfile.dita"/>
+    </chapter>
+    <chapter href="common/reference/reference_Glossary.dita"/>
+    <backmatter>
+        <booklists>
+            <indexlist/>
+        </booklists>
+    </backmatter>
+</bookmap>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_StorageCapacity" xml:lang="en-us">
+ <title>Storage Capacity</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>storage capacity</keyword>
+    <indexterm>storage<indexterm>capacity</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p audience="admin partner">The <wintitle>Storage Capacity</wintitle> panel on the customer's
+   dashboard displays the aggregated storage capacity for the customer. The pie chart shows the used
+   capacity relative to the free storage capacity.</p>
+  <p audience="customer">The <wintitle>Storage Capacity</wintitle> panel on your dashboard displays
+   the aggregated storage capacity of all your systems. The pie chart shows the used capacity
+   relative to the free storage capacity.</p>
+  <p>
+   <fig id="fig_mby_rcf_jw">
+    <title>Storage capacity</title>
+    <image placement="break" href="../../common/images/storage_capacity.png" align="left"
+     id="image_nby_rcf_jw" scale="70"/>
+   </fig>
+  </p>
+ </conbody>
+</concept>

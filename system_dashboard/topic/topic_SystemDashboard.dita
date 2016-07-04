@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_SystemDashboard" xml:lang="en-us">
+  <title>System Dashboard</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>system dashboard</keyword>
+        <indexterm/>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>The <wintitle>System Dashboard</wintitle> gives you an overview of the selected system at a
+      glance. </p>
+    <p>On top of the page you can <xref
+        href="../../search_filter/topic/topic_FilteringData.dita#topic_FilteringData">specify the
+        date range</xref> for which you want to consult the system's data. By default, the data from
+      the last telemetry upload is displayed.</p>
+  </body>
+</topic>

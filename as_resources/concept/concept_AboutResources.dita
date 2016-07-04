@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ResourcesGeneralInfo" xml:lang="en-us">
+ <title>About Resources</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>On the <wintitle>Resources</wintitle> tab of a <wintitle>System</wintitle> page, you get an
+   overview of the <ph conkeyref="variables_as_cm/osm"/> system's resources. A resource is any physical
+   component of the system. </p>
+  <p>By default, the <b>first</b> Controller Node of the rack is selected. Click any other device in
+   the rack to consult its summary and inventory. </p>
+  <p>For a system consisting of multiple racks, perhaps at multiple sites, you can select the
+   desired rack by clicking the name above the rack image. This opens a menu with the list of racks
+   in the system.<fig id="fig_tyk_zgl_jw">
+    <title>Select rack</title>
+    <image placement="break" href="../../common/images/select_rack.png" align="left"
+     id="image_uyk_zgl_jw" width="8cm"/>
+   </fig></p>
+ </conbody>
+</concept>

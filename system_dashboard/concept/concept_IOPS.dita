@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_IOPS" xml:lang="en-us">
+ <title>Transactions per Second</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm>transactions<indexterm>per<indexterm>second</indexterm></indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Transactions/seconds</wintitle> panel displays the <ph conkeyref="variables_as_cm/osm"
+   /> system's overall operations per second.<fig id="fig_s5z_szk_jw">
+    <title>Transactions per second</title>
+    <image placement="break" href="../../common/images/ops_per_sec.png" align="left"
+     id="image_t5z_szk_jw" width="15cm"/>
+   </fig></p>
+  <p>You can hide one of the operations by clicking one of the operations below the graphic. By
+   hiding one of the operations, it may occur that the Y-axis is rescaled.<fig id="fig_h14_vzk_jw">
+    <title>Transactions per second - write operations</title>
+    <image placement="break" href="../../common/images/ops_per_sec_put.png" align="left"
+     id="image_i14_vzk_jw" width="15cm"/>
+   </fig></p>
+ </conbody>
+</concept>

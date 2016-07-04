@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_FilterByDate" xml:lang="en-us">
+ <title>Filtering by Date</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>filter</keyword>
+    <keyword>date</keyword>
+    <indexterm>filter<indexterm>date</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>To filter the data, you can select a time period for retrieval. The default period is the last
+   day of retrieving the statistics from the <ph conkeyref="variables_as_cm/osm"/> systems.<fig
+    id="fig_gcl_hm2_jw">
+    <title>Filter by date</title>
+    <image placement="break" href="../../common/images/filter_by_date.png" align="left"
+     id="image_hcl_hm2_jw"/>
+   </fig></p>
+  <p>The <uicontrol>1 Week</uicontrol> or <uicontrol>1 Month</uicontrol> buttons allow you to return
+   back in time with, respectively, one week and one month. Every new click returns one week or
+   month further back in time. </p>
+  <p>You can also set a custom period by clicking the calendar icon (<image placement="inline"
+    href="../../common/images/calendar.png" id="image_w2w_km2_jw" width="18"/>) in the
+    <uicontrol>From</uicontrol> and <uicontrol>to</uicontrol> field and select the proper dates.
+   When you have set the start and end date, click <uicontrol>Apply</uicontrol>. </p>
+  <p>The data are updated for the selected period.</p>
+ </conbody>
+</concept>

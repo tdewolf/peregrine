@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_ExapleSearchOperation" xml:lang="en-us">
+    <title>Example Search Query</title>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>search</keyword>
+                <indexterm>example<indexterm>search<indexterm>query</indexterm></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Examples of valid entries for a search query may be: "warning A0010 SN01", "warning
+                md2 EXT4-fs", "warn_slowpath_common". Press <userinput>Enter</userinput> for
+                suggestions. Type <userinput>|</userinput> for an "OR" operation. Press
+                    <userinput>Enter</userinput>
+                <b>twice</b> to start the search. </p>
+            <p>For example, if you want to look for the inventory of a system with the name
+                A0005:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <image placement="inline" href="../../common/images/search.png"
+                        width="18" height="18" id="image_cks_qk2_jw"/>.</cmd>
+            </step>
+            <step>
+                <cmd>Select <uicontrol>Inventory</uicontrol> on the left of the search box.</cmd>
+            </step>
+            <step>
+                <cmd>Enter <userinput>A0005</userinput> and press <userinput>Enter</userinput> twice
+                    to start the search.</cmd>
+            </step>
+        </steps>
+        <result>The main panel displays all items which contain "A0005" as information:<fig
+                id="fig_rwj_xk2_jw">
+                <title>Search result</title>
+                <image placement="break" href="../../common/images/search_result.png" align="left"
+                    id="image_swj_xk2_jw" width="18cm"/>
+            </fig></result>
+    </taskbody>
+</task>

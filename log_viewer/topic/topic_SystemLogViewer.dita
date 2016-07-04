@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_SystemLogViewer" xml:lang="en-us">
+  <title>System Log Viewer</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword/>
+        <indexterm/>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>The <wintitle>Log Viewer</wintitle> gives you access to the log and configuration files of
+      all nodes of the selected system. In case of errors or unexpected behavior, you can consult
+      these logs and configurations to help identify the cause of the malfunction. </p>
+    <p>Instead of consulting the log and configuration files in <ph
+        conkeyref="variables_as_cm/cm_short"/>, you can download them in JSON format via the
+        <uicontrol>Download</uicontrol> link.</p>
+  </body>
+</topic>

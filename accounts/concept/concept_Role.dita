@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_Role" xml:lang="en-us">
+ <title>Roles</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>role</keyword>
+    <indexterm>super<indexterm>user</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The Role defines the action privileges of the user. There are two roles in <ph
+    conkeyref="variables_as_cm/cm_short">ActiveScale CM</ph>:</p>
+  <p>
+   <ul id="ul_fmp_xv1_kw">
+    <li><i>User</i>: A user with the "User" role has only operational rights on the system
+     data.</li>
+    <li><i>Super User</i>: A user with the "Super User" role has the same rights as users with the
+     "User" role, but can additionally manage <ph conkeyref="variables_as_cm/cm_short">ActiveScale CM</ph>
+     users.</li>
+   </ul>
+  </p>
+ </conbody>
+</concept>

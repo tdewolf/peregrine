@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_DriveAnalyticsTypes" xml:lang="en-us">
+  <title>Drive Analytics Types</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>drive analytic type</keyword>
+        <indexterm>drive<indexterm>analytic<indexterm>type</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <p><ph conkeyref="variables_as_cm/cm_short"/> has five types of drive analytics:<ul
+          id="ul_et3_15l_jw">
+          <li><wintitle>Read Bytes Processed</wintitle>: the number of bytes processed in read
+            operations. </li>
+          <li><wintitle>Write Bytes Processed</wintitle>: the number of bytes processed in write
+            operations. </li>
+          <li><wintitle>Temperature</wintitle>: the disk temperature </li>
+          <li><wintitle>Read Errors Corrected with Possible Delays</wintitle>: the number of read
+            errors that have been corrected. </li>
+          <li><wintitle>Write Errors Corrected with Possible Delays</wintitle>: the number of write
+            errors that have been corrected</li>
+        </ul></p>
+    </section>
+  </refbody>
+</reference>

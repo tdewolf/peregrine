@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_CustomerDashboard" xml:lang="en-us">
+  <title>Customer Dashboard</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword/>
+        <indexterm/>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p audience="admin partner">The customer dashboard displays detailed information about the <ph
+        conkeyref="variables_as_cm/osm"/> systems of your customers.</p>
+    <p audience="customer">The dashboard displays detailed information about your <ph
+        conkeyref="variables_as_cm/osm"/> systems.</p>
+  </body>
+</topic>

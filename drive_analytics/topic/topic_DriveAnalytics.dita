@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_DriveAnalytics" xml:lang="en-us">
+  <title>Drive Analytics</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword/>
+        <indexterm/>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p><ph conkeyref="variables_as_cm/cm_long"/> provides analytics for the drives in a storage
+      enclosure. With the drive analytics tool, you can compare up to 15 drives at a time.</p>
+  </body>
+</topic>

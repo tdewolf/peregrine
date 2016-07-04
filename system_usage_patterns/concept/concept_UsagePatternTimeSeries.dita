@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_UsagePatternTimeSeries" xml:lang="en-us">
+ <title>Usage Pattern Time Series</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The time series graphic displays the statistics over a period in time. You can download (<image
+    placement="inline" href="../../common/images/download_graph.png" width="18" height="18"
+    id="image_c4r_wfm_jw"/>) the time series in the following formats: <ul id="ul_nvj_sfm_jw">
+    <li>PNG </li>
+    <li>JPEG </li>
+    <li>PDF</li>
+    <li>SVG</li>
+   </ul></p>
+ </conbody>
+</concept>

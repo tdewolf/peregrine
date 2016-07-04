@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_TopCustomers" xml:lang="en-us">
+ <title>Top Customers</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>top customers</keyword>
+    <indexterm>top<indexterm>customers</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Top Customers</wintitle> panel identifies the customers with the largest storage
+   capacities (in petabytes). The storage capacity excludes <ph conkeyref="variables_as_cm/osm"/>
+   systems that do not upload telemetry data. </p>
+  <p>The graphic also indicates the used storage capacity. By default the top ten customers are
+   shown, and this top ten is used in all other charts on the <wintitle>Install Base</wintitle>
+   dashboard. </p>
+  <p>To display all customers in one graphic, click <uicontrol>All</uicontrol>. This opens a pop-up
+   window with an identical graphic including all customers. Use the horizontal scroll bar to scroll
+   through the graphic. </p>
+  <p>
+   <fig id="fig_nxn_xv2_jw">
+    <title>Top customers all</title>
+    <image placement="break" href="../../common/images/top_customers_all.png" align="left"
+     id="image_oxn_xv2_jw" width="18cm"/>
+   </fig>
+  </p>
+ </conbody>
+</concept>

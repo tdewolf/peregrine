@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_TimeLineGraphic" xml:lang="en-us">
+ <title>Workload Time Line Graphic</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>time line</keyword>
+    <indexterm>time line<indexterm>graphic</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>In the time line graphics, you find the number of Read and Write operations over time, also
+   separated for small and large objects. </p>
+  <p>
+   <fig id="fig_bsm_pff_jw">
+    <title>Workload time line</title>
+    <image placement="break" href="../../common/images/workload_timeline.png" align="left"
+     id="image_csm_pff_jw" width="10cm"/>
+   </fig>
+  </p>
+  <p>By default, the rate of Read and Write operations are displayed, by time. You can disable one
+   of the graphics by clicking the <wintitle>Writes</wintitle>/<wintitle>Reads</wintitle> labels
+   below the graphic. If an operation is not shown in the graphic, it appears grayed out.</p>
+  <p>
+   <fig id="fig_vbk_5ff_jw">
+    <title>Workload deselected read operation</title>
+    <image placement="break" href="../../common/images/workload_deselected.png" align="left"
+     id="image_wbk_5ff_jw" width="4cm"/>
+   </fig>
+  </p>
+ </conbody>
+</concept>

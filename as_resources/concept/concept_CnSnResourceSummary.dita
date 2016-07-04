@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_CnSnResourceSummary" xml:lang="en-us">
+ <title>Controller and Storage Node Summary</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>resource</keyword>
+    <keyword>summary</keyword>
+    <indexterm>resource<indexterm>summary</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The summary of a Controller Node (CNx) or Storage Node (SNx) displays the following
+   information: <ul id="ul_rgn_khl_jw">
+    <li><wintitle>BIOS</wintitle>: brand name of the BIOS software </li>
+    <li><wintitle>IP Address</wintitle>: list of IP addresses of the node </li>
+    <li><wintitle>Motherboard</wintitle>: name and type of the motherboard </li>
+    <li><wintitle>CPU</wintitle>: model of CPU in the Controller </li>
+    <li><wintitle>Memory</wintitle>: type of RAM </li>
+    <li><wintitle>Network</wintitle>: name and type of network interfaces</li>
+   </ul> The full inventory of a Controller or Storage Node can be found in the <xref
+    href="concept_CnSnResourceInventory.dita#concept_CnSnResourceInventory">inventory
+   table</xref>.</p>
+ </conbody>
+</concept>

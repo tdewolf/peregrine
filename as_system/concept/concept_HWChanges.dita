@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_HWChanges" xml:lang="en-us">
+ <title>Hardware Changes</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>hardware</keyword>
+    <keyword>changes</keyword>
+    <indexterm>hardware<indexterm>change</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>On the <wintitle>Hardware Changes</wintitle> page, you find a time line of all hardware changes
+   that occurred on the system. </p>
+  <p>The time line only covers the selected period The time line indicates replaced parts and added
+   parts information for the affected node. <fig id="fig_mjc_jjm_jw">
+    <title>Hardware changes</title>
+    <image placement="break" href="../../common/images/hw_changes.png" align="left"
+          id="image_njc_jjm_jw"/>
+   </fig></p>
+  <p>On the time line itself you find the affected device or action that has been executed. Hovering
+   your mouse over the bullet displays the details of the device, such as type and affected node.
+    <ul id="ul_ic3_gjm_jw">
+    <li><image placement="inline" href="../../common/images/hw_changes_se.png" width="20"
+            height="20" id="image_wz2_ljm_jw"/>: disk in a storage enclosure </li>
+    <li><image placement="inline" href="../../common/images/hw_changes_powercycle.png" width="20"
+            height="20" id="image_tsd_mjm_jw"/>: indication of a node restart </li>
+    <li><image placement="inline" href="../../common/images/hw_changes_ps.png" width="20"
+            height="20" id="image_dk3_njm_jw"/>: power supply replacement</li>
+   </ul></p>
+ </conbody>
+</concept>

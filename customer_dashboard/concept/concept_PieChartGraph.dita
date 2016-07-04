@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_PieChartGraph" xml:lang="en-us">
+ <title>Workload Pie-Chart Graphic</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>pie-chart</keyword>
+    <indexterm>pie-chart<indexterm>graphic</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The pie-chart graphics display the percentage of Read and Write operations, but separated
+   between small objects with files less than 512 KB, and large objects with files larger than 512
+    KB.<fig id="fig_abm_jff_jw">
+    <title>Workload pie-chart</title>
+    <image placement="break" href="../../common/images/workload_piechart.png" align="left"
+     id="image_bbm_jff_jw" width="10cm"/>
+   </fig></p>
+ </conbody>
+</concept>

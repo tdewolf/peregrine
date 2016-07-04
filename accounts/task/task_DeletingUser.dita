@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_nyw_frb_gw" xml:lang="en-us">
+    <title>Deleting a User</title>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword/>
+                <indexterm>delete<indexterm>user</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>When you no longer need a user account, you can opt to <xref
+                    href="task_DisablingUser.dita#task_spn_1gc_gw">disable a user</xref> or to
+                permanently delete the user.</p>
+            <note type="warning">Deleting a user is an irreversible action. Only <xref
+                    href="../concept/concept_Role.dita#concept_Role">Super Users</xref> can delete
+                users.</note>
+        </context>
+        <steps>
+            <step conref="../../common/warehouse.dita#warehouse_task/click_username"
+                conrefend="../../common/warehouse.dita#warehouse_task/look_for_user">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>In the <wintitle>Actions</wintitle> column, click the Delete button (<image
+                        href="../../common/images/user_delete.png" width="18" height="18"
+                        id="image_qcz_s3d_jw"/>).</cmd>
+                <stepresult>A warning appears that this action is irreversible.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Confirm</uicontrol> to delete the user.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

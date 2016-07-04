@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_StorageCapacityForecast" xml:lang="en-us">
+ <title>Storage Capacity Forecast</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword>storage capacity</keyword>
+    <keyword>forecast</keyword>
+    <indexterm>storage capacity<indexterm>forecast</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <wintitle>Storage Capacity Forecast</wintitle> panel predicts when a customer's aggregated
+   used capacity will consume 80% of its total storage capacity. This prediction is based on the
+   analysis of historic and forecast usage consumption. </p>
+  <p>You can sort the table in ascending or descending order, by clicking any of the two column
+   headers. </p>
+  <p>Click <uicontrol>All</uicontrol> to open the table for all customers. In this table you can
+   filter the data to find the desired information in a fast and easy way.<fig id="fig_e24_py2_jw">
+    <title>Capacity forecast</title>
+    <image placement="break" href="../../common/images/capacity_forecast_all.png" align="left"
+     id="image_f24_py2_jw" width="12cm"/>
+   </fig></p>
+ </conbody>
+</concept>

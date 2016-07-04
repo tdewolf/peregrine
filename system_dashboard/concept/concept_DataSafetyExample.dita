@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_DataSafetyExample" xml:lang="en-us">
+ <title>Example Data Safety</title>
+ <prolog>
+  <metadata>
+   <keywords>
+    <keyword/>
+    <indexterm>example<indexterm>data<indexterm>safety</indexterm></indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>
+   <ul id="ul_p45_1yk_jw">
+    <li>Data safety 15/5, all disks available: <fig id="fig_epv_dyk_jw">
+      <title>Data safety status - safe objects</title>
+      <image placement="break" href="../../common/images/datasafety_safeobjects.png" align="left"
+              id="image_fpv_dyk_jw" width="15cm"/>
+     </fig></li>
+    <li>Data safety 18/8, 4 disks unavailable, objects are in degraded state: <fig
+      id="fig_qms_fyk_jw">
+      <title>Data safety status - degraded objects</title>
+      <image placement="break" href="../../common/images/datasafety_degradedobjects.png"
+              align="left" id="image_rms_fyk_jw" width="15cm"/>
+     </fig></li>
+    <li>Data safety 18/8, 6 disks unavailable, objects are at risk: <fig id="fig_w4f_hyk_jw">
+      <title>Data safety status - objects at risk</title>
+      <image placement="break" href="../../common/images/datasafety_objectsrisk.png" align="left"
+              id="image_x4f_hyk_jw" width="15cm"/>
+     </fig></li>
+   </ul>
+  </p>
+ </conbody>
+</concept>
