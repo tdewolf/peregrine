@@ -15,7 +15,8 @@
  <conbody>
   <p>On the <wintitle>Drive Analytics</wintitle> page, you can manipulate the charts in the
    following ways:<ul id="ul_rmp_kxl_jw">
-    <li><i>Set period</i>: You can update the period of the analytics on top of the <wintitle>Drive
+    <li><?oxy_comment_start author="tdewolf" timestamp="20161031T124806+0100" comment="badly structured"?><i>Set
+      period</i>: You can update the period of the analytics on top of the <wintitle>Drive
       Analytics</wintitle> page. Either choose one of the predefined periods (<uicontrol>1
       Week</uicontrol> or <uicontrol>1 Month</uicontrol>) or set a custom period by defining a start
      and end date in the respective <uicontrol>From</uicontrol> and <uicontrol>to</uicontrol>
@@ -26,7 +27,9 @@
      drive again in the graphic, click the grayed out name again.</li>
     <li><i>Zoom</i>: You can zoom in the graphic by selecting a part of the graphic. When you have
      zoomed in, there is a horizontal scroll bar to move back and forth in time on the graphic. To
-     reset to the normal zoom level, click <uicontrol>Reset zoom</uicontrol>.</li>
+     reset to the normal zoom level, click <uicontrol>Reset
+     zoom</uicontrol>.<?oxy_comment_end?></li>
    </ul></p>
  </conbody>
 </concept>
+<?oxy_options track_changes="on"?>
