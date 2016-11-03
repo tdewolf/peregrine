@@ -15,12 +15,12 @@
  <conbody>
   <p>On the <wintitle>Drive Analytics</wintitle> page, you can manipulate the charts in the
    following ways: <ul id="ul_rmp_kxl_jw">
-    <li><i><?oxy_comment_start author="tdewolf" timestamp="20161103T105025+0100" comment="wrong label"?>Set
-      period<?oxy_comment_end?></i>: You can update the period of the analytics on top of the
-      <wintitle>Drive Analytics</wintitle> page. Either choose one of the predefined periods
-      (<uicontrol>1 Week</uicontrol> or <uicontrol>1 Month</uicontrol>) or set a custom period by
-     defining a start and end date in the respective <uicontrol>From</uicontrol> and
-      <uicontrol>to</uicontrol> fields.</li>
+    <li><uicontrol><?oxy_comment_start author="tdewolf" timestamp="20161103T105025+0100" comment="wrong label" id="jjx_d52_vx"?><?oxy_comment_start author="tdewolf" timestamp="20161103T110638+0100" comment="updated to uicontrol iso &lt;i&gt;" parentID="jjx_d52_vx" mid="1"?>Set
+      period<?oxy_comment_end mid="1"?><?oxy_comment_end?></uicontrol>: You can update the period of
+     the analytics on top of the <wintitle>Drive Analytics</wintitle> page. Either choose one of the
+     predefined periods (<uicontrol>1 Week</uicontrol> or <uicontrol>1 Month</uicontrol>) or set a
+     custom period by defining a start and end date in the respective <uicontrol>From</uicontrol>
+     and <uicontrol>to</uicontrol> fields.</li>
     <li><i>Select/Deselect Drives</i>: In any of the analytics, the graphic of the selected drives
      are displayed. You can deselect drives by clicking on the drive number at the bottom of the
      graphic. The drive number is then grayed out and no longer visible in the graphic. To show the
